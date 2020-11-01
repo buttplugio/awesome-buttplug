@@ -9,6 +9,9 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 - [Game Haptics Router](https://intiface.com/ghr)
 - [ViRo Playspace](https://viro.club/)
+- [XXXHaptics VRChat Plugin](https://hheaven.net/XXXHaptics/)
+  - [Guide](https://github.com/BITPlugMistress/XXXHaptics-Guide)
+- [Caveman BIOS Teaches Erotic Typing](https://curiousjp.itch.io/caveman-bios-teaches-erotic-typing)
 
 ## Video Sync / Movies
 
@@ -16,6 +19,15 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 ## Development / Libraries
 
+### General Development
+
+- [Buttplug Rust](https://github.com/buttplugio/buttplug-rs)
+- [Buttplug C# FFI](https://github.com/buttplugio/buttplug-rs-ffi)
+- [Buttplug WASM (JS/TypeScript) FFI](https://github.com/buttplugio/buttplug-rs-ffi)
+
+### Game Development
+
+- [Buttplug Twine](https://github.com/buttplugio/buttplug-twine)
 - [Buttplug Unity](https://github.com/buttplugio/buttplug-unity)
 
 ## Test Utilities
