@@ -12,6 +12,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 - [XXXHaptics VRChat Plugin](https://hheaven.net/XXXHaptics/)
   - [Guide](https://github.com/BITPlugMistress/XXXHaptics-Guide)
 - [Caveman BIOS Teaches Erotic Typing](https://curiousjp.itch.io/caveman-bios-teaches-erotic-typing)
+- [Crotch-Stim: Get Off](https://sr.ht/~hornycactus/CrotchStimGetOff/)
 
 ## Video Sync / Movies
 
