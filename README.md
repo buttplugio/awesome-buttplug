@@ -34,7 +34,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Web based (Cross platform, via browser or [Intiface Desktop](https://intiface.com/desktop))
   - A set of web based utilities for Dom/mes, performers, power exchange usage, etc. Includes a
     writing assignment interface, utilities for toy control with findom drains or tributes, etc...
-    
+
 ### Games
 
 - [ViRo Playspace](https://viro.club/)
@@ -151,24 +151,38 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 ### General Development
 
 - [Buttplug Rust](https://github.com/buttplugio/buttplug-rs)
+  - Available on [crates.io](https://crates.io/crates/buttplug)
+  - Core Buttplug library, handles all hardware control and remote connections.
 - [Buttplug C# FFI](https://github.com/buttplugio/buttplug-rs-ffi)
+  - Available on [Nuget](https://www.nuget.org/packages/Buttplug/)
+  - C# FFI layer on top of Buttplug Rust
 - [Buttplug WASM (JS/TypeScript) FFI](https://github.com/buttplugio/buttplug-rs-ffi)
+  - Available on [NPM](https://www.npmjs.com/package/buttplug)
+  - WASM (with JS and Typescript frontends) FFI LAyer on top of Buttplug Rust.
 - [Buttplug Python](https://github.com/buttplugio/buttplug-py)
+  - Available on [PyPi](https://pypi.org/project/buttplug/)
+  - Standalone Python client for connecting to [Intiface Desktop](https://intiface.com/desktop) or
+    [Intiface CLI](https://github.com/intiface/intiface-cli-rs)
 
 ### Game Development
 
 - [Buttplug Twine](https://github.com/buttplugio/buttplug-twine)
+  - [Sugarcube 2](https://www.motoslave.net/sugarcube/2/) macros for the [Twine Interactive Fiction Game Engine](https://twinery.org)
 - [Buttplug Unity](https://github.com/buttplugio/buttplug-unity)
+  - C# Plugin for the [Unity Game Engine](https://unity.com)
 
 ### Other Plugins
 
 - [Buttplug Tampermonkey](https://github.com/buttplugio/buttplug-tampermonkey)
+  - Integration of Buttplug with the [Tampermonkey](https://www.tampermonkey.net/) user scripting
+    system for Web Browsers. Allows integration of sex toys with arbitrary webpages.
 
 ## Community Links
 
 - [Buttplug Discord Server](https://discord.buttplug.io)
 - [Buttplug Twitter Account](https://twitter.com/buttplugio)
 - [Nonpolynomial Blog](https://nonpolynomial.com/blog)
+- [Buttpluggin' with qDot Youtube Channel](https://youtube.buttplug.io)
 
 ## Friends of Buttplug
 
