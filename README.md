@@ -29,7 +29,12 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/jackmg2/ToyControl
   - Web based (Cross platform, via browsers)
   - Websocket based toy sharing application using Buttplug
-
+- [Devious Buttplug](https://github.com/CammyLeone/devious-buttplug)
+  - Free, open source, repo at https://github.com/CammyLeone/devious-buttplug
+  - Web based (Cross platform, via browser or [Intiface Desktop](https://intiface.com/desktop))
+  - A set of web based utilities for Dom/mes, performers, power exchange usage, etc. Includes a
+    writing assignment interface, utilities for toy control with findom drains or tributes, etc...
+    
 ### Games
 
 - [ViRo Playspace](https://viro.club/)
@@ -99,10 +104,6 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://gitlab.com/jacefax/vibegoesbrrr
   - Windows 10 only
   - Allows setting up avatar body/bounding box collision to control vibrating toys in VRChat.
-- [Lovetap VRChat Plugin](https://github.com/XAYRGA/Lovetap)
-  - Free, open source, repo at https://github.com/XAYRGA/Lovetap
-  - Windows 10 only
-  - Allows setting up avatar body/bounding box collision to set off vibrating toys in VRChat.
 - [ButtUdon](https://github.com/TheCreeperCow/ButtUdon)
   - Free, open source, repo at https://github.com/TheCreeperCow/ButtUdon
   - Windows 10 only
