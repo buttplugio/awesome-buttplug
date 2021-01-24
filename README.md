@@ -17,12 +17,24 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/intiface/buttplug-playground
   - Web based (Cross platform, either via browsers or Intiface Desktop)
   - Test utility for simple device connection and control.
+- [Buttplug Editor](https://github.com/MaidKun/buttplug-editor)
+  - Free, open source, repo at https://github.com/MaidKun/buttplug-editor
+  - Web based (Cross platform, either via browsers or Intiface Desktop)
+  - Visual programming for building patterns for playback in Buttplug
+- [ToyWebBridge](https://github.com/kyrahabattoir/ToyWebBridge)
+  - Free, open source, repo at https://github.com/kyrahabattoir/ToyWebBridge
+  - Windows 10 only
+  - Generic REST frontend for Buttplug.
+- [ToyControl](https://github.com/jackmg2/ToyControl)
+  - Free, open source, repo at https://github.com/jackmg2/ToyControl
+  - Web based (Cross platform, via browsers)
+  - Websocket based toy sharing application using Buttplug
 
 ### Games
 
 - [ViRo Playspace](https://viro.club/)
   - Paid, available on [Steam](https://store.steampowered.com/agecheck/app/1121310/)
-  - Windows Only
+  - Windows 10 only
   - Integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy control within
     interactive scenes.
 - [Caveman BIOS Teaches Erotic Typing](https://curiousjp.itch.io/caveman-bios-teaches-erotic-typing)
@@ -31,7 +43,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Typing tutor game that controls sex toys via Buttplug.
 - [OsuToy](https://github.com/hornyyy/Osu-Toy)
   - Free, open source, repo at https://github.com/hornyyy/Osu-Toy
-  - Windows only
+  - Windows 10 only
   - Fork of the [Osu rhythm game](https://osu.ppy.sh/home) with toy control capabilities via
     Buttplug.
 
@@ -39,35 +51,72 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 - [Game Haptics Router](https://intiface.com/ghr)
   - Free, open source, repo at https://github.com/intiface/intiface-game-haptics-router
-  - Windows only
+  - Windows 10 only (Standalone or via [Intiface Desktop](https://intiface.com/desktop))
   - Hooks to Windows PC Games, rerouting gamepad rumble to control sex toys.
+- [Skybutt Skyrim Plugin](https://github.com/programotter/skybutt)
+  - Free, open source, repo at https://github.com/programotter/skybutt
+  - Windows 10 only
+  - Vibration control plugin for Skyrim
+- [Crotch-Stim: Get Off (CS:GO)](https://sr.ht/~hornycactus/CrotchStimGetOff/)
+  - Free, open source, repo at https://sr.ht/~hornycactus/CrotchStimGetOff/
+  - Desktop Cross Platform
+  - CS:GO Buttplug plugin
+- [Buttplug Of Legends (LOL)](https://github.com/kinkyacedev/buttplug-of-legends)
+  - Free, open source, repo at https://github.com/kinkyacedev/buttplug-of-legends
+  - Windows 10 only (requires [Intiface Desktop](https://intiface.com/desktop))
+  - League of Legends interaction for Buttplug
+- [DGButtPlugin (Duck Game)](https://github.com/BytewaveMLP/DGButtPlugin)
+  - Free, open source, repo at https://github.com/BytewaveMLP/DGButtPlugin
+  - Windows 10 only (requires [Intiface Desktop](https://intiface.com/desktop))
+  - [Duck Game](https://store.steampowered.com/app/312530/Duck_Game/) Buttplug plugin
+- [Minegasm (Minecraft)](https://minegasm.therainbowville.com/)
+  - Free, open source, repo at https://github.com/RainbowVille/minegasm
+  - Cross Platform (requires [Intiface Desktop](https://intiface.com/desktop))
+  - Sex toy control plugin for Minecraft
+- [Aethersense (FFXIV)](https://github.com/Ms-Tress/AetherSense)
+  - Free, open source, repo at https://github.com/Ms-Tress/AetherSense
+  - Windows 10 Only (Standalone)
+  - FFXIV triggers for sex toy control, via [Dalamud](https://github.com/goatcorp/Dalamud)
+- [Plug Parser (FFXIV)](https://github.com/cyan-f/Plug_Parser)
+  - Free, open source, repo at https://github.com/cyan-f/Plug_Parser
+  - Windows 10 Only (requires [Intiface Desktop](https://intiface.com/desktop))
+  - No longer updated
+  - FFXIV triggers for sex toy control, via [ACT](https://advancedcombattracker.com/)  
+- [ButtPlACT (FFXIV)](https://github.com/crnlskn/ButtplACT)
+  - Free, open source, repo at https://github.com/crnlskn/ButtplACT
+  - Windows 10 Only (requires [Intiface Desktop](https://intiface.com/desktop))
+  - No longer updated
+  - FFXIV triggers for sex toy control, via [ACT](https://advancedcombattracker.com/)  
+
+### Virtual Worlds
+
 - [XXXHaptics VRChat Plugin](https://hheaven.net/XXXHaptics/)
   - Free, closed source
-  - Windows only
+  - Windows 10 only
   - [Usage Guide (en)](https://github.com/BITPlugMistress/XXXHaptics-Guide)
   - Allows setting up avatar body/bounding box collision to control vibrating toys in VRChat.
 - [VibeGoesBrrr VRChat plugin](https://gitlab.com/jacefax/vibegoesbrrr)
   - Free, open source, repo at https://gitlab.com/jacefax/vibegoesbrrr
-  - Windows only
+  - Windows 10 only
   - Allows setting up avatar body/bounding box collision to control vibrating toys in VRChat.
 - [Lovetap VRChat Plugin](https://github.com/XAYRGA/Lovetap)
   - Free, open source, repo at https://github.com/XAYRGA/Lovetap
-  - Windows only
+  - Windows 10 only
   - Allows setting up avatar body/bounding box collision to set off vibrating toys in VRChat.
-- [Skybutt Skyrim Plugin](https://github.com/programotter/skybutt)
-  - Free, open source, repo at https://github.com/programotter/skybutt
-  - Windows only
-  - Vibration control plugin for Skyrim
-- [Crotch-Stim: Get Off](https://sr.ht/~hornycactus/CrotchStimGetOff/)
-  - Free, open source, repo at https://sr.ht/~hornycactus/CrotchStimGetOff/
-  - Desktop Cross Platform
-  - CS:GO Buttplug plugin
+- [ButtUdon](https://github.com/TheCreeperCow/ButtUdon)
+  - Free, open source, repo at https://github.com/TheCreeperCow/ButtUdon
+  - Windows 10 only
+  - Buttplug plugin for VRChat Udon API
+- [Second Life Interface to ToyWebBridge](https://github.com/kyrahabattoir/ToyWebBridge/tree/master/Examples/LSL%20(Second%20Life))
+  - Free, open source, repo at https://github.com/kyrahabattoir/ToyWebBridge
+  - Windows 10 only (for ToyWebBridge)
+  - LSL Examples for accessing [ToyWebBridge](https://github.com/kyrahabattoir/ToyWebBridge)
 
 ### Video Sync / Movies
 
 - [Scriptplayer](https://github.com/FredTungsten/ScriptPlayer)
   - Free, open source, repo at https://github.com/FredTungsten/ScriptPlayer
-  - Windows only
+  - Windows 10 only
   - Playback of movies using Funscript format, with support for stroking/vibrating/rotating toys.
 - [Syncydink](https://syncydink.buttplug.world)
   - Free, open source, repo at https://github.com/qdot/syncydink
@@ -75,16 +124,26 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - No longer updated
   - Web based movie playback system for funscript movies.
 
-## Audio Sync
+### Audio Sync
 
 - [SoundSync](https://gitlab.com/LuckySkebe/soundsync)
   - Free, open source, repo at https://gitlab.com/LuckySkebe/soundsync
-  - Windows only
+  - Windows 10 only
   - Visual dataflow setup for routing audio signals to sex toy control
 - [Sensitive EQ](https://github.com/highfiiv/sensitive-eq)
   - Free, open source, repo at https://github.com/highfiiv/sensitive-eq
   - Web based (Cross platform via browsers)
   - WebAudio equalizer to sex toy control utility
+
+### Hardware Support
+
+- [Edge-O-Matic](https://edgeomatic.buttplug.io)
+  - Orgasm Denial Hardware Product w/ [Open Source Firmware](https://github.com/maustek)
+  - Improved Nogasm Orgasm Denial system.
+- [Buttplug Lelo ESP32 Bridge](https://github.com/MonomoriumP/Buttplug.io--Lelo)
+  - Free, open source, repo at https://github.com/MonomoriumP/Buttplug.io--Lelo
+  - ESP32 bridge between Buttplug.io and Lelo's RF controlled toys.
+
 
 ## Development and Libraries
 
@@ -100,9 +159,9 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 - [Buttplug Twine](https://github.com/buttplugio/buttplug-twine)
 - [Buttplug Unity](https://github.com/buttplugio/buttplug-unity)
 
-## Test Utilities
+### Other Plugins
 
-- [Playground](https://playground.buttplug.world)
+- [Buttplug Tampermonkey](https://github.com/buttplugio/buttplug-tampermonkey)
 
 ## Community Links
 
