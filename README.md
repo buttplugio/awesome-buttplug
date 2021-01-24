@@ -9,7 +9,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 ### Utilities
 
-- [Intiface Desktop](http://intiface.com/desktop)
+- [Intiface® Desktop](http://intiface.com/desktop)
   - Free, open source, repo at https://github.com/intiface/intiface-desktop
   - Hub program for Buttplug. Allows applications to connect to an external Buttplug system, meaning
     they don't have to update their program every time Buttplug itself updates.
@@ -54,7 +54,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 ### Game Mods
 
-- [Game Haptics Router](https://intiface.com/ghr)
+- [Intiface® Game Haptics Router](https://intiface.com/ghr)
   - Free, open source, repo at https://github.com/intiface/intiface-game-haptics-router
   - Windows 10 only (Standalone or via [Intiface Desktop](https://intiface.com/desktop))
   - Hooks to Windows PC Games, rerouting gamepad rumble to control sex toys.
