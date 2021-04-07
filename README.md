@@ -34,6 +34,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Web based (Cross platform, via browser or [Intiface Desktop](https://intiface.com/desktop))
   - A set of web based utilities for Dom/mes, performers, power exchange usage, etc. Includes a
     writing assignment interface, utilities for toy control with findom drains or tributes, etc...
+- [Vibe Sequencer](https://webvrnsfw.github.io/vibe-sequencer/)
+  - Free, open source, repo at https://github.com/webvrnsfw/vibe-sequencer
+  - Web based (Cross platform, via browsers with Intiface Desktop)
+  - Lets you control your Buttplug sex toys with an interactive sequencer interface.
 
 ### Games
 
