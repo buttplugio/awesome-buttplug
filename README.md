@@ -139,6 +139,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/highfiiv/sensitive-eq
   - Web based (Cross platform via browsers)
   - WebAudio equalizer to sex toy control utility
+- [Buttplug OSC](https://github.com/AlexanderPavlenko/buttplug-osc)
+  - Free, open source, repo at https://github.com/AlexanderPavlenko/buttplug-osc
+  - Cross Platform (requires [Intiface Desktop](https://intiface.com/desktop))
+  - [OSC](https://en.wikipedia.org/wiki/Open_Sound_Control) bridge
 
 ### Hardware Support
 
