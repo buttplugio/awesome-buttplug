@@ -41,6 +41,11 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 ### Games
 
+- [FarmD](https://patreon.com/softscale)
+  - Crowdfunded w/ Free Versions Available
+  - Windows 10 Only
+  - Furry focused, integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy
+    control within interactive scenes.
 - [ViRo Playspace](https://viro.club/)
   - Paid, available on [Steam](https://store.steampowered.com/agecheck/app/1121310/)
   - Windows 10 only
@@ -62,6 +67,14 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/intiface/intiface-game-haptics-router
   - Windows 10 only (Standalone or via [Intiface Desktop](https://intiface.com/desktop))
   - Hooks to Windows PC Games, rerouting gamepad rumble to control sex toys.
+- [In Heat Overwatch Mod](https://github.com/Furimanejo/In-Heat)
+  - Free, open source, repo at https://github.com/Furimanejo/In-Heat
+  - Windows 10 only (requires [Intiface Desktop](https://intiface.com/desktop))
+  - Uses computer vision to track Heat Bar in Overwatch and control sex toys based on levels.
+- [B.U.T.T.P.L.U.G. Anomaly](https://github.com/abbiwyn/buttplug-anomaly)
+  - Free, open source, repo at https://github.com/abbiwyn/buttplug-anomaly
+  - Windows 10 only (requires [Intiface Desktop](https://intiface.com/desktop))
+  - Buttplug mod for STALKER: Anomaly
 - [Skybutt Skyrim Plugin](https://github.com/programotter/skybutt)
   - Free, open source, repo at https://github.com/programotter/skybutt
   - Windows 10 only
@@ -89,24 +102,28 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 - [Plug Parser (FFXIV)](https://github.com/cyan-f/Plug_Parser)
   - Free, open source, repo at https://github.com/cyan-f/Plug_Parser
   - Windows 10 Only (requires [Intiface Desktop](https://intiface.com/desktop))
-  - No longer updated
+  - **No longer updated**
   - FFXIV triggers for sex toy control, via [ACT](https://advancedcombattracker.com/)  
 - [ButtPlACT (FFXIV)](https://github.com/crnlskn/ButtplACT)
   - Free, open source, repo at https://github.com/crnlskn/ButtplACT
   - Windows 10 Only (requires [Intiface Desktop](https://intiface.com/desktop))
-  - No longer updated
+  - **No longer updated**
   - FFXIV triggers for sex toy control, via [ACT](https://advancedcombattracker.com/)  
 
 ### Virtual Worlds
 
+- [VibeGoesBrrr VRChat plugin](https://gumroad.com/l/VibeGoesBrrr)
+  - Free, open source, repo at https://gitlab.com/jacefax/vibegoesbrrr
+  - Windows 10 only
+  - Allows setting up avatar body/bounding box collision to control vibrating toys in VRChat.
+- [ButtplugLite](https://github.com/runtime-shady-backroom/buttplug-lite)
+  - Free, open source, repo at https://github.com/runtime-shady-backroom/buttplug-lite
+  - Windows executables in release, may be cross-platform compatible?
+  - Scaled back version of the Buttplug Protocol for use with [NeosVR LogiX](https://neosvr.com)
 - [XXXHaptics VRChat Plugin](https://hheaven.net/XXXHaptics/)
   - Free, closed source
   - Windows 10 only
   - [Usage Guide (en)](https://github.com/BITPlugMistress/XXXHaptics-Guide)
-  - Allows setting up avatar body/bounding box collision to control vibrating toys in VRChat.
-- [VibeGoesBrrr VRChat plugin](https://gitlab.com/jacefax/vibegoesbrrr)
-  - Free, open source, repo at https://gitlab.com/jacefax/vibegoesbrrr
-  - Windows 10 only
   - Allows setting up avatar body/bounding box collision to control vibrating toys in VRChat.
 - [ButtUdon](https://github.com/TheCreeperCow/ButtUdon)
   - Free, open source, repo at https://github.com/TheCreeperCow/ButtUdon
@@ -126,7 +143,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 - [Syncydink](https://syncydink.buttplug.world)
   - Free, open source, repo at https://github.com/qdot/syncydink
   - Web based (Cross platform via either browser or Intiface Desktop)
-  - No longer updated
+  - **No longer updated**
   - Web based movie playback system for funscript movies.
 
 ### Audio Sync
