@@ -38,6 +38,14 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/webvrnsfw/vibe-sequencer
   - Web based (Cross platform, via browsers with Intiface Desktop)
   - Lets you control your Buttplug sex toys with an interactive sequencer interface.
+- [Buttplug OSC](https://github.com/AlexanderPavlenko/buttplug-osc)
+  - Free, open source, repo at https://github.com/AlexanderPavlenko/buttplug-osc
+  - Cross platform
+  - Allows access to Buttplug via OpenSoundControl (OSC)
+- [Pattern Player](https://github.com/pidurentry/patternplayer)
+  - Free, open source, repo at https://github.com/pidurentry/patternplayer
+  - Cross platform
+  - Go-based pattern playback system
 
 ### Games
 
@@ -177,27 +185,46 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 - [Buttplug Rust](https://github.com/buttplugio/buttplug-rs)
   - Available on [crates.io](https://crates.io/crates/buttplug)
+  - Maintained by Buttplug Core Team
   - Core Buttplug library, handles all hardware control and remote connections.
 - [Buttplug C# FFI](https://github.com/buttplugio/buttplug-rs-ffi)
   - Available on [Nuget](https://www.nuget.org/packages/Buttplug/)
+  - Maintained by Buttplug Core Team
   - C# FFI layer on top of Buttplug Rust
 - [Buttplug WASM (JS/TypeScript) FFI](https://github.com/buttplugio/buttplug-rs-ffi)
   - Available on [NPM](https://www.npmjs.com/package/buttplug)
-  - WASM (with JS and Typescript frontends) FFI LAyer on top of Buttplug Rust.
+  - Maintained by Buttplug Core Team
+  - WASM (with JS and Typescript frontends) FFI Layer on top of Buttplug Rust.
 - [Buttplug Python](https://github.com/buttplugio/buttplug-py)
   - Available on [PyPi](https://pypi.org/project/buttplug/)
-  - Standalone Python client for connecting to [Intiface Desktop](https://intiface.com/desktop) or
-    [Intiface CLI](https://github.com/intiface/intiface-cli-rs)
+  - Maintained by Buttplug Core Team
+  - Standalone Python client library for connecting to [Intiface
+    Desktop](https://intiface.com/desktop) or [Intiface
+    CLI](https://github.com/intiface/intiface-cli-rs)
+- [Buttplug Haskell](https://github.com/sullyj3/buttplug-hs-core)
+  - Available on [Hackage](https://hackage.haskell.org/package/buttplug-hs-core)
+  - Maintained by outside contributor
+  - Standalone Haskell client library for connecting to [Intiface
+    Desktop](https://intiface.com/desktop) or [Intiface
+    CLI](https://github.com/intiface/intiface-cli-rs)
+  - Maint
+- [Buttplug Go](https://github.com/pidurentry/buttplug-go)
+  - Maintained by outside contributor
+  - Standalone Go client library for connecting to [Intiface
+    Desktop](https://intiface.com/desktop) or [Intiface
+    CLI](https://github.com/intiface/intiface-cli-rs)
 
 ### Game Development
 
-- [Buttplug Twine](https://github.com/buttplugio/buttplug-twine)
-  - [Sugarcube 2](https://www.motoslave.net/sugarcube/2/) macros for the [Twine Interactive Fiction Game Engine](https://twinery.org)
 - [Buttplug Unity](https://github.com/buttplugio/buttplug-unity)
   - C# Plugin for the [Unity Game Engine](https://unity.com)
+- [Buttplug Twine](https://github.com/buttplugio/buttplug-twine)
+  - [Sugarcube 2](https://www.motoslave.net/sugarcube/2/) macros for the [Twine Interactive Fiction Game Engine](https://twinery.org)
 
-### Other Plugins
+### Other Frameworks and Plugins
 
+- [react-buttplug](https://github.com/MausTec/react-buttplug)
+  - Buttplug JS/WASM integration with React
 - [Buttplug Tampermonkey](https://github.com/buttplugio/buttplug-tampermonkey)
   - Integration of Buttplug with the [Tampermonkey](https://www.tampermonkey.net/) user scripting
     system for Web Browsers. Allows integration of sex toys with arbitrary webpages.
