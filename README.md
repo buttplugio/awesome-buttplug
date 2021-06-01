@@ -213,6 +213,11 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Standalone Go client library for connecting to [Intiface
     Desktop](https://intiface.com/desktop) or [Intiface
     CLI](https://github.com/intiface/intiface-cli-rs)
+- [Buttplug Lua](https://github.com/abbihors/buttplug-lua)
+  - Maintained by outside contributor
+  - Standalone Lua client library for connecting to [Intiface
+    Desktop](https://intiface.com/desktop) or [Intiface
+    CLI](https://github.com/intiface/intiface-cli-rs)
 
 ### Game Development
 
