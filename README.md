@@ -124,19 +124,23 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://gitlab.com/jacefax/vibegoesbrrr
   - Windows 10 only
   - Allows setting up avatar body/bounding box collision to control vibrating toys in VRChat.
-- [ButtplugLite](https://github.com/runtime-shady-backroom/buttplug-lite)
-  - Free, open source, repo at https://github.com/runtime-shady-backroom/buttplug-lite
-  - Windows executables in release, may be cross-platform compatible?
-  - Scaled back version of the Buttplug Protocol for use with [NeosVR LogiX](https://neosvr.com)
+- [VRBrations VRChat plugin](https://vrbrations.com)
+  - Closed source, one-time payment for license
+  - Windows 10 only
+  - Allows sex toy control from VRChat via either Buttplug or the Lovense Connect app
+- [ButtUdon](https://github.com/TheCreeperCow/ButtUdon)
+  - Free, open source, repo at https://github.com/TheCreeperCow/ButtUdon
+  - Windows 10 only
+  - Buttplug plugin for VRChat Udon API
 - [XXXHaptics VRChat Plugin](https://hheaven.net/XXXHaptics/)
   - Free, closed source
   - Windows 10 only
   - [Usage Guide (en)](https://github.com/BITPlugMistress/XXXHaptics-Guide)
   - Allows setting up avatar body/bounding box collision to control vibrating toys in VRChat.
-- [ButtUdon](https://github.com/TheCreeperCow/ButtUdon)
-  - Free, open source, repo at https://github.com/TheCreeperCow/ButtUdon
-  - Windows 10 only
-  - Buttplug plugin for VRChat Udon API
+- [ButtplugLite](https://github.com/runtime-shady-backroom/buttplug-lite)
+  - Free, open source, repo at https://github.com/runtime-shady-backroom/buttplug-lite
+  - Windows executables in release, may be cross-platform compatible?
+  - Scaled back version of the Buttplug Protocol for use with [NeosVR LogiX](https://neosvr.com)
 - [Second Life Interface to ToyWebBridge](https://github.com/kyrahabattoir/ToyWebBridge/tree/master/Examples/LSL%20(Second%20Life))
   - Free, open source, repo at https://github.com/kyrahabattoir/ToyWebBridge
   - Windows 10 only (for ToyWebBridge)
@@ -144,6 +148,11 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 ### Video Sync / Movies
 
+- [MultiFunPlayer](https://github.com/Yoooi0/MultiFunPlayer)
+  - Free, open source, repo at https://github.com/Yoooi0/MultiFunPlayer
+  - Windows 10 only
+  - Synchronizes funscripts with OSR-2 or any Buttplug compatible device for multiple video
+    players (DeoVR, MPV, HereSphere, Whirligig)
 - [Scriptplayer](https://github.com/FredTungsten/ScriptPlayer)
   - Free, open source, repo at https://github.com/FredTungsten/ScriptPlayer
   - Windows 10 only
