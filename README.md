@@ -68,6 +68,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Windows 10 only
   - Fork of the [Osu rhythm game](https://osu.ppy.sh/home) with toy control capabilities via
     Buttplug.
+- [イクノガマン＋VR](https://www.dmm.co.jp/dc/doujin/-/detail/=/cid=d_203854/)
+  - Paid, available on [Fanza](https://www.dmm.co.jp/dc/doujin/-/detail/=/cid=d_203854/) or [DLSite](https://www.dlsite.com/maniax/work/=/product_id/RJ324939.html)
+  - Windows 10 only
+  - VR H-Game (Edging focused) w/ Buttplug support
 
 ### Game Mods
 
