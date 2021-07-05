@@ -79,6 +79,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/intiface/intiface-game-haptics-router
   - Windows 10 only (Standalone or via [Intiface Desktop](https://intiface.com/desktop))
   - Hooks to Windows PC Games, rerouting gamepad rumble to control sex toys.
+- [KK_ButtPlugin for Koikatsu](https://github.com/Sauceke/KK_ButtPlugin)
+  - Free, open source, repo at https://github.com/Sauceke/KK_ButtPlugin
+  - Windows 10 only (requires [Intiface Desktop](https://intiface.com/desktop))
+  - Mod for Koikatsu Party to add support for stroking devices
 - [In Heat Overwatch Mod](https://github.com/Furimanejo/In-Heat)
   - Free, open source, repo at https://github.com/Furimanejo/In-Heat
   - Windows 10 only (requires [Intiface Desktop](https://intiface.com/desktop))
