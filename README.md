@@ -128,7 +128,11 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/crnlskn/ButtplACT
   - Windows 10 Only (requires [Intiface Desktop](https://intiface.com/desktop))
   - **No longer updated**
-  - FFXIV triggers for sex toy control, via [ACT](https://advancedcombattracker.com/)  
+  - FFXIV triggers for sex toy control, via [ACT](https://advancedcombattracker.com/)
+- [COM3D2.ToySynchronizer.Plugin](https://github.com/amateras977/COM3D2.ToySynchronizer.Plugin)
+  - Free, open source, repo at https://github.com/amateras977/COM3D2.ToySynchronizer.Plugin
+  - Windows 10 only
+  - Mod for Custom Order Maid 3D 2 to add support for stroking and vibrating devices
 
 ### Virtual Worlds
 
