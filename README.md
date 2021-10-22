@@ -110,7 +110,8 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 - [Minegasm (Minecraft)](https://minegasm.therainbowville.com/)
   - Free, open source, repo at https://github.com/RainbowVille/minegasm
   - Cross Platform (requires [Intiface Desktop](https://intiface.com/desktop))
-  - Sex toy control plugin for Minecraft
+  - Sex toy control plugin for Minecraft Forge
+  - [Ported to Fabric](https://github.com/vinceh121/Minegasm-fabric)
 - [Aethersense (FFXIV)](https://github.com/Ms-Tress/AetherSense)
   - Free, open source, repo at https://github.com/Ms-Tress/AetherSense
   - Windows 10 Only (Standalone)
