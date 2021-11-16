@@ -107,6 +107,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/BytewaveMLP/DGButtPlugin
   - Windows 10 only (requires [Intiface Desktop](https://intiface.com/desktop))
   - [Duck Game](https://store.steampowered.com/app/312530/Duck_Game/) Buttplug plugin
+- [ButtplugMC (Minecraft)](https://github.com/Cyloci/ButtplugMc)
+  - Free, open source, repo at https://github.com/Cyloci/ButtplugMc
+  - Cross Platform (requires [Intiface Desktop](https://intiface.com/desktop))
+  - Plugin for Minecraft Multiplayer Servers
 - [Minegasm (Minecraft)](https://minegasm.therainbowville.com/)
   - Free, open source, repo at https://github.com/RainbowVille/minegasm
   - Cross Platform (requires [Intiface Desktop](https://intiface.com/desktop))
