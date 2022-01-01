@@ -120,6 +120,11 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/Ms-Tress/AetherSense
   - Windows 10 Only (Standalone)
   - FFXIV triggers for sex toy control, via [Dalamud](https://github.com/goatcorp/Dalamud)
+  - **No longer updated**
+- [FFXIV Vibe Plugin](https://github.com/kacie8989/FFXIV_Vibe_Plugin)
+  - Free, open source, repo at https://github.com/kacie8989/FFXIV_Vibe_Plugin
+  - FFXIV triggers for sex toy control, via [Dalamud](https://github.com/goatcorp/Dalamud)
+  - Endorced by the maker of Aethersense and is intended to replace it
 - [SDTButtplug](https://github.com/Nootna8/SDTButtplug)
   - Free, open source, repo at https://github.com/Nootna8/SDTButtplug
   - Windows 10 Only (requires [Intiface Desktop](https://intiface.com/desktop))
