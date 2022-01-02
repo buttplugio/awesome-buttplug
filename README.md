@@ -130,24 +130,25 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 #### FFXIV  
 
-- [Aethersense (FFXIV)](https://github.com/Ms-Tress/AetherSense)
-  - Free, open source, repo at https://github.com/Ms-Tress/AetherSense
-  - Windows 10 Only (Standalone)
-  - FFXIV triggers for sex toy control, via [Dalamud](https://github.com/goatcorp/Dalamud)
-  - **No longer updated**
+
 - [FFXIV Vibe Plugin](https://github.com/kacie8989/FFXIV_Vibe_Plugin)
   - Free, open source, repo at https://github.com/kacie8989/FFXIV_Vibe_Plugin
   - FFXIV triggers for sex toy control, via [Dalamud](https://github.com/goatcorp/Dalamud)
   - Endorsed by the maker of Aethersense and is intended to replace it
+- [Aethersense (FFXIV)](https://github.com/Ms-Tress/AetherSense)
+  - **No longer updated**
+  - Free, open source, repo at https://github.com/Ms-Tress/AetherSense
+  - Windows 10 Only (Standalone)
+  - FFXIV triggers for sex toy control, via [Dalamud](https://github.com/goatcorp/Dalamud)
 - [Plug Parser (FFXIV)](https://github.com/cyan-f/Plug_Parser)
+  - **No longer updated**
   - Free, open source, repo at https://github.com/cyan-f/Plug_Parser
   - Windows 10 Only (requires [Intiface Desktop](https://intiface.com/desktop))
-  - **No longer updated**
   - FFXIV triggers for sex toy control, via [ACT](https://advancedcombattracker.com/)  
 - [ButtPlACT (FFXIV)](https://github.com/crnlskn/ButtplACT)
+  - **No longer updated**
   - Free, open source, repo at https://github.com/crnlskn/ButtplACT
   - Windows 10 Only (requires [Intiface Desktop](https://intiface.com/desktop))
-  - **No longer updated**
   - FFXIV triggers for sex toy control, via [ACT](https://advancedcombattracker.com/)
 
 ### Virtual Worlds
