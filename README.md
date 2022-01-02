@@ -82,7 +82,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 - [BepInEx ButtPlugin](https://github.com/Sauceke/BepInEx.ButtPlugin)
   - Free, open source, repo at https://github.com/Sauceke/BepInEx.ButtPlugin
   - Windows 10 only (requires [Intiface Desktop](https://intiface.com/desktop))
-  - Mod for Koikatsu Party and Honey Select 2 to add support for stroking and vibrating devices
+  - Mod for Koikatsu, Koikatsu Party, Honey Select 2, PlayHome, After Service Gangbang Addicts, and Our Apartment to add support for stroking and vibrating devices
 - [In Heat Overwatch Mod](https://github.com/Furimanejo/In-Heat)
   - Free, open source, repo at https://github.com/Furimanejo/In-Heat
   - Windows 10 only (requires [Intiface Desktop](https://intiface.com/desktop))
@@ -107,6 +107,17 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/BytewaveMLP/DGButtPlugin
   - Windows 10 only (requires [Intiface Desktop](https://intiface.com/desktop))
   - [Duck Game](https://store.steampowered.com/app/312530/Duck_Game/) Buttplug plugin
+- [SDTButtplug](https://github.com/Nootna8/SDTButtplug)
+  - Free, open source, repo at https://github.com/Nootna8/SDTButtplug
+  - Windows 10 Only (requires [Intiface Desktop](https://intiface.com/desktop))
+  - SuperDeepthroat sex toy integration  
+- [COM3D2.ToySynchronizer.Plugin](https://github.com/amateras977/COM3D2.ToySynchronizer.Plugin)
+  - Free, proprietary, available at https://github.com/amateras977/COM3D2.ToySynchronizer.Plugin
+  - Windows 10 only
+  - Mod for Custom Maid 3D2 / Custom Order Maid 3D2 to add support for stroking and vibrating devices
+
+#### Minecraft
+  
 - [ButtplugMC (Minecraft)](https://github.com/Cyloci/ButtplugMc)
   - Free, open source, repo at https://github.com/Cyloci/ButtplugMc
   - Cross Platform (requires [Intiface Desktop](https://intiface.com/desktop))
@@ -116,6 +127,9 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Cross Platform (requires [Intiface Desktop](https://intiface.com/desktop))
   - Sex toy control plugin for Minecraft Forge
   - [Ported to Fabric](https://github.com/vinceh121/Minegasm-fabric)
+
+#### FFXIV  
+
 - [Aethersense (FFXIV)](https://github.com/Ms-Tress/AetherSense)
   - Free, open source, repo at https://github.com/Ms-Tress/AetherSense
   - Windows 10 Only (Standalone)
@@ -124,11 +138,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 - [FFXIV Vibe Plugin](https://github.com/kacie8989/FFXIV_Vibe_Plugin)
   - Free, open source, repo at https://github.com/kacie8989/FFXIV_Vibe_Plugin
   - FFXIV triggers for sex toy control, via [Dalamud](https://github.com/goatcorp/Dalamud)
-  - Endorced by the maker of Aethersense and is intended to replace it
-- [SDTButtplug](https://github.com/Nootna8/SDTButtplug)
-  - Free, open source, repo at https://github.com/Nootna8/SDTButtplug
-  - Windows 10 Only (requires [Intiface Desktop](https://intiface.com/desktop))
-  - SuperDeepthroat sex toy integration
+  - Endorsed by the maker of Aethersense and is intended to replace it
 - [Plug Parser (FFXIV)](https://github.com/cyan-f/Plug_Parser)
   - Free, open source, repo at https://github.com/cyan-f/Plug_Parser
   - Windows 10 Only (requires [Intiface Desktop](https://intiface.com/desktop))
@@ -139,12 +149,19 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Windows 10 Only (requires [Intiface Desktop](https://intiface.com/desktop))
   - **No longer updated**
   - FFXIV triggers for sex toy control, via [ACT](https://advancedcombattracker.com/)
-- [COM3D2.ToySynchronizer.Plugin](https://github.com/amateras977/COM3D2.ToySynchronizer.Plugin)
-  - Free, proprietary, available at https://github.com/amateras977/COM3D2.ToySynchronizer.Plugin
-  - Windows 10 only
-  - Mod for Custom Maid 3D2 / Custom Order Maid 3D2 to add support for stroking and vibrating devices
 
 ### Virtual Worlds
+
+- [ButtplugLite](https://github.com/runtime-shady-backroom/buttplug-lite)
+  - Free, open source, repo at https://github.com/runtime-shady-backroom/buttplug-lite
+  - Windows executables in release, may be cross-platform compatible?
+  - Scaled back version of the Buttplug Protocol for use with [NeosVR LogiX](https://neosvr.com)
+- [Second Life Interface to ToyWebBridge](https://github.com/kyrahabattoir/ToyWebBridge/tree/master/Examples/LSL%20(Second%20Life))
+  - Free, open source, repo at https://github.com/kyrahabattoir/ToyWebBridge
+  - Windows 10 only (for ToyWebBridge)
+  - LSL Examples for accessing [ToyWebBridge](https://github.com/kyrahabattoir/ToyWebBridge)
+
+#### VRChat
 
 - [VibeGoesBrrr VRChat plugin](https://gumroad.com/l/VibeGoesBrrr)
   - Free, open source, repo at https://gitlab.com/jacefax/vibegoesbrrr
@@ -154,6 +171,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Closed source, one-time payment for license
   - Windows 10 only
   - Allows sex toy control from VRChat via either Buttplug or the Lovense Connect app
+- [VRChat Vibrator Controller](https://github.com/markviews/VRChatVibratorController)
+  - Free, open source, repo at https://github.com/markviews/VRChatVibratorController
+  - Windows 10 only
+  - Allows for controlling toys in VRC over an external websocket system (hosted by mod devs)
 - [ButtUdon](https://github.com/TheCreeperCow/ButtUdon)
   - Free, open source, repo at https://github.com/TheCreeperCow/ButtUdon
   - Windows 10 only
@@ -163,14 +184,6 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Windows 10 only
   - [Usage Guide (en)](https://github.com/BITPlugMistress/XXXHaptics-Guide)
   - Allows setting up avatar body/bounding box collision to control vibrating toys in VRChat.
-- [ButtplugLite](https://github.com/runtime-shady-backroom/buttplug-lite)
-  - Free, open source, repo at https://github.com/runtime-shady-backroom/buttplug-lite
-  - Windows executables in release, may be cross-platform compatible?
-  - Scaled back version of the Buttplug Protocol for use with [NeosVR LogiX](https://neosvr.com)
-- [Second Life Interface to ToyWebBridge](https://github.com/kyrahabattoir/ToyWebBridge/tree/master/Examples/LSL%20(Second%20Life))
-  - Free, open source, repo at https://github.com/kyrahabattoir/ToyWebBridge
-  - Windows 10 only (for ToyWebBridge)
-  - LSL Examples for accessing [ToyWebBridge](https://github.com/kyrahabattoir/ToyWebBridge)
 
 ### Video Sync / Movies
 
