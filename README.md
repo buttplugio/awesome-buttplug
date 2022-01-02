@@ -130,6 +130,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 #### FFXIV  
 
+- [AetherSense Redux (Beta)](https://github.com/digital-pet/AetherSenseRedux)
+  - Free, open source, repo at https://github.com/digital-pet/AetherSenseRedux
+  - Windows 10 Only (requires [Intiface Desktop](https://intiface.com/desktop))
+  - Realtime chat and combat log parsing, via [Dalamud](https://github.com/goatcorp/Dalamud)
 - [FFXIV Vibe Plugin](https://github.com/kaciexx/FFXIV_Vibe_Plugin)
   - Free, open source, repo at https://github.com/kaciexx/FFXIV_Vibe_Plugin
   - FFXIV triggers for sex toy control, via [Dalamud](https://github.com/goatcorp/Dalamud)
