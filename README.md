@@ -134,6 +134,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/kaciexx/FFXIV_Vibe_Plugin
   - FFXIV triggers for sex toy control, via [Dalamud](https://github.com/goatcorp/Dalamud)
   - Endorsed by the maker of Aethersense and is intended to replace it
+- [AetherSense Redux](https://github.com/digital-pet/AetherSenseRedux)
+  - Free, open source, repo at https://github.com/digital-pet/AetherSenseRedux
+  - Windows 10 Only (requires [Intiface Desktop](https://intiface.com/desktop))
+  - Realtime FFXIV chatlog parsing for toy control, via [Dalamud](https://github.com/goatcorp/Dalamud)
 - [Aethersense (FFXIV)](https://github.com/Ms-Tress/AetherSense)
   - **No longer updated**
   - Free, open source, repo at https://github.com/Ms-Tress/AetherSense
