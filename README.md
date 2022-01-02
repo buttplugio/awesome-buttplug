@@ -130,8 +130,8 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 #### FFXIV  
 
-- [FFXIV Vibe Plugin](https://github.com/kacie8989/FFXIV_Vibe_Plugin)
-  - Free, open source, repo at https://github.com/kacie8989/FFXIV_Vibe_Plugin
+- [FFXIV Vibe Plugin](https://github.com/kaciexx/FFXIV_Vibe_Plugin)
+  - Free, open source, repo at https://github.com/kaciexx/FFXIV_Vibe_Plugin
   - FFXIV triggers for sex toy control, via [Dalamud](https://github.com/goatcorp/Dalamud)
   - Endorsed by the maker of Aethersense and is intended to replace it
 - [Aethersense (FFXIV)](https://github.com/Ms-Tress/AetherSense)
