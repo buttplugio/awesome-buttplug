@@ -130,14 +130,15 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 #### FFXIV  
 
+- [FFXIV Vibe Plugin](https://github.com/kaciexx/FFXIV_Vibe_Plugin)
+  - Free, open source, repo at https://github.com/kaciexx/FFXIV_Vibe_Plugin
+  - Windows 10 Only (requires [Intiface Desktop](https://intiface.com/desktop))
+  - FFXIV triggers for sex toy control, via [Dalamud](https://github.com/goatcorp/Dalamud)
+  - Endorsed by the maker of Aethersense and is intended to replace it
 - [AetherSense Redux (Beta)](https://github.com/digital-pet/AetherSenseRedux)
   - Free, open source, repo at https://github.com/digital-pet/AetherSenseRedux
   - Windows 10 Only (requires [Intiface Desktop](https://intiface.com/desktop))
   - Realtime chat and combat log parsing, via [Dalamud](https://github.com/goatcorp/Dalamud)
-- [FFXIV Vibe Plugin](https://github.com/kaciexx/FFXIV_Vibe_Plugin)
-  - Free, open source, repo at https://github.com/kaciexx/FFXIV_Vibe_Plugin
-  - FFXIV triggers for sex toy control, via [Dalamud](https://github.com/goatcorp/Dalamud)
-  - Endorsed by the maker of Aethersense and is intended to replace it
 - [Aethersense (FFXIV)](https://github.com/Ms-Tress/AetherSense)
   - **No longer updated**
   - Free, open source, repo at https://github.com/Ms-Tress/AetherSense
