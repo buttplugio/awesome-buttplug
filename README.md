@@ -231,6 +231,15 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/AlexanderPavlenko/buttplug-osc
   - Cross Platform (requires [Intiface Desktop](https://intiface.com/desktop))
   - [OSC](https://en.wikipedia.org/wiki/Open_Sound_Control) bridge
+- [Buttplug VST](https://github.com/fractalysis/buttplug-vst)
+  - Free, open source, repo at https://github.com/fractalysis/buttplug-vst
+  - Windows Only (requires [Intiface Desktop](https://intiface.com/desktop))
+  - VST for DAWs like Ableton Live, FL Studio, or DJing software like Virtual DJ. Analyzes music and
+    outputs bass as haptic response.
+- [Music Vibes](https://github.com/Shadlock0133/music-vibes)
+  - Free, open source, repo at https://github.com/Shadlock0133/music-vibes
+  - Windows Only (requires [Intiface Desktop](https://intiface.com/desktop))
+  - Analyzes audio and translates into vibrations for Buttplug compatible hardware.
 
 ### Hardware Support
 
@@ -240,7 +249,6 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 - [Buttplug Lelo ESP32 Bridge](https://github.com/MonomoriumP/Buttplug.io--Lelo)
   - Free, open source, repo at https://github.com/MonomoriumP/Buttplug.io--Lelo
   - ESP32 bridge between Buttplug.io and Lelo's RF controlled toys.
-
 
 ## Development and Libraries
 
