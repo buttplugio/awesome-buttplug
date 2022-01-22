@@ -54,20 +54,25 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Windows 10 Only
   - Furry focused, integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy
     control within interactive scenes.
+- [Heat](https://www.anthroheat.com/)
+  - Crowdfunded, available on [Patreon](https://www.patreon.com/heatgame)
+  - Windows 10 Only, VR Only
+  - Furry focused, integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy
+    control within interactive scenes.
 - [ViRo Playspace](https://viro.club/)
   - Paid, available on [Steam](https://store.steampowered.com/agecheck/app/1121310/)
   - Windows 10 only
   - Integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy control within
     interactive scenes.
+- [VRHOT](https://store.steampowered.com/app/1571340/)
+  - Paid, available on [Steam](https://store.steampowered.com/app/1571340/)
+  - Windows 10 only, VR only
+  - Integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy control within
+    interactive scenes.    
 - [Caveman BIOS Teaches Erotic Typing](https://curiousjp.itch.io/caveman-bios-teaches-erotic-typing)
   - Free, available on [itch.io](https://curiousjp.itch.io/caveman-bios-teaches-erotic-typing)
   - Cross-platform (pygame)
   - Typing tutor game that controls sex toys via Buttplug.
-- [OsuToy](https://github.com/hornyyy/Osu-Toy)
-  - Free, open source, repo at https://github.com/hornyyy/Osu-Toy
-  - Windows 10 only
-  - Fork of the [Osu rhythm game](https://osu.ppy.sh/home) with toy control capabilities via
-    Buttplug.
 - [イクノガマン＋VR](https://www.dmm.co.jp/dc/doujin/-/detail/=/cid=d_203854/)
   - Paid, available on [Fanza](https://www.dmm.co.jp/dc/doujin/-/detail/=/cid=d_203854/) or [DLSite](https://www.dlsite.com/maniax/work/=/product_id/RJ324939.html)
   - Windows 10 only
@@ -115,6 +120,11 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, proprietary, available at https://github.com/amateras977/COM3D2.ToySynchronizer.Plugin
   - Windows 10 only
   - Mod for Custom Maid 3D2 / Custom Order Maid 3D2 to add support for stroking and vibrating devices
+- [OsuToy](https://github.com/hornyyy/Osu-Toy)
+  - Free, open source, repo at https://github.com/hornyyy/Osu-Toy
+  - Windows 10 only
+  - Fork of the [Osu rhythm game](https://osu.ppy.sh/home) with toy control capabilities via
+    Buttplug.
 
 #### Minecraft
   
