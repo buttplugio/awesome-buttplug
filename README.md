@@ -129,6 +129,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://gitlab.com/sidiousious/bce/
   - Desktop Cross Platform (requires [Intiface Desktop](https://intiface.com/desktop))
   - Mod for [Bondage Club](https://www.bondageprojects.com/club_game/) to synchronize the status of vibrating toys on your character to your real toys via Buttplug allowing other players to control them, among other enhancements to the game.
+- [Fallen Angel Marielle - Ascend The Futanari Tower](https://github.com/NoGRo/FallenAngelHandy)
+  - Free, open source, repo at https://github.com/NoGRo/FallenAngelHandy
+  - Windows 10 only
+  - Buttplug integration for the H-Game Fallen Angel Marielle - Ascend The Futanari Tower to be played with a stroker device (Handy, Kiiroo Keon, etc).
 
 #### Minecraft
   
