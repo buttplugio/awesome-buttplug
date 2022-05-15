@@ -194,10 +194,15 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Closed source, one-time payment for license
   - Windows 10 only
   - Allows sex toy control from VRChat via either Buttplug or the Lovense Connect app
+- [Totally Wholesome](https://totallywholeso.me)
+  - Free, closed source
+  - Windows 10 only
+  - Mod for master/pet play with leashes, toy control and other fun stuff. Compatible with VibeGoBrrr
 - [VRChat Vibrator Controller](https://github.com/markviews/VRChatVibratorController)
   - Free, open source, repo at https://github.com/markviews/VRChatVibratorController
   - Windows 10 only
   - Allows for controlling toys in VRC over an external websocket system (hosted by mod devs)
+
 - [ButtUdon](https://github.com/TheCreeperCow/ButtUdon)
   - Free, open source, repo at https://github.com/TheCreeperCow/ButtUdon
   - Windows 10 only
