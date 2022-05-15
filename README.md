@@ -202,7 +202,6 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/markviews/VRChatVibratorController
   - Windows 10 only
   - Allows for controlling toys in VRC over an external websocket system (hosted by mod devs)
-
 - [ButtUdon](https://github.com/TheCreeperCow/ButtUdon)
   - Free, open source, repo at https://github.com/TheCreeperCow/ButtUdon
   - Windows 10 only
