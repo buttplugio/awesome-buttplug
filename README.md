@@ -23,7 +23,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Visual programming for building patterns for playback in Buttplug
 - [ToyWebBridge](https://github.com/kyrahabattoir/ToyWebBridge)
   - Free, open source, repo at https://github.com/kyrahabattoir/ToyWebBridge
-  - Windows 10 only
+  - Windows 10+ only
   - Generic REST frontend for Buttplug.
 - [ToyControl](https://github.com/jackmg2/ToyControl)
   - Free, open source, repo at https://github.com/jackmg2/ToyControl
@@ -54,22 +54,22 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 - [FarmD](https://patreon.com/softscale)
   - Crowdfunded w/ Free Versions Available
-  - Windows 10 Only
+  - Windows 10+ only
   - Furry focused, integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy
     control within interactive scenes.
 - [Heat](https://www.anthroheat.com/)
   - Crowdfunded, available on [Patreon](https://www.patreon.com/heatgame)
-  - Windows 10 Only, VR Only
+  - Windows 10+ only, VR Only
   - Furry focused, integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy
     control within interactive scenes.
 - [ViRo Playspace](https://viro.club/)
   - Paid, available on [Steam](https://store.steampowered.com/agecheck/app/1121310/)
-  - Windows 10 only
+  - Windows 10+ only
   - Integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy control within
     interactive scenes.
 - [VRHOT](https://store.steampowered.com/app/1571340/)
   - Paid, available on [Steam](https://store.steampowered.com/app/1571340/)
-  - Windows 10 only, VR only
+  - Windows 10+ only, VR only
   - Integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy control within
     interactive scenes.    
 - [Caveman BIOS Teaches Erotic Typing](https://curiousjp.itch.io/caveman-bios-teaches-erotic-typing)
@@ -78,34 +78,38 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Typing tutor game that controls sex toys via Buttplug.
 - [イクノガマン＋VR](https://www.dmm.co.jp/dc/doujin/-/detail/=/cid=d_203854/)
   - Paid, available on [Fanza](https://www.dmm.co.jp/dc/doujin/-/detail/=/cid=d_203854/) or [DLSite](https://www.dlsite.com/maniax/work/=/product_id/RJ324939.html)
-  - Windows 10 only
+  - Windows 10+ only
   - VR H-Game (Edging focused) w/ Buttplug support
 - [Lustbound JOI](https://nudi.ca/blog/may-post-joi-demo-v1-0-available-now/)
   - Free, available at https://nudi.ca/blog/may-post-joi-demo-v1-0-available-now/
   - Windows 10+ only
   - JOI game w/ Buttplug Support
+- [Reveal Your Monster](https://store.steampowered.com/app/1874310/Reveal_Your_Monster__Toy_Support)
+  - Paid DLC, available on [Steam](https://store.steampowered.com/app/1874310/Reveal_Your_Monster__Toy_Support/)
+  - Windows 10+ Only
+  - Puzzle/Action game w/ Toy Support DLC
 
 ### Game Mods
 
 - [Intiface® Game Haptics Router](https://intiface.com/ghr)
   - Free, open source, repo at https://github.com/intiface/intiface-game-haptics-router
-  - Windows 10 only (Standalone or via [Intiface Desktop](https://intiface.com/desktop))
+  - Windows 10+ only (Standalone or via [Intiface Desktop](https://intiface.com/desktop))
   - Hooks to Windows PC Games, rerouting gamepad rumble to control sex toys.
 - [BepInEx ButtPlugin](https://github.com/Sauceke/BepInEx.ButtPlugin)
   - Free, open source, repo at https://github.com/Sauceke/BepInEx.ButtPlugin
-  - Windows 10 only (requires [Intiface Desktop](https://intiface.com/desktop))
+  - Windows 10+ only (requires [Intiface Desktop](https://intiface.com/desktop))
   - Mod for Koikatsu, Koikatsu Party, Honey Select 2, PlayHome, After Service Gangbang Addicts, and Our Apartment to add support for stroking and vibrating devices
 - [In Heat Overwatch Mod](https://github.com/Furimanejo/In-Heat)
   - Free, open source, repo at https://github.com/Furimanejo/In-Heat
-  - Windows 10 only (requires [Intiface Desktop](https://intiface.com/desktop))
+  - Windows 10+ only (requires [Intiface Desktop](https://intiface.com/desktop))
   - Uses computer vision to track Heat Bar in Overwatch and control sex toys based on levels.
 - [B.U.T.T.P.L.U.G. Anomaly](https://github.com/abbiwyn/buttplug-anomaly)
   - Free, open source, repo at https://github.com/abbiwyn/buttplug-anomaly
-  - Windows 10 only (requires [Intiface Desktop](https://intiface.com/desktop))
+  - Windows 10+ only (requires [Intiface Desktop](https://intiface.com/desktop))
   - Buttplug mod for STALKER: Anomaly
 - [Skybutt Skyrim Plugin](https://github.com/programotter/skybutt)
   - Free, open source, repo at https://github.com/programotter/skybutt
-  - Windows 10 only
+  - Windows 10+ only
   - Vibration control plugin for Skyrim
 - [Crotch-Stim: Get Off (CS:GO)](https://sr.ht/~hornycactus/CrotchStimGetOff/)
   - Free, open source, repo at https://sr.ht/~hornycactus/CrotchStimGetOff/
@@ -113,23 +117,23 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - CS:GO Buttplug plugin
 - [Buttplug Of Legends (LOL)](https://github.com/kinkyacedev/buttplug-of-legends)
   - Free, open source, repo at https://github.com/kinkyacedev/buttplug-of-legends
-  - Windows 10 only (requires [Intiface Desktop](https://intiface.com/desktop))
+  - Windows 10+ only (requires [Intiface Desktop](https://intiface.com/desktop))
   - League of Legends interaction for Buttplug
 - [DGButtPlugin (Duck Game)](https://github.com/BytewaveMLP/DGButtPlugin)
   - Free, open source, repo at https://github.com/BytewaveMLP/DGButtPlugin
-  - Windows 10 only (requires [Intiface Desktop](https://intiface.com/desktop))
+  - Windows 10+ only (requires [Intiface Desktop](https://intiface.com/desktop))
   - [Duck Game](https://store.steampowered.com/app/312530/Duck_Game/) Buttplug plugin
 - [SDTButtplug](https://github.com/Nootna8/SDTButtplug)
   - Free, open source, repo at https://github.com/Nootna8/SDTButtplug
-  - Windows 10 Only (requires [Intiface Desktop](https://intiface.com/desktop))
+  - Windows 10+ only (requires [Intiface Desktop](https://intiface.com/desktop))
   - SuperDeepthroat sex toy integration  
 - [COM3D2.ToySynchronizer.Plugin](https://github.com/amateras977/COM3D2.ToySynchronizer.Plugin)
   - Free, proprietary, available at https://github.com/amateras977/COM3D2.ToySynchronizer.Plugin
-  - Windows 10 only
+  - Windows 10+ only
   - Mod for Custom Maid 3D2 / Custom Order Maid 3D2 to add support for stroking and vibrating devices
 - [OsuToy](https://github.com/hornyyy/Osu-Toy)
   - Free, open source, repo at https://github.com/hornyyy/Osu-Toy
-  - Windows 10 only
+  - Windows 10+ only
   - Fork of the [Osu rhythm game](https://osu.ppy.sh/home) with toy control capabilities via
     Buttplug.
 - [Bondage Club Enhancements](https://sidiousious.gitlab.io/bce/)
@@ -138,7 +142,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Mod for [Bondage Club](https://www.bondageprojects.com/club_game/) to synchronize the status of vibrating toys on your character to your real toys via Buttplug allowing other players to control them, among other enhancements to the game.
 - [Fallen Angel Marielle - Ascend The Futanari Tower](https://github.com/NoGRo/FallenAngelHandy)
   - Free, open source, repo at https://github.com/NoGRo/FallenAngelHandy
-  - Windows 10 only
+  - Windows 10+ only
   - Buttplug integration for the H-Game Fallen Angel Marielle - Ascend The Futanari Tower to be played with a stroker device (Handy, Kiiroo Keon, etc).
 
 #### Minecraft
@@ -157,27 +161,27 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 - [FFXIV Vibe Plugin](https://github.com/kaciexx/FFXIV_Vibe_Plugin)
   - Free, open source, repo at https://github.com/kaciexx/FFXIV_Vibe_Plugin
-  - Windows 10 Only (requires [Intiface Desktop](https://intiface.com/desktop))
+  - Windows 10+ only (requires [Intiface Desktop](https://intiface.com/desktop))
   - FFXIV triggers for sex toy control, via [Dalamud](https://github.com/goatcorp/Dalamud)
   - Endorsed by the maker of Aethersense and is intended to replace it
 - [AetherSense Redux (Beta)](https://github.com/digital-pet/AetherSenseRedux)
   - Free, open source, repo at https://github.com/digital-pet/AetherSenseRedux
-  - Windows 10 Only (requires [Intiface Desktop](https://intiface.com/desktop))
+  - Windows 10+ only (requires [Intiface Desktop](https://intiface.com/desktop))
   - Realtime chat and combat log parsing, via [Dalamud](https://github.com/goatcorp/Dalamud)
 - [Aethersense (FFXIV)](https://github.com/Ms-Tress/AetherSense)
   - **No longer updated**
   - Free, open source, repo at https://github.com/Ms-Tress/AetherSense
-  - Windows 10 Only (Standalone)
+  - Windows 10+ only (Standalone)
   - FFXIV triggers for sex toy control, via [Dalamud](https://github.com/goatcorp/Dalamud)
 - [Plug Parser (FFXIV)](https://github.com/cyan-f/Plug_Parser)
   - **No longer updated**
   - Free, open source, repo at https://github.com/cyan-f/Plug_Parser
-  - Windows 10 Only (requires [Intiface Desktop](https://intiface.com/desktop))
+  - Windows 10+ only (requires [Intiface Desktop](https://intiface.com/desktop))
   - FFXIV triggers for sex toy control, via [ACT](https://advancedcombattracker.com/)  
 - [ButtPlACT (FFXIV)](https://github.com/crnlskn/ButtplACT)
   - **No longer updated**
   - Free, open source, repo at https://github.com/crnlskn/ButtplACT
-  - Windows 10 Only (requires [Intiface Desktop](https://intiface.com/desktop))
+  - Windows 10+ only (requires [Intiface Desktop](https://intiface.com/desktop))
   - FFXIV triggers for sex toy control, via [ACT](https://advancedcombattracker.com/)
 
 ### Virtual Worlds
@@ -188,34 +192,34 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Scaled back version of the Buttplug Protocol for use with [NeosVR LogiX](https://neosvr.com)
 - [Second Life Interface to ToyWebBridge](https://github.com/kyrahabattoir/ToyWebBridge/tree/master/Examples/LSL%20(Second%20Life))
   - Free, open source, repo at https://github.com/kyrahabattoir/ToyWebBridge
-  - Windows 10 only (for ToyWebBridge)
+  - Windows 10+ only (for ToyWebBridge)
   - LSL Examples for accessing [ToyWebBridge](https://github.com/kyrahabattoir/ToyWebBridge)
 
 #### VRChat
 
 - [VibeGoesBrrr VRChat plugin](https://gumroad.com/l/VibeGoesBrrr)
   - Free, open source, repo at https://gitlab.com/jacefax/vibegoesbrrr
-  - Windows 10 only
+  - Windows 10+ only
   - Allows setting up avatar body/bounding box collision to control vibrating toys in VRChat.
 - [VRBrations VRChat plugin](https://vrbrations.com)
   - Closed source, one-time payment for license
-  - Windows 10 only
+  - Windows 10+ only
   - Allows sex toy control from VRChat via either Buttplug or the Lovense Connect app
 - [Totally Wholesome](https://totallywholeso.me)
   - Free, closed source
-  - Windows 10 only
+  - Windows 10+ only
   - Mod for master/pet play with leashes, toy control and other fun stuff. Compatible with VibeGoBrrr
 - [VRChat Vibrator Controller](https://github.com/markviews/VRChatVibratorController)
   - Free, open source, repo at https://github.com/markviews/VRChatVibratorController
-  - Windows 10 only
+  - Windows 10+ only
   - Allows for controlling toys in VRC over an external websocket system (hosted by mod devs)
 - [ButtUdon](https://github.com/TheCreeperCow/ButtUdon)
   - Free, open source, repo at https://github.com/TheCreeperCow/ButtUdon
-  - Windows 10 only
+  - Windows 10+ only
   - Buttplug plugin for VRChat Udon API
 - [XXXHaptics VRChat Plugin](https://hheaven.net/XXXHaptics/)
   - Free, closed source
-  - Windows 10 only
+  - Windows 10+ only
   - [Usage Guide (en)](https://github.com/BITPlugMistress/XXXHaptics-Guide)
   - Allows setting up avatar body/bounding box collision to control vibrating toys in VRChat.
 
@@ -223,12 +227,12 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 - [MultiFunPlayer](https://github.com/Yoooi0/MultiFunPlayer)
   - Free, open source, repo at https://github.com/Yoooi0/MultiFunPlayer
-  - Windows 10 only
+  - Windows 10+ only
   - Synchronizes funscripts with OSR-2 or any Buttplug compatible device for multiple video
     players (DeoVR, MPV, HereSphere, Whirligig)
 - [Scriptplayer](https://github.com/FredTungsten/ScriptPlayer)
   - Free, open source, repo at https://github.com/FredTungsten/ScriptPlayer
-  - Windows 10 only
+  - Windows 10+ only
   - Playback of movies using Funscript format, with support for stroking/vibrating/rotating toys.
 - [Syncydink](https://syncydink.buttplug.world)
   - Free, open source, repo at https://github.com/qdot/syncydink
@@ -240,7 +244,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 - [SoundSync](https://gitlab.com/LuckySkebe/soundsync)
   - Free, open source, repo at https://gitlab.com/LuckySkebe/soundsync
-  - Windows 10 only
+  - Windows 10+ only
   - Visual dataflow setup for routing audio signals to sex toy control
 - [Sensitive EQ](https://github.com/highfiiv/sensitive-eq)
   - Free, open source, repo at https://github.com/highfiiv/sensitive-eq
