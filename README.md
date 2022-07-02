@@ -217,6 +217,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/SutekhVRC/VibeCheck
   - Windows 10+ only
   - VRC support via OSC for Buttplug
+- [OSC_D10](https://github.com/D10X1D0/OSC_D10)
+  - Free, open source, repo at https://github.com/D10X1D0/OSC_D10
+  - Windows 10+ only
+  - VRC support via OSC for Buttplug
 - [VRChat Vibrator Controller](https://github.com/markviews/VRChatVibratorController)
   - Free, open source, repo at https://github.com/markviews/VRChatVibratorController
   - Windows 10+ only
