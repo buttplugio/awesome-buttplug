@@ -46,7 +46,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/pidurentry/patternplayer
   - Cross platform
   - Go-based pattern playback system
-
+- [Plaything.io](https://github.com/Flutterish/plaything.io)
+  - Free, open source, repo at https://github.com/Flutterish/plaything.io
+  - Cross platform
+  - Node based client/server program for multiplayer remote toy control
 ### Games
 
 - [FarmD](https://patreon.com/softscale)
@@ -77,6 +80,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Paid, available on [Fanza](https://www.dmm.co.jp/dc/doujin/-/detail/=/cid=d_203854/) or [DLSite](https://www.dlsite.com/maniax/work/=/product_id/RJ324939.html)
   - Windows 10 only
   - VR H-Game (Edging focused) w/ Buttplug support
+- [Lustbound JOI](https://nudi.ca/blog/may-post-joi-demo-v1-0-available-now/)
+  - Free, available at https://nudi.ca/blog/may-post-joi-demo-v1-0-available-now/
+  - Windows 10+ only
+  - JOI game w/ Buttplug Support
 
 ### Game Mods
 
@@ -307,7 +314,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 - [Buttplug Unity](https://github.com/buttplugio/buttplug-unity)
   - C# Plugin for the [Unity Game Engine](https://unity.com)
 - [Buttplug Twine](https://github.com/buttplugio/buttplug-twine)
-  - [Sugarcube 2](https://www.motoslave.net/sugarcube/2/) macros for the [Twine Interactive Fiction Game Engine](https://twinery.org)
+  - [Sugarcube 2](https://www.motoslave.net/sugarcube/2/) macros for the [Twine Interactive Fiction
+    Game Engine](https://twinery.org)
+- [Plug₂in for RPG Maker MV](https://qazm.itch.io/plug-in-for-rpg-maker-mv)
+  - RPGMaker support for Buttplug.io
 
 ### Other Frameworks and Plugins
 
@@ -326,5 +336,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 ## Friends of Buttplug
 
-- [TempestVR's OSR2](https://patreon.com/tempestvr)
+- [TempestVR's OSR2/SR6](https://patreon.com/tempestvr)
   - DIY, 3D Printable multi-axis stroker project
+- [XToys](https://xtoys.app)
+  - Web-based toy control app, including remote control with sharable links
