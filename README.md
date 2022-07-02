@@ -209,6 +209,14 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, closed source
   - Windows 10+ only
   - Mod for master/pet play with leashes, toy control and other fun stuff. Compatible with VibeGoBrrr
+- [VRCLovenseConnect](https://github.com/PingerSurprise/VrcLovenseConnect)
+  - Free, open source, repo at https://github.com/PingerSurprise/VrcLovenseConnect
+  - Windows 10+ only
+  - VRC support via OSC for Buttplug or Lovense Connect
+- [VibeCheck](https://github.com/SutekhVRC/VibeCheck)
+  - Free, open source, repo at https://github.com/SutekhVRC/VibeCheck
+  - Windows 10+ only
+  - VRC support via OSC for Buttplug
 - [VRChat Vibrator Controller](https://github.com/markviews/VRChatVibratorController)
   - Free, open source, repo at https://github.com/markviews/VRChatVibratorController
   - Windows 10+ only
