@@ -52,14 +52,16 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Node based client/server program for multiplayer remote toy control
 ### Games
 
+- [Besti](https://besti.love)
+  - Crowdfunded, available via [multiple
+    platforms](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vQogHjAAzm-iYtlcaU29a7KL4W19EVnpcR5onsEFoPvKH5IPl8FIfaqiNSofIpp3c3U21w3PuwXupq5/pubhtml),
+    or [as a demo](https://besti.love/index.php/get-besti/)
+  - Windows 10+ only
+  - MLP and furry focused, integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity)
+    for toy control within interactive scenes. Available in Besti 9 and Besti X.
 - [FarmD](https://patreon.com/softscale)
   - Crowdfunded w/ Free Versions Available
   - Windows 10+ only
-  - Furry focused, integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy
-    control within interactive scenes.
-- [Heat](https://www.anthroheat.com/)
-  - Crowdfunded, available on [Patreon](https://www.patreon.com/heatgame)
-  - Windows 10+ only, VR Only
   - Furry focused, integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy
     control within interactive scenes.
 - [ViRo Playspace](https://viro.club/)
@@ -67,6 +69,11 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Windows 10+ only
   - Integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy control within
     interactive scenes.
+- [Heat](https://www.anthroheat.com/)
+  - Crowdfunded, available on [Patreon](https://www.patreon.com/heatgame)
+  - Windows 10+ only, VR Only
+  - Furry focused, integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy
+    control within interactive scenes.
 - [VRHOT](https://store.steampowered.com/app/1571340/)
   - Paid, available on [Steam](https://store.steampowered.com/app/1571340/)
   - Windows 10+ only, VR only
