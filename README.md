@@ -87,8 +87,8 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Paid, available on [Fanza](https://www.dmm.co.jp/dc/doujin/-/detail/=/cid=d_203854/) or [DLSite](https://www.dlsite.com/maniax/work/=/product_id/RJ324939.html)
   - Windows 10+ only
   - VR H-Game (Edging focused) w/ Buttplug support
-- [Lustbound JOI](https://nudi.ca/blog/may-post-joi-demo-v1-0-available-now/)
-  - Free, available at https://nudi.ca/blog/may-post-joi-demo-v1-0-available-now/
+- [Lustbound](https://download.lustboundgame.com/)
+  - Free, available at https://download.lustboundgame.com/
   - Windows 10+ only
   - JOI game w/ Buttplug Support
 - [Reveal Your Monster](https://store.steampowered.com/app/1874310/Reveal_Your_Monster__Toy_Support)
