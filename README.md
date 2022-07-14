@@ -276,7 +276,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
     outputs bass as haptic response.
 - [Music Vibes](https://github.com/Shadlock0133/music-vibes)
   - Free, open source, repo at https://github.com/Shadlock0133/music-vibes
-  - Windows Only (requires [Intiface Desktop](https://intiface.com/desktop))
+  - Windows Only (Music Vibe can run standalone, [Intiface Desktop](https://intiface.com/desktop) optional)
   - Analyzes audio and translates into vibrations for Buttplug compatible hardware.
 
 ### Hardware Support
