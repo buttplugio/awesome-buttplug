@@ -222,6 +222,11 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - [Usage Guide (en)](https://github.com/BITPlugMistress/XXXHaptics-Guide)
   - Allows setting up avatar body/bounding box collision to control vibrating toys in VRChat.
 
+
+#### ChilloutVR
+
+- Coming soon!
+
 ### Video Sync / Movies
 
 - [MultiFunPlayer](https://github.com/Yoooi0/MultiFunPlayer)
