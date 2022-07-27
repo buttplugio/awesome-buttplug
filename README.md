@@ -40,8 +40,8 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Lets you control your Buttplug sex toys with an interactive sequencer interface.
 - [Buttplug OSC](https://github.com/AlexanderPavlenko/buttplug-osc)
   - Free, open source, repo at https://github.com/AlexanderPavlenko/buttplug-osc
-  - Cross platform
-  - Allows access to Buttplug via OpenSoundControl (OSC)
+  - Cross Platform (requires [Intiface Desktop](https://intiface.com/desktop))
+  - [OSC](https://en.wikipedia.org/wiki/Open_Sound_Control) bridge. NOT VRCHAT RELATED.
 - [Pattern Player](https://github.com/pidurentry/patternplayer)
   - Free, open source, repo at https://github.com/pidurentry/patternplayer
   - Cross platform
@@ -50,6 +50,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/Flutterish/plaything.io
   - Cross platform
   - Node based client/server program for multiplayer remote toy control
+
 ### Games
 
 - [Besti](https://besti.love)
@@ -258,10 +259,6 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/highfiiv/sensitive-eq
   - Web based (Cross platform via browsers)
   - WebAudio equalizer to sex toy control utility
-- [Buttplug OSC](https://github.com/AlexanderPavlenko/buttplug-osc)
-  - Free, open source, repo at https://github.com/AlexanderPavlenko/buttplug-osc
-  - Cross Platform (requires [Intiface Desktop](https://intiface.com/desktop))
-  - [OSC](https://en.wikipedia.org/wiki/Open_Sound_Control) bridge
 - [Buttplug VST](https://github.com/fractalysis/buttplug-vst)
   - Free, open source, repo at https://github.com/fractalysis/buttplug-vst
   - Windows Only (requires [Intiface Desktop](https://intiface.com/desktop))
