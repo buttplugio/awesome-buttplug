@@ -204,6 +204,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 #### VRChat
 
+- [OSCGoesBrrr](https://https://gitlab.com/VRCFury/OscGoesBrrr/)
+  - Free, open source, repo at https://gitlab.com/VRCFury/OscGoesBrrr/
+  - Windows 10+ only for releases, app is electron and might work on other platforms?
+  - VRC support via OSC for Buttplug or Lovense Connect, w/ Poiyomi TPS compatibility
 - [VRCLovenseConnect](https://github.com/PingerSurprise/VrcLovenseConnect)
   - Free, open source, repo at https://github.com/PingerSurprise/VrcLovenseConnect
   - Windows 10+ only
