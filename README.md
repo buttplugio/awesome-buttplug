@@ -204,18 +204,6 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 #### VRChat
 
-- [VibeGoesBrrr VRChat plugin](https://gumroad.com/l/VibeGoesBrrr)
-  - Free, open source, repo at https://gitlab.com/jacefax/vibegoesbrrr
-  - Windows 10+ only
-  - Allows setting up avatar body/bounding box collision to control vibrating toys in VRChat.
-- [VRBrations VRChat plugin](https://vrbrations.com)
-  - Closed source, one-time payment for license
-  - Windows 10+ only
-  - Allows sex toy control from VRChat via either Buttplug or the Lovense Connect app
-- [Totally Wholesome](https://totallywholeso.me)
-  - Free, closed source
-  - Windows 10+ only
-  - Mod for master/pet play with leashes, toy control and other fun stuff. Compatible with VibeGoBrrr
 - [VRCLovenseConnect](https://github.com/PingerSurprise/VrcLovenseConnect)
   - Free, open source, repo at https://github.com/PingerSurprise/VrcLovenseConnect
   - Windows 10+ only
@@ -228,10 +216,6 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/D10X1D0/OSC_D10
   - Windows 10+ only
   - VRC support via OSC for Buttplug
-- [VRChat Vibrator Controller](https://github.com/markviews/VRChatVibratorController)
-  - Free, open source, repo at https://github.com/markviews/VRChatVibratorController
-  - Windows 10+ only
-  - Allows for controlling toys in VRC over an external websocket system (hosted by mod devs)
 - [XXXHaptics VRChat Plugin](https://hheaven.net/XXXHaptics/)
   - Free, closed source
   - Windows 10+ only
