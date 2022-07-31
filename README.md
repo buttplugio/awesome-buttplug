@@ -227,11 +227,11 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/D10X1D0/OSC_D10
   - Windows 10+ only
   - VRC support via OSC for Buttplug
-- [XXXHaptics VRChat Plugin](https://hheaven.net/XXXHaptics/)
+- [XXXHaptics 2 VRChat Plugin](https://hheaven.net/XXXHaptics2/XXXHaptics2.html)
   - Free, closed source
   - Windows 10+ only
-  - [Usage Guide (en)](https://github.com/BITPlugMistress/XXXHaptics-Guide)
-  - Allows setting up avatar body/bounding box collision to control vibrating toys in VRChat.
+  - Allows setting up avatar body/bounding box collision to control vibrating toys in VRChat, with
+    OSC output.
 
 
 #### ChilloutVR
