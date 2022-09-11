@@ -217,7 +217,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 - [ButtplugLite](https://github.com/runtime-shady-backroom/buttplug-lite)
   - Free, open source, repo at https://github.com/runtime-shady-backroom/buttplug-lite
-  - Windows executables in release, may be cross-platform compatible?
+  - Desktop Cross Platform
   - Scaled back version of the Buttplug Protocol for use with [NeosVR LogiX](https://neosvr.com)
 - [Second Life Interface to ToyWebBridge](https://github.com/kyrahabattoir/ToyWebBridge/tree/master/Examples/LSL%20(Second%20Life))
   - Free, open source, repo at https://github.com/kyrahabattoir/ToyWebBridge
