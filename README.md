@@ -144,7 +144,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Windows 10+ only
   - Fork of the [Osu rhythm game](https://osu.ppy.sh/home) with toy control capabilities via
     Buttplug.
-- [Bondage Club Enhancements](https://sidiousious.gitlab.io/bce/)
+- [For Better Club](https://sidiousious.gitlab.io/bce/)
   - Free, open source, repo at https://gitlab.com/sidiousious/bce/
   - Desktop Cross Platform (requires [Intiface Desktop](https://intiface.com/desktop))
   - Mod for [Bondage Club](https://www.bondageprojects.com/club_game/) to synchronize the status of vibrating toys on your character to your real toys via Buttplug allowing other players to control them, among other enhancements to the game.
