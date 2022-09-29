@@ -50,6 +50,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/Flutterish/plaything.io
   - Cross platform
   - Node based client/server program for multiplayer remote toy control
+- [WebRTPP](https://github.com/monoredgoblins/WebTRPP)
+  - Free, open source, repo at https://github.com/monoredgoblins/WebTRPP
+  - Cross platform (web)
+  - [TimeRoter](http://trance-innovation.com/lp_time/) Pattern Player on the Web.
 
 ### Games
 
@@ -152,6 +156,11 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/NoGRo/FallenAngelHandy
   - Windows 10+ only
   - Buttplug integration for the H-Game Fallen Angel Marielle - Ascend The Futanari Tower to be played with a stroker device (Handy, Kiiroo Keon, etc).
+- [ButtFish]
+  - Free, open source, repo at https://github.com/RonSijm/ButtFish
+  - Windows 10+ only
+  - Buttplug integration with the Stockfish chess engine, for relaying moves with morse code to
+    vibrating toys.
 
 #### Minecraft
   
