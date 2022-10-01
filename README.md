@@ -54,6 +54,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/monoredgoblins/WebTRPP
   - Cross platform (web)
   - [TimeRoter](http://trance-innovation.com/lp_time/) Pattern Player on the Web.
+- [FapTap]()
 
 ### Games
 
@@ -161,6 +162,14 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Windows 10+ only
   - Buttplug integration with the Stockfish chess engine, for relaying moves with morse code to
     vibrating toys.
+- [Latex Dungeon + Buttplug](https://lustdolllover.itch.io/latex-dungeon-buttplug)
+  - Free, closed source (RPGMaker mod)
+  - Windows 10+ only
+  - Buttplug integration for the [Latex Dungeon MV game by ZXC](https://store.steampowered.com/agecheck/app/1622780/)
+- [Lust Doll+ + Buttplug](https://lustdolllover.itch.io/lust-doll-bp-support)
+  - Free, closed source (RPGMaker mod)
+  - Windows 10+ only
+  - Buttplug integration for [Lust Doll+](https://indivi.itch.io/ldplus)
 
 #### Minecraft
   
@@ -245,7 +254,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 #### ChilloutVR
 
-- Coming soon!
+- [VibeGoesBrr](https://gumroad.com/l/VibeGoesBrrr)
+  - Free, open source, repo at https://gitlab.com/jacefax/vibegoesbrrr
+  - Windows 10+ only
+  - Buttplug Integration for ChilloutVR, w/ automated setup/interaction for [Raliv's Dynamic Penetration System](https://raliv.gumroad.com/l/lwthuB)
 
 ### Video Sync / Movies
 
@@ -258,6 +270,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/FredTungsten/ScriptPlayer
   - Windows 10+ only
   - Playback of movies using Funscript format, with support for stroking/vibrating/rotating toys.
+- [FapTap](http://faptap.net)
+  - Free, Close source
+  - Web based (Cross platform via either browser or Intiface Desktop)
+  - Porn script/movie aggregation site and player
 - [Syncydink](https://syncydink.buttplug.world)
   - Free, open source, repo at https://github.com/qdot/syncydink
   - Web based (Cross platform via either browser or Intiface Desktop)
