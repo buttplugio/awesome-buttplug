@@ -276,7 +276,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 - [Syncydink](https://syncydink.buttplug.world)
   - Free, open source, repo at https://github.com/qdot/syncydink
   - Web based (Cross platform via either browser or Intiface Desktop)
-  - **No longer updated**
+  - **No longer updated/maintained**
   - Web based movie playback system for funscript movies.
 
 ### Audio Sync
