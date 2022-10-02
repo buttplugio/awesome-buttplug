@@ -251,7 +251,6 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Allows setting up avatar body/bounding box collision to control vibrating toys in VRChat, with
     OSC output.
 
-
 #### ChilloutVR
 
 - [VibeGoesBrr](https://gumroad.com/l/VibeGoesBrrr)
@@ -270,7 +269,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/FredTungsten/ScriptPlayer
   - Windows 10+ only
   - Playback of movies using Funscript format, with support for stroking/vibrating/rotating toys.
-- [FapTap](http://faptap.net)
+- [FapTap](https://faptap.net)
   - Free, Close source
   - Web based (Cross platform via either browser or Intiface Desktop)
   - Porn script/movie aggregation site and player
