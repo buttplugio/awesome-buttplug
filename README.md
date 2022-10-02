@@ -156,7 +156,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/NoGRo/FallenAngelHandy
   - Windows 10+ only
   - Buttplug integration for the H-Game Fallen Angel Marielle - Ascend The Futanari Tower to be played with a stroker device (Handy, Kiiroo Keon, etc).
-- [ButtFish]
+- [ButtFish](https://github.com/RonSijm/ButtFish)
   - Free, open source, repo at https://github.com/RonSijm/ButtFish
   - Windows 10+ only
   - Buttplug integration with the Stockfish chess engine, for relaying moves with morse code to
