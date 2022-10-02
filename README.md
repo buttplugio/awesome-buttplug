@@ -54,7 +54,6 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/monoredgoblins/WebTRPP
   - Cross platform (web)
   - [TimeRoter](http://trance-innovation.com/lp_time/) Pattern Player on the Web.
-- [FapTap]()
 
 ### Games
 
