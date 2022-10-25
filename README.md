@@ -54,6 +54,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/monoredgoblins/WebTRPP
   - Cross platform (web)
   - [TimeRoter](http://trance-innovation.com/lp_time/) Pattern Player on the Web.
+- [Buzzy!](https://buzzyme.vercel.app/)
+  - Free, open source, repo at https://github.com/BuzzyMe/buzzy
+  - Cross platform (web)
+  - WebRTC P2P based toy sharing and controller application that's installable as a PWA for offline use.
 
 ### Games
 
