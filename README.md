@@ -111,10 +111,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/intiface/intiface-game-haptics-router
   - Windows 10+ only (Standalone or via [Intiface Desktop](https://intiface.com/desktop))
   - Hooks to Windows PC Games, rerouting gamepad rumble to control sex toys.
-- [BepInEx ButtPlugin](https://github.com/Sauceke/BepInEx.ButtPlugin)
-  - Free, open source, repo at https://github.com/Sauceke/BepInEx.ButtPlugin
+- [BepInEx LoveMachine](https://sauceke.github.io/LoveMachine)
+  - Free, open source, repo at https://github.com/Sauceke/LoveMachine
   - Windows 10+ only (requires [Intiface Desktop](https://intiface.com/desktop))
-  - Mod for Koikatsu, Koikatsu Party, Honey Select 2, PlayHome, After Service Gangbang Addicts, and Our Apartment to add support for stroking and vibrating devices
+  - Mod for Koikatsu, Koikatsu Party, Koikatsu Sunshine, Honey Select 2, RoomGirl, VR Kanojo, PlayHome, Custom Order Maid 3D2, After Service Gangbang Addicts, Insult Order and Our Apartment to add support for stroking, vibrating and rotating devices
 - [In Heat Overwatch Mod](https://github.com/Furimanejo/In-Heat)
   - Free, open source, repo at https://github.com/Furimanejo/In-Heat
   - Windows 10+ only (requires [Intiface Desktop](https://intiface.com/desktop))
