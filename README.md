@@ -111,6 +111,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/intiface/intiface-game-haptics-router
   - Windows 10+ only (Standalone or via [Intiface Desktop](https://intiface.com/desktop))
   - Hooks to Windows PC Games, rerouting gamepad rumble to control sex toys.
+- [UKButt Ultrakill Mod](https://github.com/PITR-DEV/ukbutt-mod)
+  - Free, open source, repo at https://github.com/PITR-DEV/ukbutt-mod
+  - Windows 10+ only (via [Intiface Central](https://intiface.com/central))
+  - Mod for [Ultrakill](https://store.steampowered.com/app/1229490/ULTRAKILL/), triggers toys on various game events
 - [BepInEx LoveMachine](https://sauceke.github.io/LoveMachine)
   - Free, open source, repo at https://github.com/Sauceke/LoveMachine
   - Windows 10+ only (requires [Intiface Desktop](https://intiface.com/desktop))
