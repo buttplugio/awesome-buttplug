@@ -327,33 +327,44 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Available on [Nuget](https://www.nuget.org/packages/Buttplug/)
   - Maintained by Buttplug Core Team
   - C# FFI layer on top of Buttplug Rust
+  - **ONLY USE THIS IF YOU NEED AN EMBEDDED BUTTPLUG SERVER**. For a fully .Net/Native version of the C# API, see [ManagedButtplugIO](https://github.com/Er1807/ManagedButtplugIo/)
+- [Managed ButtplugIO (C#)](https://github.com/Er1807/ManagedButtplugIo/)
+  - Available via the github repo, not yet on Nuget
+  - Maintained by Community Developers
+  - Fully C# implementation of a Buttplug Client, API aligned with the FFI version.
+  - **RECOMMENDED TO USE THIS FOR MOST C# NEEDS AT THIS TIME, INCLUDING GAMES**
 - [Buttplug WASM (JS/TypeScript) FFI](https://github.com/buttplugio/buttplug-rs-ffi)
   - Available on [NPM](https://www.npmjs.com/package/buttplug)
   - Maintained by Buttplug Core Team
   - WASM (with JS and Typescript frontends) FFI Layer on top of Buttplug Rust.
-- [Buttplug Python](https://github.com/buttplugio/buttplug-py)
-  - Available on [PyPi](https://pypi.org/project/buttplug/)
-  - Maintained by Buttplug Core Team
+- [Buttplug Python](https://github.com/Siege-Wizard/buttplug-py)
+  - Available on [PyPi](https://pypi.org/project/buttplug-py/)
+  - Maintained by Community Developers
   - Standalone Python client library for connecting to [Intiface
-    Desktop](https://intiface.com/desktop) or [Intiface
-    CLI](https://github.com/intiface/intiface-cli-rs)
+    Central](https://intiface.com/central) or [Intiface
+    Engine](https://github.com/intiface/intiface-engine)
 - [Buttplug Haskell](https://github.com/sullyj3/buttplug-hs-core)
   - Available on [Hackage](https://hackage.haskell.org/package/buttplug-hs-core)
-  - Maintained by outside contributor
+  - Maintained by Community Developers
   - Standalone Haskell client library for connecting to [Intiface
-    Desktop](https://intiface.com/desktop) or [Intiface
-    CLI](https://github.com/intiface/intiface-cli-rs)
+    Central](https://intiface.com/central) or [Intiface
+    Engine](https://github.com/intiface/intiface-engine)
   - Maint
 - [Buttplug Go](https://github.com/pidurentry/buttplug-go)
-  - Maintained by outside contributor
+  - Maintained by Community Developers
   - Standalone Go client library for connecting to [Intiface
-    Desktop](https://intiface.com/desktop) or [Intiface
-    CLI](https://github.com/intiface/intiface-cli-rs)
+    Central](https://intiface.com/central) or [Intiface
+    Engine](https://github.com/intiface/intiface-engine)
 - [Buttplug Lua](https://github.com/abbihors/buttplug-lua)
-  - Maintained by outside contributor
+  - Maintained by Community Developers
   - Standalone Lua client library for connecting to [Intiface
-    Desktop](https://intiface.com/desktop) or [Intiface
-    CLI](https://github.com/intiface/intiface-cli-rs)
+    Central](https://intiface.com/central) or [Intiface
+    Engine](https://github.com/intiface/intiface-engine)
+- [Buttplug Common LISP](https://codeberg.org/poodlezone/cl-buttplug)
+  - Maintained by Community Developers
+  - Standalone Common LISP library for connecting to [Intiface
+    Central](https://intiface.com/central) or [Intiface
+    Engine](https://github.com/intiface/intiface-engine)
 
 ### Game Development
 
