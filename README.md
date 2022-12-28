@@ -58,6 +58,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/BuzzyMe/buzzy
   - Cross platform (web)
   - WebRTC P2P based toy sharing and controller application that's installable as a PWA for offline use.
+- [Beadi](https://thatbatluna.github.io/Beadi/)
+  - Free, open source, repo at https://github.com/ThatBatLuna/Beadi  
+  - Web based (Cross platform, either via browsers or Intiface Desktop)
+  - Visual node-based editor for programming Buttplug-compatible toys
 
 ### Games
 
