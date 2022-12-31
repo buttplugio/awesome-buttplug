@@ -69,22 +69,22 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Crowdfunded, available via [multiple
     platforms](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vQogHjAAzm-iYtlcaU29a7KL4W19EVnpcR5onsEFoPvKH5IPl8FIfaqiNSofIpp3c3U21w3PuwXupq5/pubhtml),
     or [as a demo](https://besti.love/index.php/get-besti/)
-  - Windows 10+ only
+  - Windows 10+ only, VR or Desktop
   - MLP and furry focused, integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity)
     for toy control within interactive scenes. Available in Besti 9 and Besti X.
 - [FarmD](https://patreon.com/softscale)
   - Crowdfunded w/ Free Versions Available
-  - Windows 10+ only
+  - Windows 10+ only, VR or Desktop
   - Furry focused, integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy
     control within interactive scenes.
 - [ViRo Playspace](https://viro.club/)
   - Paid, available on [Steam](https://store.steampowered.com/agecheck/app/1121310/)
-  - Windows 10+ only
+  - Windows 10+ only, VR or Desktop
   - Integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy control within
     interactive scenes.
 - [Heat](https://www.anthroheat.com/)
   - Crowdfunded, available on [Patreon](https://www.patreon.com/heatgame)
-  - Windows 10+ only, VR Only
+  - Windows 10+ only, VR or Desktop
   - Furry focused, integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy
     control within interactive scenes.
 - [VRHOT](https://store.steampowered.com/app/1571340/)
@@ -98,7 +98,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Typing tutor game that controls sex toys via Buttplug.
 - [イクノガマン＋VR](https://www.dmm.co.jp/dc/doujin/-/detail/=/cid=d_203854/)
   - Paid, available on [Fanza](https://www.dmm.co.jp/dc/doujin/-/detail/=/cid=d_203854/) or [DLSite](https://www.dlsite.com/maniax/work/=/product_id/RJ324939.html)
-  - Windows 10+ only
+  - Windows 10+ only, VR Only
   - VR H-Game (Edging focused) w/ Buttplug support
 - [Lustbound](https://download.lustboundgame.com/)
   - Free, available at https://download.lustboundgame.com/
@@ -319,7 +319,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/MonomoriumP/Buttplug.io--Lelo
   - ESP32 bridge between Buttplug.io and Lelo's RF controlled toys.
 
-## Development and Libraries
+Hea## Development and Libraries
 
 ### General Development
 
