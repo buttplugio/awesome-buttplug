@@ -323,47 +323,61 @@ Hea## Development and Libraries
 
 ### General Development
 
+#### Rust
 - [Buttplug Rust](https://github.com/buttplugio/buttplug-rs)
   - Available on [crates.io](https://crates.io/crates/buttplug)
   - Maintained by Buttplug Core Team
   - Core Buttplug library, handles all hardware control and remote connections.
-- [Buttplug C# FFI](https://github.com/buttplugio/buttplug-rs-ffi)
+
+#### C#
+- [Buttplug C#](https://github.com/buttplugio/buttplug-csharp)
   - Available on [Nuget](https://www.nuget.org/packages/Buttplug/)
   - Maintained by Buttplug Core Team
-  - C# FFI layer on top of Buttplug Rust
-  - **ONLY USE THIS IF YOU NEED AN EMBEDDED BUTTPLUG SERVER**. For a fully .Net/Native version of the C# API, see [ManagedButtplugIO](https://github.com/Er1807/ManagedButtplugIo/)
+  - C# Client written in pure .Net C#
 - [Managed ButtplugIO (C#)](https://github.com/Er1807/ManagedButtplugIo/)
   - Available via the github repo, not yet on Nuget
   - Maintained by Community Developers
   - Fully C# implementation of a Buttplug Client, API aligned with the FFI version.
   - **RECOMMENDED TO USE THIS FOR MOST C# NEEDS AT THIS TIME, INCLUDING GAMES**
-- [Buttplug WASM (JS/TypeScript) FFI](https://github.com/buttplugio/buttplug-rs-ffi)
+
+#### JS/Typescript
+- [Buttplug JS/TS Client](https://github.com/buttplugio/buttplug-js)
   - Available on [NPM](https://www.npmjs.com/package/buttplug)
   - Maintained by Buttplug Core Team
-  - WASM (with JS and Typescript frontends) FFI Layer on top of Buttplug Rust.
+  - Buttplug Client implemented in pure Typescript
+  - (WASM in-browser server coming soon)
+
+#### Python
 - [Buttplug Python](https://github.com/Siege-Wizard/buttplug-py)
   - Available on [PyPi](https://pypi.org/project/buttplug-py/)
   - Maintained by Community Developers
   - Standalone Python client library for connecting to [Intiface
     Central](https://intiface.com/central) or [Intiface
     Engine](https://github.com/intiface/intiface-engine)
+
+#### Haskell
 - [Buttplug Haskell](https://github.com/sullyj3/buttplug-hs-core)
   - Available on [Hackage](https://hackage.haskell.org/package/buttplug-hs-core)
   - Maintained by Community Developers
   - Standalone Haskell client library for connecting to [Intiface
     Central](https://intiface.com/central) or [Intiface
     Engine](https://github.com/intiface/intiface-engine)
-  - Maint
+
+#### Go
 - [Buttplug Go](https://github.com/pidurentry/buttplug-go)
   - Maintained by Community Developers
   - Standalone Go client library for connecting to [Intiface
     Central](https://intiface.com/central) or [Intiface
     Engine](https://github.com/intiface/intiface-engine)
+
+#### Lua    
 - [Buttplug Lua](https://github.com/abbihors/buttplug-lua)
   - Maintained by Community Developers
   - Standalone Lua client library for connecting to [Intiface
     Central](https://intiface.com/central) or [Intiface
     Engine](https://github.com/intiface/intiface-engine)
+  
+#### LISP
 - [Buttplug Common LISP](https://codeberg.org/poodlezone/cl-buttplug)
   - Maintained by Community Developers
   - Standalone Common LISP library for connecting to [Intiface
