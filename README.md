@@ -348,9 +348,15 @@ Hea## Development and Libraries
   - (WASM in-browser server coming soon)
 
 #### Python
-- [Buttplug Python](https://github.com/Siege-Wizard/buttplug-py)
+- [buttplug-py](https://github.com/Siege-Wizard/buttplug-py)
   - Available on [PyPi](https://pypi.org/project/buttplug-py/)
   - Maintained by Community Developers
+  - Standalone Python client library for connecting to [Intiface
+    Central](https://intiface.com/central) or [Intiface
+    Engine](https://github.com/intiface/intiface-engine)
+- [Buttplug Python](https://github.com/buttplugio/buttplug-py)
+  - Available on [PyPi](https://pypi.org/project/buttplug/)
+  - Written by Buttplug Core Team, no longer maintained.
   - Standalone Python client library for connecting to [Intiface
     Central](https://intiface.com/central) or [Intiface
     Engine](https://github.com/intiface/intiface-engine)
