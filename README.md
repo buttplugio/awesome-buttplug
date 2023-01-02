@@ -337,9 +337,8 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 - [Managed ButtplugIO (C#)](https://github.com/Er1807/ManagedButtplugIo/)
   - Available via the github repo, not yet on Nuget
   - Maintained by Community Developers
-  - Fully C# implementation of a Buttplug Client, API aligned with the FFI version.
-  - **RECOMMENDED TO USE THIS FOR MOST C# NEEDS AT THIS TIME, INCLUDING GAMES**
-
+  - C# Client written in pure .Net C#
+  
 #### JS/Typescript
 - [Buttplug JS/TS Client](https://github.com/buttplugio/buttplug-js)
   - Available on [NPM](https://www.npmjs.com/package/buttplug)
