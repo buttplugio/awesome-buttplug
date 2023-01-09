@@ -123,7 +123,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/Sauceke/LoveMachine
   - Windows 10+ only (requires [Intiface Desktop](https://intiface.com/desktop))
   - Mod for Koikatsu, Koikatsu Party, Koikatsu Sunshine, Honey Select 2, RoomGirl, VR Kanojo, PlayHome, Custom Order Maid 3D2, After Service Gangbang Addicts, Insult Order and Our Apartment to add support for stroking, vibrating and rotating devices
-- [In Heat Overwatch Mod](https://github.com/Furimanejo/In-Heat)
+- [In Heat Overwatch Mod](https://github.com/Furimanejo/In-Heat) (Obsolete)
   - Free, open source, repo at https://github.com/Furimanejo/In-Heat
   - Windows 10+ only (requires [Intiface Desktop](https://intiface.com/desktop))
   - Uses computer vision to track Heat Bar in Overwatch and control sex toys based on levels.
@@ -177,10 +177,14 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, closed source (RPGMaker mod)
   - Windows 10+ only
   - Buttplug integration for the [Latex Dungeon MV game by ZXC](https://store.steampowered.com/agecheck/app/1622780/)
-- [Lust Doll+ + Buttplug](https://lustdolllover.itch.io/lust-doll-bp-support)
+- [Lust Doll Essentials](https://lustdolllover.itch.io/lust-doll-essentials)
   - Free, closed source (RPGMaker mod)
   - Windows 10+ only
   - Buttplug integration for [Lust Doll+](https://indivi.itch.io/ldplus)
+- [Risk of Rumble](https://github.com/mistername/RiskOfRainModding/tree/master/RiskOfRumble)
+  - Free, open source, repo at https://github.com/mistername/RiskOfRainModding/tree/master/RiskOfRumble ([Thunderstore Link](https://thunderstore.io/package/MisterKinky/RiskOfRumble/))
+  - Windows 10+ only
+  - Buttplug integration for Risk of Rain 1
 
 #### Minecraft
   
@@ -334,6 +338,11 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Available on [Nuget](https://www.nuget.org/packages/Buttplug/)
   - Maintained by Buttplug Core Team
   - C# Client written in pure .Net C#
+- [Buttplug.NET](https://github.com/Yoooi0/Buttplug.Net)
+  - Available on [Nuget](https://www.nuget.org/packages/Buttplug.Net/)
+  - Maintained by Community Developers (MultiFunPlayer dev)
+  - C# Client written in pure .Net C#, aiming for new C# features (.Net 7+), with capabilities for
+    different JSON serializers
 - [Managed ButtplugIO (C#)](https://github.com/Er1807/ManagedButtplugIo/)
   - Available via the github repo, not yet on Nuget
   - Maintained by Community Developers
@@ -406,6 +415,12 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 - [Buttplug Tampermonkey](https://github.com/buttplugio/buttplug-tampermonkey)
   - Integration of Buttplug with the [Tampermonkey](https://www.tampermonkey.net/) user scripting
     system for Web Browsers. Allows integration of sex toys with arbitrary webpages.
+
+## DIY Hardware Projects
+
+- [flipper-bp](https://github.com/maybe-hello-world/flipper-bp)
+  - Free, open source, repo at https://github.com/maybe-hello-world/flipper-bp
+  - Turn the [Flipper Zero](https://github.com/maybe-hello-world/flipper-bp) into a Buttplug Device
 
 ## Community Links
 
