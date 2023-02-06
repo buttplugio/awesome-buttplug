@@ -190,7 +190,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
     https://github.com/mistername/RiskOfRainModding/tree/master/RiskOfRumble ([Thunderstore
     Link](https://thunderstore.io/package/MisterKinky/RiskOfRumble/))
   - Windows 10+ only
-  - Buttplug integration for Risk of Rain 1
+  - Buttplug integration for Risk of Rain 2
 - [Game Interface For Toys (Skyrim and Fallout 4)](https://github.com/MinLL/GameInterfaceForToys)
   - Free, open source, repo at https://github.com/MinLL/GameInterfaceForToys
   - Windows 10+ only
