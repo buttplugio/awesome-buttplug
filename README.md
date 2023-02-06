@@ -430,6 +430,8 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 ## Deprecated Projects
 
+**Projects listed here are assumed to not work anymore, either due to developer attrition or related service shutdown. The list here is preserved so other developers can use the projects for inspiration and examples.**
+
 - [In Heat Overwatch Mod](https://github.com/Furimanejo/In-Heat)
   - Free, open source, repo at https://github.com/Furimanejo/In-Heat
   - Uses computer vision to track Heat Bar in Overwatch and control sex toys based on levels.
