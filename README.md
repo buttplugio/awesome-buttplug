@@ -5,6 +5,37 @@ This is a list of different projects that use Buttplug in some way!
 Have a project you'd like to see on here? [Submit an issue and let us
 know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
+**Table Of Contents**
+
+* [Community Links](#community-links)
+* [Applications](#applications)
+  * [Utilities](#utilities)
+  * [Video Sync](#video-sync--movies)
+  * [Audio Sync](#audio-sync)
+* [Games](#games)
+* [Game Mods](#game-mods)
+  * [Minecraft](#minecraft)
+  * [FFXIV](#ffxiv)
+* [Virtual Worlds (General)](#virtual-worlds)
+  * [VRChat](#vrchat)
+  * [ChilloutVR](#chilloutvr)
+* [Hardware Support](#hardware-support)
+* [Development and Libraries](#development-and-libraries)
+  * [General Development (Language Libraries)](#general-development)
+  * [Game Development](#game-development)
+  * [Other Frameworks and Plugins](#other-frameworks-and-plugins)
+* [DIY Hardware Projects](#diy-hardware-projects)
+* [Deprecated Projects](#deprecated-projects)
+* [Friends of Buttplug](#friends-of-buttplug)
+
+## Community Links
+
+- [Buttplug Discourse Server](https://discuss.buttplug.io)
+- [Buttplug Discord Server](https://discord.buttplug.io)
+- [Buttplug Twitter Account](https://twitter.com/buttplugio)
+- [Nonpolynomial Blog](https://nonpolynomial.com/blog)
+- [Buttpluggin' with qDot Youtube Channel](https://youtube.buttplug.io)
+
 ## Applications
 
 ### Utilities
@@ -67,7 +98,43 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Web based (Cross platform, either via browsers or Intiface Central)
   - Facial recognition of Ahegao expressions for controlling toys
 
-### Games
+### Video Sync / Movies
+
+- [MultiFunPlayer](https://github.com/Yoooi0/MultiFunPlayer)
+  - Free, open source, repo at https://github.com/Yoooi0/MultiFunPlayer
+  - Windows 10+ only
+  - Synchronizes funscripts with OSR-2 or any Buttplug compatible device for multiple video
+    players (DeoVR, MPV, HereSphere, Whirligig)
+- [Scriptplayer](https://github.com/FredTungsten/ScriptPlayer)
+  - Free, open source, repo at https://github.com/FredTungsten/ScriptPlayer
+  - Windows 10+ only
+  - Playback of movies using Funscript format, with support for stroking/vibrating/rotating toys.
+- [FapTap](https://faptap.net)
+  - Free, Close source
+  - Web based (Cross platform via either browser or Intiface Central)
+  - Porn script/movie aggregation site and player
+
+### Audio Sync
+
+- [SoundSync](https://gitlab.com/LuckySkebe/soundsync)
+  - Free, open source, repo at https://gitlab.com/LuckySkebe/soundsync
+  - Windows 10+ only
+  - Visual dataflow setup for routing audio signals to sex toy control
+- [Sensitive EQ](https://github.com/highfiiv/sensitive-eq)
+  - Free, open source, repo at https://github.com/highfiiv/sensitive-eq
+  - Web based (Cross platform via browsers)
+  - WebAudio equalizer to sex toy control utility
+- [Buttplug VST](https://github.com/fractalysis/buttplug-vst)
+  - Free, open source, repo at https://github.com/fractalysis/buttplug-vst
+  - Windows Only (requires [Intiface Central](https://intiface.com/central))
+  - VST for DAWs like Ableton Live, FL Studio, or DJing software like Virtual DJ. Analyzes music and
+    outputs bass as haptic response.
+- [Music Vibes](https://github.com/Shadlock0133/music-vibes)
+  - Free, open source, repo at https://github.com/Shadlock0133/music-vibes
+  - Windows Only (Music Vibe can run standalone, [Intiface Central](https://intiface.com/central) optional)
+  - Analyzes audio and translates into vibrations for Buttplug compatible hardware.
+
+## Games
 
 - [Besti](https://besti.love)
   - Crowdfunded, available via [multiple
@@ -113,7 +180,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Windows 10+ Only
   - Puzzle/Action game w/ Toy Support DLC
 
-### Game Mods
+## Game Mods
 
 - [Intiface® Game Haptics Router](https://intiface.com/ghr)
   - Free, open source, repo at https://github.com/intiface/intiface-game-haptics-router
@@ -196,7 +263,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Windows 10+ only
   - Buttplug integration for Skyrim and Fallout 4
 
-#### Minecraft
+### Minecraft
   
 - [ButtplugMC (Minecraft)](https://github.com/Cyloci/ButtplugMc)
   - Free, open source, repo at https://github.com/Cyloci/ButtplugMc
@@ -208,7 +275,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Sex toy control plugin for Minecraft Forge
   - [Ported to Fabric](https://github.com/vinceh121/Minegasm-fabric)
 
-#### FFXIV  
+### FFXIV  
 
 - [FFXIV Vibe Plugin](https://github.com/kaciexx/FFXIV_Vibe_Plugin)
   - Free, open source, repo at https://github.com/kaciexx/FFXIV_Vibe_Plugin
@@ -220,7 +287,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
   - Realtime chat and combat log parsing, via [Dalamud](https://github.com/goatcorp/Dalamud)
 
-### Virtual Worlds
+## Virtual Worlds
 
 - [ButtplugLite](https://github.com/runtime-shady-backroom/buttplug-lite)
   - Free, open source, repo at https://github.com/runtime-shady-backroom/buttplug-lite
@@ -231,7 +298,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Windows 10+ only (for ToyWebBridge)
   - LSL Examples for accessing [ToyWebBridge](https://github.com/kyrahabattoir/ToyWebBridge)
 
-#### VRChat
+### VRChat
 
 - [VRBrations VRChat plugin](https://github.com/Thryrallo/VRBrations---App)
   - Free, open source, repos at [https://github.com/Thryrallo/VRBrations---App](https://github.com/Thryrallo/VRBrations---App) and [https://github.com/Thryrallo/VRbrations---Unity](https://github.com/Thryrallo/VRbrations---Unity)
@@ -261,50 +328,15 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Allows setting up avatar body/bounding box collision to control vibrating toys in VRChat, with
     OSC output.
 
-#### ChilloutVR
+### ChilloutVR
 
 - [VibeGoesBrr](https://gumroad.com/l/VibeGoesBrrr)
   - Free, open source, repo at https://gitlab.com/jacefax/vibegoesbrrr
   - Windows 10+ only
   - Buttplug Integration for ChilloutVR, w/ automated setup/interaction for [Raliv's Dynamic Penetration System](https://raliv.gumroad.com/l/lwthuB)
 
-### Video Sync / Movies
 
-- [MultiFunPlayer](https://github.com/Yoooi0/MultiFunPlayer)
-  - Free, open source, repo at https://github.com/Yoooi0/MultiFunPlayer
-  - Windows 10+ only
-  - Synchronizes funscripts with OSR-2 or any Buttplug compatible device for multiple video
-    players (DeoVR, MPV, HereSphere, Whirligig)
-- [Scriptplayer](https://github.com/FredTungsten/ScriptPlayer)
-  - Free, open source, repo at https://github.com/FredTungsten/ScriptPlayer
-  - Windows 10+ only
-  - Playback of movies using Funscript format, with support for stroking/vibrating/rotating toys.
-- [FapTap](https://faptap.net)
-  - Free, Close source
-  - Web based (Cross platform via either browser or Intiface Central)
-  - Porn script/movie aggregation site and player
-
-### Audio Sync
-
-- [SoundSync](https://gitlab.com/LuckySkebe/soundsync)
-  - Free, open source, repo at https://gitlab.com/LuckySkebe/soundsync
-  - Windows 10+ only
-  - Visual dataflow setup for routing audio signals to sex toy control
-- [Sensitive EQ](https://github.com/highfiiv/sensitive-eq)
-  - Free, open source, repo at https://github.com/highfiiv/sensitive-eq
-  - Web based (Cross platform via browsers)
-  - WebAudio equalizer to sex toy control utility
-- [Buttplug VST](https://github.com/fractalysis/buttplug-vst)
-  - Free, open source, repo at https://github.com/fractalysis/buttplug-vst
-  - Windows Only (requires [Intiface Central](https://intiface.com/central))
-  - VST for DAWs like Ableton Live, FL Studio, or DJing software like Virtual DJ. Analyzes music and
-    outputs bass as haptic response.
-- [Music Vibes](https://github.com/Shadlock0133/music-vibes)
-  - Free, open source, repo at https://github.com/Shadlock0133/music-vibes
-  - Windows Only (Music Vibe can run standalone, [Intiface Central](https://intiface.com/central) optional)
-  - Analyzes audio and translates into vibrations for Buttplug compatible hardware.
-
-### Hardware Support
+## Hardware Support
 
 - [Edge-O-Matic](https://edgeomatic.buttplug.io)
   - Orgasm Denial Hardware Product w/ [Open Source Firmware](https://github.com/maustek)
@@ -414,20 +446,6 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/maybe-hello-world/flipper-bp
   - Turn the [Flipper Zero](https://github.com/maybe-hello-world/flipper-bp) into a Buttplug Device
 
-## Community Links
-
-- [Buttplug Discord Server](https://discord.buttplug.io)
-- [Buttplug Twitter Account](https://twitter.com/buttplugio)
-- [Nonpolynomial Blog](https://nonpolynomial.com/blog)
-- [Buttpluggin' with qDot Youtube Channel](https://youtube.buttplug.io)
-
-## Friends of Buttplug
-
-- [TempestVR's OSR2/SR6](https://patreon.com/tempestvr)
-  - DIY, 3D Printable multi-axis stroker project
-- [XToys](https://xtoys.app)
-  - Web-based toy control app, including remote control with sharable links
-
 ## Deprecated Projects
 
 **Projects listed here are assumed to not work anymore, either due to developer attrition or related service shutdown. The list here is preserved so other developers can use the projects for inspiration and examples.**
@@ -467,3 +485,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
     Central](https://intiface.com/central) or [Intiface
     Engine](https://github.com/intiface/intiface-engine)
   - Deprecation Reason: Core team ran out of time to support
+
+## Friends of Buttplug
+
+- [TempestVR's OSR2/SR6](https://patreon.com/tempestvr)
+  - DIY, 3D Printable multi-axis stroker project
+- [XToys](https://xtoys.app)
+  - Web-based toy control app, including remote control with sharable links
