@@ -5,7 +5,7 @@ This is a list of different projects that use Buttplug in some way!
 Have a project you'd like to see on here? [Submit an issue and let us
 know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
-**Table Of Contents**
+## Table Of Contents
 
 * [Community Links](#community-links)
 * [Applications](#applications)
