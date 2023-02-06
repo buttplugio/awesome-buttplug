@@ -62,6 +62,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/ThatBatLuna/Beadi  
   - Web based (Cross platform, either via browsers or Intiface Central)
   - Visual node-based editor for programming Buttplug-compatible toys
+- [Ahegao Detector](https://ahegao-detector.netlify.app/)
+  - Free, open source, repo at https://github.com/Sir-Prise/ahegao-detector
+  - Web based (Cross platform, either via browsers or Intiface Central)
+  - Facial recognition of Ahegao expressions for controlling toys
 
 ### Games
 
@@ -359,8 +363,9 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
     Central](https://intiface.com/central) or [Intiface
     Engine](https://github.com/intiface/intiface-engine)
 - [Buttplug Python](https://github.com/buttplugio/buttplug-py)
+  - **No longer maintained**
   - Available on [PyPi](https://pypi.org/project/buttplug/)
-  - Written by Buttplug Core Team, no longer maintained.
+  - Written by Buttplug Core Team no longer maintained.
   - Standalone Python client library for connecting to [Intiface
     Central](https://intiface.com/central) or [Intiface
     Engine](https://github.com/intiface/intiface-engine)
@@ -439,3 +444,14 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - DIY, 3D Printable multi-axis stroker project
 - [XToys](https://xtoys.app)
   - Web-based toy control app, including remote control with sharable links
+
+## Deprecated Projects
+
+- [In Heat Overwatch Mod](https://github.com/Furimanejo/In-Heat)
+  - Free, open source, repo at https://github.com/Furimanejo/In-Heat
+  - Uses computer vision to track Heat Bar in Overwatch and control sex toys based on levels.
+  - Deprecation Reason: Overwatch servers shut down in late 2022
+- [Healing Is Fun Overwatch Plugin](https://github.com/Sir-Prise/healsluts) 
+  - Free, open source, repo at https://github.com/Sir-Prise/healsluts
+  - Web based system for Overwatch interaction
+  - Deprecation Reason: Overwatch servers shut down in late 2022
