@@ -394,6 +394,14 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
     Central](https://intiface.com/central) or [Intiface
     Engine](https://github.com/intiface/intiface-engine)
 
+#### Dart
+- [Buttplug Dart](https://github.com/buttplugio/buttplug-dart)
+  - Maintained by Buttplug Core Team
+  - Standalone Dart library for connecting to [Intiface
+    Central](https://intiface.com/central) or [Intiface
+    Engine](https://github.com/intiface/intiface-engine)
+  - Used in Intiface Central for the device tab
+
 ### Game Development
 
 - [Buttplug Unity](https://github.com/buttplugio/buttplug-unity)
