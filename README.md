@@ -209,21 +209,6 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/digital-pet/AetherSenseRedux
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
   - Realtime chat and combat log parsing, via [Dalamud](https://github.com/goatcorp/Dalamud)
-- [Aethersense (FFXIV)](https://github.com/Ms-Tress/AetherSense)
-  - **No longer updated**
-  - Free, open source, repo at https://github.com/Ms-Tress/AetherSense
-  - Windows 10+ only (Standalone)
-  - FFXIV triggers for sex toy control, via [Dalamud](https://github.com/goatcorp/Dalamud)
-- [Plug Parser (FFXIV)](https://github.com/cyan-f/Plug_Parser)
-  - **No longer updated**
-  - Free, open source, repo at https://github.com/cyan-f/Plug_Parser
-  - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
-  - FFXIV triggers for sex toy control, via [ACT](https://advancedcombattracker.com/)  
-- [ButtPlACT (FFXIV)](https://github.com/crnlskn/ButtplACT)
-  - **No longer updated**
-  - Free, open source, repo at https://github.com/crnlskn/ButtplACT
-  - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
-  - FFXIV triggers for sex toy control, via [ACT](https://advancedcombattracker.com/)
 
 ### Virtual Worlds
 
@@ -288,11 +273,6 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, Close source
   - Web based (Cross platform via either browser or Intiface Central)
   - Porn script/movie aggregation site and player
-- [Syncydink](https://syncydink.buttplug.world)
-  - Free, open source, repo at https://github.com/qdot/syncydink
-  - Web based (Cross platform via either browser or Intiface Central)
-  - **No longer updated/maintained**
-  - Web based movie playback system for funscript movies.
 
 ### Audio Sync
 
@@ -359,13 +339,6 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 - [buttplug-py](https://github.com/Siege-Wizard/buttplug-py)
   - Available on [PyPi](https://pypi.org/project/buttplug-py/)
   - Maintained by Community Developers
-  - Standalone Python client library for connecting to [Intiface
-    Central](https://intiface.com/central) or [Intiface
-    Engine](https://github.com/intiface/intiface-engine)
-- [Buttplug Python](https://github.com/buttplugio/buttplug-py)
-  - **No longer maintained**
-  - Available on [PyPi](https://pypi.org/project/buttplug/)
-  - Written by Buttplug Core Team no longer maintained.
   - Standalone Python client library for connecting to [Intiface
     Central](https://intiface.com/central) or [Intiface
     Engine](https://github.com/intiface/intiface-engine)
@@ -455,3 +428,30 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/Sir-Prise/healsluts
   - Web based system for Overwatch interaction
   - Deprecation Reason: Overwatch servers shut down in late 2022
+- [Aethersense (FFXIV)](https://github.com/Ms-Tress/AetherSense)
+  - Free, open source, repo at https://github.com/Ms-Tress/AetherSense
+  - Windows 10+ only (Standalone)
+  - FFXIV triggers for sex toy control, via [Dalamud](https://github.com/goatcorp/Dalamud)
+  - Deprecation Reason: Dev moved on
+- [Plug Parser (FFXIV)](https://github.com/cyan-f/Plug_Parser)
+  - Free, open source, repo at https://github.com/cyan-f/Plug_Parser
+  - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
+  - FFXIV triggers for sex toy control, via [ACT](https://advancedcombattracker.com/)  
+  - Deprecation Reason: Dev moved on
+- [ButtPlACT (FFXIV)](https://github.com/crnlskn/ButtplACT)
+  - Free, open source, repo at https://github.com/crnlskn/ButtplACT
+  - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
+  - FFXIV triggers for sex toy control, via [ACT](https://advancedcombattracker.com/)
+  - Deprecation Reason: Dev moved on  
+- [Syncydink](https://syncydink.buttplug.world)
+  - Free, open source, repo at https://github.com/qdot/syncydink
+  - Web based (Cross platform via either browser or Intiface Central)
+  - Web based movie playback system for funscript movies.
+  - Deprecation Reason: Dev moved on  
+- [Buttplug Python](https://github.com/buttplugio/buttplug-py)
+  - Available on [PyPi](https://pypi.org/project/buttplug/)
+  - Written by Buttplug Core Team
+  - Standalone Python client library for connecting to [Intiface
+    Central](https://intiface.com/central) or [Intiface
+    Engine](https://github.com/intiface/intiface-engine)
+  - Deprecation Reason: Core team ran out of time to support
