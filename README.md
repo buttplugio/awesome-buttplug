@@ -126,7 +126,9 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 - [BepInEx LoveMachine](https://sauceke.github.io/LoveMachine)
   - Free, open source, repo at https://github.com/Sauceke/LoveMachine
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
-  - Mod for Koikatsu, Koikatsu Party, Koikatsu Sunshine, Honey Select 2, RoomGirl, VR Kanojo, PlayHome, Custom Order Maid 3D2, After Service Gangbang Addicts, Insult Order and Our Apartment to add support for stroking, vibrating and rotating devices
+  - Mod for Koikatsu, Koikatsu Party, Koikatsu Sunshine, Honey Select 2, RoomGirl, VR Kanojo,
+    PlayHome, Custom Order Maid 3D2, After Service Gangbang Addicts, Insult Order and Our Apartment
+    to add support for stroking, vibrating and rotating devices
 - [B.U.T.T.P.L.U.G. Anomaly](https://github.com/abbiwyn/buttplug-anomaly)
   - Free, open source, repo at https://github.com/abbiwyn/buttplug-anomaly
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
@@ -163,7 +165,9 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 - [For Better Club](https://sidiousious.gitlab.io/bce/)
   - Free, open source, repo at https://gitlab.com/sidiousious/bce/
   - Desktop Cross Platform (requires [Intiface Central](https://intiface.com/central))
-  - Mod for [Bondage Club](https://www.bondageprojects.com/club_game/) to synchronize the status of vibrating toys on your character to your real toys via Buttplug allowing other players to control them, among other enhancements to the game.
+  - Mod for [Bondage Club](https://www.bondageprojects.com/club_game/) to synchronize the status of
+    vibrating toys on your character to your real toys via Buttplug allowing other players to
+    control them, among other enhancements to the game.
 - [Fallen Angel Marielle - Ascend The Futanari Tower](https://github.com/NoGRo/FallenAngelHandy)
   - Free, open source, repo at https://github.com/NoGRo/FallenAngelHandy
   - Windows 10+ only
@@ -182,7 +186,9 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Windows 10+ only
   - Buttplug integration for [Lust Doll+](https://indivi.itch.io/ldplus)
 - [Risk of Rumble](https://github.com/mistername/RiskOfRainModding/tree/master/RiskOfRumble)
-  - Free, open source, repo at https://github.com/mistername/RiskOfRainModding/tree/master/RiskOfRumble ([Thunderstore Link](https://thunderstore.io/package/MisterKinky/RiskOfRumble/))
+  - Free, open source, repo at
+    https://github.com/mistername/RiskOfRainModding/tree/master/RiskOfRumble ([Thunderstore
+    Link](https://thunderstore.io/package/MisterKinky/RiskOfRumble/))
   - Windows 10+ only
   - Buttplug integration for Risk of Rain 1
 
