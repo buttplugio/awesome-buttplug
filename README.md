@@ -430,7 +430,9 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - [Sugarcube 2](https://www.motoslave.net/sugarcube/2/) macros for the [Twine Interactive Fiction
     Game Engine](https://twinery.org)
 - [Plug₂in for RPG Maker MV](https://qazm.itch.io/plug-in-for-rpg-maker-mv)
-  - RPGMaker support for Buttplug.io
+  - RPGMaker support for Buttplug
+- [Godot.Buttplug](https://github.com/nhydock/Godot.Buttplug)
+  - Godotscript Implementation of a Buttplug Client
 
 ### Other Frameworks and Plugins
 
