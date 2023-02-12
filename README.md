@@ -460,6 +460,15 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/Sir-Prise/healsluts
   - Web based system for Overwatch interaction
   - Deprecation Reason: Overwatch servers shut down in late 2022
+- [VAMLaunch](https://github.com/ZengineerVAM/VAMLaunch)
+  - Free, open source, repo at https://github.com/ZengineerVAM/VAMLaunch
+  - Buttplug integration for VirtAMate
+  - Deprecation Reason: Dev moved on
+- [VaMSync](https://github.com/qdot/vamsync)
+  - Free, open source, repo at https://github.com/qdot/vamsync
+  - Buttplug integration for VirtAMate
+  - Deprecation Reason: Development was taken over after VamLaunch was abandoned, but developer does
+    not use VAM and could not help on issues.
 - [Aethersense (FFXIV)](https://github.com/Ms-Tress/AetherSense)
   - Free, open source, repo at https://github.com/Ms-Tress/AetherSense
   - Windows 10+ only (Standalone)
