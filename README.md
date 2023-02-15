@@ -97,6 +97,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/Sir-Prise/ahegao-detector
   - Web based (Cross platform, either via browsers or Intiface Central)
   - Facial recognition of Ahegao expressions for controlling toys
+- [PROHE](https://marketplace.visualstudio.com/items?itemName=UncensorPat.prohe)
+  - Free, open source, repo at https://github.com/UncensorPat/prohe
+  - Cross platform (VS Code, requires [Intiface Central](https://intiface.com/central))
+  - VS Code extension for providing "productivity reinforcement" when typing
 
 ### Video Sync / Movies
 
