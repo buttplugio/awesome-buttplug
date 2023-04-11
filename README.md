@@ -278,6 +278,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Cross Platform (requires [Intiface Central](https://intiface.com/central))
   - Sex toy control plugin for Minecraft Forge
   - [Ported to Fabric](https://github.com/vinceh121/Minegasm-fabric)
+- [mInetiface (Minecraft)](https://github.com/Fyustorm/mInetiface)
+  - Another Minecraft Fabric mod with reward score system, ingame configuration and multiple devices support
+  - Free, open source
+  - Cross Platform (requires [Intiface Central](https://intiface.com/central))
 
 ### FFXIV  
 
