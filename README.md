@@ -137,6 +137,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/Shadlock0133/music-vibes
   - Windows Only (Music Vibe can run standalone, [Intiface Central](https://intiface.com/central) optional)
   - Analyzes audio and translates into vibrations for Buttplug compatible hardware.
+- [Buttplug for Live](https://maxforlive.com/library/device.php?id=9190)
+  - Free, open source, repo at https://github.com/Vurich/Buttplug-for-Live
+  - Any platform supported by Ableton and Max (officially, Windows and macOS)
+  - Allows Max for Live devices to control Buttplug-compatible hardware, opening up many possibilities for automatic vibration control
 
 ## Games
 
