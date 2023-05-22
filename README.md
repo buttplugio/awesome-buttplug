@@ -270,6 +270,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/MinLL/GameInterfaceForToys
   - Windows 10+ only
   - Buttplug integration for Skyrim and Fallout 4
+- [Terragasm (Terraria)](https://github.com/nih0n/terragasm)
+  - Free, open source, repo at https://github.com/nih0n/terragasm
+  - Cross Platform (requires [Intiface Central](https://intiface.com/central))
+  - Buttplug integration for Terraria
 
 ### Minecraft
   
