@@ -194,10 +194,14 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/intiface/intiface-game-haptics-router
   - Windows 10+ only (Standalone or via [Intiface Central](https://intiface.com/central))
   - Hooks to Windows PC Games, rerouting gamepad rumble to control sex toys.
+- [Buttplug Valley](https://github.com/DryIcedTea/Buttplug-Valley)
+  - Free, open source, repo at https://github.com/DryIcedTea/Buttplug-Valley
+  - Windows 10+ only (via [Intiface Central](https://intiface.com/central))
+  - Mod for [Stardew Valley](https://www.stardewvalley.net/), triggers toys on various game events (farming, fishing, etc...)
 - [UKButt Ultrakill Mod](https://github.com/PITR-DEV/ukbutt-mod)
   - Free, open source, repo at https://github.com/PITR-DEV/ukbutt-mod
-  - Windows 10+ only (via [Intiface Central](https://intiface.com/central))
-  - Mod for [Ultrakill](https://store.steampowered.com/app/1229490/ULTRAKILL/), triggers toys on various game events
+  - Windows 10+, Steam Deck if You're Brave (via [Intiface Central](https://intiface.com/central))
+  - Mod for [Ultrakill](https://store.steampowered.com/app/1229490/ULTRAKILL/), triggers toys on various game events or rank
 - [BepInEx LoveMachine](https://sauceke.github.io/LoveMachine)
   - Free, open source, repo at https://github.com/Sauceke/LoveMachine
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
