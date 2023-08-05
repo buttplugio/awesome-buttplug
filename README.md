@@ -101,6 +101,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/UncensorPat/prohe
   - Cross platform (VS Code, requires [Intiface Central](https://intiface.com/central))
   - VS Code extension for providing "productivity reinforcement" when typing
+- [Fediplug](https://github.com/nova-r/fediplug)
+  - Free, open source, repo at https://github.com/nova-r/fediplug
+  - Cross platform (requires [Intiface Central](https://intiface.com/central))
+  - Python script that reads a fediverse timeline and controls toy based on certain commands in messages received
 
 ### Video Sync / Movies
 
@@ -117,6 +121,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, Close source
   - Web based (Cross platform via either browser or Intiface Central)
   - Porn script/movie aggregation site and player
+ - [D-EasyScriptPlayer](https://fantia.jp/products/419895)
+  - Commercial (requires subscription to Fantia page)
+  - Windows 10+ only, requires Intiface Central
+  - Playback of movies using Funscript and Vorze CSV formats (Japanese langauge UI)
 
 ### Audio Sync
 
