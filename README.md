@@ -333,8 +333,8 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Windows 10+ only
   - Support Discord at [https://vrbrations.com](https://vrbrations.com)
   - Allows sex toy control from VRChat via either Buttplug or the Lovense Connect app, with OSC or shader based interaction capabilities.
-- [OSCGoesBrrr](https://gitlab.com/VRCFury/OscGoesBrrr/)
-  - Free, open source, repo at https://gitlab.com/VRCFury/OscGoesBrrr/
+- [OSCGoesBrrr](https://github.com/OscToys/OscGoesBrrr)
+  - Free, open source, repo at https://github.com/OscToys/OscGoesBrrr
   - Windows 10+ only for releases, app is electron and can be compiled for Linux
   - Support Discord at [https://discord.gg/t4uHcDxCXA](https://discord.gg/t4uHcDxCXA)
   - VRC support via OSC for Buttplug or Lovense Connect, w/ Poiyomi TPS compatibility
