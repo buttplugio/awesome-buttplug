@@ -228,8 +228,8 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://sr.ht/~hornycactus/CrotchStimGetOff/
   - Desktop Cross Platform
   - CS:GO Buttplug plugin
-- [Buttplug Of Legends (LOL)](https://github.com/kinkyacedev/buttplug-of-legends)
-  - Free, open source, repo at https://github.com/kinkyacedev/buttplug-of-legends
+- [Buttplug Of Legends Unity (League Of Legends)](https://github.com/Furimanejo/Buttplug-Of-Legends-Unity)
+  - Free, open source, repo at https://github.com/Furimanejo/Buttplug-Of-Legends-Unity
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
   - League of Legends interaction for Buttplug
 - [DGButtPlugin (Duck Game)](https://github.com/BytewaveMLP/DGButtPlugin)
@@ -526,6 +526,12 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
     Central](https://intiface.com/central) or [Intiface
     Engine](https://github.com/intiface/intiface-engine)
   - Deprecation Reason: Core team ran out of time to support
+ 
+ - [Buttplug Of Legends (LOL)](https://github.com/kinkyacedev/buttplug-of-legends)
+  - Free, open source, repo at https://github.com/kinkyacedev/buttplug-of-legends
+  - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
+  - League of Legends interaction for Buttplug
+  - Deprecation Reason: Dev moved on, succeded by [Buttplug Of Legends Unity](https://github.com/Furimanejo/Buttplug-Of-Legends-Unity)
 
 ## Friends of Buttplug
 
