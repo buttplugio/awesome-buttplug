@@ -46,11 +46,11 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
     they don't have to update their program every time Buttplug itself updates.
 - [Buttplug Playground](https://playground.buttplug.world)
   - Free, open source, repo at https://github.com/intiface/buttplug-playground
-  - Web based (Cross platform, either via browsers or Intiface Central)
+  - Web based (Cross platform, either via browsers or [Intiface Central](https://intiface.com/central))
   - Test utility for simple device connection and control.
 - [Buttplug Editor](https://github.com/MaidKun/buttplug-editor)
   - Free, open source, repo at https://github.com/MaidKun/buttplug-editor
-  - Web based (Cross platform, either via browsers or Intiface Central)
+  - Web based (Cross platform, either via browsers or [Intiface Central](https://intiface.com/central))
   - Visual programming for building patterns for playback in Buttplug
 - [ToyWebBridge](https://github.com/kyrahabattoir/ToyWebBridge)
   - Free, open source, repo at https://github.com/kyrahabattoir/ToyWebBridge
@@ -67,7 +67,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
     writing assignment interface, utilities for toy control with findom drains or tributes, etc...
 - [Vibe Sequencer](https://webvrnsfw.github.io/vibe-sequencer/)
   - Free, open source, repo at https://github.com/webvrnsfw/vibe-sequencer
-  - Web based (Cross platform, via browsers with Intiface Central)
+  - Web based (Cross platform, via browsers with [Intiface Central](https://intiface.com/central))
   - Lets you control your Buttplug sex toys with an interactive sequencer interface.
 - [Buttplug OSC](https://github.com/AlexanderPavlenko/buttplug-osc)
   - Free, open source, repo at https://github.com/AlexanderPavlenko/buttplug-osc
@@ -91,11 +91,11 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - WebRTC P2P based toy sharing and controller application that's installable as a PWA for offline use.
 - [Beadi](https://thatbatluna.github.io/Beadi/)
   - Free, open source, repo at https://github.com/ThatBatLuna/Beadi  
-  - Web based (Cross platform, either via browsers or Intiface Central)
+  - Web based (Cross platform, either via browsers or [Intiface Central](https://intiface.com/central))
   - Visual node-based editor for programming Buttplug-compatible toys
 - [Ahegao Detector](https://ahegao-detector.netlify.app/)
   - Free, open source, repo at https://github.com/Sir-Prise/ahegao-detector
-  - Web based (Cross platform, either via browsers or Intiface Central)
+  - Web based (Cross platform, either via browsers or [Intiface Central](https://intiface.com/central))
   - Facial recognition of Ahegao expressions for controlling toys
 - [PROHE](https://marketplace.visualstudio.com/items?itemName=UncensorPat.prohe)
   - Free, open source, repo at https://github.com/UncensorPat/prohe
@@ -105,6 +105,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/nova-r/fediplug
   - Cross platform (requires [Intiface Central](https://intiface.com/central))
   - Python script that reads a fediverse timeline and controls toy based on certain commands in messages received
+- [Catplug](https://www.nimmerneko.de/catplug)
+  - Free, closed source
+  - Web Based (Cross platform, either via browsers or [Intiface Central](https://intiface.com/central))
+  - Simple interface for controlling toys locally or remotely. Plus creation, editing, and playback of custom patterns.
 
 ### Video Sync / Movies
 
@@ -118,7 +122,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Windows 10+ only
   - Playback of movies using Funscript format, with support for stroking/vibrating/rotating toys.
 - [FapTap](https://faptap.net)
-  - Free, Close source
+  - Free, closed source
   - Web based (Cross platform via either browser or Intiface Central)
   - Porn script/movie aggregation site and player
  - [D-EasyScriptPlayer](https://fantia.jp/products/419895)
