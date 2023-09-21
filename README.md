@@ -14,6 +14,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   * [Audio Sync](#audio-sync)
 * [Games](#games)
 * [Game Mods](#game-mods)
+  * [Overwatch 2](#overwatch-2)
   * [Risk of Rain 2](#risk-of-rain-2)
   * [Minecraft](#minecraft)
   * [FFXIV](#ffxiv)
@@ -282,6 +283,17 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Cross Platform (requires [Intiface Central](https://intiface.com/central))
   - Buttplug integration for Terraria
 
+### Overwatch 2
+- [Underwatch (Overwatch 2)](https://github.com/Furimanejo/Underwatch)
+  - Free, open source, repo at https://github.com/Furimanejo/Underwatch
+  - Cross Platform (requires [Intiface Central](https://intiface.com/central))
+  - Uses computer vision to trigger toys based on Kills, Assists, and Saves.
+- [OverStim (Overwatch 2)](https://github.com/cryo-es/OverStim)
+  - Free, open source, repo at https://github.com/cryo-es/OverStim
+  - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
+  - Linux support MAY be offered through their [Discord](https://discord.com/invite/AVpcVhQQhu).
+  - Uses computer vision to trigger toys with a focus on Healing characters.
+
 ### Risk of Rain 2
 
 - [Updated RiskOfRumble](https://thunderstore.io/package/exp111/RiskOfRumble)
@@ -491,7 +503,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 - [In Heat Overwatch Mod](https://github.com/Furimanejo/In-Heat)
   - Free, open source, repo at https://github.com/Furimanejo/In-Heat
   - Uses computer vision to track Heat Bar in Overwatch and control sex toys based on levels.
-  - Deprecation Reason: Overwatch servers shut down in late 2022
+  - Deprecation Reason: Overwatch servers shut down in late 2022. Dev has a new version for Overwatch 2, [Underwatch](https://github.com/Furimanejo/Underwatch).
 - [Healing Is Fun Overwatch Plugin](https://github.com/Sir-Prise/healsluts)
   - Free, open source, repo at https://github.com/Sir-Prise/healsluts
   - Web based system for Overwatch interaction
