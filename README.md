@@ -14,6 +14,8 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   * [Audio Sync](#audio-sync)
 * [Games](#games)
 * [Game Mods](#game-mods)
+  * [Overwatch 2](#overwatch-2)
+  * [Risk of Rain 2](#risk-of-rain-2)
   * [Minecraft](#minecraft)
   * [FFXIV](#ffxiv)
 * [Virtual Worlds (General)](#virtual-worlds)
@@ -182,7 +184,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Paid, available on [Steam](https://store.steampowered.com/app/1571340/)
   - Windows 10+ only, VR only
   - Integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy control within
-    interactive scenes.    
+    interactive scenes.
 - [Caveman BIOS Teaches Erotic Typing](https://curiousjp.itch.io/caveman-bios-teaches-erotic-typing)
   - Free, available on [itch.io](https://curiousjp.itch.io/caveman-bios-teaches-erotic-typing)
   - Cross-platform (pygame)
@@ -232,8 +234,8 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://sr.ht/~hornycactus/CrotchStimGetOff/
   - Desktop Cross Platform
   - CS:GO Buttplug plugin
-- [Buttplug Of Legends (LOL)](https://github.com/kinkyacedev/buttplug-of-legends)
-  - Free, open source, repo at https://github.com/kinkyacedev/buttplug-of-legends
+- [Buttplug Of Legends Unity (League of Legends)](https://github.com/Furimanejo/Buttplug-Of-Legends-Unity)
+  - Free, open source, repo at https://github.com/Furimanejo/Buttplug-Of-Legends-Unity
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
   - League of Legends interaction for Buttplug
 - [DGButtPlugin (Duck Game)](https://github.com/BytewaveMLP/DGButtPlugin)
@@ -243,7 +245,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 - [SDTButtplug](https://github.com/Nootna8/SDTButtplug)
   - Free, open source, repo at https://github.com/Nootna8/SDTButtplug
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
-  - SuperDeepthroat sex toy integration  
+  - SuperDeepthroat sex toy integration
 - [COM3D2.ToySynchronizer.Plugin](https://github.com/amateras977/COM3D2.ToySynchronizer.Plugin)
   - Free, proprietary, available at https://github.com/amateras977/COM3D2.ToySynchronizer.Plugin
   - Windows 10+ only
@@ -276,12 +278,6 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, closed source (RPGMaker mod)
   - Windows 10+ only
   - Buttplug integration for [Lust Doll+](https://indivi.itch.io/ldplus)
-- [Risk of Rumble](https://github.com/mistername/RiskOfRainModding/tree/master/RiskOfRumble)
-  - Free, open source, repo at
-    https://github.com/mistername/RiskOfRainModding/tree/master/RiskOfRumble ([Thunderstore
-    Link](https://thunderstore.io/package/MisterKinky/RiskOfRumble/))
-  - Windows 10+ only
-  - Buttplug integration for Risk of Rain 2
 - [Game Interface For Toys (Skyrim and Fallout 4)](https://github.com/MinLL/GameInterfaceForToys)
   - Free, open source, repo at https://github.com/MinLL/GameInterfaceForToys
   - Windows 10+ only
@@ -291,8 +287,30 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Cross Platform (requires [Intiface Central](https://intiface.com/central))
   - Buttplug integration for Terraria
 
+### Overwatch 2
+- [Underwatch (Overwatch 2)](https://github.com/Furimanejo/Underwatch)
+  - Free, open source, repo at https://github.com/Furimanejo/Underwatch
+  - Cross Platform (requires [Intiface Central](https://intiface.com/central))
+  - Uses computer vision to trigger toys based on Kills, Assists, and Saves.
+- [OverStim (Overwatch 2)](https://github.com/cryo-es/OverStim)
+  - Free, open source, repo at https://github.com/cryo-es/OverStim
+  - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
+  - Linux support MAY be offered through their [Discord](https://discord.com/invite/AVpcVhQQhu).
+  - Uses computer vision to trigger toys with a focus on Healing characters.
+
+### Risk of Rain 2
+
+- [Updated RiskOfRumble](https://thunderstore.io/package/exp111/RiskOfRumble)
+  - Free, open source, repo at https://github.com/exp111/RoR2Stuff/tree/master/RiskOfRumble
+  - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
+  - Updated version of [RiskOfRumble](https://thunderstore.io/package/MisterKinky/RiskOfRumble)
+- [RumbleRain](https://thunderstore.io/package/quasikyo/RumbleRain)
+  - Free, open source, repo at https://github.com/quasikyo/rumble-rain
+  - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
+  - Configurable vibrations in response to in-game damage events
+
 ### Minecraft
-  
+
 - [ButtplugMC (Minecraft)](https://github.com/Cyloci/ButtplugMc)
   - Free, open source, repo at https://github.com/Cyloci/ButtplugMc
   - Cross Platform (requires [Intiface Central](https://intiface.com/central))
@@ -307,7 +325,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source
   - Cross Platform (requires [Intiface Central](https://intiface.com/central))
 
-### FFXIV  
+### FFXIV
 
 - [FFXIV Vibe Plugin](https://github.com/kaciexx/FFXIV_Vibe_Plugin)
   - Free, open source, repo at https://github.com/kaciexx/FFXIV_Vibe_Plugin
@@ -337,10 +355,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Windows 10+ only
   - Support Discord at [https://vrbrations.com](https://vrbrations.com)
   - Allows sex toy control from VRChat via either Buttplug or the Lovense Connect app, with OSC or shader based interaction capabilities.
-- [OSCGoesBrrr](https://gitlab.com/VRCFury/OscGoesBrrr/)
-  - Free, open source, repo at https://gitlab.com/VRCFury/OscGoesBrrr/
+- [OSCGoesBrrr](https://osc.toys/)
+  - Free, open source, repo at https://github.com/OscToys/OscGoesBrrr
   - Windows 10+ only for releases, app is electron and can be compiled for Linux
-  - Support Discord at [https://discord.gg/t4uHcDxCXA](https://discord.gg/t4uHcDxCXA)
+  - Support Discord at https://osc.toys/discord
   - VRC support via OSC for Buttplug or Lovense Connect, w/ Poiyomi TPS compatibility
 - [VRCLovenseConnect](https://github.com/PingerSurprise/VrcLovenseConnect)
   - Free, open source, repo at https://github.com/PingerSurprise/VrcLovenseConnect
@@ -401,7 +419,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Available via the github repo, not yet on Nuget
   - Maintained by Community Developers
   - C# Client written in pure .Net C#
-  
+
 #### JS/Typescript
 - [Buttplug JS/TS Client](https://github.com/buttplugio/buttplug-js)
   - Available on [NPM](https://www.npmjs.com/package/buttplug)
@@ -432,13 +450,13 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
     Central](https://intiface.com/central) or [Intiface
     Engine](https://github.com/intiface/intiface-engine)
 
-#### Lua    
+#### Lua
 - [Buttplug Lua](https://github.com/abbihors/buttplug-lua)
   - Maintained by Community Developers
   - Standalone Lua client library for connecting to [Intiface
     Central](https://intiface.com/central) or [Intiface
     Engine](https://github.com/intiface/intiface-engine)
-  
+
 #### LISP
 - [Buttplug Common LISP](https://codeberg.org/poodlezone/cl-buttplug)
   - Maintained by Community Developers
@@ -462,7 +480,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - [Sugarcube 2](https://www.motoslave.net/sugarcube/2/) macros for the [Twine Interactive Fiction
     Game Engine](https://twinery.org)
 - [Plug₂in for RPG Maker MV](https://qazm.itch.io/plug-in-for-rpg-maker-mv)
-  - RPGMaker support for Buttplug 
+  - RPGMaker support for Buttplug
 - [GSpot](https://github.com/deadpixelsociety/gspot)
   - Godot 4 Plugin for Buttplug
 - [Godot.Buttplug](https://github.com/nhydock/Godot.Buttplug)
@@ -489,8 +507,8 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 - [In Heat Overwatch Mod](https://github.com/Furimanejo/In-Heat)
   - Free, open source, repo at https://github.com/Furimanejo/In-Heat
   - Uses computer vision to track Heat Bar in Overwatch and control sex toys based on levels.
-  - Deprecation Reason: Overwatch servers shut down in late 2022
-- [Healing Is Fun Overwatch Plugin](https://github.com/Sir-Prise/healsluts) 
+  - Deprecation Reason: Overwatch servers shut down in late 2022. Dev has a new version for Overwatch 2, [Underwatch](https://github.com/Furimanejo/Underwatch).
+- [Healing Is Fun Overwatch Plugin](https://github.com/Sir-Prise/healsluts)
   - Free, open source, repo at https://github.com/Sir-Prise/healsluts
   - Web based system for Overwatch interaction
   - Deprecation Reason: Overwatch servers shut down in late 2022
@@ -511,25 +529,35 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 - [Plug Parser (FFXIV)](https://github.com/cyan-f/Plug_Parser)
   - Free, open source, repo at https://github.com/cyan-f/Plug_Parser
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
-  - FFXIV triggers for sex toy control, via [ACT](https://advancedcombattracker.com/)  
+  - FFXIV triggers for sex toy control, via [ACT](https://advancedcombattracker.com/)
   - Deprecation Reason: Dev moved on
 - [ButtPlACT (FFXIV)](https://github.com/crnlskn/ButtplACT)
   - Free, open source, repo at https://github.com/crnlskn/ButtplACT
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
   - FFXIV triggers for sex toy control, via [ACT](https://advancedcombattracker.com/)
-  - Deprecation Reason: Dev moved on  
+  - Deprecation Reason: Dev moved on
 - [Syncydink](https://syncydink.buttplug.world)
   - Free, open source, repo at https://github.com/qdot/syncydink
   - Web based (Cross platform via either browser or Intiface Central)
   - Web based movie playback system for funscript movies.
-  - Deprecation Reason: Dev moved on  
+  - Deprecation Reason: Dev moved on
 - [Buttplug Python](https://github.com/buttplugio/buttplug-py)
   - Available on [PyPi](https://pypi.org/project/buttplug/)
   - Written by Buttplug Core Team
   - Standalone Python client library for connecting to [Intiface
     Central](https://intiface.com/central) or [Intiface
     Engine](https://github.com/intiface/intiface-engine)
-  - Deprecation Reason: Core team ran out of time to support
+  - Deprecation Reason: Core team ran out of time to support 
+- [Buttplug Of Legends (League of Legends)](https://github.com/kinkyacedev/buttplug-of-legends)
+  - Free, open source, repo at https://github.com/kinkyacedev/buttplug-of-legends
+  - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
+  - League of Legends interaction for Buttplug
+  - Deprecation Reason: Dev moved on, succeded by [Buttplug Of Legends Unity](https://github.com/Furimanejo/Buttplug-Of-Legends-Unity)
+- [RiskOfRumble](https://thunderstore.io/package/MisterKinky/RiskOfRumble)
+  - Free, open source, repo at https://github.com/mistername/RiskOfRainModding/tree/master/RiskOfRumble
+  - Windows 10+ only
+  - Buttplug integration for Risk of Rain 2
+  - Deprecation Reason: Dev moved on
 
 ## Friends of Buttplug
 
