@@ -479,7 +479,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 - [Buttplug Twine](https://github.com/buttplugio/buttplug-twine)
   - [Sugarcube 2](https://www.motoslave.net/sugarcube/2/) macros for the [Twine Interactive Fiction
     Game Engine](https://twinery.org)
-- [Plug₂in for RPG Maker MV](https://qazm.itch.io/plug-in-for-rpg-maker-mv)
+- [Plug₂in for RPG Maker MV and MZ](https://qazm.itch.io/plug-in-for-rpg-maker-mv)
   - RPGMaker support for Buttplug
 - [GSpot](https://github.com/deadpixelsociety/gspot)
   - Godot 4 Plugin for Buttplug
