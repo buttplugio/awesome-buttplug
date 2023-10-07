@@ -420,6 +420,11 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Maintained by Community Developers
   - C# Client written in pure .Net C#
 
+- [Buttplug-kt](https://gitlab.com/Doomsdayrs/buttplug-kt)
+  - Available via local install, not yet on maven
+  - Maintaided by Community Developers (Doomsdayrs)
+  - Kotlin Multiplatform Asyncronous Client library
+
 #### JS/Typescript
 - [Buttplug JS/TS Client](https://github.com/buttplugio/buttplug-js)
   - Available on [NPM](https://www.npmjs.com/package/buttplug)
