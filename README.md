@@ -288,8 +288,8 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Buttplug integration for Terraria
 
 ### Overwatch 2
-- [Underwatch (Overwatch 2)](https://github.com/Furimanejo/Underwatch)
-  - Free, open source, repo at https://github.com/Furimanejo/Underwatch
+- [Underwatch Ultimate (Overwatch 2)](https://github.com/Furimanejo/Underwatch-Ultimate)
+  - Free, open source, repo at https://github.com/Furimanejo/Underwatch-Ultimate
   - Cross Platform (requires [Intiface Central](https://intiface.com/central))
   - Uses computer vision to trigger toys based on Kills, Assists, and Saves.
 - [OverStim (Overwatch 2)](https://github.com/cryo-es/OverStim)
