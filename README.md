@@ -127,7 +127,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, closed source
   - Web based (Cross platform via either browser or Intiface Central)
   - Porn script/movie aggregation site and player
- - [D-EasyScriptPlayer](https://fantia.jp/products/419895)
+- [D-EasyScriptPlayer](https://fantia.jp/products/419895)
   - Commercial (requires subscription to Fantia page)
   - Windows 10+ only, requires Intiface Central
   - Playback of movies using Funscript and Vorze CSV formats (Japanese langauge UI)
