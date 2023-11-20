@@ -127,7 +127,7 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, closed source
   - Web based (Cross platform via either browser or Intiface Central)
   - Porn script/movie aggregation site and player
- - [D-EasyScriptPlayer](https://fantia.jp/products/419895)
+- [D-EasyScriptPlayer](https://fantia.jp/products/419895)
   - Commercial (requires subscription to Fantia page)
   - Windows 10+ only, requires Intiface Central
   - Playback of movies using Funscript and Vorze CSV formats (Japanese langauge UI)
@@ -558,11 +558,14 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
   - League of Legends interaction for Buttplug
   - Deprecation Reason: Dev moved on, succeded by [Buttplug Of Legends Unity](https://github.com/Furimanejo/Buttplug-Of-Legends-Unity)
-- [RiskOfRumble](https://thunderstore.io/package/MisterKinky/RiskOfRumble)
-  - Free, open source, repo at https://github.com/mistername/RiskOfRainModding/tree/master/RiskOfRumble
+- [Risk of Rumble](https://github.com/mistername/RiskOfRainModding/tree/master/RiskOfRumble)
+  - Free, open source, repo at
+    https://github.com/mistername/RiskOfRainModding/tree/master/RiskOfRumble ([Thunderstore
+    Link](https://thunderstore.io/package/MisterKinky/RiskOfRumble/))
   - Windows 10+ only
   - Buttplug integration for Risk of Rain 2
-  - Deprecation Reason: Dev moved on
+  - Deprecation Reason: Uses old version of buttplug that does not support Intiface Central or new
+    hardware, mod unmaintained. Try RumbleRain or the updated RiskOfRumble
 
 ## Friends of Buttplug
 
