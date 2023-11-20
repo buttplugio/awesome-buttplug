@@ -420,6 +420,12 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Maintained by Community Developers
   - C# Client written in pure .Net C#
 
+#### C++
+- [https://github.com/dumbowumbo/buttplugCpp]
+  - Maintaided by Community Developers
+  - C++ Client library
+
+#### Kotlin
 - [Buttplug-kt](https://gitlab.com/Doomsdayrs/buttplug-kt)
   - Available via local install, not yet on maven
   - Maintaided by Community Developers (Doomsdayrs)
@@ -481,6 +487,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 - [Buttplug Unity](https://github.com/buttplugio/buttplug-unity)
   - C# Plugin for the [Unity Game Engine](https://unity.com)
+- [ButtplugUE](https://github.com/DeviantdVeloper/ButtplugUE)
+  - C++ Buttplug Plugin for the [Unreal Engine](https://www.unrealengine.com/en-US)
+- [ButtPlugin](https://github.com/epsypolym/Buttplugin)
+  - Buttplug Plugin for the [Unreal Engine](https://www.unrealengine.com/en-US)
 - [Buttplug Twine](https://github.com/buttplugio/buttplug-twine)
   - [Sugarcube 2](https://www.motoslave.net/sugarcube/2/) macros for the [Twine Interactive Fiction
     Game Engine](https://twinery.org)
