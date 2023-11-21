@@ -111,6 +111,10 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, closed source
   - Web Based (Cross platform, either via browsers or [Intiface Central](https://intiface.com/central))
   - Simple interface for controlling toys locally or remotely. Plus creation, editing, and playback of custom patterns.
+- [Vencord-Buttplugio](https://github.com/KaydaFox/vencord-buttplugio)
+  - Free, open source, repo at https://github.com/KaydaFox/vencord-buttplugio
+  - Cross platform (requires [Intiface Central](https://intiface.com/central))
+  - Discord keyword trigger mod via the Vencord client
 
 ### Video Sync / Movies
 
@@ -134,23 +138,19 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 ### Audio Sync
 
-- [SoundSync](https://gitlab.com/LuckySkebe/soundsync)
-  - Free, open source, repo at https://gitlab.com/LuckySkebe/soundsync
-  - Windows 10+ only
-  - Visual dataflow setup for routing audio signals to sex toy control
-- [Sensitive EQ](https://github.com/highfiiv/sensitive-eq)
-  - Free, open source, repo at https://github.com/highfiiv/sensitive-eq
-  - Web based (Cross platform via browsers)
-  - WebAudio equalizer to sex toy control utility
+- [Music Vibes](https://github.com/Shadlock0133/music-vibes)
+  - Free, open source, repo at https://github.com/Shadlock0133/music-vibes
+  - Windows Only (Music Vibe can run standalone, [Intiface Central](https://intiface.com/central) optional)
+  - Analyzes audio and translates into vibrations for Buttplug compatible hardware.
+- [Subwoofer](https://github.com/smol-skyz/subwoofer/)
+  - Free, open source, repo at https://github.com/smol-skyz/subwoofer/
+  - Windows/Linux Only (requires [Intiface Central](https://intiface.com/central))
+  - Analyzes audio and translates into vibrations for Buttplug compatible hardware.
 - [Buttplug VST](https://github.com/fractalysis/buttplug-vst)
   - Free, open source, repo at https://github.com/fractalysis/buttplug-vst
   - Windows Only (requires [Intiface Central](https://intiface.com/central))
   - VST for DAWs like Ableton Live, FL Studio, or DJing software like Virtual DJ. Analyzes music and
     outputs bass as haptic response.
-- [Music Vibes](https://github.com/Shadlock0133/music-vibes)
-  - Free, open source, repo at https://github.com/Shadlock0133/music-vibes
-  - Windows Only (Music Vibe can run standalone, [Intiface Central](https://intiface.com/central) optional)
-  - Analyzes audio and translates into vibrations for Buttplug compatible hardware.
 - [Buttplug for Live](https://maxforlive.com/library/device.php?id=9190)
   - Free, open source, repo at https://github.com/Vurich/Buttplug-for-Live
   - Any platform supported by Ableton and Max (officially, Windows and macOS)
@@ -421,8 +421,9 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - C# Client written in pure .Net C#
 
 #### C++
-- [https://github.com/dumbowumbo/buttplugCpp]
-  - Maintaided by Community Developers
+- [ButtplugCpp](https://github.com/dumbowumbo/buttplugCpp)
+  - Available via the github repo
+  - Maintained by Community Developers
   - C++ Client library
 
 #### Kotlin
@@ -576,7 +577,17 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Buttplug integration for Risk of Rain 2
   - Deprecation Reason: Uses old version of buttplug that does not support Intiface Central or new
     hardware, mod unmaintained. Try RumbleRain or the updated RiskOfRumble
-
+- [SoundSync](https://gitlab.com/LuckySkebe/soundsync)
+  - Free, open source, repo at https://gitlab.com/LuckySkebe/soundsync
+  - Windows 10+ only
+  - Visual dataflow setup for routing audio signals to sex toy control
+  - Deprecation Reason: Project Abandoned
+- [Sensitive EQ](https://github.com/highfiiv/sensitive-eq)
+  - Free, open source, repo at https://github.com/highfiiv/sensitive-eq
+  - Web based (Cross platform via browsers)
+  - WebAudio equalizer to sex toy control utility
+  - Deprecation Reason: Project Abandoned
+  
 ## Friends of Buttplug
 
 - [TempestVR's OSR2/SR6](https://patreon.com/tempestvr)
