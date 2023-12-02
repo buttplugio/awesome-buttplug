@@ -286,6 +286,18 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Free, open source, repo at https://github.com/nih0n/terragasm
   - Cross Platform (requires [Intiface Central](https://intiface.com/central))
   - Buttplug integration for Terraria
+- [Lethal Vibrations (Lethal Company)](https://thunderstore.io/c/lethal-company/p/LethalPlugging/LethalVibrations/)
+  - Free, open source, repo at https://github.com/bananasov/LethalVibrations
+  - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
+  - Buttplug integration for Lethal Company
+- [Cult of the Buttplug (Cult of the Lamb)](https://cult-of-the-lamb.thunderstore.io/package/nonpolynomial/CultOfTheButtplug/)
+  - Free, open source, repo at https://github.com/qdot/CultOftheButtplug
+  - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
+  - Buttplug integration for Cult of the Lamb
+- [Team Frotress 2 (Team Fortress 2)](https://github.com/fionafibration/team-frotress-2/)
+  - Free, open source, repo at https://github.com/fionafibration/team-frotress-2/
+  - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
+  - Buttplug integration for Team Fortress 2
 
 ### Overwatch 2
 - [Underwatch Ultimate (Overwatch 2)](https://github.com/Furimanejo/Underwatch-Ultimate)
@@ -300,14 +312,14 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 ### Risk of Rain 2
 
-- [Updated RiskOfRumble](https://thunderstore.io/package/exp111/RiskOfRumble)
-  - Free, open source, repo at https://github.com/exp111/RoR2Stuff/tree/master/RiskOfRumble
-  - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
-  - Updated version of [RiskOfRumble](https://thunderstore.io/package/MisterKinky/RiskOfRumble)
 - [RumbleRain](https://thunderstore.io/package/quasikyo/RumbleRain)
   - Free, open source, repo at https://github.com/quasikyo/rumble-rain
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
   - Configurable vibrations in response to in-game damage events
+- [Updated RiskOfRumble](https://thunderstore.io/package/exp111/RiskOfRumble)
+  - Free, open source, repo at https://github.com/exp111/RoR2Stuff/tree/master/RiskOfRumble
+  - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
+  - Updated version of [RiskOfRumble](https://thunderstore.io/package/MisterKinky/RiskOfRumble)
 
 ### Minecraft
 
@@ -321,17 +333,17 @@ know!](https://github.com/buttplugio/awesome-buttplug/issues)
   - Sex toy control plugin for Minecraft Forge
   - [Ported to Fabric](https://github.com/vinceh121/Minegasm-fabric)
 - [mInetiface (Minecraft)](https://github.com/Fyustorm/mInetiface)
-  - Another Minecraft Fabric mod with reward score system, ingame configuration and multiple devices support
+  - Another Minecraft Fabric mod with reward score system, ingame configuration and multiple devices
+    support
   - Free, open source
   - Cross Platform (requires [Intiface Central](https://intiface.com/central))
 
 ### FFXIV
 
 - [FFXIV Vibe Plugin](https://github.com/kaciexx/FFXIV_Vibe_Plugin)
-  - Free, open source, repo at https://github.com/kaciexx/FFXIV_Vibe_Plugin
+  - Closed source, free, requires paid subscription for some features
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
   - FFXIV triggers for sex toy control, via [Dalamud](https://github.com/goatcorp/Dalamud)
-  - Endorsed by the maker of Aethersense and is intended to replace it
 - [AetherSense Redux (Beta)](https://github.com/digital-pet/AetherSenseRedux)
   - Free, open source, repo at https://github.com/digital-pet/AetherSenseRedux
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
