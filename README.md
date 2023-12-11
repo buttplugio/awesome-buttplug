@@ -510,6 +510,9 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - C++ Buttplug Plugin for the [Unreal Engine](https://www.unrealengine.com/en-US)
 - [ButtPlugin](https://github.com/epsypolym/Buttplugin)
   - Buttplug Plugin for the [Unreal Engine](https://www.unrealengine.com/en-US)
+- [Buttplug Unreal](https://github.com/CAD97/ButtplugUnreal/)
+  - Buttplug protocol client integration and support for [Unreal Engine](https://www.unrealengine.com/en-US)
+  - Higher level than the other two; provides both C++ and Blueprint APIs (including latent/async Blueprint nodes)
 - [Buttplug Twine](https://github.com/buttplugio/buttplug-twine)
   - [Sugarcube 2](https://www.motoslave.net/sugarcube/2/) macros for the [Twine Interactive Fiction
     Game Engine](https://twinery.org)
