@@ -304,7 +304,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/danatron1/ButtplugKnight
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
   - Buttplug integration for Hollow Knight
-
+- [Telekinesis (Skyrim AE,SE)](https://github.com/garryrot/telekinesis)
+  - Free, open source, repo at https://github.com/garryrot/telekinesis
+  - Windows 10+ only, optional [Intiface Central](https://intiface.com/central) integration
+  - Buttplug integration for various Skyrim Adult Mods (Devious Devices, Toys&Love, SexLab, OStim)
 ### Overwatch 2
 - [Underwatch Ultimate (Overwatch 2)](https://github.com/Furimanejo/Underwatch-Ultimate)
   - Free, open source, repo at https://github.com/Furimanejo/Underwatch-Ultimate
