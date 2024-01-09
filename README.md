@@ -252,6 +252,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/Nootna8/SDTButtplug
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
   - SuperDeepthroat sex toy integration
+- [LLM_Buttplug](https://github.com/PsychoSmiley/LLM_Buttplug/)
+  - Free, open source, repo at [https://github.com/PsychoSmiley/LLM_Buttplug/](https://github.com/PsychoSmiley/LLM_Buttplug/)
+  - Cross Platform Extension for oobabooga/text-generation-webui, (requires [Intiface Central](https://intiface.com/central))
+  - Let LLMs Control Sex Toy.
 - [COM3D2.ToySynchronizer.Plugin](https://github.com/amateras977/COM3D2.ToySynchronizer.Plugin)
   - Free, proprietary, available at https://github.com/amateras977/COM3D2.ToySynchronizer.Plugin
   - Windows 10+ only
