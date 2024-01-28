@@ -4,7 +4,7 @@ This is a list of different projects that use Buttplug in some way!
 
 Want to request for a game or app you'd like Buttplug support in? [Reply to this thread on our forum or contact qDot directly!](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-list/228) (Instructions for direct contact are in post.)
 
-Have a finished (or even work in progress but genrally working) project you'd like to see on this
+Have a finished (or even work in progress but generally working) project you'd like to see on this
 list? [Submit an issue to this repo and let us know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 ## Table Of Contents
