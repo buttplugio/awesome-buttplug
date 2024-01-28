@@ -16,6 +16,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   * [Audio Sync](#audio-sync)
 * [Games](#games)
 * [Game Mods](#game-mods)
+  * [Counter-Strike](#counter-strike)
   * [Overwatch 2](#overwatch-2)
   * [Risk of Rain 2](#risk-of-rain-2)
   * [Minecraft](#minecraft)
@@ -236,10 +237,6 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/programotter/skybutt
   - Windows 10+ only
   - Vibration control plugin for Skyrim
-- [Crotch-Stim: Get Off (CS:GO)](https://sr.ht/~hornycactus/CrotchStimGetOff/)
-  - Free, open source, repo at https://sr.ht/~hornycactus/CrotchStimGetOff/
-  - Desktop Cross Platform
-  - CS:GO Buttplug plugin
 - [Buttplug Of Legends Unity (League of Legends)](https://github.com/Furimanejo/Buttplug-Of-Legends-Unity)
   - Free, open source, repo at https://github.com/Furimanejo/Buttplug-Of-Legends-Unity
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
@@ -316,7 +313,20 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/garryrot/telekinesis
   - Windows 10+ only, optional [Intiface Central](https://intiface.com/central) integration
   - Buttplug integration for various Skyrim Adult Mods (Devious Devices, Toys&Love, SexLab, OStim)
+
+### Counter-strike  
+
+- [Crotch-Stim: Get Off (CS:GO)](https://sr.ht/~hornycactus/CrotchStimGetOff/)
+  - Free, open source, repo at https://sr.ht/~hornycactus/CrotchStimGetOff/
+  - Desktop Cross Platform
+  - CS:GO Buttplug plugin
+- [cs2-buttplug (Counter-Strike 2)](https://github.com/gloss-click/cs2-buttplug)
+  - Fork of Crotch-Stim: Get Off with a GUI and support for Counter-Strike 2
+  - Cross Platform (requires [Intiface Central](https://intiface.com/central))
+  - Only Windows 10+ binaries provided
+
 ### Overwatch 2
+
 - [Underwatch Ultimate (Overwatch 2)](https://github.com/Furimanejo/Underwatch-Ultimate)
   - Free, open source, repo at https://github.com/Furimanejo/Underwatch-Ultimate
   - Cross Platform (requires [Intiface Central](https://intiface.com/central))
