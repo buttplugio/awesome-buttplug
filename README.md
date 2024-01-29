@@ -214,6 +214,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/intiface/intiface-game-haptics-router
   - Windows 10+ only (Standalone or via [Intiface Central](https://intiface.com/central))
   - Hooks to Windows PC Games, rerouting gamepad rumble to control sex toys.
+- [BPGE (ButtPlug Game Events)](https://github.com/allanf181/BPGE)
+  - Free, source avaliable, repo at https://github.com/allanf181/BPGE
+  - Windows 10+ only (requires [Intiface Central](https://intiface.com/central) and [HomeAssistant Game Events](https://www.overwolf.com/app/BinaryBurger-HomeAssistant_Game_Events))
+  - Buttplug integration for Apex Legends, CS2, Dota 2, Fortnite, Halo Infinite, League of Legends, Overwatch 2, PUBG, Rainbow Six Siege, Valorant and more, triggers toys on various game events, full customizable, more info and instructions at the repo.
 - [Buttplug Valley](https://github.com/DryIcedTea/Buttplug-Valley)
   - Free, open source, repo at https://github.com/DryIcedTea/Buttplug-Valley
   - Windows 10+ only (via [Intiface Central](https://intiface.com/central))
