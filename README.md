@@ -260,11 +260,6 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, proprietary, available at https://github.com/amateras977/COM3D2.ToySynchronizer.Plugin
   - Windows 10+ only
   - Mod for Custom Maid 3D2 / Custom Order Maid 3D2 to add support for stroking and vibrating devices
-- [OsuToy](https://github.com/hornyyy/Osu-Toy)
-  - Free, open source, repo at https://github.com/hornyyy/Osu-Toy
-  - Windows 10+ only
-  - Fork of the [Osu rhythm game](https://osu.ppy.sh/home) with toy control capabilities via
-    Buttplug.
 - [For Better Club](https://sidiousious.gitlab.io/bce/)
   - Free, open source, repo at https://gitlab.com/sidiousious/bce/
   - Desktop Cross Platform (requires [Intiface Central](https://intiface.com/central))
@@ -322,8 +317,12 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Buttplug integration for Geometry Dash
 - [Rumble Party (House Party)](https://github.com/CamelCaseName/RumbleParty)
   - Free, open source, repo at https://github.com/CamelCaseName/RumbleParty
-  - windows only, requires [Melonloader](https://github.com/LavaGang/MelonLoader/releases), intiface is bundled but can be replaced
+  - Windows 10+ only, requires [Melonloader](https://github.com/LavaGang/MelonLoader/releases), intiface is bundled but can be replaced
   - Buttplug integration for House Party, rumbles during sex(synced to movement), cutscenes, dialogue(synced to voice) or inventory changes
+- [Butt Saber](https://github.com/jackmg2/ButtSaber)
+  - Free, open source, repo at https://github.com/jackmg2/ButtSaber
+  - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
+  - Buttplug integration for Beat Saber
 
 ### Overwatch 2
 - [Underwatch Ultimate (Overwatch 2)](https://github.com/Furimanejo/Underwatch-Ultimate)
@@ -628,6 +627,12 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Web based (Cross platform via browsers)
   - WebAudio equalizer to sex toy control utility
   - Deprecation Reason: Project Abandoned
+- [OsuToy](https://github.com/hornyyy/Osu-Toy)
+  - Free, open source, repo at https://github.com/hornyyy/Osu-Toy
+  - Windows 10+ only
+  - Fork of the [Osu rhythm game](https://osu.ppy.sh/home) with toy control capabilities via
+    Buttplug.
+  - Deprecation Reason: Project abandoned, and requires an extremely old fork of Osu. Needs an update.
   
 ## Friends of Buttplug
 
