@@ -320,7 +320,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/Zelfmonco/Geometry-Plug
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
   - Buttplug integration for Geometry Dash
-
+- [Rumble Party (House Party)](https://github.com/CamelCaseName/RumbleParty)
+  - Free, open source, repo at https://github.com/CamelCaseName/RumbleParty
+  - windows only, requires [Melonloader](https://github.com/LavaGang/MelonLoader/releases), intiface is bundled but can be replaced
+  - Buttplug integration for House Party, rumbles during sex(synced to movement), cutscenes, dialogue(synced to voice) or inventory changes
 
 ### Overwatch 2
 - [Underwatch Ultimate (Overwatch 2)](https://github.com/Furimanejo/Underwatch-Ultimate)
