@@ -4,7 +4,7 @@ This is a list of different projects that use Buttplug in some way!
 
 Want to request for a game or app you'd like Buttplug support in? [Reply to this thread on our forum or contact qDot directly!](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-list/228) (Instructions for direct contact are in post.)
 
-Have a finished (or even work in progress but genrally working) project you'd like to see on this
+Have a finished (or even work in progress but generally working) project you'd like to see on this
 list? [Submit an issue to this repo and let us know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
 ## Table Of Contents
@@ -16,6 +16,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   * [Audio Sync](#audio-sync)
 * [Games](#games)
 * [Game Mods](#game-mods)
+  * [Counter-Strike](#counter-strike)
   * [Overwatch 2](#overwatch-2)
   * [Risk of Rain 2](#risk-of-rain-2)
   * [Minecraft](#minecraft)
@@ -236,10 +237,6 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/programotter/skybutt
   - Windows 10+ only
   - Vibration control plugin for Skyrim
-- [Crotch-Stim: Get Off (CS:GO)](https://sr.ht/~hornycactus/CrotchStimGetOff/)
-  - Free, open source, repo at https://sr.ht/~hornycactus/CrotchStimGetOff/
-  - Desktop Cross Platform
-  - CS:GO Buttplug plugin
 - [Buttplug Of Legends Unity (League of Legends)](https://github.com/Furimanejo/Buttplug-Of-Legends-Unity)
   - Free, open source, repo at https://github.com/Furimanejo/Buttplug-Of-Legends-Unity
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
@@ -324,7 +321,19 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
   - Buttplug integration for Beat Saber
 
+### Counter-Strike  
+
+- [Crotch-Stim: Get Off (CS:GO)](https://sr.ht/~hornycactus/CrotchStimGetOff/)
+  - Free, open source, repo at https://sr.ht/~hornycactus/CrotchStimGetOff/
+  - Desktop Cross Platform
+  - CS:GO Buttplug plugin
+- [cs2-buttplug (Counter-Strike 2)](https://github.com/gloss-click/cs2-buttplug)
+  - Fork of Crotch-Stim: Get Off with a GUI and support for Counter-Strike 2
+  - Cross Platform (requires [Intiface Central](https://intiface.com/central))
+  - Only Windows 10+ binaries provided
+
 ### Overwatch 2
+
 - [Underwatch Ultimate (Overwatch 2)](https://github.com/Furimanejo/Underwatch-Ultimate)
   - Free, open source, repo at https://github.com/Furimanejo/Underwatch-Ultimate
   - Cross Platform (requires [Intiface Central](https://intiface.com/central))
