@@ -324,6 +324,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/jackmg2/ButtSaber
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
   - Buttplug integration for Beat Saber
+- [CuButt](https://github.com/ashkitten/factorio-cubutt)
+  - Free, open source, repo at https://github.com/ashkitten/factorio-cubutt
+  - Linux only, requires [Intiface Central](https://intiface.com/central)
+  - Buttplug integration for Factorio Ultracube mod
 
 ### Counter-Strike  
 
