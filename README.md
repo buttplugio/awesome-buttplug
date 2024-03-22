@@ -208,6 +208,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Paid DLC, available on [Steam](https://store.steampowered.com/app/1874310/Reveal_Your_Monster__Toy_Support/)
   - Windows 10+ Only
   - Puzzle/Action game w/ Toy Support DLC
+- [Vibe Games](https://wompi72.itch.io/vibe-games)
+  - Free on [itch.io](https://wompi72.itch.io/vibe-games)
+  - WebGL (play in browser)
+  - Mini Games (Snake, FappyBird for now) with vibrator support. Connection via [Xtoys](https://xtoys.app/) or [Intiface Central](https://intiface.com/central).
 
 ## Game Mods
 
