@@ -138,7 +138,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Commercial (requires subscription to Fantia page)
   - Windows 10+ only, requires Intiface Central
   - Playback of movies using Funscript and Vorze CSV formats (Japanese langauge UI)
-- [monsieursoPythonPlayer](https://milovana.com/forum/viewtopic.php?p=363413#p363413)
+- [monsieursoPythonPlayer](https://github.com/linuxeez/monsieur_so_funscript_player)
   - Simple Python script, using MPV
   - Portable (tested on Linux), requires Intiface Central
   - Playback of movies alongside their funscripts. Supports seeking.
