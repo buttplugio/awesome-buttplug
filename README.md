@@ -358,12 +358,11 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 
 ### Overwatch 2
 
-
 - [OverStim (Overwatch 2)](https://github.com/cryo-es/OverStim)
   - Free, open source, repo at https://github.com/cryo-es/OverStim
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
-  - Linux support MAY be offered through their [Discord](https://discord.com/invite/AVpcVhQQhu).
-  - Uses computer vision to trigger toys with a focus on Healing characters.
+  - Support offered through their [Discord](https://discord.com/invite/AVpcVhQQhu)
+  - Uses computer vision to trigger toys. Compatible with all heroes and has some hero-specific features.
 
 ### Risk of Rain 2
 
