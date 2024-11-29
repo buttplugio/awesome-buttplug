@@ -361,6 +361,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/elliotcubit/WebfishingButtplug
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central) & [GDWeave](https://github.com/NotNite/GDWeave/tree/main)
   - Buttplug integration for WEBFISHING
+- [CelestePlug](https://gamebanana.com/mods/554604)
+  - Free, closed source
+  - Windows 10+ only, requires [Intiface Central](https://intiface.com/central) and [Everest](https://everestapi.github.io/)
+  - Buttplug integration for Celeste
 
 ### Counter-Strike
 
