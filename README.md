@@ -577,6 +577,14 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
     Engine](https://github.com/intiface/intiface-engine)
   - Used in Intiface Central for the device tab
 
+### Gleam
+- [Bummer](https://github.com/FrostyX/bummer)
+  - Maintained by Community Developers
+  - Standalone Gleam client library for connecting to [Intiface
+    Central](https://intiface.com/central) or [Intiface
+    Engine](https://github.com/intiface/intiface-engine)
+  - Usable by other BEAM languages such as Erlang or Elixir
+
 ### Game Development
 
 - [Buttplug Unity](https://github.com/buttplugio/buttplug-unity)
