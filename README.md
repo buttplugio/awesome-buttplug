@@ -293,6 +293,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Windows 10+ only
   - Buttplug integration with the Stockfish chess engine, for relaying moves with morse code to
     vibrating toys.
+- [Crooked Rook](https://github.com/FrostyX/crooked-rook)
+  - Free, open source, repo at https://github.com/FrostyX/crooked-rook
+  - Runs on Linux
+  - The missing link between chess engines and intimate hardware
 - [Latex Dungeon + Buttplug](https://lustdolllover.itch.io/latex-dungeon-buttplug)
   - Free, closed source (RPGMaker mod)
   - Windows 10+ only
