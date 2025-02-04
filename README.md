@@ -231,6 +231,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, closed source
   - Windows only, requires [Intiface Central](https://intiface.com/central)
   - Integration for Overwatch 2, League of Legends, Elden Ring, Helldivers 2, Peggle Deluxe, Kinky Dungeon, Ero Dungeons, PowerWash Simulator. More information at https://github.com/Furimanejo/playful-plugins-readme
+  - Custom game intergrations/plugins are easily user generated, such as for [Marvel Rivals](https://github.com/solrac214/marvel-rivals-pp-plugin).
 - [BPGE (ButtPlug Game Events)](https://github.com/allanf181/BPGE)
   - Free, source avaliable, repo at https://github.com/allanf181/BPGE
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central) and [HomeAssistant Game Events](https://www.overwolf.com/app/BinaryBurger-HomeAssistant_Game_Events))
