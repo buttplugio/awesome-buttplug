@@ -142,6 +142,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Simple Python script, using MPV
   - Portable (tested on Linux), requires Intiface Central
   - Playback of movies alongside their funscripts. Supports seeking.
+- [FunFlixDroid](https://funflixdroid.fyustorm.ovh)
+  - Free, closed source
+  - Android only, requires Intiface Central (stroking/vibrating/rotating toys)
+  - Playback of movies using Funscript (local player, chromecast support, playlist, multi devices/scripts, ...)
 
 ### Audio Sync
 
