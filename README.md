@@ -596,6 +596,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 - [Buttplug Tampermonkey](https://github.com/buttplugio/buttplug-tampermonkey)
   - Integration of Buttplug with the [Tampermonkey](https://www.tampermonkey.net/) user scripting
     system for Web Browsers. Allows integration of sex toys with arbitrary webpages.
+- [ha-buttplug](https://github.com/DevelopmentalOctopus/ha-buttplug)
+  - Buttplug intergration for [Home Assistant](https://www.home-assistant.io/)
+  - You can connect your toys to various entities and create automations to control your toys
+    or trigger actions by toys, just like IFTTT.
 
 ## DIY Hardware Projects
 
