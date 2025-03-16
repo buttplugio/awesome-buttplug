@@ -126,6 +126,14 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/Kuuuube/ankihaptics
   - Cross platform (requires [Intiface Central](https://intiface.com/central))
   - Buttplug integration for the Anki flashcard system
+- [Simple Intiface Vibes](https://github.com/DabzillaNation/Simple-Initface-Vibes)
+  - Free, open source, repo at https://github.com/DabzillaNation/Simple-Initface-Vibes
+  - Cross platform (requires [Intiface Central](https://intiface.com/central))
+  - Simple vibration binding to mouse/keyboard presses
+- [Ai Peeps Sync](https://github.com/Crispy-repo/theaipeeps-intiface)
+  - Free, open source, repo at https://github.com/Crispy-repo/theaipeeps-intiface
+  - Web based (requires [Intiface Central](https://intiface.com/central))
+  - Tampermonkey script for use with Ai Peeps Chat Features
 
 ### Video Sync / Movies
 
@@ -154,6 +162,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, closed source
   - Android only, requires Intiface Central (stroking/vibrating/rotating toys)
   - Playback of movies using Funscript (local player, chromecast support, playlist, multi devices/scripts, ...)
+- [C4l Funscript Player](https://github.com/c4llv07e/c4l_funscript)
+  - Free, open source, repo at https://github.com/c4llv07e/c4l_funscript
+  - Web based
+  - Simple browser based funscript player
 
 ### Audio Sync
 
@@ -545,6 +557,12 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Available via the github repo
   - Maintained by Community Developers
   - C++ Client library
+
+#### Java
+- [Buttplug4j](https://github.com/blackspherefollower/buttplug4j)
+  - Available via Github Repo (including hosted Maven repos)
+  - Maintained by Buttplug Core Team
+  - Java client
 
 #### Kotlin
 - [Buttplug-kt](https://gitlab.com/Doomsdayrs/buttplug-kt)
