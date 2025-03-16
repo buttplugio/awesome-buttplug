@@ -118,6 +118,11 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/KaydaFox/vencord-buttplugio
   - Cross platform (requires [Intiface Central](https://intiface.com/central))
   - Discord keyword trigger mod via the Vencord client
+- [VenPlusPlug](https://codeberg.org/Mopigames/VenPlugPlus)
+  - Free, open source, repo at https://codeberg.org/Mopigames/VenPlugPlus
+  - Cross platform (requires [Intiface Central](https://intiface.com/central))
+  - Fork of Vencord-Buttplugio, adds more integrations for Discord
+
 
 ### Video Sync / Movies
 
@@ -365,6 +370,21 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, closed source
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central) and [Everest](https://everestapi.github.io/)
   - Buttplug integration for Celeste
+- [Creepy Redneck Dinosaur Mansion Buttplug 3](https://github.com/qdot/creepy-redneck-dinosaur-mansion-buttplug-3)
+  - Free, open source
+  - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
+  - Buttplug integration for Creepy Redneck Dinosaur Mansion 3
+- [Pegginglin](https://github.com/qdot/pegginglin)
+  - Free, open source
+  - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
+  - Buttplug integration for Peglin
+- [World of Buttcraft](https://github.com/PhilipDecoco/World-of-Buttcraft)
+  - Free, open source
+  - Windows 10+ only, requires [Intiface Central](https://intiface.com/central) and several other
+    tools (see README for project)
+  - Buttplug integration for World of Warcraft
+
+
 
 ### Counter-Strike
 
@@ -447,20 +467,17 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 
 ### VRChat
 
-- [VRBrations VRChat plugin](https://github.com/Thryrallo/VRBrations---App)
-  - Free, open source, repos at [https://github.com/Thryrallo/VRBrations---App](https://github.com/Thryrallo/VRBrations---App) and [https://github.com/Thryrallo/VRbrations---Unity](https://github.com/Thryrallo/VRbrations---Unity)
-  - Windows 10+ only
-  - Support Discord at [https://vrbrations.com](https://vrbrations.com)
-  - Allows sex toy control from VRChat via either Buttplug or the Lovense Connect app, with OSC or shader based interaction capabilities.
 - [OSCGoesBrrr](https://osc.toys/)
   - Free, open source, repo at https://github.com/OscToys/OscGoesBrrr
   - Windows 10+ only for releases, app is electron and can be compiled for Linux
   - Support Discord at https://osc.toys/discord
   - VRC support via OSC for Buttplug or Lovense Connect, w/ Poiyomi TPS compatibility
-- [VRCLovenseConnect](https://github.com/PingerSurprise/VrcLovenseConnect)
-  - Free, open source, repo at https://github.com/PingerSurprise/VrcLovenseConnect
+- [VRBrations VRChat plugin](https://github.com/Thryrallo/VRBrations---App)
+  - Free, open source, repos at [https://github.com/Thryrallo/VRBrations---App](https://github.com/Thryrallo/VRBrations---App) and [https://github.com/Thryrallo/VRbrations---Unity](https://github.com/Thryrallo/VRbrations---Unity)
   - Windows 10+ only
-  - VRC support via OSC for Buttplug or Lovense Connect
+  - Support Discord at [https://vrbrations.com](https://vrbrations.com)
+  - Allows sex toy control from VRChat via either Buttplug or the Lovense Connect app, with OSC or shader based interaction capabilities.
+
 - [VibeCheck](https://github.com/SutekhVRC/VibeCheck)
   - Free, open source, repo at https://github.com/SutekhVRC/VibeCheck
   - Windows 10+ only
@@ -481,7 +498,6 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://gitlab.com/jacefax/vibegoesbrrr
   - Windows 10+ only
   - Buttplug Integration for ChilloutVR, w/ automated setup/interaction for [Raliv's Dynamic Penetration System](https://raliv.gumroad.com/l/lwthuB)
-
 
 ## Hardware Support
 
@@ -715,6 +731,11 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Fork of the [Osu rhythm game](https://osu.ppy.sh/home) with toy control capabilities via
     Buttplug.
   - Deprecation Reason: Project abandoned, and requires an extremely old fork of Osu. Needs an update.
+- [VRCLovenseConnect](https://github.com/PingerSurprise/VrcLovenseConnect)
+  - Free, open source, repo at https://github.com/PingerSurprise/VrcLovenseConnect
+  - Windows 10+ only
+  - VRC support via OSC for Buttplug or Lovense Connect
+  - Deprecation Reason: Project removed from Github  
 
 ## Friends of Buttplug
 
