@@ -122,7 +122,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://codeberg.org/Mopigames/VenPlugPlus
   - Cross platform (requires [Intiface Central](https://intiface.com/central))
   - Fork of Vencord-Buttplugio, adds more integrations for Discord
-
+- [Anki Haptics](https://ankiweb.net/shared/info/247550864)
+  - Free, open source, repo at https://github.com/Kuuuube/ankihaptics
+  - Cross platform (requires [Intiface Central](https://intiface.com/central))
+  - Buttplug integration for the Anki flashcard system
 
 ### Video Sync / Movies
 
@@ -283,12 +286,6 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, proprietary, available at https://github.com/amateras977/COM3D2.ToySynchronizer.Plugin
   - Windows 10+ only
   - Mod for Custom Maid 3D2 / Custom Order Maid 3D2 to add support for stroking and vibrating devices
-- [For Better Club](https://sidiousious.gitlab.io/bce/)
-  - Free, open source, repo at https://gitlab.com/sidiousious/bce/
-  - Desktop Cross Platform (requires [Intiface Central](https://intiface.com/central))
-  - Mod for [Bondage Club](https://www.bondageprojects.com/club_game/) to synchronize the status of
-    vibrating toys on your character to your real toys via Buttplug allowing other players to
-    control them, among other enhancements to the game.
 - [Fallen Angel Marielle - Ascend The Futanari Tower](https://github.com/NoGRo/FallenAngelHandy)
   - Free, open source, repo at https://github.com/NoGRo/FallenAngelHandy
   - Windows 10+ only
@@ -371,20 +368,30 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central) and [Everest](https://everestapi.github.io/)
   - Buttplug integration for Celeste
 - [Creepy Redneck Dinosaur Mansion Buttplug 3](https://github.com/qdot/creepy-redneck-dinosaur-mansion-buttplug-3)
-  - Free, open source
+  - Free, open source, repo at https://github.com/qdot/creepy-redneck-dinosaur-mansion-buttplug-3
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
   - Buttplug integration for Creepy Redneck Dinosaur Mansion 3
 - [Pegginglin](https://github.com/qdot/pegginglin)
-  - Free, open source
+  - Free, open source, repo at https://github.com/qdot/pegginglin
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
   - Buttplug integration for Peglin
 - [World of Buttcraft](https://github.com/PhilipDecoco/World-of-Buttcraft)
-  - Free, open source
+  - Free, open source, repo at https://github.com/PhilipDecoco/World-of-Buttcraft
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central) and several other
     tools (see README for project)
   - Buttplug integration for World of Warcraft
-
-
+- [Payday 2 - Heister's Haptics](https://modworkshop.net/mod/49879)
+  - Free, open source, repo at https://github.com/Siri-chan/Heisters-Haptics
+  - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
+  - Buttplug integration for Payday 2
+- [Wholesome Club Extensions (WCE)](https://github.com/KittenApps/WCE)
+  - Free, open source, repo at https://github.com/KittenApps/WCE
+  - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
+  - Buttplug integration for Bondage Club (Fork/Update of FBC mod)
+- [Rocket League Buttplug (RLBP)](https://github.com/idunnojustletme/RLBP)
+  - Free, open source, repo at https://github.com/idunnojustletme/RLBP
+  - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
+  - Buttplug integration for Rocket League
 
 ### Counter-Strike
 
@@ -735,7 +742,14 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/PingerSurprise/VrcLovenseConnect
   - Windows 10+ only
   - VRC support via OSC for Buttplug or Lovense Connect
-  - Deprecation Reason: Project removed from Github  
+  - Deprecation Reason: Project removed from Github
+- [For Better Club](https://sidiousious.gitlab.io/bce/)
+  - Free, open source, repo at https://gitlab.com/sidiousious/bce/
+  - Desktop Cross Platform (requires [Intiface Central](https://intiface.com/central))
+  - Mod for [Bondage Club](https://www.bondageprojects.com/club_game/) to synchronize the status of
+    vibrating toys on your character to your real toys via Buttplug allowing other players to
+    control them, among other enhancements to the game.
+  - Deprecation Reason: Project abandoned, replaced with WCE.  
 
 ## Friends of Buttplug
 
