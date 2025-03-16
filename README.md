@@ -134,6 +134,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/Crispy-repo/theaipeeps-intiface
   - Web based (requires [Intiface Central](https://intiface.com/central))
   - Tampermonkey script for use with Ai Peeps Chat Features
+- [XToys Bridge](https://github.com/c4llv07e/xtoys_bridge)
+  - Free, open source, repo at https://github.com/c4llv07e/xtoys_bridge
+  - Cross Platform (requires [Intiface Central](https://intiface.com/central))
+  - node.js bridge for establishing Intiface device control for Xtoys.app
 
 ### Video Sync / Movies
 
