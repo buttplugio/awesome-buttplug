@@ -118,7 +118,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/KaydaFox/vencord-buttplugio
   - Cross platform (requires [Intiface Central](https://intiface.com/central))
   - Discord keyword trigger mod via the Vencord client
-- [VenPlusPlug](https://codeberg.org/Mopigames/VenPlugPlus)
+- [VenPlugPlus](https://codeberg.org/Mopigames/VenPlugPlus)
   - Free, open source, repo at https://codeberg.org/Mopigames/VenPlugPlus
   - Cross platform (requires [Intiface Central](https://intiface.com/central))
   - Fork of Vencord-Buttplugio, adds more integrations for Discord
