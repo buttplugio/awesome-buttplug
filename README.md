@@ -619,7 +619,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
     Engine](https://github.com/intiface/intiface-engine)
 
 #### Dart
-- [Buttplug Dart](https://github.com/buttplugio/buttplug-dart)
+- [Buttplug Dart](https://github.com/buttplugio/buttplug_dart)
   - Maintained by Buttplug Core Team
   - Standalone Dart library for connecting to [Intiface
     Central](https://intiface.com/central) or [Intiface
