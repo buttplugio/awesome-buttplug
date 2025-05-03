@@ -349,8 +349,13 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Buttplug integration for various Skyrim Adult Mods (Devious Devices, Toys&Love, SexLab, OStim)
 - [Geometry Plug](https://github.com/Zelfmonco/Geometry-Plug)
   - Free, open source, repo at https://github.com/Zelfmonco/Geometry-Plug
-  - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
+  - Windows Mac and Android only, requires [Intiface Central](https://intiface.com/central)
   - Buttplug integration for Geometry Dash
+- [R.E.P.L.U.G.](https://github.com/Zelfmonco/R.E.P.L.U.G)
+  - Free, open source, repo at https://github.com/Zelfmonco/R.E.P.L.U.G
+  - Windows only, requires [Intiface Central](https://intiface.com/central)
+  - Also on [Thunderstore](https://thunderstore.io/c/repo/p/Zelfmonco/REPLUG/) for easy install
+  - Buttplug Integration for R.E.P.O.
 - [Rumble Party (House Party)](https://github.com/CamelCaseName/RumbleParty)
   - Free, open source, repo at https://github.com/CamelCaseName/RumbleParty
   - Windows 10+ only, requires [Melonloader](https://github.com/LavaGang/MelonLoader/releases), intiface is bundled but can be replaced
