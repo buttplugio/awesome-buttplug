@@ -138,6 +138,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/c4llv07e/xtoys_bridge
   - Cross Platform (requires [Intiface Central](https://intiface.com/central))
   - node.js bridge for establishing Intiface device control for Xtoys.app
+- [Heartrate-Buttplug](https://github.com/Das-L1/Heartrate-Buttplug)
+  - Free, open source, repo at https://github.com/Das-L1/Heartrate-Buttplug
+  - Cross platform (requires [Intiface Central](https://intiface.com/central))
+  - Heartrate to Vibration monitor for OBS, using node.js
 
 ### Video Sync / Movies
 
@@ -248,6 +252,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Paid, available at https://www.patreon.com/goatvr
   - Windows 10+ only, VR only
   - Furry focused animation player with selectable characters, scenes and voice actresses.
+- [KamasutraVR](https://funscriptor.itch.io/kamasutra-vr)
+  - Paid, available at https://funscriptor.itch.io/kamasutra-vr
+  - Windows 10+ only, VR only
+  - VR sex simulator with support for multiple different toys
 
 ## Game Mods
 
@@ -413,6 +421,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/idunnojustletme/RLBP
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
   - Buttplug integration for Rocket League
+- [Haste: Broken Minds](https://steamcommunity.com/sharedfiles/filedetails/?id=3459133778)
+  - Free, open source, repo at https://git.sr.ht/~slayerofthebad/HasteBrokenMinds
+  - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
+  - Buttplug integration for Haste: Broken Worlds
 
 ### Counter-Strike
 
@@ -427,11 +439,15 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 
 ### Overwatch 2
 
-- [OverStim (Overwatch 2)](https://github.com/cryo-es/OverStim)
-  - Free, open source, repo at https://github.com/cryo-es/OverStim
+- [Underwatch Ultimate (Overwatch 2)](https://github.com/Furimanejo/Underwatch-Ultimate)
+  - Free, open source, repo at https://github.com/Furimanejo/Underwatch-Ultimate
+  - Cross Platform (requires [Intiface Central](https://intiface.com/central))
+  - Uses computer vision to trigger toys based on Kills, Assists, and Saves.
+- [OverStim (Overwatch 2)](https://codeberg.org/pharmercy/OverStim)
+  - Free, open source, repo at https://codeberg.org/pharmercy/OverStim
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
-  - Support offered through their [Discord](https://discord.com/invite/AVpcVhQQhu)
-  - Uses computer vision to trigger toys. Compatible with all heroes and has some hero-specific features.
+  - Uses computer vision to trigger toys with a focus on Healing characters.
+  - Older repo: https://github.com/cryo-es/OverStim?tab=readme-ov-file#attention
 
 ### Risk of Rain 2
 
