@@ -439,15 +439,12 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 
 ### Overwatch 2
 
-- [Underwatch Ultimate (Overwatch 2)](https://github.com/Furimanejo/Underwatch-Ultimate)
-  - Free, open source, repo at https://github.com/Furimanejo/Underwatch-Ultimate
-  - Cross Platform (requires [Intiface Central](https://intiface.com/central))
-  - Uses computer vision to trigger toys based on Kills, Assists, and Saves.
 - [OverStim (Overwatch 2)](https://codeberg.org/pharmercy/OverStim)
   - Free, open source, repo at https://codeberg.org/pharmercy/OverStim
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
   - Uses computer vision to trigger toys with a focus on Healing characters.
   - Older repo: https://github.com/cryo-es/OverStim?tab=readme-ov-file#attention
+- See also: Playful Plugins in Game Mods section
 
 ### Risk of Rain 2
 
