@@ -345,7 +345,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Buttplug integration for Cult of the Lamb
 - [Team Frotress 2 (Team Fortress 2)](https://github.com/fionafibration/team-frotress-2/)
   - Free, open source, repo at https://github.com/fionafibration/team-frotress-2/
-  - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
+  - Windows 10+ only, ([new fork that works on linux](https://github.com/imeowfuta/team-frotress-2)), both require [Intiface Central](https://intiface.com/central)
   - Buttplug integration for Team Fortress 2
 - [Buttplug Knight (Hollow Knight)](https://github.com/danatron1/ButtplugKnight)
   - Free, open source, repo at https://github.com/danatron1/ButtplugKnight
