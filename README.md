@@ -439,11 +439,11 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 
 ### Overwatch 2
 
-- [OverStim (Overwatch 2)](https://codeberg.org/pharmercy/OverStim)
+- [OverStim (Overwatch 2)](https://overstim.pharmercy.de/)
   - Free, open source, repo at https://codeberg.org/pharmercy/OverStim
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
   - Uses computer vision to trigger toys with a focus on Healing characters.
-  - Older repo: https://github.com/cryo-es/OverStim?tab=readme-ov-file#attention
+  - Older repo: https://github.com/cryo-es/OverStim
 - See also: Playful Plugins in Game Mods section
 
 ### Risk of Rain 2
