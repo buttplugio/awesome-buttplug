@@ -142,6 +142,11 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/Das-L1/Heartrate-Buttplug
   - Cross platform (requires [Intiface Central](https://intiface.com/central))
   - Heartrate to Vibration monitor for OBS, using node.js
+- [Rumbling Universal Mayhem Plugin (RUMP)](https://renpona.itch.io/rumbling-universal-mayhem-plugin)
+  - Free, closed source
+  - Windows only
+  - Connects Buttplug to Vtuber software so that your Vtuber avatar can react to vibration signals
+  - Supports VTubeStudio, Warudo, VNyan, Mtion Worlds
 
 ### Video Sync / Movies
 
