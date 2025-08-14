@@ -179,6 +179,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/c4llv07e/c4l_funscript
   - Web based
   - Simple browser based funscript player
+- [FunPlayer - Funscript Player for Mac](https://funplayer.app)
+  - Free, closed source
+  - MacOS (app available on Mac App Store)
+  - Playback of movies using Funscript (local player)
 
 ### Audio Sync
 
