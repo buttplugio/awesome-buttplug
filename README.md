@@ -183,6 +183,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, closed source
   - MacOS (app available on Mac App Store)
   - Playback of movies using Funscript (local player)
+- [Esrotica](https://esrotica.com)
+  - Free, closed source
+  - Web based (requires browser extension for timing sync)
+  - Create and play scripts for embedded audio and video from various mainstream sites that support embedding
 
 ### Audio Sync
 
