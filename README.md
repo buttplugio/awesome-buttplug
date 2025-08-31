@@ -438,6 +438,14 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://git.sr.ht/~slayerofthebad/HasteBrokenMinds
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
   - Buttplug integration for Haste: Broken Worlds
+- [Garfield Kart Furious Buttplug](https://github.com/DryIcedTea/FuriousButtplug)
+    - Free, open source, repo at https://github.com/DryIcedTea/FuriousButtplug
+    - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
+    - Buttplug integration for Garfield Kart Furious Racing
+- [Keep Vibing and Nobody Explodes](https://github.com/DryIcedTea/KeepVibingAndNobodyExplodes)
+    - Free, open source, repo at https://github.com/DryIcedTea/KeepVibingAndNobodyExplodes
+    - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
+    - Buttplug integration for Keep Talking and Nobody Explodes
 
 ### Counter-Strike
 
