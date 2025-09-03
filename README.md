@@ -187,6 +187,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, closed source
   - Web based (requires browser extension for timing sync)
   - Create and play scripts for embedded audio and video from various mainstream sites that support embedding
+- [Web Funscript Player](https://funscriptplayer.com)
+  - Free, open source, repo at https://github.com/martinAlt335/funscript-player
+  - Web based (Cross platform via browser)
+  - Playback of movies using Funscript
 
 ### Audio Sync
 
