@@ -147,6 +147,18 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Windows only
   - Connects Buttplug to Vtuber software so that your Vtuber avatar can react to vibration signals
   - Supports VTubeStudio, Warudo, VNyan, Mtion Worlds
+- [Audio to Vibrations](https://github.com/DabzillaNation/Audio-To-Vibrations/)
+  - Free, open source, repo at https://github.com/DabzillaNation/Audio-To-Vibrations/
+  - Windows only, requires [Intiface Central](https://intiface.com/central)
+  - Converts audio to vibrations, with some envelope manipulation features
+- [buttplug_AHK](https://github.com/Cramonty/Buttplug_AHK)
+  - Free, open source, repo at https://github.com/Cramonty/Buttplug_AHK
+  - Windows only, requires [Intiface Central](https://intiface.com/central)
+  - AHK Buttplug Support via python and AHK scripts
+- [VibeMapper](https://github.com/HugeChungus96/VibeMapper)
+  - Free, open source, repo at https://github.com/Cramonty/Buttplug_AHK
+  - Windows only, requires [Intiface Central](https://intiface.com/central)
+  - kb/mouse/controller event binding for Buttplug
 
 ### Video Sync / Movies
 
@@ -273,6 +285,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Paid, available at https://funscriptor.itch.io/kamasutra-vr
   - Windows 10+ only, VR only
   - VR sex simulator with support for multiple different toys
+- [Buttplug Says](https://github.com/Das-L1/Buttplug-Says)
+  - Free, available on https://github.com/Das-L1/Buttplug-Says
+  - Cross platform
+  - A simon says like game running on python with Intiface Central integration
 
 ## Game Mods
 
@@ -450,6 +466,18 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
     - Free, open source, repo at https://github.com/DryIcedTea/KeepVibingAndNobodyExplodes
     - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
     - Buttplug integration for Keep Talking and Nobody Explodes
+- [OsuPlug](https://github.com/zoey-on-github/osuPlug)
+  - Free, open source, repo at https://github.com/zoey-on-github/osuPlug
+  - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
+  - Buttplug integration for Osu, vibrates when miss detected.
+- [Oh So Plugged!](https://github.com/FrostedEntropy/OhSoPlugged)
+  - Free, open source, repo at https://github.com/FrostedEntropy/OhSoPlugged
+  - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
+  - Buttplug integration for Oh So Hero!
+- [ioq3-buttplug](https://github.com/er2off/ioq3-buttplug)
+  - Free, open source, repo at https://github.com/er2off/ioq3-buttplug
+  - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
+  - Buttplug integration for ioquake3 
 
 ### Counter-Strike
 
