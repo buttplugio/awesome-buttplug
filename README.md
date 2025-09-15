@@ -477,7 +477,12 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 - [ioq3-buttplug](https://github.com/er2off/ioq3-buttplug)
   - Free, open source, repo at https://github.com/er2off/ioq3-buttplug
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
-  - Buttplug integration for ioquake3 
+  - Buttplug integration for ioquake3
+- [SilkSchlong](https://github.com/qdot/silkschlong)
+  - Free, open source, repo at https://github.com/er2off/ioq3-buttplug
+  - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
+  - Buttplug integration for Hollow Knight: Silksong
+
 
 ### Counter-Strike
 
