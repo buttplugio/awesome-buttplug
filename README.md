@@ -156,7 +156,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Windows only, requires [Intiface Central](https://intiface.com/central)
   - AHK Buttplug Support via python and AHK scripts
 - [VibeMapper](https://github.com/HugeChungus96/VibeMapper)
-  - Free, open source, repo at https://github.com/Cramonty/Buttplug_AHK
+  - Free, open source, repo at https://github.com/HugeChungus96/VibeMapper
   - Windows only, requires [Intiface Central](https://intiface.com/central)
   - kb/mouse/controller event binding for Buttplug
 
