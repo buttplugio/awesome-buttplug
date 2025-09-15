@@ -571,7 +571,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Windows 10+ only
   - Support Discord at [https://vrbrations.com](https://vrbrations.com)
   - Allows sex toy control from VRChat via either Buttplug or the Lovense Connect app, with OSC or shader based interaction capabilities.
-
+- [VRC_Pleasure](https://guetan.booth.pm/items/6903803)
+  - Closed source, paid, [available on booth](https://guetan.booth.pm/items/6903803)
+  - Windows 10+ only
+  - Provides control UI other people can use to control haptics on your av
 - [VibeCheck](https://github.com/SutekhVRC/VibeCheck)
   - Free, open source, repo at https://github.com/SutekhVRC/VibeCheck
   - Windows 10+ only
