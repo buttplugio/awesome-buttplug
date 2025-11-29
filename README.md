@@ -313,12 +313,12 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/PITR-DEV/ukbutt-mod
   - Windows 10+, Steam Deck if You're Brave (via [Intiface Central](https://intiface.com/central))
   - Mod for [Ultrakill](https://store.steampowered.com/app/1229490/ULTRAKILL/), triggers toys on various game events or rank
-- [BepInEx LoveMachine](https://sauceke.github.io/LoveMachine)
-  - Free, open source, repo at https://github.com/Sauceke/LoveMachine
+- [LoveMachine](https://sauceke.itch.io/lovemachine)
+  - Free, open source, repo at https://codeberg.org/Sauceke/LoveMachine
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
-  - Mod for Koikatsu, Koikatsu Party, Koikatsu Sunshine, Honey Select 2, RoomGirl, VR Kanojo,
-    PlayHome, Custom Order Maid 3D2, After Service Gangbang Addicts, Insult Order and Our Apartment
-    to add support for stroking, vibrating and rotating devices
+  - Mod for over 40 adult games (Koikatsu, Honey Select 2, Custom Order Maid 3D2, HoneyCome,
+    Koi-Koi VR, Insult Order, Summer In Heat and many more) to add support for stroking, vibrating,
+    rotating, oscillating and tightening devices
 - [B.U.T.T.P.L.U.G. Anomaly](https://github.com/abbiwyn/buttplug-anomaly)
   - Free, open source, repo at https://github.com/abbiwyn/buttplug-anomaly
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
