@@ -582,8 +582,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Provides control UI other people can use to control haptics on your av
 - [VibeCheck](https://github.com/SutekhVRC/VibeCheck)
   - Free, open source, repo at https://github.com/SutekhVRC/VibeCheck
-  - Windows 10+ only
-  - VRC support via OSC for Buttplug
+  - Releases for Windows 10+ and Linux (deb,rpm,appimage).
+  - VRC support via OSC for Buttplug.
+  - Supports Bluetooth LE & Lovense Dongle toys with the following systems: SPS, TPS, Custom parameter inputs (Float&Bool). Including various mode processors to change the behavior of input.
+  - For a full list of features see the wiki: https://github.com/SutekhVRC/VibeCheck/wiki
 - [OSC_D10](https://github.com/D10X1D0/OSC_D10)
   - Free, open source, repo at https://github.com/D10X1D0/OSC_D10
   - Windows 10+ only
