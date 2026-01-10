@@ -331,6 +331,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/BytewaveMLP/DGButtPlugin
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
   - [Duck Game](https://store.steampowered.com/app/312530/Duck_Game/) Buttplug plugin
+- [DuckSense (Duck Game)](https://github.com/sudoUserUnkwnown/DuckSense)
+  - Free, open source, repo at https://github.com/sudoUserUnkwnown/DuckSense
+  - Windows 10+ and Linux (requires [Intiface Central](https://intiface.com/central))
+  - [Duck Game](https://store.steampowered.com/app/312530/Duck_Game/) Buttplug plugin
 - [SDTButtplug](https://github.com/Nootna8/SDTButtplug)
   - Free, open source, repo at https://github.com/Nootna8/SDTButtplug
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
