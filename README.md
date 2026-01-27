@@ -297,10 +297,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Windows 10+ only (Standalone or via [Intiface Central](https://intiface.com/central))
   - Hooks to Windows PC Games, rerouting gamepad rumble to control sex toys.
 - [Playful Plugins](https://furimanejo.itch.io/playful-plugins)
-  - Free, closed source
+  - The app is free and mostly closed source. Plugins are possibly sold/distributed separately (since version 1.99)
   - Windows only, requires [Intiface Central](https://intiface.com/central)
-  - Integration for Overwatch 2, League of Legends, Elden Ring, Helldivers 2, Peggle Deluxe, Kinky Dungeon, Ero Dungeons, PowerWash Simulator. More information at https://github.com/Furimanejo/playful-plugins-readme
-  - Custom game intergrations/plugins are easily user generated, such as for [Marvel Rivals](https://github.com/solrac214/marvel-rivals-pp-plugin).
+  - Non-exhaustive list of supported games: Abandoned Archive, Black Myth: Wukong, Elden Ring and Nightreign, Ero Dungeons, Fortnite, Helldivers 2, Hollow Knight: Silksong, Kinky Dungeon, Muse Dash, Peggle Deluxe, Overwatch 2, PowerWash Simulator, Team Fortress 2, Vampire Survivors
+  - Allows the creation of custom plugins using the [PPScript](https://github.com/Furimanejo/PP-Script) library. Detection methods include computer vision, process memory reading and HTTP requests
 - [BPGE (ButtPlug Game Events)](https://github.com/allanf181/BPGE)
   - Free, source avaliable, repo at https://github.com/allanf181/BPGE
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central) and [HomeAssistant Game Events](https://www.overwolf.com/app/BinaryBurger-HomeAssistant_Game_Events))
