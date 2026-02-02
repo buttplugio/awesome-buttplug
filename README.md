@@ -621,7 +621,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 ### General Development
 
 #### Rust
-- [Buttplug Rust](https://github.com/buttplugio/buttplug-rs)
+- [Buttplug Rust](https://github.com/buttplugio/buttplug)
   - Available on [crates.io](https://crates.io/crates/buttplug)
   - Maintained by Buttplug Core Team
   - Core Buttplug library, handles all hardware control and remote connections.
@@ -667,9 +667,9 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - (WASM in-browser server coming soon)
 
 #### Python
-- [buttplug-py](https://github.com/Siege-Wizard/buttplug-py)
-  - Available on [PyPi](https://pypi.org/project/buttplug-py/)
-  - Maintained by Community Developers
+- [Buttplug Python](https://github.com/buttplugio/buttplug-py)
+  - Available on [PyPi](https://pypi.org/project/buttplug/)
+  - Written by Buttplug Core Team
   - Standalone Python client library for connecting to [Intiface
     Central](https://intiface.com/central) or [Intiface
     Engine](https://github.com/intiface/intiface-engine)
@@ -804,13 +804,6 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Web based (Cross platform via either browser or Intiface Central)
   - Web based movie playback system for funscript movies.
   - Deprecation Reason: Dev moved on
-- [Buttplug Python](https://github.com/buttplugio/buttplug-py)
-  - Available on [PyPi](https://pypi.org/project/buttplug/)
-  - Written by Buttplug Core Team
-  - Standalone Python client library for connecting to [Intiface
-    Central](https://intiface.com/central) or [Intiface
-    Engine](https://github.com/intiface/intiface-engine)
-  - Deprecation Reason: Core team ran out of time to support
 - [Buttplug Of Legends (League of Legends)](https://github.com/kinkyacedev/buttplug-of-legends)
   - Free, open source, repo at https://github.com/kinkyacedev/buttplug-of-legends
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
@@ -857,6 +850,14 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
     vibrating toys on your character to your real toys via Buttplug allowing other players to
     control them, among other enhancements to the game.
   - Deprecation Reason: Project abandoned, replaced with WCE.  
+- [buttplug-py](https://github.com/Siege-Wizard/buttplug-py)
+  - Available on [PyPi](https://pypi.org/project/buttplug-py/)
+  - Maintained by Community Developers
+  - Standalone Python client library for connecting to [Intiface
+    Central](https://intiface.com/central) or [Intiface
+    Engine](https://github.com/intiface/intiface-engine)
+  - Deprecation Reason: Project abandoned, replaced with [buttplug (python)](https://github.com/buttplug/buttplug-py)
+
 
 ## Friends of Buttplug
 
