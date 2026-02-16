@@ -159,6 +159,11 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/HugeChungus96/VibeMapper
   - Windows only, requires [Intiface Central](https://intiface.com/central)
   - kb/mouse/controller event binding for Buttplug
+- [Synsual](https://synsual.me/r/t1WW5Q)
+  - Paid but has free characters.
+  - Web-based, Chrome recommended
+  - AI roleplay platform with multi-device toy control. Features voice chat, image/video generation, and customizable AI characters.
+ 
 
 ### Video Sync / Movies
 
