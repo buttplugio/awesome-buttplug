@@ -495,8 +495,8 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/er2off/ioq3-buttplug
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
   - Buttplug integration for ioquake3
-- [SilkSchlong](https://github.com/qdot/silkschlong)
-  - Free, open source, repo at https://github.com/er2off/ioq3-buttplug
+- [Buttplug Song](https://thunderstore.io/c/hollow-knight-silksong/p/danatron1/Buttplug_Song/)
+  - Free, open source, repo at https://git.gay/danatron1/ButtplugSong
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
   - Buttplug integration for Hollow Knight: Silksong
 
@@ -870,6 +870,11 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
     Central](https://intiface.com/central) or [Intiface
     Engine](https://github.com/intiface/intiface-engine)
   - Deprecation Reason: Project abandoned, replaced with [buttplug (python)](https://github.com/buttplug/buttplug-py)
+- [SilkSchlong](https://github.com/qdot/silkschlong)
+  - Free, open source, repo at https://github.com/er2off/ioq3-buttplug
+  - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
+  - Buttplug integration for Hollow Knight: Silksong
+  - Deprecation Reason: Unmaintained, replaced with [Buttplug Song](https://thunderstore.io/c/hollow-knight-silksong/p/danatron1/Buttplug_Song/)
 
 
 ## Friends of Buttplug
