@@ -167,6 +167,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 
 ### Video Sync / Movies
 
+- [HaptiQ](https://haptiq.app)
+  - Free tier + Pro ($9.99/mo), closed source
+  - Web based + Chrome/Edge extension (Cross platform, Web Bluetooth — no Intiface Central required)
+  - AI-powered funscript generator that creates synchronized scripts from any video using computer vision. Browser extension syncs funscripts to any website at 50Hz. Supports 872+ devices including Lovense, The Handy, Kiiroo, Satisfyer, JoyHub, and Nordic UART devices.
 - [MultiFunPlayer](https://github.com/Yoooi0/MultiFunPlayer)
   - Free, open source, repo at https://github.com/Yoooi0/MultiFunPlayer
   - Windows 10+ only
