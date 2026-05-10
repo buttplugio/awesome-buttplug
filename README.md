@@ -869,7 +869,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Standalone Python client library for connecting to [Intiface
     Central](https://intiface.com/central) or [Intiface
     Engine](https://github.com/intiface/intiface-engine)
-  - Deprecation Reason: Project abandoned, replaced with [buttplug (python)](https://github.com/buttplug/buttplug-py)
+  - Deprecation Reason: Project abandoned, replaced with [buttplug (python)](https://github.com/buttplugio/buttplug-py)
 - [SilkSchlong](https://github.com/qdot/silkschlong)
   - Free, open source, repo at https://github.com/er2off/ioq3-buttplug
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
