@@ -208,6 +208,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/martinAlt335/funscript-player
   - Web based (Cross platform via browser)
   - Playback of movies using Funscript
+- [HaptiQ](https://haptiq.app)
+  - Free tier + Pro ($9.99/mo), available at https://haptiq.app
+  - Chrome and Edge only, **no Intiface Central required** (uses Web Bluetooth API directly)
+  - AI-powered funscript generation from any video, browser extension for real-time sync to 870+ devices (Lovense, The Handy, Kiiroo, JoyHub, Nordic UART), funscript timeline editor
 - [IVE](https://iveplay.io)
   - Free, open source, repo at https://github.com/iveplay/ive
   - Chromium, Firefox and Firefox mobile only requires [Intiface Central](https://intiface.com/central)
