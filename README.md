@@ -396,7 +396,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/bananasov/LethalVibrations
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
   - Buttplug integration for Lethal Company
-- [Cult of the Buttplug (Cult of the Lamb)](https://cult-of-the-lamb.thunderstore.io/package/nonpolynomial/CultOfTheButtplug/)
+- [Cult of the Buttplug (Cult of the Lamb)](https://thunderstore.io/c/cult-of-the-lamb/p/nonpolynomial/CultOfTheButtplug/)
   - Free, open source, repo at https://github.com/qdot/CultOftheButtplug
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
   - Buttplug integration for Cult of the Lamb
