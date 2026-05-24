@@ -318,6 +318,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Paid, available at https://funscriptor.itch.io/kamasutra-vr
   - Windows 10+ only, VR only
   - VR sex simulator with support for multiple different toys
+- [Fresh Bulls Wanted](https://comradeoohaah.itch.io/freshbullswanted)
+  - Free beta, available on [itch.io](https://comradeoohaah.itch.io/freshbullswanted)
+  - Meta Quest (2+) via sideloading, PCVR coming soon
+  - VR game with native Handy support and Intiface Central integration for other toys
 - [Buttplug Says](https://github.com/Das-L1/Buttplug-Says)
   - Free, available on https://github.com/Das-L1/Buttplug-Says
   - Cross platform
