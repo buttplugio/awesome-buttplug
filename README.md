@@ -523,6 +523,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/er2off/ioq3-buttplug
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
   - Buttplug integration for ioquake3
+- [PathOfButtPlug](https://github.com/secretprojectspage/pathofbuttplug)
+  - Free, open source, repo at https://github.com/secretprojectspage/pathofbuttplug
+  - Windows 10+ only
+  - Buttplug integration for Path of Exile, vibrates on Divine drops
 - [Buttplug Song](https://thunderstore.io/c/hollow-knight-silksong/p/danatron1/Buttplug_Song/)
   - Free, open source, repo at https://git.gay/danatron1/ButtplugSong
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
