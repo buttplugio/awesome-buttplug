@@ -569,8 +569,8 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Closed source, free, requires paid subscription for some features
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
   - FFXIV triggers for sex toy control, via [Dalamud](https://github.com/goatcorp/Dalamud)
-- [AetherSense Redux (Beta)](https://github.com/digital-pet/AetherSenseRedux)
-  - Free, open source, repo at https://github.com/digital-pet/AetherSenseRedux
+- [AetherSense Redux (Beta)](https://github.com/aka-tamagotchi/AetherSenseRedux)
+  - Free, open source, repo at https://github.com/aka-tamagotchi/AetherSenseRedux
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
   - Realtime chat and combat log parsing, via [Dalamud](https://github.com/goatcorp/Dalamud)
 
