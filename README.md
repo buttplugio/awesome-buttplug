@@ -318,6 +318,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Paid, available at https://funscriptor.itch.io/kamasutra-vr
   - Windows 10+ only, VR only
   - VR sex simulator with support for multiple different toys
+- [JOIP-Engine](https://github.com/RemotelyChaotic/JOIPEngine)
+  - Free, open source, repo at https://github.com/RemotelyChaotic/JOIPEngine
+  - Cross platform
+  - JOI teasing engine with Milovana tease support and Buttplug integration
 - [Fresh Bulls Wanted](https://comradeoohaah.itch.io/freshbullswanted)
   - Free beta, available on [itch.io](https://comradeoohaah.itch.io/freshbullswanted)
   - Meta Quest (2+) via sideloading, PCVR coming soon
