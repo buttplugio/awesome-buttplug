@@ -172,6 +172,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Available on [crates.io](https://crates.io/crates/vibe-rs)
   - Cross platform (requires [Intiface Central](https://intiface.com/central))
   - Command-line tool that vibrates toys while a shell command is running
+- [LLMBTPLG](https://github.com/cyongjin37/LLMBTPLG)
+  - Free, open source, repo at https://github.com/cyongjin37/LLMBTPLG
+  - Web based (requires [Intiface Central](https://intiface.com/central))
+  - Web interface for controlling devices using LM Studio and local LLMs
 
 ### Video Sync / Movies
 
