@@ -758,7 +758,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - RPGMaker support for Buttplug
 - [GSpot](https://github.com/deadpixelsociety/gspot)
   - Godot 4 Plugin for Buttplug
-- [Godot.Buttplug](https://github.com/nhydock/Godot.Buttplug)
+- [Godot.Buttplug](https://github.com/erodozer/Godot.Buttplug)
   - Godotscript Implementation of a Buttplug Client
 
 ### Other Frameworks and Plugins
