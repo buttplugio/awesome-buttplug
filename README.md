@@ -639,10 +639,6 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 
 ### ChilloutVR
 
-- [VibeGoesBrr](https://gumroad.com/l/VibeGoesBrrr)
-  - Free, open source, repo at https://gitlab.com/jacefax/vibegoesbrrr
-  - Windows 10+ only
-  - Buttplug Integration for ChilloutVR, w/ automated setup/interaction for [Raliv's Dynamic Penetration System](https://raliv.gumroad.com/l/lwthuB)
 
 ## Hardware Support
 
@@ -918,6 +914,11 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 - [ButtPlugin](https://github.com/epsypolym/Buttplugin)
   - Buttplug Plugin for the [Unreal Engine](https://www.unrealengine.com/en-US)
   - Deprecation Reason: Repository removed from GitHub
+- [VibeGoesBrr](https://gumroad.com/l/VibeGoesBrrr)
+  - Free, open source, repo at https://gitlab.com/jacefax/vibegoesbrrr
+  - Windows 10+ only
+  - Buttplug Integration for ChilloutVR
+  - Deprecation Reason: Gumroad page removed
 - [PROHE](https://marketplace.visualstudio.com/items?itemName=UncensorPat.prohe)
   - Free, open source, repo at https://github.com/UncensorPat/prohe
   - Cross platform (VS Code, requires [Intiface Central](https://intiface.com/central))
