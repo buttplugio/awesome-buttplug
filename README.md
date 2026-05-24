@@ -102,10 +102,6 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/Sir-Prise/ahegao-detector
   - Web based (Cross platform, either via browsers or [Intiface Central](https://intiface.com/central))
   - Facial recognition of Ahegao expressions for controlling toys
-- [PROHE](https://marketplace.visualstudio.com/items?itemName=UncensorPat.prohe)
-  - Free, open source, repo at https://github.com/UncensorPat/prohe
-  - Cross platform (VS Code, requires [Intiface Central](https://intiface.com/central))
-  - VS Code extension for providing "productivity reinforcement" when typing
 - [Fediplug](https://github.com/nova-r/fediplug)
   - Free, open source, repo at https://github.com/nova-r/fediplug
   - Cross platform (requires [Intiface Central](https://intiface.com/central))
@@ -922,6 +918,11 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 - [ButtPlugin](https://github.com/epsypolym/Buttplugin)
   - Buttplug Plugin for the [Unreal Engine](https://www.unrealengine.com/en-US)
   - Deprecation Reason: Repository removed from GitHub
+- [PROHE](https://marketplace.visualstudio.com/items?itemName=UncensorPat.prohe)
+  - Free, open source, repo at https://github.com/UncensorPat/prohe
+  - Cross platform (VS Code, requires [Intiface Central](https://intiface.com/central))
+  - VS Code extension for providing "productivity reinforcement" when typing
+  - Deprecation Reason: Removed from VS Code Marketplace
 - [Terragasm](https://github.com/nih0n/terragasm)
   - Free, open source, repo at https://github.com/nih0n/terragasm
   - Cross Platform (requires [Intiface Central](https://intiface.com/central))
