@@ -226,8 +226,8 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/Shadlock0133/music-vibes
   - Windows Only (Music Vibe can run standalone, [Intiface Central](https://intiface.com/central) optional)
   - Analyzes audio and translates into vibrations for Buttplug compatible hardware.
-- [Subwoofer](https://github.com/smol-skyz/subwoofer/)
-  - Free, open source, repo at https://github.com/smol-skyz/subwoofer/
+- [Subwoofer](https://github.com/abstract-creations/subwoofer/)
+  - Free, open source, repo at https://github.com/abstract-creations/subwoofer/
   - Windows/Linux Only (requires [Intiface Central](https://intiface.com/central))
   - Analyzes audio and translates into vibrations for Buttplug compatible hardware.
 - [MusicBoom](https://github.com/NovaGlider/musicboom/)
