@@ -110,8 +110,8 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, closed source
   - Web Based (Cross platform, either via browsers or [Intiface Central](https://intiface.com/central))
   - Simple interface for controlling toys locally or remotely. Plus creation, editing, and playback of custom patterns.
-- [Vencord-Buttplugio](https://github.com/KaydaFox/vencord-buttplugio)
-  - Free, open source, repo at https://github.com/KaydaFox/vencord-buttplugio
+- [Vencord-Buttplugio](https://github.com/maplefluff/vencord-buttplugio)
+  - Free, open source, repo at https://github.com/maplefluff/vencord-buttplugio
   - Cross platform (requires [Intiface Central](https://intiface.com/central))
   - Discord keyword trigger mod via the Vencord client
 - [VenPlugPlus](https://codeberg.org/Mopigames/VenPlugPlus)
