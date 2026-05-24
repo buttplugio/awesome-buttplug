@@ -628,7 +628,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 
 ## Hardware Support
 
-- [Edge-O-Matic](https://edgeomatic.buttplug.io)
+- [Edge-O-Matic](https://maustec.io)
   - Orgasm Denial Hardware Product w/ [Open Source Firmware](https://github.com/maustec)
   - Improved Nogasm Orgasm Denial system.
 - [Buttplug Lelo ESP32 Bridge](https://github.com/MonomoriumP/Buttplug.io--Lelo)
