@@ -562,11 +562,6 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/Cyloci/ButtplugMc
   - Cross Platform (requires [Intiface Central](https://intiface.com/central))
   - Plugin for Minecraft Multiplayer Servers
-- [Minegasm (Minecraft)](https://minegasm.therainbowville.com/)
-  - Free, open source, repo at https://github.com/RainbowVille/minegasm
-  - Cross Platform (requires [Intiface Central](https://intiface.com/central))
-  - Sex toy control plugin for Minecraft Forge
-  - [Ported to Fabric](https://github.com/vinceh121/Minegasm-fabric)
 - [mInetiface (Minecraft)](https://github.com/Fyustorm/mInetiface)
   - Another Minecraft Fabric mod with reward score system, ingame configuration and multiple devices
     support
@@ -910,6 +905,12 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 - [ButtPlugin](https://github.com/epsypolym/Buttplugin)
   - Buttplug Plugin for the [Unreal Engine](https://www.unrealengine.com/en-US)
   - Deprecation Reason: Repository removed from GitHub
+- [Minegasm (Minecraft)](https://minegasm.therainbowville.com/)
+  - Free, open source, repo at https://github.com/RainbowVille/minegasm
+  - Cross Platform (requires [Intiface Central](https://intiface.com/central))
+  - Sex toy control plugin for Minecraft Forge
+  - [Ported to Fabric](https://github.com/vinceh121/Minegasm-fabric)
+  - Deprecation Reason: SSL certificate expired, site likely abandoned
 - [Funscript Flow](https://www.funscriptflow.com/)
   - Free (with limits), closed source
   - Web based
