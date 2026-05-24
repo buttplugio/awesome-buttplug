@@ -512,7 +512,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Buttplug integration for Super Smash Bros
 - [Buttlatro](https://github.com/Fraggenard/Buttlatro)
   - Free, open source, repo at https://github.com/Fraggenard/Buttlatro
-  - Windows 10+ only, requires [Balamod](https://github.com/UwUDev/balamod)
+  - Windows 10+ only, requires Balamod
   - Buttplug integration for Balatro
 - [PathOfButtPlug](https://github.com/secretprojectspage/pathofbuttplug)
   - Free, open source, repo at https://github.com/secretprojectspage/pathofbuttplug
