@@ -347,8 +347,8 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Mod for over 40 adult games (Koikatsu, Honey Select 2, Custom Order Maid 3D2, HoneyCome,
     Koi-Koi VR, Insult Order, Summer In Heat and many more) to add support for stroking, vibrating,
     rotating, oscillating and tightening devices
-- [B.U.T.T.P.L.U.G. Anomaly](https://github.com/abbiwyn/buttplug-anomaly)
-  - Free, open source, repo at https://github.com/abbiwyn/buttplug-anomaly
+- [B.U.T.T.P.L.U.G. Anomaly](https://github.com/abbihors/buttplug-anomaly)
+  - Free, open source, repo at https://github.com/abbihors/buttplug-anomaly
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
   - Buttplug mod for STALKER: Anomaly
 - [Skybutt Skyrim Plugin](https://github.com/programotter/skybutt)
