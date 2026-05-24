@@ -722,6 +722,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Maintained by Buttplug Core Team
   - Buttplug Client implemented in pure Typescript
   - (WASM in-browser server coming soon)
+- [@zendrex/buttplug.js](https://github.com/Zendrex/buttplug.js)
+  - Available on [npm](https://www.npmjs.com/package/@zendrex/buttplug.js)
+  - Maintained by Community Developers
+  - Pure TypeScript client for protocol v4, with Zod runtime validation, pattern engine, and full docs
 
 #### Python
 - [Buttplug Python](https://github.com/buttplugio/buttplug-py)
