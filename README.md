@@ -87,8 +87,8 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/Flutterish/plaything.io
   - Cross platform
   - Node based client/server program for multiplayer remote toy control
-- [WebRTPP](https://github.com/monoredgoblins/WebTRPP)
-  - Free, open source, repo at https://github.com/monoredgoblins/WebTRPP
+- [WebRTPP](https://github.com/scry1-csv/WebTRPP)
+  - Free, open source, repo at https://github.com/scry1-csv/WebTRPP
   - Cross platform (web)
 - [Buzzy!](https://buzzyme.vercel.app/)
   - Free, open source, repo at https://github.com/BuzzyMe/buzzy
