@@ -163,7 +163,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Paid but has free characters.
   - Web-based, Chrome recommended
   - AI roleplay platform with multi-device toy control. Features voice chat, image/video generation, and customizable AI characters.
- 
+- [SHAKE](https://github.com/sideline-int/SHAKE)
+  - Free, open source, repo at https://github.com/sideline-int/SHAKE
+  - Cross platform (Word and Excel add-in)
+  - Controls devices as you type in Word and Excel, with customizable intensity ramp and Excel function integration
 
 ### Video Sync / Movies
 
