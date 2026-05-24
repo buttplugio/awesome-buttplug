@@ -586,7 +586,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/runtime-shady-backroom/buttplug-lite
   - Desktop Cross Platform
   - Scaled back version of the Buttplug Protocol for use with [NeosVR LogiX](https://neosvr.com) & [Resonite ProtoFlux](https://resonite.com/)
-- [Second Life Interface to ToyWebBridge](https://github.com/kyrahabattoir/ToyWebBridge/tree/master/Examples/LSL%20(Second%20Life))
+- [Second Life Interface to ToyWebBridge](https://github.com/kyrahabattoir/ToyWebBridge/tree/master/Examples/LSL%20%28Second%20Life%29)
   - Free, open source, repo at https://github.com/kyrahabattoir/ToyWebBridge
   - Windows 10+ only (for ToyWebBridge)
   - LSL Examples for accessing [ToyWebBridge](https://github.com/kyrahabattoir/ToyWebBridge)
