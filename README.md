@@ -247,6 +247,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at [https://github.com/NovaGlider/musicboom/](https://github.com/NovaGlider/musicboom/)
   - Linux Only (requires [Intiface Central](https://intiface.com/central) and JACK or Pipewire JACK)
   - Analyzes audio and translates into vibrations for Buttplug compatible hardware with two motors.
+- [ButtCLAP](https://github.com/AlexanderPavlenko/ButtCLAP)
+  - Free, open source, repo at https://github.com/AlexanderPavlenko/ButtCLAP
+  - Cross platform
+  - CLAP audio plugin for controlling Buttplug devices via audio signals
 - [Buttplug VST](https://github.com/fractalysis/buttplug-vst)
   - Free, open source, repo at https://github.com/fractalysis/buttplug-vst
   - Windows Only (requires [Intiface Central](https://intiface.com/central))
