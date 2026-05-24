@@ -401,14 +401,6 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/FrostyX/crooked-rook
   - Runs on Linux
   - The missing link between chess engines and intimate hardware
-- [Latex Dungeon + Buttplug](https://lustdolllover.itch.io/latex-dungeon-buttplug)
-  - Free, closed source (RPGMaker mod)
-  - Windows 10+ only
-  - Buttplug integration for the [Latex Dungeon MV game by ZXC](https://store.steampowered.com/agecheck/app/1622780/)
-- [Lust Doll Essentials](https://lustdolllover.itch.io/lust-doll-essentials)
-  - Free, closed source (RPGMaker mod)
-  - Windows 10+ only
-  - Buttplug integration for [Lust Doll+](https://indivi.itch.io/ldplus)
 - [Game Interface For Toys (Skyrim and Fallout 4)](https://github.com/MinLL/GameInterfaceForToys)
   - Free, open source, repo at https://github.com/MinLL/GameInterfaceForToys
   - Windows 10+ only
@@ -927,6 +919,16 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
   - Buttplug integration for Hollow Knight: Silksong
   - Deprecation Reason: Unmaintained, replaced with [Buttplug Song](https://thunderstore.io/c/hollow-knight-silksong/p/danatron1/Buttplug_Song/)
+- [Latex Dungeon + Buttplug](https://lustdolllover.itch.io/latex-dungeon-buttplug)
+  - Free, closed source (RPGMaker mod)
+  - Windows 10+ only
+  - Buttplug integration for the [Latex Dungeon MV game by ZXC](https://store.steampowered.com/agecheck/app/1622780/)
+  - Deprecation Reason: Developer account and all projects removed from itch.io
+- [Lust Doll Essentials](https://lustdolllover.itch.io/lust-doll-essentials)
+  - Free, closed source (RPGMaker mod)
+  - Windows 10+ only
+  - Buttplug integration for [Lust Doll+](https://indivi.itch.io/ldplus)
+  - Deprecation Reason: Developer account and all projects removed from itch.io
 
 
 ## Friends of Buttplug
