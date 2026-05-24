@@ -523,6 +523,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/er2off/ioq3-buttplug
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
   - Buttplug integration for ioquake3
+- [Tailgunner](https://github.com/TheDR-lul/Tailgunner)
+  - Free, open source, repo at https://github.com/TheDR-lul/Tailgunner
+  - Windows 10+ only
+  - Buttplug integration for War Thunder
 - [Super Smash Butts](https://gamebanana.com/mods/603782)
   - Free, closed source
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
