@@ -98,7 +98,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/ThatBatLuna/Beadi
   - Web based (Cross platform, either via browsers or [Intiface Central](https://intiface.com/central))
   - Visual node-based editor for programming Buttplug-compatible toys
-- [Ahegao Detector](https://ahegao-detector.netlify.app/)
+- [Ahegao Detector](https://ahegao-detector.pages.dev/)
   - Free, open source, repo at https://github.com/Sir-Prise/ahegao-detector
   - Web based (Cross platform, either via browsers or [Intiface Central](https://intiface.com/central))
   - Facial recognition of Ahegao expressions for controlling toys
