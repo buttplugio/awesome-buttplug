@@ -778,11 +778,9 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - C# Plugin for the [Unity Game Engine](https://unity.com)
 - [ButtplugUE](https://github.com/DeviantdVeloper/ButtplugUE)
   - C++ Buttplug Plugin for the [Unreal Engine](https://www.unrealengine.com/en-US)
-- [ButtPlugin](https://github.com/epsypolym/Buttplugin)
-  - Buttplug Plugin for the [Unreal Engine](https://www.unrealengine.com/en-US)
 - [Buttplug Unreal](https://github.com/CAD97/ButtplugUnreal/)
   - Buttplug protocol client integration and support for [Unreal Engine](https://www.unrealengine.com/en-US)
-  - Higher level than the other two; provides both C++ and Blueprint APIs (including latent/async Blueprint nodes)
+  - Higher level than ButtplugUE; provides both C++ and Blueprint APIs (including latent/async Blueprint nodes)
 - [Buttplug Twine](https://github.com/buttplugio/buttplug-twine)
   - [Sugarcube 2](https://www.motoslave.net/sugarcube/2/) macros for the [Twine Interactive Fiction
     Game Engine](https://twinery.org)
@@ -929,6 +927,9 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Windows 10+ only
   - Buttplug integration for [Lust Doll+](https://indivi.itch.io/ldplus)
   - Deprecation Reason: Developer account and all projects removed from itch.io
+- [ButtPlugin](https://github.com/epsypolym/Buttplugin)
+  - Buttplug Plugin for the [Unreal Engine](https://www.unrealengine.com/en-US)
+  - Deprecation Reason: Repository removed from GitHub
 
 
 ## Friends of Buttplug
