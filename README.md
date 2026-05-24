@@ -557,7 +557,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 
 ### Minecraft
 
-- [mInetiface (Minecraft)](https://github.com/Fyustorm/mInetiface)
+- [mInetiface (Minecraft)](https://github.com/Cyber-Kitty/mInetiface)
   - Another Minecraft Fabric mod with reward score system, ingame configuration and multiple devices
     support
   - Free, open source
