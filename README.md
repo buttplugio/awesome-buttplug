@@ -597,10 +597,6 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/notasuka/Viberaria
   - Cross Platform (requires [Intiface Central](https://intiface.com/central))
   - In game configuration, plenty of features to make your gameplay a lot more challenging
-- [Terragasm](https://github.com/nih0n/terragasm)
-  - Free, open source, repo at https://github.com/nih0n/terragasm
-  - Cross Platform (requires [Intiface Central](https://intiface.com/central))
-  - Buttplug integration for Terraria
 
 ## Virtual Worlds
 
@@ -925,6 +921,11 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Deprecation Reason: Developer account and all projects removed from itch.io
 - [ButtPlugin](https://github.com/epsypolym/Buttplugin)
   - Buttplug Plugin for the [Unreal Engine](https://www.unrealengine.com/en-US)
+  - Deprecation Reason: Repository removed from GitHub
+- [Terragasm](https://github.com/nih0n/terragasm)
+  - Free, open source, repo at https://github.com/nih0n/terragasm
+  - Cross Platform (requires [Intiface Central](https://intiface.com/central))
+  - Buttplug integration for Terraria
   - Deprecation Reason: Repository removed from GitHub
 - [monsieursoPythonPlayer](https://github.com/linuxeez/monsieur_so_funscript_player)
   - Simple Python script, using MPV
