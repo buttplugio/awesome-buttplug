@@ -167,6 +167,11 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/sideline-int/SHAKE
   - Cross platform (Word and Excel add-in)
   - Controls devices as you type in Word and Excel, with customizable intensity ramp and Excel function integration
+- [vibe-rs](https://github.com/Denendaden/vibe-rs)
+  - Free, open source, repo at https://github.com/Denendaden/vibe-rs
+  - Available on [crates.io](https://crates.io/crates/vibe-rs)
+  - Cross platform (requires [Intiface Central](https://intiface.com/central))
+  - Command-line tool that vibrates toys while a shell command is running
 
 ### Video Sync / Movies
 
