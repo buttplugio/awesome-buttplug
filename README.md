@@ -224,6 +224,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/iveplay/ive
   - Chromium, Firefox and Firefox mobile only requires [Intiface Central](https://intiface.com/central)
   - Synchronizes funscripts from script provider sites directly in the browser on your favorite site
+- [Funscript Flow](https://www.funscriptflow.com/)
+  - Free (with limits), closed source
+  - Web based
+  - Machine vision tool that generates funscripts from video libraries
 - [VibePlayer](https://github.com/spgsroot/VibePlayer)
   - Free, open source, repo at https://github.com/spgsroot/VibePlayer
   - Android and only requires [Intiface Central](https://intiface.com/central)
