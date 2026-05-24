@@ -809,8 +809,8 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Buttplug integration for VirtAMate
   - Deprecation Reason: Development was taken over after VamLaunch was abandoned, but developer does
     not use VAM and could not help on issues.
-- [Aethersense (FFXIV)](https://github.com/Ms-Tress/AetherSense)
-  - Free, open source, repo at https://github.com/Ms-Tress/AetherSense
+- [Aethersense (FFXIV)](https://github.com/Yuki-Codes/AetherSense)
+  - Free, open source, repo at https://github.com/Yuki-Codes/AetherSense
   - Windows 10+ only (Standalone)
   - FFXIV triggers for sex toy control, via [Dalamud](https://github.com/goatcorp/Dalamud)
   - Deprecation Reason: Dev moved on
