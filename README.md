@@ -772,6 +772,11 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/intiface-command/intiface-command
   - Cross platform ([SillyTavern](https://github.com/SillyTavern/SillyTavern) extension)
   - Allows LLM responses to control Intiface-compatible devices via inline commands
+- [Intiface Central SillyTavern Plugin](https://github.com/Enclave0775/Intiface_Central-Sillytavern-plugin)
+  - Free, open source, repo at https://github.com/Enclave0775/Intiface_Central-Sillytavern-plugin
+  - Cross platform ([SillyTavern](https://github.com/SillyTavern/SillyTavern) extension)  
+  - [SillyTavern](https://github.com/SillyTavern/SillyTavern) plugin for Intiface Central
+    integration, enabling haptic device control during AI roleplay
 - [ha-buttplug](https://github.com/DevelopmentalOctopus/ha-buttplug)
   - Buttplug intergration for [Home Assistant](https://www.home-assistant.io/)
   - You can connect your toys to various entities and create automations to control your toys
