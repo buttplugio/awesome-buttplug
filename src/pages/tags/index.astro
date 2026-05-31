@@ -35,8 +35,8 @@ const sortedTags = Array.from(tagCounts.entries()).sort(([a], [b]) =>
     margin-top: 1.5rem;
   }
   .tag-index-item {
-    background: #2a2a4a;
-    color: #ccc;
+    background: var(--tag-bg);
+    color: var(--text-muted);
     padding: 0.4rem 0.8rem;
     border-radius: 6px;
     text-decoration: none;
@@ -44,7 +44,7 @@ const sortedTags = Array.from(tagCounts.entries()).sort(([a], [b]) =>
     transition: background 0.15s;
   }
   .tag-index-item:hover {
-    background: #e94560;
+    background: var(--accent);
     color: white;
   }
   .tag-count {

@@ -57,7 +57,7 @@ const { tag, projects } = Astro.props;
     gap: 1rem;
   }
   .tag-project-card {
-    border: 1px solid #333;
+    border: 1px solid var(--border);
     border-radius: 8px;
     padding: 1rem;
   }
@@ -68,17 +68,17 @@ const { tag, projects } = Astro.props;
     margin: 0 0 0.5rem;
   }
   .tag-project-card h3 a {
-    color: #e94560;
+    color: var(--accent);
     text-decoration: none;
   }
   .tag-project-card p {
-    color: #ccc;
+    color: var(--text-muted);
     font-size: 0.9rem;
     margin: 0.5rem 0;
   }
   .badge-deprecated {
     display: inline-block;
-    background: #dc3545;
+    background: var(--danger);
     color: white;
     padding: 0.1rem 0.4rem;
     border-radius: 4px;
@@ -91,8 +91,8 @@ const { tag, projects } = Astro.props;
     margin-top: 0.5rem;
   }
   .tag-pill {
-    background: #2a2a4a;
-    color: #aaa;
+    background: var(--tag-bg);
+    color: var(--text-muted);
     padding: 0.15rem 0.5rem;
     border-radius: 3px;
     font-size: 0.75rem;
@@ -103,7 +103,7 @@ const { tag, projects } = Astro.props;
     color: #fff;
   }
   .tag-pill.active {
-    background: #e94560;
+    background: var(--accent);
     color: white;
   }
 </style>

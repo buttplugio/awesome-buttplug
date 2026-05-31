@@ -51,27 +51,27 @@ const isDeprecated = tags.includes("deprecated");
   }
   .badge-deprecated {
     display: inline-block;
-    background: #dc3545;
+    background: var(--danger);
     color: white;
     padding: 0.15rem 0.5rem;
     border-radius: 4px;
     font-size: 0.85rem;
   }
   .pricing {
-    color: #28a745;
+    color: var(--success);
     font-weight: bold;
   }
   .deprecation-reason {
-    color: #f0ad4e;
+    color: var(--warning);
     font-style: italic;
-    border-left: 3px solid #f0ad4e;
+    border-left: 3px solid var(--warning);
     padding-left: 0.75rem;
   }
   .meta {
     margin: 1rem 0;
   }
   .meta a {
-    color: #e94560;
+    color: var(--accent);
   }
   .tags {
     display: flex;
@@ -80,8 +80,8 @@ const isDeprecated = tags.includes("deprecated");
     margin: 1rem 0;
   }
   .tag-link {
-    background: #2a2a4a;
-    color: #aaa;
+    background: var(--tag-bg);
+    color: var(--text-muted);
     padding: 0.2rem 0.6rem;
     border-radius: 4px;
     font-size: 0.85rem;
