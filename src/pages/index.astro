@@ -1,8 +1,34 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import ProjectCard from "../components/ProjectCard.astro";
+import { getCollection } from "astro:content";
+
+const projects = await getCollection("projects");
 ---
 
 <BaseLayout title="Home">
   <h1>Awesome Buttplug</h1>
   <p>A curated list of awesome projects using the Buttplug sex toy control protocol.</p>
+  <div class="card-grid">
+    {projects.map((project) => (
+      <ProjectCard
+        id={project.id}
+        title={project.data.title}
+        summary={project.data.summary}
+        tags={project.data.tags}
+        image={project.data.image}
+        pricing={project.data.pricing}
+        deprecation_reason={project.data.deprecation_reason}
+      />
+    ))}
+  </div>
 </BaseLayout>
+
+<style>
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+</style>
