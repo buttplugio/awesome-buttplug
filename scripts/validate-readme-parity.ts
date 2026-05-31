@@ -1,6 +1,6 @@
 import fs from "node:fs";
+import { execFileSync } from "node:child_process";
 
-const ORIGINAL_README = "README.md";
 const GENERATED_README = "README.generated.md";
 const EXCLUDED_TOP_LEVEL_SECTIONS = new Set([
   "Table Of Contents",
@@ -15,15 +15,59 @@ interface Entry {
   bullets: string[];
 }
 
+interface Options {
+  baselinePath?: string;
+  baselineRef?: string;
+  generatedPath: string;
+}
+
+function parseArgs(argv: string[]): Options {
+  const options: Options = { generatedPath: GENERATED_README };
+
+  for (let i = 0; i < argv.length; i++) {
+    const arg = argv[i];
+    if (arg === "--baseline") {
+      options.baselinePath = argv[++i];
+    } else if (arg === "--baseline-ref") {
+      options.baselineRef = argv[++i];
+    } else if (arg === "--generated") {
+      options.generatedPath = argv[++i];
+    } else {
+      throw new Error(`Unknown argument: ${arg}`);
+    }
+  }
+
+  if (options.baselinePath && options.baselineRef) {
+    throw new Error("Use only one baseline source: --baseline or --baseline-ref.");
+  }
+
+  if (!options.baselinePath && !options.baselineRef) {
+    throw new Error(
+      "Missing baseline source. Use --baseline <path> or --baseline-ref <git-ref>."
+    );
+  }
+
+  return options;
+}
+
+function readBaseline(options: Options): string {
+  if (options.baselinePath) {
+    return fs.readFileSync(options.baselinePath, "utf-8");
+  }
+
+  return execFileSync("git", ["show", `${options.baselineRef}:README.md`], {
+    encoding: "utf-8",
+  });
+}
+
 function normalizeText(text: string): string {
   return text
-    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
     .replace(/\s+/g, " ")
     .trim();
 }
 
-function parseReadme(filePath: string): Entry[] {
-  const lines = fs.readFileSync(filePath, "utf-8").split("\n");
+function parseReadme(content: string): Entry[] {
+  const lines = content.split("\n");
   const entries: Entry[] = [];
   let currentSections: string[] = [];
   let currentEntry: Entry | null = null;
@@ -91,8 +135,9 @@ function describe(entry: Entry): string {
   return `${entry.sections.join(" > ")} / ${entry.title}`;
 }
 
-const originalEntries = parseReadme(ORIGINAL_README);
-const generatedEntries = parseReadme(GENERATED_README);
+const options = parseArgs(process.argv.slice(2));
+const originalEntries = parseReadme(readBaseline(options));
+const generatedEntries = parseReadme(fs.readFileSync(options.generatedPath, "utf-8"));
 const errors: string[] = [];
 
 if (originalEntries.length !== generatedEntries.length) {
