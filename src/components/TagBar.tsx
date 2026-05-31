@@ -1,5 +1,4 @@
 import type { FunctionalComponent } from "preact";
-import { useCallback } from "preact/hooks";
 
 interface Props {
   tags: Map<string, number>;
