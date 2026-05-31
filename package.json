@@ -5,15 +5,22 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "generate-readme": "tsx scripts/generate-readme.ts"
   },
   "engines": {
     "node": ">=22"
   },
   "dependencies": {
-    "astro": "^6.3.1",
     "@astrojs/preact": "^5.1.1",
-    "preact": "^10.25.0",
-    "astro-pagefind": "^1.8.5"
+    "astro": "^6.3.1",
+    "astro-pagefind": "^1.8.5",
+    "preact": "^10.25.0"
+  },
+  "devDependencies": {
+    "gray-matter": "^4.0.3",
+    "tsx": "^4.22.3",
+    "yaml": "^2.9.0",
+    "zod": "^4.4.3"
   }
 }
