@@ -1,0 +1,215 @@
+preamble: |
+  # 🍑🔌 List of Awesome Buttplug Projects! 🍑🔌
+
+  This is a list of different projects that use Buttplug in some way!
+
+  Want to request for a game or app you'd like Buttplug support in? [Reply to this thread on our forum or contact qDot directly!](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-list/228) (Instructions for direct contact are in post.)
+
+  Have a finished (or even work in progress but generally working) project you'd like to see on this
+  list? [Submit an issue to this repo and let us know!](https://github.com/buttplugio/awesome-buttplug/issues)
+
+sections:
+  - id: applications/utilities
+    heading: "Utilities"
+    level: 3
+    parent: "Applications"
+    parent_level: 2
+
+  - id: applications/video-sync
+    heading: "Video Sync / Movies"
+    level: 3
+    parent: "Applications"
+    parent_level: 2
+
+  - id: applications/audio-sync
+    heading: "Audio Sync"
+    level: 3
+    parent: "Applications"
+    parent_level: 2
+
+  - id: games
+    heading: "Games"
+    level: 2
+
+  - id: game-mods
+    heading: "Game Mods"
+    level: 2
+
+  - id: game-mods/counter-strike
+    heading: "Counter-Strike"
+    level: 3
+    parent: "Game Mods"
+    parent_level: 2
+
+  - id: game-mods/overwatch-2
+    heading: "Overwatch 2"
+    level: 3
+    parent: "Game Mods"
+    parent_level: 2
+
+  - id: game-mods/risk-of-rain-2
+    heading: "Risk of Rain 2"
+    level: 3
+    parent: "Game Mods"
+    parent_level: 2
+
+  - id: game-mods/minecraft
+    heading: "Minecraft"
+    level: 3
+    parent: "Game Mods"
+    parent_level: 2
+
+  - id: game-mods/ffxiv
+    heading: "FFXIV"
+    level: 3
+    parent: "Game Mods"
+    parent_level: 2
+
+  - id: game-mods/terraria
+    heading: "Terraria"
+    level: 3
+    parent: "Game Mods"
+    parent_level: 2
+
+  - id: virtual-worlds
+    heading: "Virtual Worlds"
+    level: 2
+
+  - id: virtual-worlds/vrchat
+    heading: "VRChat"
+    level: 3
+    parent: "Virtual Worlds"
+    parent_level: 2
+
+  - id: virtual-worlds/chilloutvr
+    heading: "ChilloutVR"
+    level: 3
+    parent: "Virtual Worlds"
+    parent_level: 2
+
+  - id: hardware-support
+    heading: "Hardware Support"
+    level: 2
+
+  - id: development/general/rust
+    heading: "Rust"
+    level: 4
+    parent: "General Development"
+    parent_level: 3
+    grandparent: "Development and Libraries"
+    grandparent_level: 2
+
+  - id: development/general/csharp
+    heading: "C#"
+    level: 4
+    parent: "General Development"
+    parent_level: 3
+    grandparent: "Development and Libraries"
+    grandparent_level: 2
+
+  - id: development/general/cpp
+    heading: "C++"
+    level: 4
+    parent: "General Development"
+    parent_level: 3
+    grandparent: "Development and Libraries"
+    grandparent_level: 2
+
+  - id: development/general/java
+    heading: "Java"
+    level: 4
+    parent: "General Development"
+    parent_level: 3
+    grandparent: "Development and Libraries"
+    grandparent_level: 2
+
+  - id: development/general/kotlin
+    heading: "Kotlin"
+    level: 4
+    parent: "General Development"
+    parent_level: 3
+    grandparent: "Development and Libraries"
+    grandparent_level: 2
+
+  - id: development/general/js-typescript
+    heading: "JS/Typescript"
+    level: 4
+    parent: "General Development"
+    parent_level: 3
+    grandparent: "Development and Libraries"
+    grandparent_level: 2
+
+  - id: development/general/python
+    heading: "Python"
+    level: 4
+    parent: "General Development"
+    parent_level: 3
+    grandparent: "Development and Libraries"
+    grandparent_level: 2
+
+  - id: development/general/haskell
+    heading: "Haskell"
+    level: 4
+    parent: "General Development"
+    parent_level: 3
+    grandparent: "Development and Libraries"
+    grandparent_level: 2
+
+  - id: development/general/go
+    heading: "Go"
+    level: 4
+    parent: "General Development"
+    parent_level: 3
+    grandparent: "Development and Libraries"
+    grandparent_level: 2
+
+  - id: development/general/lua
+    heading: "Lua"
+    level: 4
+    parent: "General Development"
+    parent_level: 3
+    grandparent: "Development and Libraries"
+    grandparent_level: 2
+
+  - id: development/general/lisp
+    heading: "LISP"
+    level: 4
+    parent: "General Development"
+    parent_level: 3
+    grandparent: "Development and Libraries"
+    grandparent_level: 2
+
+  - id: development/general/dart
+    heading: "Dart"
+    level: 4
+    parent: "General Development"
+    parent_level: 3
+    grandparent: "Development and Libraries"
+    grandparent_level: 2
+
+  - id: development/gleam
+    heading: "Gleam"
+    level: 3
+    parent: "Development and Libraries"
+    parent_level: 2
+
+  - id: development/game-development
+    heading: "Game Development"
+    level: 3
+    parent: "Development and Libraries"
+    parent_level: 2
+
+  - id: development/other-frameworks
+    heading: "Other Frameworks and Plugins"
+    level: 3
+    parent: "Development and Libraries"
+    parent_level: 2
+
+  - id: diy-hardware
+    heading: "DIY Hardware Projects"
+    level: 2
+
+  - id: deprecated
+    heading: "Deprecated Projects"
+    level: 2
+    intro: "**Projects listed here are assumed to not work anymore, either due to developer attrition or related service shutdown. The list here is preserved so other developers can use the projects for inspiration and examples.**"
