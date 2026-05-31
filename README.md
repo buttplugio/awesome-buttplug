@@ -7,49 +7,13 @@ Want to request for a game or app you'd like Buttplug support in? [Reply to this
 Have a finished (or even work in progress but generally working) project you'd like to see on this
 list? [Submit an issue to this repo and let us know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
-## Table Of Contents
-
-* [Community Links](#community-links)
-* [Applications](#applications)
-  * [Utilities](#utilities)
-  * [Video Sync](#video-sync--movies)
-  * [Audio Sync](#audio-sync)
-* [Games](#games)
-* [Game Mods](#game-mods)
-  * [Counter-Strike](#counter-strike)
-  * [Overwatch 2](#overwatch-2)
-  * [Risk of Rain 2](#risk-of-rain-2)
-  * [Minecraft](#minecraft)
-  * [FFXIV](#ffxiv)
-  * [Terraria](#terraria)
-* [Virtual Worlds (General)](#virtual-worlds)
-  * [VRChat](#vrchat)
-  * [ChilloutVR](#chilloutvr)
-* [Hardware Support](#hardware-support)
-* [Development and Libraries](#development-and-libraries)
-  * [General Development (Language Libraries)](#general-development)
-  * [Game Development](#game-development)
-  * [Other Frameworks and Plugins](#other-frameworks-and-plugins)
-* [DIY Hardware Projects](#diy-hardware-projects)
-* [Deprecated Projects](#deprecated-projects)
-* [Friends of Buttplug](#friends-of-buttplug)
-
-## Community Links
-
-- [Buttplug Discourse Server](https://discuss.buttplug.io)
-- [Buttplug Discord Server](https://discord.buttplug.io)
-- [Buttplug Twitter Account](https://twitter.com/buttplugio)
-- [Nonpolynomial Blog](https://nonpolynomial.com/blog)
-- [Buttpluggin' with qDot Youtube Channel](https://youtube.buttplug.io)
-
 ## Applications
 
 ### Utilities
 
 - [Intiface® Central](http://intiface.com/central)
   - Free, open source, repo at https://github.com/intiface/intiface-central
-  - Hub program for Buttplug. Allows applications to connect to an external Buttplug system, meaning
-    they don't have to update their program every time Buttplug itself updates.
+  - Hub program for Buttplug. Allows applications to connect to an external Buttplug system, meaning they don't have to update their program every time Buttplug itself updates.
 - [Buttplug Playground](https://playground.buttplug.world)
   - Free, open source, repo at https://github.com/intiface/buttplug-playground
   - Web based (Cross platform, either via browsers or [Intiface Central](https://intiface.com/central))
@@ -69,8 +33,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 - [Devious Buttplug](https://github.com/CammyLeone/devious-buttplug)
   - Free, open source, repo at https://github.com/CammyLeone/devious-buttplug
   - Web based (Cross platform, via browser or [Intiface Central](https://intiface.com/central))
-  - A set of web based utilities for Dom/mes, performers, power exchange usage, etc. Includes a
-    writing assignment interface, utilities for toy control with findom drains or tributes, etc...
+  - A set of web based utilities for Dom/mes, performers, power exchange usage, etc. Includes a writing assignment interface, utilities for toy control with findom drains or tributes, etc...
 - [Vibe Sequencer](https://webvrnsfw.github.io/vibe-sequencer/)
   - Free, open source, repo at https://github.com/webvrnsfw/vibe-sequencer
   - Web based (Cross platform, via browsers with [Intiface Central](https://intiface.com/central))
@@ -177,8 +140,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 - [MultiFunPlayer](https://github.com/Yoooi0/MultiFunPlayer)
   - Free, open source, repo at https://github.com/Yoooi0/MultiFunPlayer
   - Windows 10+ only
-  - Synchronizes funscripts with OSR-2 or any Buttplug compatible device for multiple video
-    players (DeoVR, MPV, HereSphere, Whirligig)
+  - Synchronizes funscripts with OSR-2 or any Buttplug compatible device for multiple video players (DeoVR, MPV, HereSphere, Whirligig)
 - [Scriptplayer](https://github.com/FredTungsten/ScriptPlayer)
   - Free, open source, repo at https://github.com/FredTungsten/ScriptPlayer
   - Windows 10+ only
@@ -241,8 +203,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 - [Buttplug VST](https://github.com/fractalysis/buttplug-vst)
   - Free, open source, repo at https://github.com/fractalysis/buttplug-vst
   - Windows Only (requires [Intiface Central](https://intiface.com/central))
-  - VST for DAWs like Ableton Live, FL Studio, or DJing software like Virtual DJ. Analyzes music and
-    outputs bass as haptic response.
+  - VST for DAWs like Ableton Live, FL Studio, or DJing software like Virtual DJ. Analyzes music and outputs bass as haptic response.
 - [Buttplug for Live](https://maxforlive.com/library/device.php?id=9190)
   - Free, open source, repo at https://github.com/Vurich/Buttplug-for-Live
   - Any platform supported by Ableton and Max (officially, Windows and macOS)
@@ -251,32 +212,25 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 ## Games
 
 - [Besti](https://besti.love)
-  - Crowdfunded, available via [multiple
-    platforms](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vQogHjAAzm-iYtlcaU29a7KL4W19EVnpcR5onsEFoPvKH5IPl8FIfaqiNSofIpp3c3U21w3PuwXupq5/pubhtml),
-    or [as a demo](https://besti.love/index.php/get-besti/)
+  - Crowdfunded, available via [multiple platforms](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vQogHjAAzm-iYtlcaU29a7KL4W19EVnpcR5onsEFoPvKH5IPl8FIfaqiNSofIpp3c3U21w3PuwXupq5/pubhtml), or [as a demo](https://besti.love/index.php/get-besti/)
   - Windows 10+ only, VR or Desktop
-  - MLP and furry focused, integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity)
-    for toy control within interactive scenes. Available in Besti 9 and Besti X.
+  - MLP and furry focused, integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy control within interactive scenes. Available in Besti 9 and Besti X.
 - [FarmD](https://patreon.com/softscale)
   - Crowdfunded w/ Free Versions Available
   - Windows 10+ only, VR or Desktop
-  - Furry focused, integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy
-    control within interactive scenes.
+  - Furry focused, integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy control within interactive scenes.
 - [ViRo Playspace](https://viro.club/)
   - Paid, available on [Steam](https://store.steampowered.com/agecheck/app/1121310/)
   - Windows 10+ only, VR or Desktop
-  - Integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy control within
-    interactive scenes.
+  - Integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy control within interactive scenes.
 - [Heat](https://www.anthroheat.com/)
   - Crowdfunded, available on [Patreon](https://www.patreon.com/heatgame)
   - Windows 10+ only, VR or Desktop
-  - Furry focused, integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy
-    control within interactive scenes.
+  - Furry focused, integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy control within interactive scenes.
 - [VRHOT](https://store.steampowered.com/app/1571340/)
   - Paid, available on [Steam](https://store.steampowered.com/app/1571340/)
   - Windows 10+ only, VR only
-  - Integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy control within
-    interactive scenes.
+  - Integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy control within interactive scenes.
 - [Caveman BIOS Teaches Erotic Typing](https://curiousjp.itch.io/caveman-bios-teaches-erotic-typing)
   - Free, available on [itch.io](https://curiousjp.itch.io/caveman-bios-teaches-erotic-typing)
   - Cross-platform (pygame)
@@ -344,9 +298,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 - [LoveMachine](https://sauceke.itch.io/lovemachine)
   - Free, open source, repo at https://codeberg.org/Sauceke/LoveMachine
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
-  - Mod for over 40 adult games (Koikatsu, Honey Select 2, Custom Order Maid 3D2, HoneyCome,
-    Koi-Koi VR, Insult Order, Summer In Heat and many more) to add support for stroking, vibrating,
-    rotating, oscillating and tightening devices
+  - Mod for over 40 adult games (Koikatsu, Honey Select 2, Custom Order Maid 3D2, HoneyCome, Koi-Koi VR, Insult Order, Summer In Heat and many more) to add support for stroking, vibrating, rotating, oscillating and tightening devices
 - [B.U.T.T.P.L.U.G. Anomaly](https://github.com/abbihors/buttplug-anomaly)
   - Free, open source, repo at https://github.com/abbihors/buttplug-anomaly
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
@@ -382,8 +334,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 - [ButtFish](https://github.com/RonSijm/ButtFish)
   - Free, open source, repo at https://github.com/RonSijm/ButtFish
   - Windows 10+ only
-  - Buttplug integration with the Stockfish chess engine, for relaying moves with morse code to
-    vibrating toys.
+  - Buttplug integration with the Stockfish chess engine, for relaying moves with morse code to vibrating toys.
 - [Crooked Rook](https://github.com/FrostyX/crooked-rook)
   - Free, open source, repo at https://github.com/FrostyX/crooked-rook
   - Runs on Linux
@@ -463,8 +414,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Buttplug integration for Peglin
 - [World of Buttcraft](https://github.com/PhilipDecoco/World-of-Buttcraft)
   - Free, open source, repo at https://github.com/PhilipDecoco/World-of-Buttcraft
-  - Windows 10+ only, requires [Intiface Central](https://intiface.com/central) and several other
-    tools (see README for project)
+  - Windows 10+ only, requires [Intiface Central](https://intiface.com/central) and several other tools (see README for project)
   - Buttplug integration for World of Warcraft
 - [Payday 2 - Heister's Haptics](https://modworkshop.net/mod/49879)
   - Free, open source, repo at https://github.com/Siri-chan/Heisters-Haptics
@@ -483,13 +433,13 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
   - Buttplug integration for Haste: Broken Worlds
 - [Garfield Kart Furious Buttplug](https://github.com/DryIcedTea/FuriousButtplug)
-    - Free, open source, repo at https://github.com/DryIcedTea/FuriousButtplug
-    - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
-    - Buttplug integration for Garfield Kart Furious Racing
+  - Free, open source, repo at https://github.com/DryIcedTea/FuriousButtplug
+  - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
+  - Buttplug integration for Garfield Kart Furious Racing
 - [Keep Vibing and Nobody Explodes](https://github.com/DryIcedTea/KeepVibingAndNobodyExplodes)
-    - Free, open source, repo at https://github.com/DryIcedTea/KeepVibingAndNobodyExplodes
-    - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
-    - Buttplug integration for Keep Talking and Nobody Explodes
+  - Free, open source, repo at https://github.com/DryIcedTea/KeepVibingAndNobodyExplodes
+  - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
+  - Buttplug integration for Keep Talking and Nobody Explodes
 - [OsuPlug](https://github.com/zoey-on-github/osuPlug)
   - Free, open source, repo at https://github.com/zoey-on-github/osuPlug
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
@@ -523,7 +473,6 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
   - Buttplug integration for Hollow Knight: Silksong
 
-
 ### Counter-Strike
 
 - [Crotch-Stim: Get Off (CS:GO)](https://sr.ht/~hornycactus/CrotchStimGetOff/)
@@ -542,7 +491,6 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
   - Uses computer vision to trigger toys with a focus on Healing characters.
   - Older repo: https://github.com/cryo-es/OverStim
-- See also: Playful Plugins in Game Mods section
 
 ### Risk of Rain 2
 
@@ -558,8 +506,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 ### Minecraft
 
 - [mInetiface (Minecraft)](https://github.com/Cyber-Kitty/mInetiface)
-  - Another Minecraft Fabric mod with reward score system, ingame configuration and multiple devices
-    support
+  - Another Minecraft Fabric mod with reward score system, ingame configuration and multiple devices support
   - Free, open source
   - Cross Platform (requires [Intiface Central](https://intiface.com/central))
 
@@ -575,6 +522,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Realtime chat and combat log parsing, via [Dalamud](https://github.com/goatcorp/Dalamud)
 
 ### Terraria
+
 - [Viberaria](https://github.com/notasuka/Viberaria)
   - Free, open source, repo at https://github.com/notasuka/Viberaria
   - Cross Platform (requires [Intiface Central](https://intiface.com/central))
@@ -620,11 +568,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 - [XXXHaptics 2 VRChat Plugin](https://hheaven.net/XXXHaptics2/XXXHaptics2.html)
   - Free, closed source
   - Windows 10+ only
-  - Allows setting up avatar body/bounding box collision to control vibrating toys in VRChat, with
-    OSC output.
-
-### ChilloutVR
-
+  - Allows setting up avatar body/bounding box collision to control vibrating toys in VRChat, with OSC output.
 
 ## Hardware Support
 
@@ -640,12 +584,14 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 ### General Development
 
 #### Rust
+
 - [Buttplug Rust](https://github.com/buttplugio/buttplug)
   - Available on [crates.io](https://crates.io/crates/buttplug)
   - Maintained by Buttplug Core Team
   - Core Buttplug library, handles all hardware control and remote connections.
 
 #### C#
+
 - [Buttplug C#](https://github.com/buttplugio/buttplug-csharp)
   - Available on [Nuget](https://www.nuget.org/packages/Buttplug/)
   - Maintained by Buttplug Core Team
@@ -653,32 +599,35 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 - [Buttplug.NET](https://github.com/Yoooi0/Buttplug.Net)
   - Available on [Nuget](https://www.nuget.org/packages/Buttplug.Net/)
   - Maintained by Community Developers (MultiFunPlayer dev)
-  - C# Client written in pure .Net C#, aiming for new C# features (.Net 7+), with capabilities for
-    different JSON serializers
+  - C# Client written in pure .Net C#, aiming for new C# features (.Net 7+), with capabilities for different JSON serializers
 - [Managed ButtplugIO (C#)](https://github.com/Er1807/ManagedButtplugIo/)
   - Available via the github repo, not yet on Nuget
   - Maintained by Community Developers
   - C# Client written in pure .Net C#
 
 #### C++
+
 - [ButtplugCpp](https://github.com/dumbowumbo/buttplugCpp)
   - Available via the github repo
   - Maintained by Community Developers
   - C++ Client library
 
 #### Java
+
 - [Buttplug4j](https://github.com/blackspherefollower/buttplug4j)
   - Available via Github Repo (including hosted Maven repos)
   - Maintained by Buttplug Core Team
   - Java client
 
 #### Kotlin
+
 - [Buttplug-kt](https://gitlab.com/Doomsdayrs/buttplug-kt)
   - Available via local install, not yet on maven
   - Maintaided by Community Developers (Doomsdayrs)
   - Kotlin Multiplatform Asyncronous Client library
 
 #### JS/Typescript
+
 - [Buttplug JS/TS Client](https://github.com/buttplugio/buttplug-js)
   - Available on [NPM](https://www.npmjs.com/package/buttplug)
   - Maintained by Buttplug Core Team
@@ -690,56 +639,49 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Pure TypeScript client for protocol v4, with Zod runtime validation, pattern engine, and full docs
 
 #### Python
+
 - [Buttplug Python](https://github.com/buttplugio/buttplug-py)
   - Available on [PyPi](https://pypi.org/project/buttplug/)
   - Written by Buttplug Core Team
-  - Standalone Python client library for connecting to [Intiface
-    Central](https://intiface.com/central) or [Intiface
-    Engine](https://github.com/intiface/intiface-engine)
+  - Standalone Python client library for connecting to [Intiface Central](https://intiface.com/central) or [Intiface Engine](https://github.com/intiface/intiface-engine)
 
 #### Haskell
+
 - [Buttplug Haskell](https://github.com/sullyj3/buttplug-hs-core)
   - Available on [Hackage](https://hackage.haskell.org/package/buttplug-hs-core)
   - Maintained by Community Developers
-  - Standalone Haskell client library for connecting to [Intiface
-    Central](https://intiface.com/central) or [Intiface
-    Engine](https://github.com/intiface/intiface-engine)
+  - Standalone Haskell client library for connecting to [Intiface Central](https://intiface.com/central) or [Intiface Engine](https://github.com/intiface/intiface-engine)
 
 #### Go
+
 - [Buttplug Go](https://github.com/pidurentry/buttplug-go)
   - Maintained by Community Developers
-  - Standalone Go client library for connecting to [Intiface
-    Central](https://intiface.com/central) or [Intiface
-    Engine](https://github.com/intiface/intiface-engine)
+  - Standalone Go client library for connecting to [Intiface Central](https://intiface.com/central) or [Intiface Engine](https://github.com/intiface/intiface-engine)
 
 #### Lua
+
 - [Buttplug Lua](https://github.com/abbihors/buttplug-lua)
   - Maintained by Community Developers
-  - Standalone Lua client library for connecting to [Intiface
-    Central](https://intiface.com/central) or [Intiface
-    Engine](https://github.com/intiface/intiface-engine)
+  - Standalone Lua client library for connecting to [Intiface Central](https://intiface.com/central) or [Intiface Engine](https://github.com/intiface/intiface-engine)
 
 #### LISP
+
 - [Buttplug Common LISP](https://codeberg.org/poodlezone/cl-buttplug)
   - Maintained by Community Developers
-  - Standalone Common LISP library for connecting to [Intiface
-    Central](https://intiface.com/central) or [Intiface
-    Engine](https://github.com/intiface/intiface-engine)
+  - Standalone Common LISP library for connecting to [Intiface Central](https://intiface.com/central) or [Intiface Engine](https://github.com/intiface/intiface-engine)
 
 #### Dart
+
 - [Buttplug Dart](https://github.com/buttplugio/buttplug_dart)
   - Maintained by Buttplug Core Team
-  - Standalone Dart library for connecting to [Intiface
-    Central](https://intiface.com/central) or [Intiface
-    Engine](https://github.com/intiface/intiface-engine)
+  - Standalone Dart library for connecting to [Intiface Central](https://intiface.com/central) or [Intiface Engine](https://github.com/intiface/intiface-engine)
   - Used in Intiface Central for the device tab
 
 ### Gleam
+
 - [Bummer](https://github.com/FrostyX/bummer)
   - Maintained by Community Developers
-  - Standalone Gleam client library for connecting to [Intiface
-    Central](https://intiface.com/central) or [Intiface
-    Engine](https://github.com/intiface/intiface-engine)
+  - Standalone Gleam client library for connecting to [Intiface Central](https://intiface.com/central) or [Intiface Engine](https://github.com/intiface/intiface-engine)
   - Usable by other BEAM languages such as Erlang or Elixir
 
 ### Game Development
@@ -752,8 +694,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Buttplug protocol client integration and support for [Unreal Engine](https://www.unrealengine.com/en-US)
   - Higher level than ButtplugUE; provides both C++ and Blueprint APIs (including latent/async Blueprint nodes)
 - [Buttplug Twine](https://github.com/buttplugio/buttplug-twine)
-  - [Sugarcube 2](https://www.motoslave.net/sugarcube/2/) macros for the [Twine Interactive Fiction
-    Game Engine](https://twinery.org)
+  - [Sugarcube 2](https://www.motoslave.net/sugarcube/2/) macros for the [Twine Interactive Fiction Game Engine](https://twinery.org)
 - [Plug₂in for RPG Maker MV and MZ](https://qazm.itch.io/plug-in-for-rpg-maker-mv)
   - RPGMaker support for Buttplug
 - [GSpot](https://github.com/deadpixelsociety/gspot)
@@ -766,8 +707,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 - [react-buttplug](https://github.com/MausTec/react-buttplug)
   - Buttplug JS/WASM integration with React
 - [Buttplug Tampermonkey](https://github.com/buttplugio/buttplug-tampermonkey)
-  - Integration of Buttplug with the [Tampermonkey](https://www.tampermonkey.net/) user scripting
-    system for Web Browsers. Allows integration of sex toys with arbitrary webpages.
+  - Integration of Buttplug with the [Tampermonkey](https://www.tampermonkey.net/) user scripting system for Web Browsers. Allows integration of sex toys with arbitrary webpages.
 - [Intiface Command](https://github.com/intiface-command/intiface-command)
   - Free, open source, repo at https://github.com/intiface-command/intiface-command
   - Cross platform ([SillyTavern](https://github.com/SillyTavern/SillyTavern) extension)
@@ -775,12 +715,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 - [Intiface Central SillyTavern Plugin](https://github.com/Enclave0775/Intiface_Central-Sillytavern-plugin)
   - Free, open source, repo at https://github.com/Enclave0775/Intiface_Central-Sillytavern-plugin
   - Cross platform ([SillyTavern](https://github.com/SillyTavern/SillyTavern) extension)  
-  - [SillyTavern](https://github.com/SillyTavern/SillyTavern) plugin for Intiface Central
-    integration, enabling haptic device control during AI roleplay
+  - [SillyTavern](https://github.com/SillyTavern/SillyTavern) plugin for Intiface Central integration, enabling haptic device control during AI roleplay
 - [ha-buttplug](https://github.com/DevelopmentalOctopus/ha-buttplug)
   - Buttplug intergration for [Home Assistant](https://www.home-assistant.io/)
-  - You can connect your toys to various entities and create automations to control your toys
-    or trigger actions by toys, just like IFTTT.
+  - You can connect your toys to various entities and create automations to control your toys or trigger actions by toys, just like IFTTT.
 
 ## DIY Hardware Projects
 
@@ -812,8 +750,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 - [VaMSync](https://github.com/qdot/vamsync)
   - Free, open source, repo at https://github.com/qdot/vamsync
   - Buttplug integration for VirtAMate
-  - Deprecation Reason: Development was taken over after VamLaunch was abandoned, but developer does
-    not use VAM and could not help on issues.
+  - Deprecation Reason: Development was taken over after VamLaunch was abandoned, but developer does not use VAM and could not help on issues.
 - [Aethersense (FFXIV)](https://github.com/Yuki-Codes/AetherSense)
   - Free, open source, repo at https://github.com/Yuki-Codes/AetherSense
   - Windows 10+ only (Standalone)
@@ -845,13 +782,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - League of Legends interaction for Buttplug
   - Deprecation Reason: moved to [Playful Plugins](https://furimanejo.itch.io/playful-plugins)
 - [Risk of Rumble](https://github.com/mistername/RiskOfRainModding/tree/master/RiskOfRumble)
-  - Free, open source, repo at
-    https://github.com/mistername/RiskOfRainModding/tree/master/RiskOfRumble ([Thunderstore
-    Link](https://thunderstore.io/package/MisterKinky/RiskOfRumble/))
+  - Free, open source, repo at https://github.com/mistername/RiskOfRainModding/tree/master/RiskOfRumble ([Thunderstore Link](https://thunderstore.io/package/MisterKinky/RiskOfRumble/))
   - Windows 10+ only
   - Buttplug integration for Risk of Rain 2
-  - Deprecation Reason: Uses old version of buttplug that does not support Intiface Central or new
-    hardware, mod unmaintained. Try RumbleRain or the updated RiskOfRumble
+  - Deprecation Reason: Uses old version of buttplug that does not support Intiface Central or new hardware, mod unmaintained. Try RumbleRain or the updated RiskOfRumble
 - [SoundSync](https://gitlab.com/LuckySkebe/soundsync)
   - Free, open source, repo at https://gitlab.com/LuckySkebe/soundsync
   - Windows 10+ only
@@ -865,8 +799,7 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 - [OsuToy](https://github.com/hornyyy/Osu-Toy)
   - Free, open source, repo at https://github.com/hornyyy/Osu-Toy
   - Windows 10+ only
-  - Fork of the [Osu rhythm game](https://osu.ppy.sh/home) with toy control capabilities via
-    Buttplug.
+  - Fork of the [Osu rhythm game](https://osu.ppy.sh/home) with toy control capabilities via Buttplug.
   - Deprecation Reason: Project abandoned, and requires an extremely old fork of Osu. Needs an update.
 - [VRCLovenseConnect](https://github.com/PingerSurprise/VrcLovenseConnect)
   - Free, open source, repo at https://github.com/PingerSurprise/VrcLovenseConnect
@@ -876,16 +809,12 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 - [For Better Club](https://sidiousious.gitlab.io/bce/)
   - Free, open source, repo at https://gitlab.com/sidiousious/bce/
   - Desktop Cross Platform (requires [Intiface Central](https://intiface.com/central))
-  - Mod for [Bondage Club](https://www.bondageprojects.com/club_game/) to synchronize the status of
-    vibrating toys on your character to your real toys via Buttplug allowing other players to
-    control them, among other enhancements to the game.
+  - Mod for [Bondage Club](https://www.bondageprojects.com/club_game/) to synchronize the status of vibrating toys on your character to your real toys via Buttplug allowing other players to control them, among other enhancements to the game.
   - Deprecation Reason: Project abandoned, replaced with WCE.  
 - [buttplug-py](https://github.com/Siege-Wizard/buttplug-py)
   - Available on [PyPi](https://pypi.org/project/buttplug-py/)
   - Maintained by Community Developers
-  - Standalone Python client library for connecting to [Intiface
-    Central](https://intiface.com/central) or [Intiface
-    Engine](https://github.com/intiface/intiface-engine)
+  - Standalone Python client library for connecting to [Intiface Central](https://intiface.com/central) or [Intiface Engine](https://github.com/intiface/intiface-engine)
   - Deprecation Reason: Project abandoned, replaced with [buttplug (python)](https://github.com/buttplugio/buttplug-py)
 - [SilkSchlong](https://github.com/qdot/silkschlong)
   - Free, open source, repo at https://github.com/er2off/ioq3-buttplug
@@ -941,11 +870,3 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Portable (tested on Linux), requires Intiface Central
   - Playback of movies alongside their funscripts. Supports seeking.
   - Deprecation Reason: Repository removed from GitHub
-
-
-## Friends of Buttplug
-
-- [TempestVR's OSR2/SR6](https://patreon.com/tempestvr)
-  - DIY, 3D Printable multi-axis stroker project
-- [XToys](https://xtoys.app)
-  - Web-based toy control app, including remote control with sharable links

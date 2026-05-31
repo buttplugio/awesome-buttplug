@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "postbuild": "tsx scripts/generate-readme.ts --full",
     "preview": "astro preview",
     "generate-readme": "tsx scripts/generate-readme.ts",
     "validate-readme-parity": "tsx scripts/validate-readme-parity.ts"

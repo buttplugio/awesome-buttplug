@@ -6,6 +6,7 @@ section: "applications/utilities"
 tags:
   - utility
   - open-source
+  - free
   - windows
 pricing: "Free, open source"
 platforms:
@@ -15,6 +16,7 @@ readme_bullets:
   - "Free, open source, repo at https://github.com/kyrahabattoir/ToyWebBridge"
   - "Windows 10+ only"
   - "Generic REST frontend for Buttplug."
+order: 4
 ---
 
-A REST API bridge for Buttplug, allowing HTTP-based integrations.
+Generic REST frontend for Buttplug.

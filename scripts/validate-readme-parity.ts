@@ -67,7 +67,7 @@ function parseReadme(filePath: string): Entry[] {
 
     if (!currentEntry) continue;
 
-    const bulletMatch = line.match(/^\s{2}- (.+)/);
+    const bulletMatch = line.match(/^\s{2,4}- (.+)/);
     if (bulletMatch) {
       currentEntry.bullets.push(bulletMatch[1]);
       continue;

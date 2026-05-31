@@ -4,19 +4,19 @@ url: "https://besti.love"
 section: "games"
 tags:
   - game
+  - paid
   - windows
   - vr
-  - furry
-pricing: "Crowdfunded"
+pricing: "Crowdfunded, available via [multiple platforms](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vQogHjAAzm-iYtlcaU29a7KL4W19EVnpcR5onsEFoPvKH5IPl8FIfaqiNSofIpp3c3U21w3PuwXupq5/pubhtml), or [as a demo](https://besti.love/index.php/get-besti/)"
 platforms:
   - "Windows"
   - "VR"
-  - "Desktop"
-summary: "MLP and furry focused game integrating Buttplug Unity for toy control within interactive scenes."
+summary: "MLP and furry focused, integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy control within interactive scenes. Available in Besti 9 and Besti X."
 readme_bullets:
-  - "Crowdfunded, available via multiple platforms, or as a demo"
+  - "Crowdfunded, available via [multiple platforms](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vQogHjAAzm-iYtlcaU29a7KL4W19EVnpcR5onsEFoPvKH5IPl8FIfaqiNSofIpp3c3U21w3PuwXupq5/pubhtml), or [as a demo](https://besti.love/index.php/get-besti/)"
   - "Windows 10+ only, VR or Desktop"
-  - "MLP and furry focused, integrates Buttplug Unity for toy control within interactive scenes. Available in Besti 9 and Besti X."
+  - "MLP and furry focused, integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy control within interactive scenes. Available in Besti 9 and Besti X."
+order: 1
 ---
 
-Besti is a crowdfunded furry and MLP focused game with Buttplug integration for interactive toy control during scenes.
+MLP and furry focused, integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy control within interactive scenes. Available in Besti 9 and Besti X.

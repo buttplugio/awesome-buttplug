@@ -6,16 +6,19 @@ section: "applications/utilities"
 tags:
   - utility
   - open-source
-  - web
+  - free
   - cross-platform
+  - web
 pricing: "Free, open source"
 platforms:
+  - "Cross-platform"
   - "Web"
 summary: "Test utility for simple device connection and control."
 readme_bullets:
   - "Free, open source, repo at https://github.com/intiface/buttplug-playground"
-  - "Web based (Cross platform, either via browsers or Intiface Central)"
+  - "Web based (Cross platform, either via browsers or [Intiface Central](https://intiface.com/central))"
   - "Test utility for simple device connection and control."
+order: 2
 ---
 
-Web-based test utility for connecting and controlling Buttplug-compatible devices.
+Test utility for simple device connection and control.
