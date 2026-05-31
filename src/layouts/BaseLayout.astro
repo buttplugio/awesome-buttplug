@@ -23,7 +23,7 @@ const matomoSiteId = import.meta.env.PUBLIC_MATOMO_SITE_ID;
     <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
+    <header data-pagefind-ignore>
       <nav>
         <a href="/">Awesome Buttplug</a>
         <a href="/tags">Tags</a>
@@ -33,7 +33,7 @@ const matomoSiteId = import.meta.env.PUBLIC_MATOMO_SITE_ID;
     <main>
       <slot />
     </main>
-    <footer>
+    <footer data-pagefind-ignore>
       <p>A curated list of awesome projects using the Buttplug protocol.</p>
     </footer>
     <script is:inline src="/pagefind/pagefind-ui.js"></script>

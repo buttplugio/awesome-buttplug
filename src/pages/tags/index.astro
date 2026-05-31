@@ -18,7 +18,7 @@ const sortedTags = Array.from(tagCounts.entries()).sort(([a], [b]) =>
 
 <BaseLayout title="All Tags">
   <h1>Tags</h1>
-  <div class="tag-index">
+  <div class="tag-index" data-pagefind-ignore>
     {sortedTags.map(([tag, count]) => (
       <a href={`/tags/${tag}`} class="tag-index-item">
         {tag} <span class="tag-count">({count})</span>
