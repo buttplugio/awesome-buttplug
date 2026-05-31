@@ -39,7 +39,7 @@ const ProjectFilter: FunctionalComponent<Props> = ({ projects }) => {
   }, []);
 
   return (
-    <div>
+    <div data-pagefind-ignore>
       <TagBar
         tags={tagCounts}
         selected={selectedTags}

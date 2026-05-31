@@ -23,7 +23,7 @@ const { tag, projects } = Astro.props;
   <p>{projects.length} project{projects.length !== 1 ? "s" : ""}</p>
   <a href="/tags">← All Tags</a>
 
-  <div class="tag-projects">
+  <div class="tag-projects" data-pagefind-ignore>
     {projects.map((project) => {
       const isDeprecated = project.data.tags.includes("deprecated");
       return (
