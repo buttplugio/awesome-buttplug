@@ -298,20 +298,6 @@ function writeEntry(entry: ParsedEntry): void {
   const deprecationReason = extractDeprecationReason(entry.bullets);
   const summary = extractSummary(entry.bullets, entry.title);
 
-  const frontmatter: Record<string, unknown> = {
-    title: entry.title,
-    url: entry.url,
-    section: entry.section,
-    tags,
-    summary,
-    readme_bullets: entry.bullets,
-  };
-
-  if (repo) frontmatter.repo = repo;
-  if (pricing) frontmatter.pricing = pricing;
-  if (platforms) frontmatter.platforms = platforms;
-  if (deprecationReason) frontmatter.deprecation_reason = deprecationReason;
-
   const yamlLines = ["---"];
   yamlLines.push(`title: ${JSON.stringify(entry.title)}`);
   yamlLines.push(`url: ${JSON.stringify(entry.url)}`);
