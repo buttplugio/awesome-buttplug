@@ -1,0 +1,109 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const projects = await getCollection("projects");
+  const allTags = new Set(projects.flatMap((p) => p.data.tags));
+
+  return Array.from(allTags).map((tag) => ({
+    params: { tag },
+    props: {
+      tag,
+      projects: projects.filter((p) => p.data.tags.includes(tag)),
+    },
+  }));
+}
+
+const { tag, projects } = Astro.props;
+---
+
+<BaseLayout title={`Tag: ${tag}`}>
+  <h1>Tag: {tag}</h1>
+  <p>{projects.length} project{projects.length !== 1 ? "s" : ""}</p>
+  <a href="/tags">← All Tags</a>
+
+  <div class="tag-projects">
+    {projects.map((project) => {
+      const isDeprecated = project.data.tags.includes("deprecated");
+      return (
+        <div class:list={["tag-project-card", { deprecated: isDeprecated }]}>
+          <h3>
+            <a href={`/projects/${project.id}`}>{project.data.title}</a>
+          </h3>
+          {isDeprecated && <span class="badge-deprecated">Deprecated</span>}
+          <p>{project.data.summary}</p>
+          <div class="tag-pills">
+            {project.data.tags.map((t) => (
+              <a
+                href={`/tags/${t}`}
+                class:list={["tag-pill", { active: t === tag }]}
+              >
+                {t}
+              </a>
+            ))}
+          </div>
+        </div>
+      );
+    })}
+  </div>
+</BaseLayout>
+
+<style>
+  .tag-projects {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .tag-project-card {
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 1rem;
+  }
+  .tag-project-card.deprecated {
+    opacity: 0.7;
+  }
+  .tag-project-card h3 {
+    margin: 0 0 0.5rem;
+  }
+  .tag-project-card h3 a {
+    color: #e94560;
+    text-decoration: none;
+  }
+  .tag-project-card p {
+    color: #ccc;
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+  }
+  .badge-deprecated {
+    display: inline-block;
+    background: #dc3545;
+    color: white;
+    padding: 0.1rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+  }
+  .tag-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-top: 0.5rem;
+  }
+  .tag-pill {
+    background: #2a2a4a;
+    color: #aaa;
+    padding: 0.15rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    text-decoration: none;
+  }
+  .tag-pill:hover {
+    background: #3a3a5a;
+    color: #fff;
+  }
+  .tag-pill.active {
+    background: #e94560;
+    color: white;
+  }
+</style>
