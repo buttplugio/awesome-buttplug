@@ -18,6 +18,8 @@
   --warning: #f0ad4e;
   --danger: #dc3545;
   --tag-bg: #2a2a4a;
+  --tag-bg-hover: #3a3a5a;
+  --text-bright: #fff;
   --max-width: 1200px;
 }
 

@@ -32,7 +32,7 @@
 
 .tag-pill:hover {
   border-color: var(--accent);
-  color: #fff;
+  color: var(--text-bright);
 }
 
 .tag-pill.active {
