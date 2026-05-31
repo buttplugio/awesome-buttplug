@@ -1,0 +1,19 @@
+{
+  "name": "awesome-buttplug",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "astro": "^6.3.1",
+    "@astrojs/preact": "^5.1.1",
+    "preact": "^10.25.0",
+    "astro-pagefind": "^1.8.5"
+  }
+}
