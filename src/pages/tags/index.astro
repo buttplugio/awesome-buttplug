@@ -1,0 +1,54 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const projects = await getCollection("projects");
+
+const tagCounts = new Map<string, number>();
+for (const project of projects) {
+  for (const tag of project.data.tags) {
+    tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
+  }
+}
+
+const sortedTags = Array.from(tagCounts.entries()).sort(([a], [b]) =>
+  a.localeCompare(b)
+);
+---
+
+<BaseLayout title="All Tags">
+  <h1>Tags</h1>
+  <div class="tag-index">
+    {sortedTags.map(([tag, count]) => (
+      <a href={`/tags/${tag}`} class="tag-index-item">
+        {tag} <span class="tag-count">({count})</span>
+      </a>
+    ))}
+  </div>
+</BaseLayout>
+
+<style>
+  .tag-index {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+  }
+  .tag-index-item {
+    background: #2a2a4a;
+    color: #ccc;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: background 0.15s;
+  }
+  .tag-index-item:hover {
+    background: #e94560;
+    color: white;
+  }
+  .tag-count {
+    font-size: 0.8rem;
+    opacity: 0.7;
+  }
+</style>
