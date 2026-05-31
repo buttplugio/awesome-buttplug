@@ -12,12 +12,15 @@ const { title } = Astro.props;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title} | Awesome Buttplug</title>
+    <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
   </head>
   <body>
     <header>
       <nav>
         <a href="/">Awesome Buttplug</a>
+        <a href="/tags">Tags</a>
       </nav>
+      <div id="search"></div>
     </header>
     <main>
       <slot />
@@ -25,5 +28,17 @@ const { title } = Astro.props;
     <footer>
       <p>A curated list of awesome projects using the Buttplug protocol.</p>
     </footer>
+    <script is:inline src="/pagefind/pagefind-ui.js"></script>
+    <script is:inline>
+      window.addEventListener('DOMContentLoaded', () => {
+        if (window.PagefindUI) {
+          new window.PagefindUI({
+            element: "#search",
+            showSubResults: true,
+            showImages: false,
+          });
+        }
+      });
+    </script>
   </body>
 </html>
