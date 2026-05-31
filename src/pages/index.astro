@@ -1,34 +1,24 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import ProjectCard from "../components/ProjectCard.astro";
+import ProjectFilter from "../components/ProjectFilter";
 import { getCollection } from "astro:content";
+import type { ProjectEntry } from "../types";
 
-const projects = await getCollection("projects");
+const rawProjects = await getCollection("projects");
+const projects: ProjectEntry[] = rawProjects.map((p) => ({
+  id: p.id,
+  title: p.data.title,
+  url: p.data.url,
+  summary: p.data.summary,
+  tags: p.data.tags,
+  image: p.data.image,
+  pricing: p.data.pricing,
+  deprecation_reason: p.data.deprecation_reason,
+}));
 ---
 
 <BaseLayout title="Home">
   <h1>Awesome Buttplug</h1>
   <p>A curated list of awesome projects using the Buttplug sex toy control protocol.</p>
-  <div class="card-grid">
-    {projects.map((project) => (
-      <ProjectCard
-        id={project.id}
-        title={project.data.title}
-        summary={project.data.summary}
-        tags={project.data.tags}
-        image={project.data.image}
-        pricing={project.data.pricing}
-        deprecation_reason={project.data.deprecation_reason}
-      />
-    ))}
-  </div>
+  <ProjectFilter client:visible projects={projects} />
 </BaseLayout>
-
-<style>
-  .card-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1.5rem;
-    margin-top: 2rem;
-  }
-</style>
