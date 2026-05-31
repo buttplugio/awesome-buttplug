@@ -1,0 +1,98 @@
+---
+import ProjectLayout from "../../layouts/ProjectLayout.astro";
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const projects = await getCollection("projects");
+  return projects.map((project) => ({
+    params: { id: project.id },
+    props: { project },
+  }));
+}
+
+const { project } = Astro.props;
+const { Content } = await render(project);
+const { title, url, repo, tags, pricing, platforms, deprecation_reason } = project.data;
+const isDeprecated = tags.includes("deprecated");
+---
+
+<ProjectLayout title={title}>
+  <article class:list={[{ deprecated: isDeprecated }]}>
+    <h1>{title}</h1>
+    {isDeprecated && <span class="badge badge-deprecated">Deprecated</span>}
+    {pricing && <p class="pricing">{pricing}</p>}
+    {deprecation_reason && (
+      <p class="deprecation-reason">Deprecation Reason: {deprecation_reason}</p>
+    )}
+
+    <div class="meta">
+      <p><a href={url}>Visit Project →</a></p>
+      {repo && <p><a href={repo}>Source Code →</a></p>}
+      {platforms && platforms.length > 0 && (
+        <p>Platforms: {platforms.join(", ")}</p>
+      )}
+    </div>
+
+    <div class="tags">
+      {tags.map((tag) => (
+        <a href={`/tags/${tag}`} class="tag-link">{tag}</a>
+      ))}
+    </div>
+
+    <div class="content">
+      <Content />
+    </div>
+  </article>
+</ProjectLayout>
+
+<style>
+  article.deprecated {
+    opacity: 0.8;
+  }
+  .badge-deprecated {
+    display: inline-block;
+    background: #dc3545;
+    color: white;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+  }
+  .pricing {
+    color: #28a745;
+    font-weight: bold;
+  }
+  .deprecation-reason {
+    color: #f0ad4e;
+    font-style: italic;
+    border-left: 3px solid #f0ad4e;
+    padding-left: 0.75rem;
+  }
+  .meta {
+    margin: 1rem 0;
+  }
+  .meta a {
+    color: #e94560;
+  }
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0;
+  }
+  .tag-link {
+    background: #2a2a4a;
+    color: #aaa;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    text-decoration: none;
+  }
+  .tag-link:hover {
+    background: #3a3a5a;
+    color: #fff;
+  }
+  .content {
+    margin-top: 2rem;
+    line-height: 1.6;
+  }
+</style>
