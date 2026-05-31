@@ -4,6 +4,7 @@ interface Props {
 }
 
 const { title } = Astro.props;
+const matomoSiteId = import.meta.env.PUBLIC_MATOMO_SITE_ID;
 ---
 
 <!doctype html>
@@ -40,5 +41,19 @@ const { title } = Astro.props;
         }
       });
     </script>
+    {matomoSiteId && (
+      <script define:vars={{ matomoSiteId }}>
+        var _paq = window._paq = window._paq || [];
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+          var u="//metrics.nonpolynomial.com/";
+          _paq.push(['setTrackerUrl', u+'matomo.php']);
+          _paq.push(['setSiteId', matomoSiteId]);
+          var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+          g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+        })();
+      </script>
+    )}
   </body>
 </html>
