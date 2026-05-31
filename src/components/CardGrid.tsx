@@ -1,5 +1,6 @@
 import type { FunctionalComponent } from "preact";
 import type { ProjectEntry } from "../types";
+import { stripInlineMarkdown } from "../utils/displayText";
 
 interface Props {
   projects: ProjectEntry[];
@@ -15,6 +16,11 @@ const CardGrid: FunctionalComponent<Props> = ({ projects }) => {
       {projects.map((project) => {
         const isDeprecated = project.tags.includes("deprecated");
         const cardImage = project.image || "/images/placeholder.svg";
+        const pricing = project.pricing ? stripInlineMarkdown(project.pricing) : undefined;
+        const summary = stripInlineMarkdown(project.summary);
+        const deprecationReason = project.deprecation_reason
+          ? stripInlineMarkdown(project.deprecation_reason)
+          : undefined;
 
         return (
           <a
@@ -26,12 +32,12 @@ const CardGrid: FunctionalComponent<Props> = ({ projects }) => {
             <div class="card-body">
               <h3 class="card-title">{project.title}</h3>
               {isDeprecated && <span class="badge badge-deprecated">Deprecated</span>}
-              {project.pricing && !isDeprecated && (
-                <span class="badge badge-pricing">{project.pricing}</span>
+              {pricing && !isDeprecated && (
+                <span class="badge badge-pricing">{pricing}</span>
               )}
-              <p class="card-summary">{project.summary}</p>
-              {project.deprecation_reason && (
-                <p class="card-deprecation">{project.deprecation_reason}</p>
+              <p class="card-summary">{summary}</p>
+              {deprecationReason && (
+                <p class="card-deprecation">{deprecationReason}</p>
               )}
               <div class="card-tags">
                 {project.tags

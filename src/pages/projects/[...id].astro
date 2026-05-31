@@ -1,6 +1,7 @@
 ---
 import ProjectLayout from "../../layouts/ProjectLayout.astro";
 import { getCollection, render } from "astro:content";
+import { stripInlineMarkdown } from "../../utils/displayText";
 
 export async function getStaticPaths() {
   const projects = await getCollection("projects");
@@ -14,15 +15,19 @@ const { project } = Astro.props;
 const { Content } = await render(project);
 const { title, url, repo, tags, pricing, platforms, deprecation_reason } = project.data;
 const isDeprecated = tags.includes("deprecated");
+const displayPricing = pricing ? stripInlineMarkdown(pricing) : undefined;
+const displayDeprecationReason = deprecation_reason
+  ? stripInlineMarkdown(deprecation_reason)
+  : undefined;
 ---
 
 <ProjectLayout title={title}>
   <article class:list={[{ deprecated: isDeprecated }]}>
     <h1>{title}</h1>
     {isDeprecated && <span class="badge badge-deprecated">Deprecated</span>}
-    {pricing && <p class="pricing">{pricing}</p>}
-    {deprecation_reason && (
-      <p class="deprecation-reason">Deprecation Reason: {deprecation_reason}</p>
+    {displayPricing && <p class="pricing">{displayPricing}</p>}
+    {displayDeprecationReason && (
+      <p class="deprecation-reason">Deprecation Reason: {displayDeprecationReason}</p>
     )}
 
     <div class="meta">

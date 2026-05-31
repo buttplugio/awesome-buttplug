@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
+import { stripInlineMarkdown } from "../../utils/displayText";
 
 export async function getStaticPaths() {
   const projects = await getCollection("projects");
@@ -32,7 +33,7 @@ const { tag, projects } = Astro.props;
             <a href={`/projects/${project.id}`}>{project.data.title}</a>
           </h3>
           {isDeprecated && <span class="badge-deprecated">Deprecated</span>}
-          <p>{project.data.summary}</p>
+          <p>{stripInlineMarkdown(project.data.summary)}</p>
           <div class="tag-pills">
             {project.data.tags.map((t) => (
               <a
