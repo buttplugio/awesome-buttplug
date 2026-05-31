@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "generate-readme": "tsx scripts/generate-readme.ts"
+    "generate-readme": "tsx scripts/generate-readme.ts",
+    "validate-readme-parity": "tsx scripts/validate-readme-parity.ts"
   },
   "engines": {
     "node": ">=22"
