@@ -306,7 +306,7 @@ Verify:
 - Tag bar displays all tags from seed entries, sorted alphabetically
 - Clicking a tag highlights it and filters cards to show only matching projects
 - Clicking a second tag applies AND logic (both tags must match)
-- Result count updates (e.g., "Showing 3 of 11 projects")
+- Result count updates (e.g., "Showing 3 of 13 projects")
 - Clicking an active tag deselects it
 - "Clear filters" button appears when tags are selected and resets to showing all
 - Deprecated entries still display with muted styling
