@@ -3,7 +3,7 @@
 }
 
 .tag-clear {
-  background: #e94560;
+  background: var(--accent);
   color: white;
   border: none;
   padding: 0.3rem 0.8rem;
@@ -20,9 +20,9 @@
 }
 
 .tag-pill {
-  background: #2a2a4a;
-  color: #aaa;
-  border: 1px solid #333;
+  background: var(--tag-bg);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
   padding: 0.2rem 0.6rem;
   border-radius: 4px;
   cursor: pointer;
@@ -31,14 +31,14 @@
 }
 
 .tag-pill:hover {
-  border-color: #e94560;
+  border-color: var(--accent);
   color: #fff;
 }
 
 .tag-pill.active {
-  background: #e94560;
+  background: var(--accent);
   color: white;
-  border-color: #e94560;
+  border-color: var(--accent);
 }
 
 .tag-pill.dimmed {
@@ -52,13 +52,13 @@
 
 .result-count {
   font-size: 0.9rem;
-  color: #888;
+  color: var(--text-muted);
   margin: 1rem 0;
 }
 
 .no-results {
   text-align: center;
-  color: #888;
+  color: var(--text-muted);
   font-style: italic;
   padding: 3rem 0;
 }
@@ -71,7 +71,7 @@
 
 .card {
   display: block;
-  border: 1px solid #333;
+  border: 1px solid var(--border);
   border-radius: 8px;
   overflow: hidden;
   text-decoration: none;
@@ -80,7 +80,7 @@
 }
 
 .card:hover {
-  border-color: #e94560;
+  border-color: var(--accent);
 }
 
 .card.deprecated {
@@ -111,24 +111,24 @@
 }
 
 .badge-deprecated {
-  background: #dc3545;
+  background: var(--danger);
   color: white;
 }
 
 .badge-pricing {
-  background: #28a745;
+  background: var(--success);
   color: white;
 }
 
 .card-summary {
   font-size: 0.9rem;
-  color: #ccc;
+  color: var(--text-muted);
   margin: 0.5rem 0;
 }
 
 .card-deprecation {
   font-size: 0.8rem;
-  color: #f0ad4e;
+  color: var(--warning);
   font-style: italic;
   margin: 0.25rem 0;
 }
@@ -141,8 +141,8 @@
 }
 
 .tag-pill-display {
-  background: #2a2a4a;
-  color: #aaa;
+  background: var(--tag-bg);
+  color: var(--text-muted);
   padding: 0.1rem 0.4rem;
   border-radius: 3px;
   font-size: 0.75rem;
