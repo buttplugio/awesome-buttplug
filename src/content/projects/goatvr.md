@@ -1,0 +1,22 @@
+---
+title: "GoatVR"
+url: "https://www.patreon.com/goatvr"
+section: "games"
+tags:
+  - game
+  - paid
+  - windows
+  - vr
+pricing: "Paid, available at https://www.patreon.com/goatvr"
+platforms:
+  - "Windows"
+  - "VR"
+summary: "Furry focused animation player with selectable characters, scenes and voice actresses."
+readme_bullets:
+  - "Paid, available at https://www.patreon.com/goatvr"
+  - "Windows 10+ only, VR only"
+  - "Furry focused animation player with selectable characters, scenes and voice actresses."
+order: 11
+---
+
+Furry focused animation player with selectable characters, scenes and voice actresses.

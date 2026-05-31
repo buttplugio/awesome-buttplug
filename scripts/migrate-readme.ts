@@ -255,10 +255,10 @@ function parseReadme(): ParsedEntry[] {
     }
 
     if (currentEntry) {
-      const bulletMatch = line.match(/^\s{2}- (.+)/);
-      if (bulletMatch) {
+      const bulletMatch = line.match(/^\s+- (.+)/);
+      if (bulletMatch && line.match(/^\s{2,4}- /)) {
         currentBulletLines.push(bulletMatch[1]);
-      } else if (line.match(/^\s{4}\S/) && currentBulletLines.length > 0) {
+      } else if (line.match(/^\s{4,}\S/) && currentBulletLines.length > 0) {
         currentBulletLines[currentBulletLines.length - 1] += " " + line.trim();
       } else if (line.trim() === "") {
         // blank line might end entry or just be spacing
@@ -326,7 +326,11 @@ function writeEntry(entry: ParsedEntry): void {
   }
   yamlLines.push(`summary: ${JSON.stringify(summary)}`);
   yamlLines.push("readme_bullets:");
-  for (const bullet of entry.bullets) yamlLines.push(`  - ${JSON.stringify(bullet)}`);
+  if (entry.bullets.length === 0) {
+    yamlLines.push("  []");
+  } else {
+    for (const bullet of entry.bullets) yamlLines.push(`  - ${JSON.stringify(bullet)}`);
+  }
   if (deprecationReason) yamlLines.push(`deprecation_reason: ${JSON.stringify(deprecationReason)}`);
   yamlLines.push(`order: ${entry.order}`);
   yamlLines.push("---");
