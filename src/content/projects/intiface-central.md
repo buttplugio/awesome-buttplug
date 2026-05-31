@@ -1,6 +1,6 @@
 ---
 title: "Intiface® Central"
-url: "http://intiface.com/central"
+url: "https://intiface.com/central"
 repo: "https://github.com/intiface/intiface-central"
 section: "applications/utilities"
 tags:
