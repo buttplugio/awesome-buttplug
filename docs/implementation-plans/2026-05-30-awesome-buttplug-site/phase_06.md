@@ -312,7 +312,8 @@ The script:
 4. Outputs sections in order, with entries formatted as `- [Title](url)` + indented bullets from `readme_bullets`
 5. Warns on entries whose `section` doesn't match any section in the ordering config
 6. Writes to `README.generated.md` (partial migration mode)
-7. Accepts a `--full` flag to write to `README.md` (only after full migration validates)
+7. Accepts a `--full` flag to write to `README.md`, but refuses root README writes unless the migrated entry count is complete and there are zero orphaned sections
+8. Writes root `README.md` through a temporary file and atomic rename so a failed generation cannot leave a partially written repo front page
 
 The script tracks which parent/grandparent headings have already been emitted to avoid duplicating them when consecutive sections share the same parent.
 
@@ -349,6 +350,9 @@ interface ProjectEntry {
 
 const PROJECTS_DIR = path.resolve("src/content/projects");
 const ORDER_CONFIG = path.resolve("config/readme-order.yaml");
+const GENERATED_README = path.resolve("README.generated.md");
+const ROOT_README = path.resolve("README.md");
+const MIN_FULL_MIGRATION_ENTRIES = 189;
 
 function readEntries(): ProjectEntry[] {
   const files = fs.readdirSync(PROJECTS_DIR).filter((f) => f.endsWith(".md"));
@@ -381,6 +385,26 @@ function formatEntry(entry: ProjectEntry): string {
 
 function generateHeading(level: number, text: string): string {
   return "#".repeat(level) + " " + text;
+}
+
+function assertCanWriteRootReadme(entries: ProjectEntry[], orphans: ProjectEntry[]): void {
+  if (entries.length < MIN_FULL_MIGRATION_ENTRIES) {
+    throw new Error(
+      `Refusing to write README.md: only ${entries.length} entries found, expected at least ${MIN_FULL_MIGRATION_ENTRIES}.`
+    );
+  }
+
+  if (orphans.length > 0) {
+    throw new Error(
+      `Refusing to write README.md: ${orphans.length} entries are not mapped in readme-order.yaml.`
+    );
+  }
+}
+
+function writeFileAtomically(outputFile: string, output: string): void {
+  const tempFile = `${outputFile}.tmp`;
+  fs.writeFileSync(tempFile, output);
+  fs.renameSync(tempFile, outputFile);
 }
 
 function generate(): void {
@@ -454,16 +478,18 @@ function generate(): void {
   }
 
   const output = lines.join("\n").trimEnd() + "\n";
-  const outputFile = isFullMigration ? "README.md" : "README.generated.md";
+  const outputFile = isFullMigration ? ROOT_README : GENERATED_README;
 
   if (isFullMigration) {
-    console.log(`Writing to ${outputFile} (full migration mode)`);
+    assertCanWriteRootReadme(entries, orphans);
+    console.log(`Writing to README.md (full migration mode)`);
+    writeFileAtomically(outputFile, output);
   } else {
-    console.log(`Writing to ${outputFile} (partial migration — use --full after complete migration)`);
+    console.log(`Writing to README.generated.md (partial migration — use --full after complete migration)`);
+    fs.writeFileSync(outputFile, output);
   }
 
-  fs.writeFileSync(outputFile, output);
-  console.log(`Generated ${outputFile} with ${entries.length} entries across ${config.sections.length} sections`);
+  console.log(`Generated ${path.basename(outputFile)} with ${entries.length} entries across ${config.sections.length} sections`);
 
   if (orphans.length > 0) {
     console.warn(`\n${orphans.length} orphan entries not placed in any section (see warnings above)`);

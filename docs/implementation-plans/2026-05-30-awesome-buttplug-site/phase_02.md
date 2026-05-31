@@ -84,7 +84,7 @@ git commit -m "feat: add content collection schema for project entries"
 **Files:**
 - Create: `src/content/projects/intiface-central.md`
 - Create: `src/content/projects/buttplug-playground.md`
-- Create: `src/content/projects/toywebridge.md`
+- Create: `src/content/projects/toywebbridge.md`
 
 **Step 1: Create seed entries**
 
@@ -136,7 +136,7 @@ readme_bullets:
 Web-based test utility for connecting and controlling Buttplug-compatible devices.
 ```
 
-`src/content/projects/toywebridge.md`:
+`src/content/projects/toywebbridge.md`:
 
 ```markdown
 ---
@@ -164,7 +164,7 @@ A REST API bridge for Buttplug, allowing HTTP-based integrations.
 **Step 2: Commit**
 
 ```bash
-git add src/content/projects/intiface-central.md src/content/projects/buttplug-playground.md src/content/projects/toywebridge.md
+git add src/content/projects/intiface-central.md src/content/projects/buttplug-playground.md src/content/projects/toywebbridge.md
 git commit -m "feat: add seed entries for utilities section"
 ```
 <!-- END_TASK_2 -->
@@ -175,8 +175,8 @@ git commit -m "feat: add seed entries for utilities section"
 **Files:**
 - Create: `src/content/projects/multifunplayer.md`
 - Create: `src/content/projects/besti.md`
-- Create: `src/content/projects/crotch-stim-get-off.md`
-- Create: `src/content/projects/aethersense-redux.md`
+- Create: `src/content/projects/crotch-stim-get-off-cs-go.md`
+- Create: `src/content/projects/aethersense-redux-beta.md`
 
 **Step 1: Create entries from different sections**
 
@@ -232,7 +232,7 @@ readme_bullets:
 Besti is a crowdfunded furry and MLP focused game with Buttplug integration for interactive toy control during scenes.
 ```
 
-`src/content/projects/crotch-stim-get-off.md`:
+`src/content/projects/crotch-stim-get-off-cs-go.md`:
 
 ```markdown
 ---
@@ -258,13 +258,13 @@ readme_bullets:
 Counter-Strike: Global Offensive mod that integrates Buttplug for in-game haptic feedback.
 ```
 
-`src/content/projects/aethersense-redux.md`:
+`src/content/projects/aethersense-redux-beta.md`:
 
 ```markdown
 ---
-title: "AetherSense Redux (FFXIV)"
-url: "https://github.com/avafloww/AetherSenseRedux"
-repo: "https://github.com/avafloww/AetherSenseRedux"
+title: "AetherSense Redux (Beta)"
+url: "https://github.com/aka-tamagotchi/AetherSenseRedux"
+repo: "https://github.com/aka-tamagotchi/AetherSenseRedux"
 section: "game-mods/ffxiv"
 tags:
   - game-mod
@@ -274,20 +274,20 @@ tags:
 pricing: "Free, open source"
 platforms:
   - "Windows"
-summary: "FFXIV triggers for sex toy control via Dalamud, direct-connect Buttplug fork of Aethersense."
+summary: "Realtime chat and combat log parsing for FFXIV via Dalamud."
 readme_bullets:
-  - "Free, open source, repo at https://github.com/avafloww/AetherSenseRedux"
+  - "Free, open source, repo at https://github.com/aka-tamagotchi/AetherSenseRedux"
   - "Windows 10+ only (requires Intiface Central)"
-  - "FFXIV triggers for sex toy control, via Dalamud, direct-connect Buttplug fork of Aethersense"
+  - "Realtime chat and combat log parsing, via Dalamud"
 ---
 
-FFXIV Dalamud plugin that triggers Buttplug-compatible devices based on in-game events.
+FFXIV Dalamud plugin that parses realtime chat and combat logs for Buttplug-compatible haptic events.
 ```
 
 **Step 2: Commit**
 
 ```bash
-git add src/content/projects/multifunplayer.md src/content/projects/besti.md src/content/projects/crotch-stim-get-off.md src/content/projects/aethersense-redux.md
+git add src/content/projects/multifunplayer.md src/content/projects/besti.md src/content/projects/crotch-stim-get-off-cs-go.md src/content/projects/aethersense-redux-beta.md
 git commit -m "feat: add seed entries for video sync, games, and game mods"
 ```
 <!-- END_TASK_3 -->
@@ -298,8 +298,8 @@ git commit -m "feat: add seed entries for video sync, games, and game mods"
 **Files:**
 - Create: `src/content/projects/edge-o-matic.md`
 - Create: `src/content/projects/buttplug-rust.md`
-- Create: `src/content/projects/vrcft-osc-toy-module.md`
-- Create: `src/content/projects/in-heat-overwatch.md`
+- Create: `src/content/projects/oscgoesbrrr.md`
+- Create: `src/content/projects/in-heat-overwatch-mod.md`
 
 **Step 1: Create entries covering remaining sections**
 
@@ -347,32 +347,35 @@ readme_bullets:
 The core Buttplug library written in Rust, providing hardware control and remote connection capabilities. Available on [crates.io](https://crates.io/crates/buttplug).
 ```
 
-`src/content/projects/vrcft-osc-toy-module.md`:
+`src/content/projects/oscgoesbrrr.md`:
 
 ```markdown
 ---
-title: "VRCFT OSC Toy Module"
-url: "https://github.com/Jerakin/VRCFT-Toy-Module"
-repo: "https://github.com/Jerakin/VRCFT-Toy-Module"
+title: "OSCGoesBrrr"
+url: "https://osc.toys/"
+repo: "https://github.com/OscToys/OscGoesBrrr"
 section: "virtual-worlds/vrchat"
 tags:
   - vrchat
   - vr
   - open-source
+  - windows
 pricing: "Free, open source"
 platforms:
   - "Windows"
   - "VR"
-summary: "VRCFaceTracking module for controlling toys via face tracking expressions."
+summary: "VRC support via OSC for Buttplug or Lovense Connect, with Poiyomi TPS compatibility."
 readme_bullets:
-  - "Free, open source, repo at https://github.com/Jerakin/VRCFT-Toy-Module"
-  - "VRCFaceTracking module for controlling toys via face tracking expressions."
+  - "Free, open source, repo at https://github.com/OscToys/OscGoesBrrr"
+  - "Windows 10+ only for releases, app is electron and can be compiled for Linux"
+  - "Support Discord at https://osc.toys/discord"
+  - "VRC support via OSC for Buttplug or Lovense Connect, w/ Poiyomi TPS compatibility"
 ---
 
-A VRCFaceTracking module that maps facial expressions to Buttplug-compatible toy control in VRChat.
+VRChat OSC integration for Buttplug and Lovense Connect.
 ```
 
-`src/content/projects/in-heat-overwatch.md`:
+`src/content/projects/in-heat-overwatch-mod.md`:
 
 ```markdown
 ---
@@ -400,7 +403,7 @@ A deprecated Overwatch mod that used computer vision to track the Heat Bar and c
 **Step 2: Commit**
 
 ```bash
-git add src/content/projects/edge-o-matic.md src/content/projects/buttplug-rust.md src/content/projects/vrcft-osc-toy-module.md src/content/projects/in-heat-overwatch.md
+git add src/content/projects/edge-o-matic.md src/content/projects/buttplug-rust.md src/content/projects/oscgoesbrrr.md src/content/projects/in-heat-overwatch-mod.md
 git commit -m "feat: add seed entries for hardware, dev libs, VRChat, and deprecated"
 ```
 <!-- END_TASK_4 -->
@@ -409,18 +412,18 @@ git commit -m "feat: add seed entries for hardware, dev libs, VRChat, and deprec
 ### Task 5: Create seed entries — Audio Sync and DIY
 
 **Files:**
-- Create: `src/content/projects/music-boner.md`
-- Create: `src/content/projects/flipper-zero-buttplug.md`
+- Create: `src/content/projects/music-vibes.md`
+- Create: `src/content/projects/flipper-bp.md`
 
 **Step 1: Create final seed entries for remaining section coverage**
 
-`src/content/projects/music-boner.md`:
+`src/content/projects/music-vibes.md`:
 
 ```markdown
 ---
-title: "Music Boner"
-url: "https://github.com/Shadoukun/MusicBoner"
-repo: "https://github.com/Shadoukun/MusicBoner"
+title: "Music Vibes"
+url: "https://github.com/Shadlock0133/music-vibes"
+repo: "https://github.com/Shadlock0133/music-vibes"
 section: "applications/audio-sync"
 tags:
   - audio-sync
@@ -429,21 +432,21 @@ tags:
 pricing: "Free, open source"
 platforms:
   - "Windows"
-summary: "Attempt at making a Buttplug music visualizer."
+summary: "Analyzes audio and translates it into vibrations for Buttplug-compatible hardware."
 readme_bullets:
-  - "Free, open source, repo at https://github.com/Shadoukun/MusicBoner"
-  - "Windows 10+ only"
-  - "Attempt at making a Buttplug music visualizer."
+  - "Free, open source, repo at https://github.com/Shadlock0133/music-vibes"
+  - "Windows Only (Music Vibe can run standalone, Intiface Central optional)"
+  - "Analyzes audio and translates into vibrations for Buttplug compatible hardware."
 ---
 
-A Buttplug-compatible music visualizer that drives toy intensity from audio output.
+Music Vibes analyzes audio and translates it into vibrations for Buttplug-compatible hardware.
 ```
 
-`src/content/projects/flipper-zero-buttplug.md`:
+`src/content/projects/flipper-bp.md`:
 
 ```markdown
 ---
-title: "Flipper Zero Buttplug"
+title: "flipper-bp"
 url: "https://github.com/maybe-hello-world/flipper-bp"
 repo: "https://github.com/maybe-hello-world/flipper-bp"
 section: "diy-hardware"
@@ -452,19 +455,19 @@ tags:
   - hardware
   - open-source
 pricing: "Free, open source"
-summary: "Flipper Zero application to control Buttplug-compatible toys via the Flipper Zero device."
+summary: "Turn the Flipper Zero into a Buttplug device."
 readme_bullets:
   - "Free, open source, repo at https://github.com/maybe-hello-world/flipper-bp"
-  - "Flipper Zero application to control Buttplug-compatible toys via the Flipper Zero device."
+  - "Turn the Flipper Zero into a Buttplug Device"
 ---
 
-Control Buttplug-compatible devices from a Flipper Zero.
+Turn the Flipper Zero into a Buttplug device.
 ```
 
 **Step 2: Commit**
 
 ```bash
-git add src/content/projects/music-boner.md src/content/projects/flipper-zero-buttplug.md
+git add src/content/projects/music-vibes.md src/content/projects/flipper-bp.md
 git commit -m "feat: add seed entries for audio sync and DIY sections"
 ```
 <!-- END_TASK_5 -->

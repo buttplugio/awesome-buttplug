@@ -28,26 +28,26 @@ This phase implements and tests:
 ---
 
 <!-- START_TASK_1 -->
-### Task 1: Update readme-order.yaml with missing top-level sections
+### Task 1: Audit readme-order.yaml for top-level sections
 
 **Files:**
 - Modify: `config/readme-order.yaml`
 
-**Step 1: Add missing sections**
+**Step 1: Verify direct-entry parent sections**
 
-The Phase 6 config is missing sections for entries that sit directly under parent headings (not in subsections). Add these sections to `config/readme-order.yaml`:
+Verify that the Phase 6 config includes sections for entries that sit directly under parent headings (not in subsections):
 
-1. Add `game-mods` section (level 2, no parent) — for entries like "Intiface Game Haptics Router", "Playful Plugins", etc. that appear under `## Game Mods` before the game-specific subsections. Insert it BEFORE `game-mods/counter-strike`.
+1. `game-mods` section (level 2, no parent) — for entries like "Intiface Game Haptics Router", "Playful Plugins", etc. that appear under `## Game Mods` before the game-specific subsections. It must appear BEFORE `game-mods/counter-strike`.
 
-2. The `virtual-worlds` section (level 2) already exists but it has entries directly under it (like "ButtplugLite") before VRChat/ChilloutVR subsections — verify it's positioned to capture those entries.
+2. `virtual-worlds` section (level 2, no parent) — for entries like "ButtplugLite" before VRChat/ChilloutVR subsections. It must appear BEFORE `virtual-worlds/vrchat`.
 
-The section order in the YAML must match the README order exactly.
+The section order in the YAML must match the README order exactly. If either section is missing or misordered, fix `config/readme-order.yaml` before continuing.
 
 **Step 2: Commit**
 
 ```bash
 git add config/readme-order.yaml
-git commit -m "fix: add missing top-level game-mods section to readme-order.yaml"
+git commit -m "fix: audit top-level README section ordering"
 ```
 <!-- END_TASK_1 -->
 
@@ -450,7 +450,7 @@ git commit -m "feat: add one-time README migration script"
 **Step 1: Run the migration script**
 
 Run: `npx tsx scripts/migrate-readme.ts`
-Expected: Script parses README and creates ~176 new `.md` files (13 seed entries already exist and are skipped). Console shows `CREATED` for each new file and `SKIP` for existing seed entries.
+Expected: Script parses README and creates ~176 new `.md` files (13 seed entries already exist and are skipped). Console shows `CREATED` for each new file and `SKIP` for existing seed entries. If it creates more than expected, check for seed filenames whose slugs do not match the README titles.
 
 **Step 2: Validate all entries pass schema**
 
@@ -465,7 +465,7 @@ If build fails with schema validation errors:
 **Step 3: Count migrated entries**
 
 Run: `ls src/content/projects/*.md | wc -l`
-Expected: ~189 files (may vary slightly based on exact README content)
+Expected: exactly the parser's in-scope entry count, currently 189 files. A higher count usually means duplicate seed entries were created because a seed filename/title did not match the migration slug.
 
 **Step 4: Commit**
 
@@ -476,31 +476,197 @@ git commit -m "feat: migrate all project entries from README to content collecti
 <!-- END_TASK_3 -->
 
 <!-- START_TASK_4 -->
-### Task 4: Validate generated README matches original
+### Task 4: Add automated README parity validator
 
 **Verifies:** awesome-buttplug-site.AC7.4
 
-**Step 1: Generate the README**
+**Files:**
+- Create: `scripts/validate-readme-parity.ts`
+- Modify: `package.json`
+
+**Step 1: Add npm script**
+
+Add to `package.json` scripts:
+
+```json
+{
+  "scripts": {
+    "validate-readme-parity": "tsx scripts/validate-readme-parity.ts"
+  }
+}
+```
+
+**Step 2: Create parity validator**
+
+This script compares the original root `README.md` to `README.generated.md` before root README overwrite. It ignores the intentionally removed `Community Links` and `Friends of Buttplug` sections, ignores the old table of contents, and normalizes whitespace plus markdown links inside metadata bullets.
+
+```typescript
+import fs from "node:fs";
+
+const ORIGINAL_README = "README.md";
+const GENERATED_README = "README.generated.md";
+const EXCLUDED_TOP_LEVEL_SECTIONS = new Set([
+  "Table Of Contents",
+  "Community Links",
+  "Friends of Buttplug",
+]);
+
+interface Entry {
+  sections: string[];
+  title: string;
+  url: string;
+  bullets: string[];
+}
+
+function normalizeText(text: string): string {
+  return text
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function parseReadme(filePath: string): Entry[] {
+  const lines = fs.readFileSync(filePath, "utf-8").split("\n");
+  const entries: Entry[] = [];
+  let currentSections: string[] = [];
+  let currentEntry: Entry | null = null;
+  let inExcludedSection = false;
+
+  function flushEntry(): void {
+    if (!currentEntry) return;
+    currentEntry.bullets = currentEntry.bullets.map(normalizeText);
+    entries.push(currentEntry);
+    currentEntry = null;
+  }
+
+  for (const line of lines) {
+    const headingMatch = line.match(/^(#{2,4})\s+(.+)/);
+    if (headingMatch) {
+      flushEntry();
+      const level = headingMatch[1].length;
+      const heading = headingMatch[2].trim();
+
+      if (level === 2) currentSections = [heading];
+      if (level === 3) currentSections = [currentSections[0], heading];
+      if (level === 4) currentSections = [currentSections[0], currentSections[1], heading];
+
+      inExcludedSection = EXCLUDED_TOP_LEVEL_SECTIONS.has(currentSections[0]);
+      continue;
+    }
+
+    if (inExcludedSection) continue;
+
+    const entryMatch = line.match(/^- \[(.+?)\]\((.+?)\)\s*$/);
+    if (entryMatch) {
+      flushEntry();
+      currentEntry = {
+        sections: [...currentSections],
+        title: entryMatch[1],
+        url: entryMatch[2],
+        bullets: [],
+      };
+      continue;
+    }
+
+    if (!currentEntry) continue;
+
+    const bulletMatch = line.match(/^\s{2}- (.+)/);
+    if (bulletMatch) {
+      currentEntry.bullets.push(bulletMatch[1]);
+      continue;
+    }
+
+    if (/^\s{4,}\S/.test(line) && currentEntry.bullets.length > 0) {
+      currentEntry.bullets[currentEntry.bullets.length - 1] += " " + line.trim();
+      continue;
+    }
+
+    if (line.trim() !== "") {
+      flushEntry();
+    }
+  }
+
+  flushEntry();
+  return entries;
+}
+
+function describe(entry: Entry): string {
+  return `${entry.sections.join(" > ")} / ${entry.title}`;
+}
+
+const originalEntries = parseReadme(ORIGINAL_README);
+const generatedEntries = parseReadme(GENERATED_README);
+const errors: string[] = [];
+
+if (originalEntries.length !== generatedEntries.length) {
+  errors.push(`Entry count mismatch: original=${originalEntries.length}, generated=${generatedEntries.length}`);
+}
+
+const count = Math.min(originalEntries.length, generatedEntries.length);
+for (let i = 0; i < count; i++) {
+  const original = originalEntries[i];
+  const generated = generatedEntries[i];
+
+  if (original.sections.join("/") !== generated.sections.join("/")) {
+    errors.push(`Section mismatch at entry ${i + 1}: ${describe(original)} !== ${describe(generated)}`);
+  }
+  if (original.title !== generated.title) {
+    errors.push(`Title mismatch at entry ${i + 1}: ${original.title} !== ${generated.title}`);
+  }
+  if (original.url !== generated.url) {
+    errors.push(`URL mismatch for ${original.title}: ${original.url} !== ${generated.url}`);
+  }
+  if (original.bullets.length !== generated.bullets.length) {
+    errors.push(`Bullet count mismatch for ${original.title}: ${original.bullets.length} !== ${generated.bullets.length}`);
+    continue;
+  }
+
+  for (let j = 0; j < original.bullets.length; j++) {
+    if (original.bullets[j] !== generated.bullets[j]) {
+      errors.push(`Bullet mismatch for ${original.title}, bullet ${j + 1}: "${original.bullets[j]}" !== "${generated.bullets[j]}"`);
+    }
+  }
+}
+
+if (errors.length > 0) {
+  console.error(errors.join("\n"));
+  process.exit(1);
+}
+
+console.log(`README parity OK: ${generatedEntries.length} migrated entries match structurally.`);
+```
+
+**Step 3: Commit**
+
+```bash
+git add scripts/validate-readme-parity.ts package.json
+git commit -m "test: add README structural parity validator"
+```
+<!-- END_TASK_4 -->
+
+<!-- START_TASK_5 -->
+### Task 5: Validate generated README matches original and enable root output
+
+**Verifies:** awesome-buttplug-site.AC7.1, awesome-buttplug-site.AC7.4
+
+**Step 1: Generate comparison README**
+
+Run: `npm run generate-readme`
+Expected: Script writes `README.generated.md` with all migrated entries. Root `README.md` remains the original source-of-truth file at this point.
+
+**Step 2: Run automated parity validator**
+
+Run: `npm run validate-readme-parity`
+Expected: Script exits 0 and reports that the migrated project entries match structurally.
+
+If validation fails, fix the affected `.md` files' `title`, `url`, `section`, `order`, or `readme_bullets`, and/or update `config/readme-order.yaml`, then re-run `npm run generate-readme` and `npm run validate-readme-parity`.
+
+**Step 3: Write root README**
 
 Run: `npm run generate-readme -- --full`
-Expected: Script writes `README.md` with all migrated entries.
+Expected: Script passes its full-migration guards and atomically writes `README.md`.
 
-**Step 2: Compare with original**
-
-Before running the migration, the original README should have been preserved. Use git to compare:
-
-Run: `git diff README.md`
-
-Verify structural equivalence:
-- Same section headings in same order
-- Same entries within each section in same order
-- Same entry link targets (URLs)
-- Equivalent metadata bullets per entry
-- Byte-for-byte line wrapping and prose formatting do NOT need to match
-
-If sections are missing entries or entries are in wrong sections, fix the affected `.md` files' `section` field and/or update `config/readme-order.yaml`, then re-run.
-
-**Step 3: Add postbuild hook to package.json**
+**Step 4: Add postbuild hook to package.json**
 
 Update `package.json` scripts to automatically regenerate README after every build:
 
@@ -509,25 +675,26 @@ Update `package.json` scripts to automatically regenerate README after every bui
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "postbuild": "tsx scripts/generate-readme.ts --full",
-    "preview": "astro preview",
-    "generate-readme": "tsx scripts/generate-readme.ts"
-  }
-}
+	    "postbuild": "tsx scripts/generate-readme.ts --full",
+	    "preview": "astro preview",
+	    "generate-readme": "tsx scripts/generate-readme.ts",
+	    "validate-readme-parity": "tsx scripts/validate-readme-parity.ts"
+	  }
+	}
 ```
 
-This ensures `npm run build` always regenerates `README.md` from the content collection, keeping the repo front page in sync with content changes.
+This ensures `npm run build` always regenerates `README.md` from the content collection, keeping the repo front page in sync with content changes. Do not add this hook until `npm run validate-readme-parity` passes.
 
-**Step 4: Commit**
+**Step 5: Commit**
 
 ```bash
 git add README.md config/readme-order.yaml package.json
 git commit -m "feat: enable root README generation with postbuild hook"
 ```
-<!-- END_TASK_4 -->
+<!-- END_TASK_5 -->
 
-<!-- START_TASK_5 -->
-### Task 5: Verify complete site builds with all entries
+<!-- START_TASK_6 -->
+### Task 6: Verify complete site builds with all entries
 
 **Step 1: Full build**
 
@@ -547,4 +714,4 @@ Verify:
 - Deprecated entries display with proper styling
 
 **Step 3: No commit needed — verification only**
-<!-- END_TASK_5 -->
+<!-- END_TASK_6 -->

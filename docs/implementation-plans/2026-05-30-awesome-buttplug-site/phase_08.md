@@ -34,29 +34,35 @@ This phase implements and tests:
 
 **Step 1: Add Matomo script to BaseLayout**
 
-Add the Matomo tracking code before the closing `</body>` tag in `src/layouts/BaseLayout.astro`. Use the site ID placeholder — the actual ID needs to be configured after creating the site in the Matomo admin panel.
+Create the site in the Matomo admin panel before this task, then configure the real site ID through `PUBLIC_MATOMO_SITE_ID`. Do not commit a placeholder site ID. If the variable is absent, omit the tracking script; AC8.1 is not complete until the real site ID is configured and visible in the built HTML.
 
 The script should be placed after the Pagefind scripts. Add this block:
 
-```html
-<script is:inline>
+```astro
+---
+const matomoSiteId = import.meta.env.PUBLIC_MATOMO_SITE_ID;
+---
+
+{matomoSiteId && (
+<script define:vars={{ matomoSiteId }}>
   var _paq = window._paq = window._paq || [];
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
     var u="//metrics.nonpolynomial.com/";
     _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', 'SITE_ID_PLACEHOLDER']);
+    _paq.push(['setSiteId', matomoSiteId]);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
     g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
+)}
 ```
 
 **Step 2: Verify in dev tools**
 
-Run: `npm run dev`
-Open browser dev tools on any page. Check the Network tab — you should see a request to `metrics.nonpolynomial.com/matomo.js` (it will 404 or fail until the site ID is configured, but the script tag should be present in the HTML source).
+Run with the real ID, for example: `PUBLIC_MATOMO_SITE_ID=123 npm run dev`
+Open browser dev tools on any page. Check the page source and Network tab — the script must contain the configured site ID and request `metrics.nonpolynomial.com/matomo.js`.
 
 **Step 4: Commit**
 
@@ -273,7 +279,7 @@ git commit -m "feat: add favicon, meta tags, and site URL configuration"
 
 **Step 1: Build and preview**
 
-Run: `npm run build`
+Run with the real Matomo site ID, for example: `PUBLIC_MATOMO_SITE_ID=123 npm run build`
 Run: `npm run preview`
 
 **Step 2: Verify desktop layout**
@@ -296,11 +302,11 @@ Use browser dev tools to simulate mobile viewport (375px width):
 
 **Step 4: Verify Matomo script in page source**
 
-View page source — confirm Matomo script block is present with `metrics.nonpolynomial.com` URL.
+View page source from a build run with the real `PUBLIC_MATOMO_SITE_ID` set — confirm the Matomo script block is present with the `metrics.nonpolynomial.com` URL and the real site ID, not a placeholder.
 
 **Step 5: Final build verification**
 
-Run: `npm run build`
+Run with the real Matomo site ID, for example: `PUBLIC_MATOMO_SITE_ID=123 npm run build`
 Expected: Clean build with no warnings. Check `dist/` contains:
 - `index.html`
 - `projects/` directory with ~189 HTML files

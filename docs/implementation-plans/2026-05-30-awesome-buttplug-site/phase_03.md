@@ -231,7 +231,7 @@ const projects = await getCollection("projects");
 **Step 2: Verify dev server shows cards**
 
 Run: `npm run dev`
-Expected: Index page shows 11 cards in a grid layout. The "In Heat Overwatch Mod" card displays with muted styling and a red "Deprecated" badge.
+Expected: Index page shows 13 cards in a grid layout. The "In Heat Overwatch Mod" card displays with muted styling and a red "Deprecated" badge.
 
 **Step 3: Commit**
 
@@ -393,14 +393,14 @@ git commit -m "feat: add project detail pages with metadata and tag links"
 **Step 1: Verify build succeeds**
 
 Run: `npm run build`
-Expected: Build completes. Static pages generated for index and all 11 project detail pages.
+Expected: Build completes. Static pages generated for index and all 13 project detail pages.
 
 **Step 2: Verify with dev server**
 
 Run: `npm run dev`
 
 Verify the following manually:
-- Index page shows 11 cards with title, summary, tags, placeholder image
+- Index page shows 13 cards with title, summary, tags, placeholder image
 - The "In Heat Overwatch Mod" card shows deprecation styling (muted, red badge)
 - Cards with `pricing` data show a green pricing badge
 - Clicking any card navigates to `/projects/{id}` (e.g., `/projects/intiface-central`)

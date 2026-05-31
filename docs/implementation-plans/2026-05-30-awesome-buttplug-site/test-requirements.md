@@ -30,7 +30,7 @@ Maps each acceptance criterion to its verification method. Given this is an Astr
 | **AC2.1** Entry with all required fields passes schema validation | Build Validation | Seed entries with all required fields exist and `npm run build` succeeds. Verified implicitly every build. |
 | **AC2.2** Entry missing required field fails build with descriptive error | Build Validation | Same negative-test approach as AC1.3. Create entry missing `url`, run build, assert failure. |
 | **AC2.3** Entry with optional fields omitted builds successfully with defaults applied | Build Validation | Seed entries that omit optional fields exist in the seed set. Build succeeding with these entries is the verification. |
-| **AC2.4** All ~189 migrated project entries exist as individual `.md` files and pass validation | Build Validation + Automated Test | `npm run build` passing validates all entries. Count check: `ls src/content/projects/*.md | wc -l` should be >= 189. |
+| **AC2.4** All ~189 migrated project entries exist as individual `.md` files and pass validation | Build Validation + Automated Test | `npm run build` passing validates all entries. Count check should equal the migration script's in-scope entry count, currently 189; greater-than checks are not sufficient because duplicate seed slugs can inflate the count. |
 
 ---
 
@@ -78,7 +78,7 @@ Maps each acceptance criterion to its verification method. Given this is an Astr
 | Criterion | Method | Verification |
 |-----------|--------|--------------|
 | **AC7.1** `npm run generate-readme` produces correct output file | Script Validation | Run `npm run generate-readme`, verify expected output file exists. |
-| **AC7.2** Each entry appears in the correct section formatted as name-link + indented bullet points | Automated Test | Cross-reference entry files against generated README content. **Suggested:** `scripts/validate-readme.ts` |
+| **AC7.2** Each entry appears in the correct section formatted as name-link + indented bullet points | Automated Test | Covered by `scripts/validate-readme-parity.ts` during migration, then by `npm run generate-readme -- --full && git diff --exit-code README.md` after generated README output is enabled. |
 | **AC7.3** Entries not matching any section produce a build warning | Script Validation | Add test entry with unmapped section, run `npm run generate-readme 2>&1`, assert warning in output. |
 | **AC7.4** Generated README is structurally equivalent to migrated project sections | Automated Test | Structural diff script comparing generated README against original. **Suggested:** `scripts/validate-readme-parity.ts` |
 
@@ -110,6 +110,7 @@ Maps each acceptance criterion to its verification method. Given this is an Astr
 ## Recommendations
 
 1. **No vitest needed initially.** Zod schema validation via Astro's content collections and build-time page generation cover 9 of 24 criteria without any test runner.
-2. **Two custom validation scripts cover README generation.** `scripts/validate-readme.ts` and `scripts/validate-readme-parity.ts` are the highest-value automated tests.
+2. **One custom validation script covers migration parity.** `scripts/validate-readme-parity.ts` is required before the first root README overwrite. After that, CI should regenerate README and fail on uncommitted drift.
 3. **Playwright is the path to automating the 11 human-verification criteria**, particularly AC4.1-AC4.4 (tag filtering) and AC6.1-AC6.2 (Pagefind search). Not needed for initial delivery.
-4. **CI pipeline suggestion:** `npm run build && node --import tsx scripts/validate-readme-parity.ts` covers all build-validation and script-validation criteria.
+4. **CI pipeline suggestion during migration:** `npm run build && npm run generate-readme && npm run validate-readme-parity`.
+5. **CI pipeline suggestion after root README generation is enabled:** `npm run build && npm run generate-readme -- --full && git diff --exit-code README.md`.

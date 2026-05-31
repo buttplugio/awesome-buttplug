@@ -284,16 +284,18 @@ const { title } = Astro.props;
     <footer>
       <p>A curated list of awesome projects using the Buttplug protocol.</p>
     </footer>
-    <script is:inline src="/pagefind/pagefind-ui.js"></script>
-    <script is:inline>
-      window.addEventListener('DOMContentLoaded', () => {
-        new PagefindUI({
-          element: "#search",
-          showSubResults: true,
-          showImages: false,
-        });
-      });
-    </script>
+	    <script is:inline src="/pagefind/pagefind-ui.js"></script>
+	    <script is:inline>
+	      window.addEventListener('DOMContentLoaded', () => {
+	        if (window.PagefindUI) {
+	          new window.PagefindUI({
+	            element: "#search",
+	            showSubResults: true,
+	            showImages: false,
+	          });
+	        }
+	      });
+	    </script>
   </body>
 </html>
 ```
@@ -310,7 +312,7 @@ Verify:
 - Typing a project name returns relevant results
 - Clicking a search result navigates to the correct project detail page
 
-Note: During `npm run dev`, the Pagefind index may not exist. The search bar will appear but return no results — this is expected. Search only works against a built site.
+Note: During `npm run dev`, the Pagefind assets and index may not exist. The guard around `window.PagefindUI` prevents a runtime error; search only works against a built site.
 
 **Step 3: Commit**
 
