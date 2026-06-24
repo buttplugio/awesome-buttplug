@@ -327,8 +327,27 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 - [Playful Plugins](https://furimanejo.itch.io/playful-plugins)
   - The app is free and mostly closed source. Plugins are possibly sold/distributed separately (since version 1.99)
   - Windows only, requires [Intiface Central](https://intiface.com/central)
-  - Non-exhaustive list of supported games: Abandoned Archive, Black Myth: Wukong, Elden Ring and Nightreign, Ero Dungeons, Fortnite, Helldivers 2, Hollow Knight: Silksong, Kinky Dungeon, Muse Dash, Peggle Deluxe, Overwatch 2, PowerWash Simulator, Team Fortress 2, Vampire Survivors
   - Allows the creation of custom plugins using the [PPScript](https://github.com/Furimanejo/PP-Script) library. Detection methods include computer vision, process memory reading and HTTP requests
+  - Non-exhaustive list of supported games:
+    - Abandoned Archive
+    - Darkest Dungeon
+    - Elden Ring and Nightreign
+    - Ero Dungeons (on Itch: https://erodungeons.itch.io/ero-dungeons?ref=pp )
+    - Ero Hunters (on Itch: https://erodungeons.itch.io/ero-dungeons?ref=pp )
+    - Ero Slayers (on Itch: https://erodungeons.itch.io/ero-slayers?ref=pp )
+    - Fortnite
+    - Helldivers 2
+    - Hollow Knight: Silksong
+    - Kinky Dungeon (on Itch: https://ada18980.itch.io/kinky-dungeon?ref=pp)
+    - League of Legends
+    - Marvel Rivals
+    - Muse Dash
+    - Noita
+    - Overwatch
+    - Peggle Deluxe
+    - PowerWash Simulator
+    - Team Fortress 2
+    - Vampire Survivors
 - [BPGE (ButtPlug Game Events)](https://github.com/allanf181/BPGE)
   - Free, source avaliable, repo at https://github.com/allanf181/BPGE
   - Windows 10+ only (requires [Intiface Central](https://intiface.com/central) and [HomeAssistant Game Events](https://www.overwolf.com/app/BinaryBurger-HomeAssistant_Game_Events))
