@@ -1,4 +1,6 @@
 import type { FunctionalComponent } from "preact";
+import { useState } from "preact/hooks";
+import { computeTagDisplay } from "../utils/tagDisplay";
 
 interface Props {
   tags: Map<string, number>;
@@ -8,28 +10,39 @@ interface Props {
 }
 
 const TagBar: FunctionalComponent<Props> = ({ tags, selected, onToggle, onClear }) => {
+  const [expanded, setExpanded] = useState(false);
+  const { visible, hiddenCount } = computeTagDisplay(tags, selected, expanded);
+
   return (
     <div class="tag-bar">
-      {selected.length > 0 && (
-        <button class="tag-clear" onClick={onClear}>
-          Clear filters
-        </button>
-      )}
       <div class="tag-list">
-        {Array.from(tags.entries())
-          .sort(([a], [b]) => a.localeCompare(b))
-          .map(([tag, count]) => {
-            const isActive = selected.includes(tag);
-            return (
-              <button
-                key={tag}
-                class={`tag-pill ${isActive ? "active" : ""} ${count === 0 && !isActive ? "dimmed" : ""}`}
-                onClick={() => onToggle(tag)}
-              >
-                {tag} <span class="tag-count">({count})</span>
-              </button>
-            );
-          })}
+        {visible.map(([tag, count]) => {
+          const isActive = selected.includes(tag);
+          return (
+            <button
+              key={tag}
+              class={`tag-pill ${isActive ? "active" : ""} ${count === 0 && !isActive ? "dimmed" : ""}`}
+              onClick={() => onToggle(tag)}
+            >
+              {tag} <span class="tag-count">{count}</span>
+            </button>
+          );
+        })}
+        {hiddenCount > 0 && (
+          <button class="tag-expander" onClick={() => setExpanded(true)}>
+            +{hiddenCount} more
+          </button>
+        )}
+        {expanded && (
+          <button class="tag-expander" onClick={() => setExpanded(false)}>
+            show fewer
+          </button>
+        )}
+        {selected.length > 0 && (
+          <button class="tag-clear" onClick={onClear}>
+            Clear
+          </button>
+        )}
       </div>
     </div>
   );

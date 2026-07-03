@@ -24,17 +24,17 @@ const displayDeprecationReason = deprecation_reason
 <ProjectLayout title={title}>
   <article class:list={[{ deprecated: isDeprecated }]}>
     <h1>{title}</h1>
-    {isDeprecated && <span class="badge badge-deprecated">Deprecated</span>}
-    {displayPricing && <p class="pricing">{displayPricing}</p>}
+    {isDeprecated && <span class="badge-deprecated">Deprecated</span>}
+    {displayPricing && <span class="badge-pricing">{displayPricing}</span>}
     {displayDeprecationReason && (
       <p class="deprecation-reason">Deprecation Reason: {displayDeprecationReason}</p>
     )}
 
     <div class="meta">
-      <p><a href={url}>Visit Project →</a></p>
-      {repo && <p><a href={repo}>Source Code →</a></p>}
+      <a href={url} class="meta-link">Visit Project →</a>
+      {repo && <a href={repo} class="meta-link">Source Code →</a>}
       {platforms && platforms.length > 0 && (
-        <p>Platforms: {platforms.join(", ")}</p>
+        <span class="meta-platforms">Platforms: {platforms.join(", ")}</span>
       )}
     </div>
 
@@ -54,46 +54,61 @@ const displayDeprecationReason = deprecation_reason
   article.deprecated {
     opacity: 0.8;
   }
-  .badge-deprecated {
+  .badge-deprecated,
+  .badge-pricing {
     display: inline-block;
-    background: var(--danger);
-    color: white;
-    padding: 0.15rem 0.5rem;
-    border-radius: 4px;
+    padding: 0.15rem 0.6rem;
+    border-radius: var(--radius-sm);
     font-size: 0.85rem;
+    margin: 0 0.5rem 0.5rem 0;
   }
-  .pricing {
-    color: var(--success);
-    font-weight: bold;
+  .badge-deprecated {
+    background: var(--danger-bg);
+    color: var(--danger-fg);
+  }
+  .badge-pricing {
+    background: var(--success-bg);
+    color: var(--success-fg);
   }
   .deprecation-reason {
-    color: var(--warning);
+    color: var(--warning-fg);
     font-style: italic;
-    border-left: 3px solid var(--warning);
+    border-left: 3px solid var(--warning-fg);
     padding-left: 0.75rem;
+    margin: 0.75rem 0;
   }
   .meta {
-    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
+    align-items: baseline;
+    background: var(--bg-raised);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-card);
+    padding: 0.875rem 1.25rem;
+    margin: 1.25rem 0;
   }
-  .meta a {
-    color: var(--accent);
+  .meta-link {
+    font-weight: 500;
+  }
+  .meta-platforms {
+    color: var(--text-muted);
+    font-size: 0.9rem;
   }
   .tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    gap: 0.4rem;
     margin: 1rem 0;
   }
   .tag-link {
-    background: var(--tag-bg);
-    color: var(--text-muted);
-    padding: 0.2rem 0.6rem;
-    border-radius: 4px;
-    font-size: 0.85rem;
-    text-decoration: none;
+    background: var(--pill-bg);
+    color: var(--pill-fg);
+    padding: 0.2rem 0.65rem;
+    border-radius: 999px;
+    font-size: 0.82rem;
   }
   .tag-link:hover {
-    background: var(--tag-bg-hover);
     color: var(--text-bright);
   }
   .content {

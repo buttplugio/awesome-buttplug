@@ -4,6 +4,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import ProjectFilter from "../components/ProjectFilter";
 import { getCollection } from "astro:content";
 import type { ProjectEntry } from "../types";
+import { categoryForSection } from "../utils/categories";
 
 const rawProjects = await getCollection("projects");
 const projects: ProjectEntry[] = rawProjects.map((p) => ({
@@ -12,6 +13,8 @@ const projects: ProjectEntry[] = rawProjects.map((p) => ({
   url: p.data.url,
   summary: p.data.summary,
   tags: p.data.tags,
+  section: p.data.section,
+  category: categoryForSection(p.data.section).slug,
   image: p.data.image,
   pricing: p.data.pricing,
   deprecation_reason: p.data.deprecation_reason,
@@ -20,6 +23,6 @@ const projects: ProjectEntry[] = rawProjects.map((p) => ({
 
 <BaseLayout title="Home">
   <h1>Awesome Buttplug</h1>
-  <p>A curated list of awesome projects using the Buttplug sex toy control protocol.</p>
+  <p class="lede">A curated list of awesome projects using the Buttplug sex toy control protocol.</p>
   <ProjectFilter client:visible projects={projects} />
 </BaseLayout>

@@ -7,6 +7,7 @@
     "build": "astro build",
     "postbuild": "tsx scripts/generate-readme.ts --full",
     "preview": "astro preview",
+    "test": "vitest run",
     "generate-readme": "tsx scripts/generate-readme.ts",
     "validate-readme-parity": "tsx scripts/validate-readme-parity.ts --baseline-ref 9e80639a92c2c991f7744388df10138b492f0455"
   },
@@ -15,6 +16,7 @@
   },
   "dependencies": {
     "@astrojs/preact": "^5.1.1",
+    "@fontsource-variable/inter": "^5.2.8",
     "astro": "^6.3.1",
     "astro-pagefind": "^1.8.5",
     "preact": "^10.25.0"
@@ -22,6 +24,7 @@
   "devDependencies": {
     "gray-matter": "^4.0.3",
     "tsx": "^4.22.3",
+    "vitest": "^4.1.9",
     "yaml": "^2.9.0",
     "zod": "^4.4.3"
   }

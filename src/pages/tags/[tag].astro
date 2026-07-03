@@ -21,7 +21,7 @@ const { tag, projects } = Astro.props;
 
 <BaseLayout title={`Tag: ${tag}`}>
   <h1>Tag: {tag}</h1>
-  <p>{projects.length} project{projects.length !== 1 ? "s" : ""}</p>
+  <p class="lede">{projects.length} project{projects.length !== 1 ? "s" : ""}</p>
   <a href="/tags">← All Tags</a>
 
   <div class="tag-projects" data-pagefind-ignore>
@@ -55,34 +55,31 @@ const { tag, projects } = Astro.props;
     margin-top: 1.5rem;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 0.875rem;
   }
   .tag-project-card {
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 1rem;
+    background: var(--bg-raised);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-card);
+    padding: 1rem 1.25rem;
   }
   .tag-project-card.deprecated {
-    opacity: 0.7;
+    opacity: 0.65;
   }
   .tag-project-card h3 {
-    margin: 0 0 0.5rem;
-  }
-  .tag-project-card h3 a {
-    color: var(--accent);
-    text-decoration: none;
+    margin: 0 0 0.35rem;
   }
   .tag-project-card p {
     color: var(--text-muted);
     font-size: 0.9rem;
-    margin: 0.5rem 0;
+    margin: 0.35rem 0;
   }
   .badge-deprecated {
     display: inline-block;
-    background: var(--danger);
-    color: white;
-    padding: 0.1rem 0.4rem;
-    border-radius: 4px;
+    background: var(--danger-bg);
+    color: var(--danger-fg);
+    padding: 0.1rem 0.5rem;
+    border-radius: var(--radius-sm);
     font-size: 0.75rem;
   }
   .tag-pills {
@@ -92,19 +89,17 @@ const { tag, projects } = Astro.props;
     margin-top: 0.5rem;
   }
   .tag-pill {
-    background: var(--tag-bg);
-    color: var(--text-muted);
-    padding: 0.15rem 0.5rem;
-    border-radius: 3px;
+    background: var(--pill-bg);
+    color: var(--pill-fg);
+    padding: 0.15rem 0.55rem;
+    border-radius: 999px;
     font-size: 0.75rem;
-    text-decoration: none;
   }
   .tag-pill:hover {
-    background: var(--tag-bg-hover);
     color: var(--text-bright);
   }
   .tag-pill.active {
     background: var(--accent);
-    color: white;
+    color: var(--accent-contrast);
   }
 </style>
