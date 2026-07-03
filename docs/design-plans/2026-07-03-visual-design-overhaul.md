@@ -20,6 +20,52 @@ Three decisions drive the design, each validated against mockups during brainsto
 - Inter Variable self-hosted via fontsource package (no CDN requests)
 - `npm run build` and `npm run validate-readme-parity` stay green; content schema, README generation, Pagefind indexing, and Matomo untouched
 
+## Implementation Handoff Addendum
+
+This file remains the design source of truth. For execution, use it together with the detailed implementation plan at `docs/implementation-plans/2026-07-03-visual-design-overhaul.md`, but treat the review clarifications below as binding if the two documents differ.
+
+### Goal
+
+Replace the current generic dark UI with the approved soft-elevation visual system: category rail, compact/visual cards, usage-sorted tag controls, URL-synced filters, and restyled header/footer/detail/tag/search surfaces, while preserving static output, the content schema, README generation, Pagefind indexing, and conditional Matomo behavior.
+
+### Current codebase touch points
+
+- `src/types.ts` currently defines the index/card `ProjectEntry` contract without `section` or `category`; extend it for the index only with `section: string` and `category: CategorySlug`/`string` derived from `categoryForSection(p.data.section)`. Do not add `repo` or `platforms` unless cards explicitly start displaying them; detail pages already read those from `project.data`.
+- `src/pages/index.astro` constructs `ProjectEntry[]`; it must pass through `section: p.data.section` and `category: categoryForSection(p.data.section).slug`.
+- Index island behavior is concentrated in `src/components/ProjectFilter.tsx`, `TagBar.tsx`, and `CardGrid.tsx`. Because category, URL-state, tag overflow, and view-mode behavior change most of the old tag-only implementation, prefer clean replacement of these small files over surgical edits, backed by tests.
+- Add new components `src/components/CategoryRail.tsx` and `src/components/ViewToggle.tsx`.
+- Add pure utilities for behavior that can be tested without a browser: `src/utils/categories.ts`, `filterProjects.ts`, `tagDisplay.ts`, `filterState.ts`, and `monogram.ts`.
+- `src/layouts/BaseLayout.astro` owns shared header/search/footer markup and should import Inter before `global.css`. `src/layouts/ProjectLayout.astro` is only a wrapper and should not be relied on for detail-page styling.
+- Non-index route styling is currently scoped inside `src/pages/projects/[...id].astro`, `src/pages/tags/index.astro`, and `src/pages/tags/[tag].astro`; AC6 is not complete unless those scoped styles are updated too. Keep route paths unchanged (`/projects/{id}`, `/tags`, `/tags/{tag}`).
+- `public/images/placeholder.svg` is currently hardcoded only by `CardGrid`; remove that reference before deleting the asset.
+- The existing human test plan is `docs/test-plans/2026-05-30-awesome-buttplug-site.md` and currently describes the old placeholder-image/alphabetical-tag UI; update it as part of this overhaul.
+
+### Self-hosted font/package requirements
+
+- Add `@fontsource-variable/inter` and commit both `package.json` and `package-lock.json`.
+- Import the font once from `src/layouts/BaseLayout.astro` before `../styles/global.css`:
+
+  ```astro
+  import "@fontsource-variable/inter";
+  import "../styles/global.css";
+  ```
+
+- Set `font-family: "Inter Variable", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif` through a `--font-sans` token in `global.css`.
+- Verify build/preview network logs do not show font requests to Google Fonts, gstatic, jsDelivr, unpkg, or other external font/CDN origins.
+
+### Smaller-model implementation packages
+
+These packages are sized for `general-purpose-mini` unless noted. Avoid running agents that edit the same files in parallel.
+
+1. **Dependency owner (mini, first):** install `vitest` and `@fontsource-variable/inter`; add `npm test`; update only `package.json` and `package-lock.json`; run `npm test` if tests already exist, otherwise `npm run build`.
+2. **Pure utilities and tests (mini, after dependency owner):** create `categories`, `filterProjects`, `tagDisplay`, `filterState`, and `monogram` utilities plus Vitest coverage. No component or CSS edits.
+3. **Design tokens and shared shell (mini, can run after dependency owner; avoid overlap with route restyle):** replace `global.css` token/base/Pagefind styles; update `BaseLayout.astro` for Inter import and header/search/footer markup; preserve conditional Matomo script.
+4. **Index behavior island (larger model preferred if mini struggles; after utilities):** update `types.ts`, `index.astro`, `ProjectFilter.tsx`, `CategoryRail.tsx`, `TagBar.tsx`, `ViewToggle.tsx`, `CardGrid.tsx`, and `filter.css`; implement category filtering, tag overflow, URL state, view toggle, card variants, deprecated ordering, and placeholder removal.
+5. **Non-index routes (mini, after design tokens):** restyle `projects/[...id].astro`, `/tags/`, and `/tags/[tag]` scoped styles and metadata markup to the same token set.
+6. **Documentation and verification (mini/reviewer, last):** update the human test plan, run `npm test`, `npm run build`, `npm run validate-readme-parity`, grep for `placeholder.svg` and external font/CDN references, and perform browser checks at 375/768/1200px.
+
+If commits are made during implementation, stage files explicitly by path. Do not use broad staging commands such as `git add -A`, `git add .`, or `git commit -am`.
+
 ## Acceptance Criteria
 
 ### visual-overhaul.AC1: Design tokens
@@ -30,7 +76,7 @@ Three decisions drive the design, each validated against mockups during brainsto
 
 ### visual-overhaul.AC2: Category rail
 
-- **visual-overhaul.AC2.1 Success:** Rail shows All (189), Game Mods (58), Applications (48), Development & Libraries (28), Games (15), Virtual Worlds (8), Hardware (3), Deprecated (29), with live counts
+- **visual-overhaul.AC2.1 Success:** Rail labels are fixed/order-curated, but counts are derived from the current `projects` data, never hardcoded. For the current 189-entry dataset the derived counts show All (189), Game Mods (58), Applications (48), Development & Libraries (28), Games (15), Virtual Worlds (8), Hardware (3), Deprecated (29).
 - **visual-overhaul.AC2.2 Success:** Selecting a category filters the grid to entries whose section rolls up to that category; selecting another category replaces the selection (single-select); All resets
 - **visual-overhaul.AC2.3 Success:** Hardware category includes both `hardware-support` and `diy-hardware` sections
 - **visual-overhaul.AC2.4 Success:** Deprecated entries appear only under the Deprecated category and in All; in All they sort after all non-deprecated entries with muted styling
@@ -53,7 +99,7 @@ Three decisions drive the design, each validated against mockups during brainsto
 
 - **visual-overhaul.AC5.1 Success:** Selecting category/tags updates query params (e.g. `/?cat=game-mods&tags=vr,free`) without page reload
 - **visual-overhaul.AC5.2 Success:** Loading a URL with query params restores the corresponding filter state
-- **visual-overhaul.AC5.3 Success:** Invalid or unknown param values are ignored gracefully (grid shows all entries)
+- **visual-overhaul.AC5.3 Success:** Invalid or unknown param values are ignored gracefully with field-level fallback: unknown `cat` resets only category to All; unknown tag slugs are dropped individually; if all provided params are invalid, the grid shows all entries. Example: `/?cat=bogus&tags=free,nope` restores category All and selected tags `[free]`; `/?cat=bogus&tags=nope` restores defaults and shows all entries.
 
 ### visual-overhaul.AC6: Other surfaces
 
@@ -124,11 +170,49 @@ Deprecated ordering: `CardGrid` receives entries pre-sorted (non-deprecated firs
 - No tag taxonomy cleanup (usage-sorting makes the long tail livable without renames)
 - No new routes
 
-### Testing
+### Test Strategy
 
-- `npm run build` + `npm run validate-readme-parity` as the regression gate
-- Manual golden-path verification in browser at 375/768/1200px: category selection, tag AND filtering, both view modes, URL restore, deprecated treatment, search overlay, detail page
-- Update `docs/test-plans/` entry for the site with the new UI paths
+Regression coverage should combine fast utility tests, build/parity checks, and targeted browser/manual verification. The repo currently has no browser harness; if Playwright or equivalent is not added, the browser-only checks below remain explicit manual acceptance items and should be recorded as residual risk.
+
+- Add `vitest` and `npm test` for pure logic that does not require a browser.
+- Prefer pure utility modules for category rollup, category/tag composition, tag overflow display, URL parse/serialize, and gradient selection so smaller agents can implement and verify behavior independently.
+- Run `npm test`, `npm run build`, and `npm run validate-readme-parity` before final handoff.
+- Use `npm run build && npm run preview` for Pagefind and network-log verification because Pagefind assets exist only after build.
+
+| Acceptance area | Named verification |
+| --- | --- |
+| AC1.1 tokens | Build succeeds; component/page styles use CSS custom properties rather than hardcoded component colours, except intentional monogram gradient values in `monogram.ts`. |
+| AC1.2 self-hosted Inter | Browser network log in build preview shows font assets served from the site origin and no requests to Google Fonts, gstatic, jsDelivr, unpkg, or other font/CDN origins. |
+| AC1.3 tint badges | Browser/manual or component render check confirms pricing/deprecated badges use tint foreground/background token pairs, not solid green/red fills. |
+| AC2.1-AC2.5 category rail | `categories.test.ts` and `filterProjects.test.ts` cover rollup, hardware merge, derived counts, deprecated partitioning, single-select category behavior, and category+tag AND composition. Browser check confirms current live counts. |
+| AC3.1-AC3.3 tag bar | `tagDisplay.test.ts` covers usage sorting, top-12 collapse, `+N more`, selected-tag pinning, and selected low-usage visibility. `filterProjects.test.ts` covers AND counts. |
+| AC4.1-AC4.4 view toggle/cards | `monogram.test.ts` covers deterministic fallback selection. Browser/manual check confirms compact default, visual media/fallback mode, `localStorage` persistence, max 4 visible card tags, and no image area in compact mode. `grep -R "placeholder.svg" src public` must find no live references. |
+| AC5.1-AC5.3 URL state | `filterState.test.ts` covers parse/serialize, round trip, unknown category fallback, unknown tag dropping, and all-invalid defaults. Browser check confirms `history.replaceState` updates without reload and URL reload restores state. |
+| AC6.1-AC6.4 other surfaces | Browser/manual or Playwright checks cover header/search/footer, `src/pages/projects/[...id].astro`, `/tags/`, `/tags/[tag]`, and widths 375px, 768px, and 1200px+. |
+| AC7.1 non-regression | `npm run build` and `npm run validate-readme-parity`. |
+| AC7.2 Pagefind | `npm run build && npm run preview`; search for “Buttplug Rust” and follow result to `/projects/buttplug-rust`. |
+| AC7.3 Matomo | Source/build check confirms the existing conditional `PUBLIC_MATOMO_SITE_ID` gate remains in `BaseLayout.astro`; with the env var unset, Matomo is absent from built pages. |
+
+Update `docs/test-plans/2026-05-30-awesome-buttplug-site.md` with the new UI paths:
+
+- Replace placeholder-image card expectations with compact-default and visual fallback expectations.
+- Add category rail checks for counts, single-select behavior, hardware merge, deprecated category, and horizontal mobile scrolling.
+- Add tag overflow checks: top 12 collapsed, `+N more`, selected low-usage tags remain visible.
+- Add URL restore checks for `cat` and comma-separated `tags` params, including invalid values.
+- Add view-toggle `localStorage` persistence.
+- Add network-log check for no external font/CDN requests.
+- Keep Pagefind search validation under `npm run build && npm run preview`.
+
+### Review Strategy
+
+Before implementation handoff, run a plan-focused review subagent against this design and the detailed implementation plan. After implementation, run an implementation review subagent against the changed files and acceptance criteria; fix or explicitly rebut all high/critical findings before final validation.
+
+### Risks, Blockers, and Required Decisions
+
+- Browser-only behaviors (URL restore, `localStorage`, Pagefind UI, responsive rail scrolling, and network-log font checks) are manual unless a browser test harness is added.
+- Category count numbers in the acceptance criteria are a snapshot for the current 189-entry dataset; implementation must compute counts from data so future content changes do not require code changes.
+- Pagefind cannot be fully checked from `npm run dev`; use build/preview.
+- Keep scope presentation-layer only. Do not modify `src/content/`, `src/content.config.ts`, `config/readme-order.yaml`, `scripts/`, generated `README.md`, or Matomo behavior.
 
 ## Glossary
 

@@ -1,6 +1,6 @@
 # Visual Design Overhaul Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** Implement task-by-task using small, file-bounded agents where possible. Prefer `general-purpose-mini` for dependency setup, pure utilities/tests, token/layout styling, non-index route styling, and documentation/verification. Use a stronger general-purpose agent for the index behavior island if mini struggles. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Replace the site's generic dark theme with the approved "soft elevation" design: category rail, usage-sorted tag bar, compact/visual card toggle, URL-synced filters, and restyled surfaces.
 
@@ -16,7 +16,7 @@
 - Never edit `README.md`, `src/content/`, `src/content.config.ts`, `config/readme-order.yaml`, or `scripts/`
 - Design tokens exactly as specified in the spec's token table; components must not hardcode colours
 - Components are Preact (`import ... from "preact"`), not React
-- Category counts (fixed dataset as of this plan): Game Mods 58, Applications 48, Deprecated 29, Development & Libraries 28, Games 15, Virtual Worlds 8, Hardware 3 (= 2 `hardware-support` + 1 `diy-hardware`), total 189
+- Category counts must be derived from the current project data, never hardcoded. For the dataset at plan time, the derived counts should be: Game Mods 58, Applications 48, Deprecated 29, Development & Libraries 28, Games 15, Virtual Worlds 8, Hardware 3 (= 2 `hardware-support` + 1 `diy-hardware`), total 189.
 
 ---
 
@@ -1390,7 +1390,7 @@ Run: `npm run dev`
 Run: `npm test && npm run build` — expected: green.
 
 ```bash
-git add -A
+git add src/utils/monogram.ts src/utils/monogram.test.ts src/components/ViewToggle.tsx src/components/CardGrid.tsx src/components/ProjectFilter.tsx src/styles/filter.css public/images/placeholder.svg
 git commit -m "feat: compact/visual view toggle with gradient monogram fallback"
 ```
 
