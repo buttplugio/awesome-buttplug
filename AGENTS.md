@@ -1,3 +1,8 @@
+# Project Instructions for OpenCode
+
+> This file was converted from CLAUDE.md. OpenCode uses AGENTS.md for project instructions.
+> See: https://opencode.ai/docs/rules/
+
 # awesome-buttplug
 
 Last verified: 2026-05-30
@@ -312,7 +317,7 @@ auto_detect = true
 **ALWAYS stage files explicitly by name:**
 - ✅ `git add src/main.rs src/lib.rs`
 - ✅ `git add Cargo.toml Cargo.lock`
-- ✅ `git add .claude/commands/decision.md`
+- ✅ `git add .opencode/commands/decision.md`
 
 **Why this matters:**
 - Prevents accidentally committing sensitive files (.env, credentials)
