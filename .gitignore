@@ -13,3 +13,5 @@ README.generated.md
 
 # Playwright MCP session artifacts
 .playwright-mcp/
+
+.DS_Store
