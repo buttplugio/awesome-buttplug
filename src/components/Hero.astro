@@ -1,0 +1,83 @@
+---
+---
+
+<div class="hero">
+  <img src="/img/logo.png" alt="" width="72" height="72" class="hero-logo" />
+  <div class="hero-copy">
+    <h1>Awesome Buttplug</h1>
+    <p class="lede">A curated list of awesome projects using the Buttplug sex toy control protocol.</p>
+  </div>
+</div>
+
+<style>
+  .hero {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(
+      135deg,
+      var(--bp-slate-1) 0%,
+      var(--bp-slate-2) 40%,
+      var(--bp-slate-3) 70%,
+      var(--bp-slate-4) 100%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1.5rem 1rem;
+    min-height: 120px;
+  }
+
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 600px;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(circle, rgba(233, 30, 120, 0.14) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .hero-logo {
+    position: relative;
+    display: block;
+    flex-shrink: 0;
+    animation: heroLogoFloat 4s ease-in-out infinite alternate;
+  }
+
+  .hero-copy {
+    position: relative;
+    max-width: 640px;
+  }
+
+  /* The gradient's lightest stop (--bp-slate-3) only clears AA against solid
+     white or 85%-opacity white; --bp-ice and the semantic text tokens fail here. */
+  .hero h1 {
+    color: #fff;
+    margin-bottom: 0.25rem;
+  }
+
+  .hero .lede {
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 0;
+  }
+
+  @keyframes heroLogoFloat {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-6px);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+      gap: 0.75rem;
+    }
+  }
+</style>

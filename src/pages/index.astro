@@ -1,6 +1,7 @@
 ---
 import "../styles/filter.css";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import Hero from "../components/Hero.astro";
 import ProjectFilter from "../components/ProjectFilter";
 import { getCollection } from "astro:content";
 import type { ProjectEntry } from "../types";
@@ -22,7 +23,6 @@ const projects: ProjectEntry[] = rawProjects.map((p) => ({
 ---
 
 <BaseLayout title="Home">
-  <h1>Awesome Buttplug</h1>
-  <p class="lede">A curated list of awesome projects using the Buttplug sex toy control protocol.</p>
+  <Hero slot="hero" />
   <ProjectFilter client:visible projects={projects} />
 </BaseLayout>
