@@ -10,3 +10,6 @@ README.generated.md
 
 # Claude local permissions/config
 .claude/settings.local.json
+
+# Playwright MCP session artifacts
+.playwright-mcp/

@@ -14,9 +14,11 @@
   --text: #d7d7de;
   --text-muted: #8f8f9c;
   --text-bright: #f5f5f7;
-  --accent: #e5484d;
-  --accent-hover: #ec5d62;
-  /* Darker than --accent so white label text clears 4.5:1 on filled controls. */
+  /* --accent is link/text red, tuned to clear 4.5:1 on --bg-raised (the tighter
+     of the two surfaces); --accent-solid is the fill red, darkened so white
+     label text clears 4.5:1 on top of it. */
+  --accent: #ea5257;
+  --accent-hover: #f4757a;
   --accent-solid: #d4353a;
   --accent-contrast: #fff;
   --hairline: #26262e;
@@ -30,7 +32,7 @@
   --pill-fg: #8d8d9d;
   --shadow-card: 0 1px 3px rgb(0 0 0 / 0.5), 0 4px 14px rgb(0 0 0 / 0.25);
   --shadow-card-hover: 0 2px 6px rgb(0 0 0 / 0.5), 0 8px 24px rgb(0 0 0 / 0.35);
-  --shadow-accent: 0 2px 8px rgba(229, 72, 77, 0.35);
+  --shadow-accent: 0 2px 8px rgba(212, 53, 58, 0.35);
   --shadow-control: 0 1px 3px rgb(0 0 0 / 0.4);
   --monogram-fg: rgb(255 255 255 / 0.85);
   --radius: 12px;
@@ -203,9 +205,11 @@ main {
   color: var(--text-muted);
 }
 
+/* Size alone carries the de-emphasis: --pill-fg and --accent-contrast both sit
+   close enough to the 4.5:1 floor that any opacity on top drops the count below it. */
 .pill-count {
   font-size: 0.9em;
-  opacity: 0.7;
+  font-variant-numeric: tabular-nums;
 }
 
 .badge {
