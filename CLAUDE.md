@@ -1,6 +1,6 @@
 # awesome-buttplug
 
-Last verified: 2026-05-30
+Last verified: 2026-07-25
 
 ## Tech Stack
 - Framework: Astro 6 (static output) + Preact islands
@@ -18,12 +18,15 @@ Last verified: 2026-05-30
 ## Project Structure
 - `src/content/projects/` - Content collection: one .md file per project (189 entries)
 - `src/content.config.ts` - Zod schema for project frontmatter
-- `src/components/` - Preact islands (ProjectFilter, CardGrid, TagBar) and Astro components (ProjectCard)
+- `src/components/` - Preact islands (ProjectFilter, CardGrid, TagBar, CategoryRail, ViewToggle) and Hero.astro
 - `src/pages/` - Astro routes: index, `/projects/[id]`, `/tags/`, `/tags/[tag]`
-- `src/layouts/` - BaseLayout (global shell + analytics), ProjectLayout
-- `src/styles/` - global.css (dark theme), filter.css (tag filtering UI)
+- `src/layouts/` - BaseLayout (global shell, named `hero` slot, analytics), ProjectLayout
+- `src/styles/` - fonts.css (@font-face), global.css (tokens + shell), filter.css (grid and tag filtering UI)
+- `src/utils/` - categories.ts, monogram.ts, and their vitest suites
 - `src/types.ts` - Shared ProjectEntry interface
 - `scripts/` - generate-readme.ts, migrate-readme.ts, validate-readme-parity.ts
+- `public/fonts/` - Vendored Aller and Alternate Gothic (TTF, see licence note below)
+- `public/img/` - Family logo and squidplug watermark
 - `config/readme-order.yaml` - Section ordering and hierarchy for README generation
 - `docs/implementation-plans/` - Design and implementation plans
 
@@ -48,6 +51,36 @@ Every file in `src/content/projects/*.md` must have this frontmatter:
 - Tags must be URL-safe slugs (`/^[a-z0-9]+(?:-[a-z0-9]+)*$/`)
 - Every project section must be listed in `config/readme-order.yaml`
 - The site is fully static (no SSR)
+- **The site measures zero WCAG AA contrast failures.** Verify in-browser after any
+  colour change, over all four page types, both view modes, and with the tag bar
+  expanded. Hand-checking has twice missed near-miss failures here.
+
+## Visual Identity
+
+Shares the buttplug.io / intiface.com family identity. Dark-only; `--bp-*` in
+`global.css` is the raw family palette and is remapped by the semantic tokens
+below it. A light mode would remap the semantic layer only.
+
+Load-bearing constraints, each of which was measured:
+
+- **`--accent` and `--accent-solid` are not interchangeable.** `--accent` (#f06292)
+  is link/text pink at 5.02:1 on `--bg-raised`. White on it is 3.06:1, and white on
+  the brand pink `--bp-pink` is 4.27:1 — both fail. Filled controls must use
+  `--accent-solid` (#c4146a), where white is 5.75:1.
+- **The footer has its own text pair.** On `--bp-footer` (#303846), `--text-muted`
+  is 4.09:1 and `--accent` is 3.86:1. Use `--footer-muted` and `--footer-link`.
+- **Hero text is `#fff` or 85% white only.** `--bp-ice` is 4.28:1 on the lightest
+  gradient stop and fails — the family's own hero has this bug; do not copy it.
+- **Monogram gradients must clear 4.5:1 against 85% white at both endpoints.**
+  Automated checkers report text over a gradient as "incomplete", not "fail", so
+  this needs checking by hand. Keep 8 entries so `hash % 8` is unchanged.
+- Aller is a static two-weight family: use 400/700, never 650, and no italics
+  (none is shipped, so browsers would synthesise an oblique).
+- The `Aller Fallback` `size-adjust` is a *measured* rendered-width ratio. The usual
+  OS/2 `xAvgCharWidth` formula overshoots by 23% for this pair. Re-measure if the
+  font files change.
+- Fonts ship as TTF, not woff2: the Dalton Maag EULA permits conversion only to
+  formats it names.
 
 ## Conventions
 - Tags are for filtering (cross-cutting concerns like "open-source", "free", "utility")
