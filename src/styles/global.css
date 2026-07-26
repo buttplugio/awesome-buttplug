@@ -37,7 +37,8 @@
   --monogram-fg: rgb(255 255 255 / 0.85);
   --radius: 12px;
   --radius-sm: 6px;
-  --font-sans: "Inter Variable", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-sans: Aller, "Aller Fallback", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-display: "Alternate Gothic", "Aller Fallback", Impact, "Haettenschweiler", sans-serif;
   --max-width: 1200px;
 
   --pagefind-ui-scale: 0.8;
@@ -93,7 +94,7 @@ h2,
 h3 {
   color: var(--text-bright);
   letter-spacing: -0.01em;
-  font-weight: 650;
+  font-weight: 700;
 }
 
 h1 {
