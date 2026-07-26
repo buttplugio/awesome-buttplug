@@ -667,6 +667,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 - [Buttplug Lelo ESP32 Bridge](https://github.com/MonomoriumP/Buttplug.io--Lelo)
   - Free, open source, repo at https://github.com/MonomoriumP/Buttplug.io--Lelo
   - ESP32 bridge between Buttplug.io and Lelo's RF controlled toys.
+- [Restim](https://github.com/diglet48/restim)
+  - Free, open source, repo at https://github.com/diglet48/restim
+  - Windows, Linux, macOS (registers with [Intiface Central](https://intiface.com/central) via its Device Websocket Server, not as a client)
+  - Three-phase e-stim signal generator that registers itself with Intiface Central as a T-code device, bringing audio driven e-stim boxes (Stereostim, Mk312, 2B) and FOC-Stim into the Buttplug ecosystem
 
 ## Development and Libraries
 
