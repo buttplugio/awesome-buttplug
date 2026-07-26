@@ -22,7 +22,7 @@ const displayDeprecationReason = deprecation_reason
 ---
 
 <ProjectLayout title={title}>
-  <article class:list={[{ deprecated: isDeprecated }]}>
+  <article>
     <h1>{title}</h1>
     {isDeprecated && <span class="badge-deprecated">Deprecated</span>}
     {displayPricing && <span class="badge-pricing">{displayPricing}</span>}
@@ -51,9 +51,6 @@ const displayDeprecationReason = deprecation_reason
 </ProjectLayout>
 
 <style>
-  article.deprecated {
-    opacity: 0.8;
-  }
   .badge-deprecated,
   .badge-pricing {
     display: inline-block;

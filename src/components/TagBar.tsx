@@ -22,6 +22,7 @@ const TagBar: FunctionalComponent<Props> = ({ tags, selected, onToggle, onClear 
             <button
               key={tag}
               class={`tag-pill ${isActive ? "active" : ""} ${count === 0 && !isActive ? "dimmed" : ""}`}
+              aria-pressed={isActive}
               onClick={() => onToggle(tag)}
             >
               {tag} <span class="tag-count">{count}</span>

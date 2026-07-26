@@ -7,6 +7,7 @@
 }
 
 :root {
+  color-scheme: dark;
   --bg: #121217;
   --bg-raised: #1a1a21;
   --bg-inset: #1c1c24;
@@ -15,6 +16,8 @@
   --text-bright: #f5f5f7;
   --accent: #e5484d;
   --accent-hover: #ec5d62;
+  /* Darker than --accent so white label text clears 4.5:1 on filled controls. */
+  --accent-solid: #d4353a;
   --accent-contrast: #fff;
   --hairline: #26262e;
   --success-bg: rgba(70, 167, 88, 0.14);
@@ -65,6 +68,22 @@ a {
 
 a:hover {
   color: var(--accent-hover);
+}
+
+:where(a, button):focus-visible {
+  outline: 2px solid var(--accent-hover);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 h1,

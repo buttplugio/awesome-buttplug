@@ -23,7 +23,7 @@
 }
 
 .rail-chip.on {
-  background: var(--accent);
+  background: var(--accent-solid);
   color: var(--accent-contrast);
   box-shadow: var(--shadow-accent);
 }
@@ -48,13 +48,13 @@
 .tag-pill,
 .tag-expander,
 .tag-clear {
-  border: none;
+  border: 1px solid transparent;
   cursor: pointer;
   font-family: var(--font-sans);
   font-size: 0.78rem;
   padding: 0.2rem 0.65rem;
   border-radius: 999px;
-  transition: background 0.15s, color 0.15s;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
 }
 
 .tag-pill {
@@ -67,12 +67,14 @@
 }
 
 .tag-pill.active {
-  background: var(--accent);
+  background: var(--accent-solid);
   color: var(--accent-contrast);
 }
 
 .tag-pill.dimmed {
-  opacity: 0.4;
+  background: transparent;
+  border-color: var(--hairline);
+  color: var(--text-muted);
 }
 
 .tag-count {
@@ -159,8 +161,8 @@
   color: inherit;
 }
 
-.card.deprecated {
-  opacity: 0.65;
+.card.deprecated .card-media {
+  filter: grayscale(1);
 }
 
 .card-media {

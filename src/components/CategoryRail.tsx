@@ -13,6 +13,7 @@ const CategoryRail: FunctionalComponent<Props> = ({ counts, total, selected, onS
     <div class="category-rail" role="group" aria-label="Categories">
       <button
         class={`rail-chip ${selected === "all" ? "on" : ""}`}
+        aria-pressed={selected === "all"}
         onClick={() => onSelect("all")}
       >
         All <span class="rail-count">{total}</span>
@@ -21,6 +22,7 @@ const CategoryRail: FunctionalComponent<Props> = ({ counts, total, selected, onS
         <button
           key={category.slug}
           class={`rail-chip ${selected === category.slug ? "on" : ""}`}
+          aria-pressed={selected === category.slug}
           onClick={() => onSelect(category.slug)}
         >
           {category.label} <span class="rail-count">{counts.get(category.slug) ?? 0}</span>
