@@ -29,9 +29,9 @@
 }
 
 .rail-count {
-  opacity: 0.7;
   font-size: 0.75rem;
   font-weight: 400;
+  font-variant-numeric: tabular-nums;
 }
 
 .tag-bar {
