@@ -27,8 +27,15 @@ const matomoSiteId = import.meta.env.PUBLIC_MATOMO_SITE_ID;
   <body>
     <header data-pagefind-ignore>
       <nav>
-        <a href="/" class="brand">Awesome Buttplug</a>
+        <a href="/" class="brand">
+          <img src="/img/logo.png" alt="" width="1080" height="1080" class="brand-logo" />
+          <span class="brand-word">Awesome Buttplug</span>
+        </a>
         <a href="/tags">Tags</a>
+        <div class="nav-spacer"></div>
+        <a href="https://buttplug.io" rel="noopener">buttplug.io</a>
+        <a href="https://intiface.com" rel="noopener">Intiface</a>
+        <a href="https://github.com/qdot/awesome-buttplug" rel="noopener">GitHub</a>
       </nav>
       <div id="search"></div>
     </header>
@@ -36,6 +43,11 @@ const matomoSiteId = import.meta.env.PUBLIC_MATOMO_SITE_ID;
       <slot />
     </main>
     <footer data-pagefind-ignore>
+      <div class="footer-links">
+        <a href="https://buttplug.io" rel="noopener">buttplug.io</a>
+        <a href="https://intiface.com" rel="noopener">Intiface</a>
+        <a href="https://github.com/qdot/awesome-buttplug" rel="noopener">GitHub</a>
+      </div>
       <p>A curated list of awesome projects using the Buttplug protocol.</p>
     </footer>
     <script is:inline src="/pagefind/pagefind-ui.js"></script>
