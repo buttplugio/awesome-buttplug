@@ -39,6 +39,10 @@
   --accent-solid: var(--bp-pink-dark);
   --accent-contrast: #fff;
   --hairline: #444950;
+  /* --text-muted (4.09:1) and --accent (3.86:1) both fail AA on the footer's
+     fixed dark background (#303846), so the footer gets its own pair. */
+  --footer-muted: #a3b1bf;
+  --footer-link: var(--bp-pink-light);
   --success-bg: rgba(70, 167, 88, 0.14);
   --success-fg: #63d489;
   --warning-bg: rgba(240, 173, 78, 0.14);
@@ -144,14 +148,27 @@ header nav {
 }
 
 .brand {
-  font-weight: 700;
-  font-size: 1.15rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  font-size: 1.4rem;
   color: var(--text-bright);
-  letter-spacing: -0.01em;
 }
 
 .brand:hover {
   color: var(--text-bright);
+}
+
+.brand-logo {
+  width: auto;
+  height: 32px;
+  display: block;
+}
+
+.nav-spacer {
+  flex: 1;
 }
 
 header nav a:not(.brand) {
@@ -257,11 +274,30 @@ main {
 }
 
 footer {
+  /* Always dark, regardless of any future light mode, so it uses the
+     footer-specific tokens rather than the semantic --bg/--text pair. */
+  background: var(--bp-footer);
   border-top: 1px solid var(--hairline);
   padding: 1.5rem 1rem;
   text-align: center;
-  color: var(--text-muted);
+  color: var(--footer-muted);
   font-size: 0.9rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+footer a {
+  color: var(--footer-link);
+}
+
+footer a:hover {
+  color: var(--text-bright);
 }
 
 @media (max-width: 768px) {
