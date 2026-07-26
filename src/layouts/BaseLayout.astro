@@ -1,5 +1,5 @@
 ---
-import "@fontsource-variable/inter";
+import "../styles/fonts.css";
 import "../styles/global.css";
 
 interface Props {
@@ -17,6 +17,7 @@ const matomoSiteId = import.meta.env.PUBLIC_MATOMO_SITE_ID;
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title} | Awesome Buttplug</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preload" href="/fonts/Aller_Rg.ttf" as="font" type="font/ttf" crossorigin />
     <meta name="description" content="A curated list of awesome projects using the Buttplug sex toy control protocol." />
     <meta property="og:title" content={`${title} | Awesome Buttplug`} />
     <meta property="og:description" content="A curated list of awesome projects using the Buttplug sex toy control protocol." />

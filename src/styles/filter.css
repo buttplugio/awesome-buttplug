@@ -151,7 +151,7 @@
   align-items: center;
   justify-content: center;
   font-size: 2rem;
-  font-weight: 800;
+  font-weight: 700;
   color: var(--monogram-fg);
 }
 
@@ -173,7 +173,6 @@
 .card-deprecation {
   font-size: 0.78rem;
   color: var(--warning-fg);
-  font-style: italic;
   margin: 0.25rem 0;
 }
 
@@ -187,7 +186,6 @@
 .no-results {
   text-align: center;
   color: var(--text-muted);
-  font-style: italic;
   padding: 3rem 0;
 }
 

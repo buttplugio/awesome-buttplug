@@ -1,0 +1,41 @@
+/* Aller and Alternate Gothic, shipped as TTF. The Dalton Maag EULA permits
+   conversion only to formats it names, and woff2 is not among them. */
+
+@font-face {
+  font-family: "Aller";
+  src: url("/fonts/Aller_Rg.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aller";
+  src: url("/fonts/Aller_Bd.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Used on ~2 elements. A short block window beats a metric swap on the wordmark. */
+@font-face {
+  font-family: "Alternate Gothic";
+  src: url("/fonts/AlternateGotNo2D.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+/* size-adjust is the measured ratio of rendered string widths, NOT the OS/2
+   xAvgCharWidth ratio the usual formula uses — that field is computed
+   inconsistently between these two fonts and overshoots by 23%. Ascent,
+   descent and line-gap are Aller's hhea values divided by size-adjust, which
+   the UA re-multiplies. Re-measure if either font file changes. */
+@font-face {
+  font-family: "Aller Fallback";
+  src: local("Arial"), local("Helvetica Neue"), local("Liberation Sans");
+  size-adjust: 101.91%;
+  ascent-override: 91.84%;
+  descent-override: 24.43%;
+  line-gap-override: 2.55%;
+}
