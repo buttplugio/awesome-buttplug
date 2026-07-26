@@ -1,0 +1,92 @@
+This Dalton Maag Ltd Free Licence Agreement becomes a binding contract between the Licensee and Dalton Maag Ltd when the Licensee commences a Font Software download, or if the Licensee is acquiring Font Software on a permanent medium, when the Licensee opens the package in which the software is contained. If the Licensee does not wish to be bound by the Agreements, the Licensee cannot access, use or download the Font Software. Please read all of the Agreement before agreeing to be bound by its terms and conditions.
+
+This Free Licence Agreement supplements, and should be read in conjunction with, the standard Dalton Maag End User Licence Agreement version 1.2.
+
+1	You, the Licensee, are granted the right by Dalton Maag to Use the Aller Font Family, Standard Edition under the terms set out in the EULA. This free licence has a Licensed Unit size of 25 Users.
+
+2	Use by more than 25 Users, or equivalent Website Visitors, is a breach of this Free Licence Agreement, and instead requires a commercial licence.
+
+Fontsquirrel Note: 1000 website visitors is the equivalent of 1 user - http://www.daltonmaag.com/about/web_embedding_faq.html
+
+3	Editions other than the Standard Edition of the Aller Font Family are not covered by this Free Licence Agreement, and require a commercial licence.
+
+4	Dalton Maag will provide no technical support under this Free Licence Agreement.
+
+5	The Licensee may redistribute the Aller Font Family only as a verbatim copy of the .zip file supplied, ensuring that the acquirer’s attention is drawn to this Free Licence Agreement and the End User Licence Agreement.
+
+You can contact us by email at info@daltonmaag.com or by post: 
+Dalton Maag Ltd Unit 107 245A Coldharbour Lane
+London SW9 8RR United Kingdom
+
+You can find out more about the Aller Font Family at our website: http://www.daltonmaag.com/aller
+
+
+-------
+
+Dalton Maag Ltd End User Licence Agreement (EULA)
+
+We recommend that the Licensee prints this End User Licence Agreement for further reference.
+
+This Dalton Maag Ltd End User Licence Agreement (“EULA”) becomes a binding contract between the Licensee and Dalton Maag Ltd when the Licensee commences a Font Software download, or if the Licensee is acquiring Font Software on a permanent medium, when the Licensee opens the package in which the software is contained.
+
+If the Licensee does not wish to be bound by the EULA, the Licensee cannot access, use or download the Font Software. Please read all of the EULA before agreeing to be bound by its terms and conditions.
+
+The Licensee hereby agrees to the following:
+
+1	The Licensee is bound by the EULA and acknowledges that all Use (as defined herein) of the Font Software (as defined herein) supplied by Dalton Maag is governed by the EULA.
+
+2	“Dalton Maag” shall mean Dalton Maag Ltd, its successors and assignees, its parent and affiliated corporations, its authorized distributors, and any third party which has licensed to Dalton Maag any or all of the components of the Font Software supplied to the Licensee.
+
+3	“Licensee” shall mean the individual, company, corporation, or other organization subject to this End User Licence Agreement due to their access or Use of Dalton Maag Font Software.
+
+4	“Font Software” shall mean the software provided by Dalton Maag which, when used on an appropriate Device or Devices, generates typeface and typographic designs and ornaments. Font Software shall include all bitmap representations of typeface and typographic designs and ornaments created by or derived from the Font Software. Font Software includes upgrades, updates, related files, permitted copies, permitted conversions, and related documentation.
+
+5	“Device” shall mean a hardware, software, or firmware component to which an individual is able to give commands (whether by keyboard or otherwise), regardless of the locations of the individual, the Device, or the Font Software.
+
+6	“Use” of the Font Software shall be deemed to occur when an individual is able to give commands (whether by keyboard or otherwise) to a Device on which the Font Software is installed, regardless of the locations of the individual, the Device, or the Font Software.
+
+7	“User” shall mean an individual giving commands (whether by keyboard or otherwise) to a Device on which the Font Software is installed, regardless of the locations of the individual, the Device, or the Font Software. Users do not need to be members of the Licensee’s organization or household, and may be members of the public.
+
+8	“Licensed Unit” shall mean the number of simultaneous Users permitted by the Licence. If the Licensee intends that Devices on which the Font Software is installed should be simultaneously used by more Users than permitted by the Licensed Unit, the Licensee should purchase an additional Licensed Unit of the correct size to cover the shortfall.
+
+9	“Derivative Work” shall mean data based upon or derived from the Font Software, or any portion of the Font Software, in any form in which such data may be recast, transformed, or adapted,
+
+including, but not limited to, data in any format into which Font Software may be converted.
+
+10	“Digital Product” shall mean an electronic document or data file created by Use of the Font Software which is offered for distribution outside of the Licensee’s organization or household. By way of illustration and not by way of limitation, an electronic book, electronic magazine, or computer game shall all be considered Digital Products. A separate OEM/ISV licence is required to use Dalton Maag Font Software in Digital Products. A document distributed in connection with a commercial transaction in which the consideration is unrelated to such document, for example, a business letter, a ticket for an event, an invoice, or a receipt shall not be considered a Digital Product.
+
+11	“Licensee’s Website” shall mean the publicly or privately accessible collection of linked webpages, and other files, under the legal control of the Licensee.
+
+12	“Website Visitor” shall mean a unique individual who accesses any webpage, file, or data hosted on or provided by the Licensee’s Website.
+
+13	The Licensee is hereby granted a non-exclusive, non-assignable, non-transferable (except as expressly permitted in section 21) licence to Use the Font Software subject to all of the terms and conditions of the EULA. The Licensee has no rights to the Font Software other than as expressly set forth in the EULA. The Licensee agrees that Dalton Maag owns all right, title and interest in and to the Font Software, its structure, organization, code, and related files, including all property rights therein such as copyright, design and trademark rights. The Licensee agrees that the Font Software, its structure, organization, code, and related files are valuable property of Dalton Maag and that any intentional Use of the Font Software not expressly permitted by the EULA constitutes infringement of copyright. All rights not expressly granted in the EULA are expressly reserved to Dalton Maag. The Licensee may not use the Font Software to electronically distribute a Digital Product without a separate licence from Dalton Maag authorizing the Licensee to do so.
+
+14	The Licensee shall not install, access or Use the Font Software until it has paid the applicable licence fee in full, or received an invoice for the licence fee and that invoice has not yet reached its due date, or been given written authorization to Use the Font Software by Dalton Maag. The Licensee shall pay all applicable invoices in full within 30 days of each invoice’s issue date. If the Licensee fails to pay any invoice when it is due, then, in addition to any other rights and remedies available, Dalton Maag may charge the Licensee interest at a rate of 6% above Bank of England base rate from the due date to the date on which the Licensee pays in full including any interest and/or cancel the Licence, or suspend the Licence and charge the Licensee for all additional costs resulting from such suspension and any subsequent resumption.
+
+15	The Licensee may install the Font Software on any number of Devices which are all under the ownership or exclusive control of the Licensee, or of the Licensee’s direct employees. The Licensee shall ensure that the number of simultaneous Users of Devices on which the Font Software is installed does not exceed the Licensed Unit. The Licensee must take all reasonable steps to ensure that it retains exclusive custody and control over all copies of the Font Software. The Licensee must not transfer the ownership of Devices on which the Font Software is installed. Upon termination
+
+of the EULA, the Licensee must destroy all copies of the Font Software.
+
+16	The Licensee may convert the Font Software to EOT format (or other format which Dalton Maag may from time-to-time make it known that it allows under specific terms) for installation on the Licensee’s Website. Website Visitors are included in the Licensed Unit at the equivalence of 1,000 (one thousand) Website Visitors per day being equal to 1 (one) User of the Font Software. For the purpose of Licensed Unit assessment, the Licensee may disregard the Licensee’s Website’s busiest day in a seven-day period. Should the number of Website Visitors cause the number of Users to exceed the Licensed Unit, the Licensee must immediately purchase an additional Licensed Unit of the correct size to cover the shortfall.
+
+17	The Licensee may electronically distribute Font Software embedded in a personal or business document (that is, a document other than a “Digital Product” as defined herein) only when the Font Software embedded in such document is in a static bitmap image or an embedded electronic document, and is distributed in a secure format that permits only the viewing and printing (and not the editing, altering, enhancing, or modifying) of such static graphic image or embedded document. The Licensee may not embed Font Software in an electronic document or data file for any reason other than the Licensee’s own personal or business Use.
+
+18	The Licensee may not alter Font Software for the purpose of adding any functionality which such Font Software did not have when delivered to the Licensee by Dalton Maag. If the Font Software contains embedding bits that limit the capabilities of the Font Software, the Licensee may not change or alter the embedding bits. Font Software may not be used to create or distribute any electronic document in which the Font Software, or any part thereof, is embedded in a format that permits editing, alterations, enhancements, or modifications by the recipient of such document. If the Licensee has reason to believe that a recipient of an electronic document possesses the capability to edit, alter, enhance, or modify such electronic document even though the Licensee has distributed it in a format which does not permit such editing, alteration, enhancement, or modification, the Licensee shall not transmit such document to such a person.
+
+19	The Licensee may take one (1) copy of the Font Software used for a particular document, or Font Software embedded in an electronic document, to a commercial printer or service bureau solely for the purpose of printing such document. The commercial printer or service bureau shall not be permitted to Use the Font Software to make changes or amendments to the document. The Licensee shall ensure that the commercial printer or service bureau destroys all copies of the Font Software upon final delivery of the printed document.
+
+20	The Licensee acknowledges that the typeface design and Font Software are protected by the copyright, design, and other intellectual property laws of England and Wales, by the copyright and design laws of other nations, and by international treaties. The Licensee agrees to treat the Font Software as the Licensee would any other copyrighted material, such as a book. The Licensee may not copy the Font Software, except as expressly provided herein. Any copies that the Licensee is expressly permitted to make pursuant to the EULA must contain the same copyright, trademark, and other proprietary notices that appear on or in the Font Software. The Licensee shall not produce Derivative Works of this Font Software except for document embedding and permitted conversions as expressly set out in this Agreement. The Licensee is permitted to reverse engineer the Font Software in order to produce any compatible software product, provided that such a product is not a Derivative Work of the Font Software. The Licensee agrees to use trademarks associated with the Font Software according to accepted trademark practice, including identification of the trademark owner’s name. Trademarks can only be used to identify printed output produced by the Font Software. The use of any trademark as herein authorized does not give the Licensee any rights of ownership in that trademark and all use of any trademark shall inure to the sole benefit of Dalton Maag. The Licensee may not change any trademark or trade name designation for the Font Software.
+
+21	The Licensee may not rent, lease, sublicense, give, lend, or further distribute the Font Software, or any copy thereof, except as expressly provided herein. The Licensee may transfer all the Licensee’s rights to use the Font Software to another person or legal entity provided that the transferee accepts and agrees to be bound by all the terms and conditions of the EULA and the Licensee destroy all copies of the Font Software, including all copies stored in the memory of a hardware device, and provided the entirety of the Licensed Unit is transferred.
+
+22	Dalton Maag makes no warranty, express or implied, that this Font Software is suitable for any specific purpose. Dalton Maag will provide the Licensee with basic technical support on the correct installation and exploitation of the Font Software in common software packages and operating systems. Once Font Software has been downloaded online or security seals broken on physical packaging, the software cannot be returned. Otherwise, the Licensee has a right to cancel within fourteen (14) days of completion of the contract of sale.
+
+23	Dalton Maag, or its appointed auditor, is entitled to inspect and have access to any premises, and to any Devices, owned or operated by Licensee, at or on which this Font Software is kept or Used, for the purposes of ensuring that the Licensee is complying with the terms of this Licence. The Licensee’s business information shall remain strictly confidential by Dalton Maag and their auditor, who shall be granted access to all the necessary documents to verify compliance with this and any other agreement with Dalton Maag. The inspection shall take place within the Licensee’s usual business hours and after reasonable written notice. Dalton Maag shall bear the costs of the inspection. However, if, in the course of the inspection, deviations to the detriment of Dalton Maag are discovered, the Licensee shall bear the costs of the audit.
+
+24	This EULA will be governed by the laws of England and Wales. For the purposes of the Sale of Goods Act 1979, Supply of Goods and Services Act 1982, and the Consumer Protection (Distance Selling) Regulations 2000, Font Software is classified as computer software.
+
+25	The EULA shall automatically terminate upon failure by the Licensee (or any authorized person or member of the Licensee’s immediate household to whom the Licensee has given permission to Use the Font Software) to comply with its terms. The termination of the EULA shall not preclude Dalton Maag from suing the Licensee for damages of any breach of the EULA. The EULA may only be modified in writing signed by an authorized officer of Dalton Maag.
+
+26	The Licensee has the rights expressly set forth in the EULA and no other. All rights in and to the Font Software, including unpublished rights, are reserved under the copyright laws of England and Wales and other jurisdictions. All rights reserved. The EULA may be enforced by Dalton Maag or by an authorized dealer acting on behalf of Dalton Maag.
+
+Version 1.2. For licences issued from 22 August 2010.
