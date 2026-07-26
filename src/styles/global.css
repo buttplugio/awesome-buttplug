@@ -8,6 +8,21 @@
 
 :root {
   color-scheme: dark;
+
+  /* Family palette shared with buttplug.io and intiface.com. Raw values:
+     reference these only from the semantic tokens below, never from a rule.
+     A light mode would remap the semantic layer and leave this untouched. */
+  --bp-pink: #e91e78;
+  --bp-pink-bright: #f06292;
+  --bp-pink-light: #f8a4c8;
+  --bp-pink-dark: #c4146a;
+  --bp-slate-1: #2d3044;
+  --bp-slate-2: #3e4c5e;
+  --bp-slate-3: #4e5e72;
+  --bp-slate-4: #3d4555;
+  --bp-footer: #303846;
+  --bp-ice: #b8d4e3;
+
   --bg: #121217;
   --bg-raised: #1a1a21;
   --bg-inset: #1c1c24;
