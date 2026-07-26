@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { CATEGORIES, categoryForSection } from "./categories";
+import { CATEGORIES, categoryForSection, isDeprecated } from "./categories";
 
 describe("categoryForSection", () => {
   it("maps nested sections to their top-level category", () => {
@@ -34,5 +34,19 @@ describe("categoryForSection", () => {
       "hardware",
       "deprecated",
     ]);
+  });
+});
+
+describe("isDeprecated", () => {
+  it("flags projects in the deprecated section", () => {
+    expect(isDeprecated({ section: "deprecated", tags: ["utility"] })).toBe(true);
+  });
+
+  it("flags projects carrying the deprecated tag from any section", () => {
+    expect(isDeprecated({ section: "games", tags: ["deprecated"] })).toBe(true);
+  });
+
+  it("leaves active projects alone", () => {
+    expect(isDeprecated({ section: "games", tags: ["free", "open-source"] })).toBe(false);
   });
 });

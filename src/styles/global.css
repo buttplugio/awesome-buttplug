@@ -161,6 +161,78 @@ main {
   margin-bottom: 1.5rem;
 }
 
+.pill {
+  display: inline-block;
+  background: var(--pill-bg);
+  color: var(--pill-fg);
+  border: 1px solid transparent;
+  border-radius: 999px;
+  padding: 0.2rem 0.65rem;
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  line-height: 1.4;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.pill-sm {
+  padding: 0.1rem 0.5rem;
+  font-size: 0.72rem;
+}
+
+.pill-lg {
+  padding: 0.4rem 0.9rem;
+  font-size: 0.9rem;
+}
+
+:where(a, button).pill {
+  cursor: pointer;
+}
+
+:where(a, button).pill:hover {
+  color: var(--text-bright);
+}
+
+.pill.active {
+  background: var(--accent-solid);
+  color: var(--accent-contrast);
+}
+
+.pill.dimmed {
+  background: transparent;
+  border-color: var(--hairline);
+  color: var(--text-muted);
+}
+
+.pill-count {
+  font-size: 0.9em;
+  opacity: 0.7;
+}
+
+.badge {
+  display: inline-block;
+  max-width: 100%;
+  padding: 0.1rem 0.5rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.72rem;
+  line-height: 1.4;
+  margin: 0 0.4rem 0.4rem 0;
+}
+
+.badge-lg {
+  padding: 0.15rem 0.6rem;
+  font-size: 0.85rem;
+}
+
+.badge-deprecated {
+  background: var(--danger-bg);
+  color: var(--danger-fg);
+}
+
+.badge-pricing {
+  background: var(--success-bg);
+  color: var(--success-fg);
+}
+
 footer {
   border-top: 1px solid var(--hairline);
   padding: 1.5rem 1rem;

@@ -2,6 +2,7 @@
 import ProjectLayout from "../../layouts/ProjectLayout.astro";
 import { getCollection, render } from "astro:content";
 import { stripInlineMarkdown } from "../../utils/displayText";
+import { isDeprecated } from "../../utils/categories";
 
 export async function getStaticPaths() {
   const projects = await getCollection("projects");
@@ -14,7 +15,7 @@ export async function getStaticPaths() {
 const { project } = Astro.props;
 const { Content } = await render(project);
 const { title, url, repo, tags, pricing, platforms, deprecation_reason } = project.data;
-const isDeprecated = tags.includes("deprecated");
+const deprecated = isDeprecated(project.data);
 const displayPricing = pricing ? stripInlineMarkdown(pricing) : undefined;
 const displayDeprecationReason = deprecation_reason
   ? stripInlineMarkdown(deprecation_reason)
@@ -24,8 +25,8 @@ const displayDeprecationReason = deprecation_reason
 <ProjectLayout title={title}>
   <article>
     <h1>{title}</h1>
-    {isDeprecated && <span class="badge-deprecated">Deprecated</span>}
-    {displayPricing && <span class="badge-pricing">{displayPricing}</span>}
+    {deprecated && <span class="badge badge-lg badge-deprecated">Deprecated</span>}
+    {displayPricing && <span class="badge badge-lg badge-pricing">{displayPricing}</span>}
     {displayDeprecationReason && (
       <p class="deprecation-reason">Deprecation Reason: {displayDeprecationReason}</p>
     )}
@@ -40,7 +41,7 @@ const displayDeprecationReason = deprecation_reason
 
     <div class="tags">
       {tags.map((tag) => (
-        <a href={`/tags/${tag}`} class="tag-link">{tag}</a>
+        <a href={`/tags/${tag}`} class="pill">{tag}</a>
       ))}
     </div>
 
@@ -51,22 +52,6 @@ const displayDeprecationReason = deprecation_reason
 </ProjectLayout>
 
 <style>
-  .badge-deprecated,
-  .badge-pricing {
-    display: inline-block;
-    padding: 0.15rem 0.6rem;
-    border-radius: var(--radius-sm);
-    font-size: 0.85rem;
-    margin: 0 0.5rem 0.5rem 0;
-  }
-  .badge-deprecated {
-    background: var(--danger-bg);
-    color: var(--danger-fg);
-  }
-  .badge-pricing {
-    background: var(--success-bg);
-    color: var(--success-fg);
-  }
   .deprecation-reason {
     color: var(--warning-fg);
     font-style: italic;
@@ -97,16 +82,6 @@ const displayDeprecationReason = deprecation_reason
     flex-wrap: wrap;
     gap: 0.4rem;
     margin: 1rem 0;
-  }
-  .tag-link {
-    background: var(--pill-bg);
-    color: var(--pill-fg);
-    padding: 0.2rem 0.65rem;
-    border-radius: 999px;
-    font-size: 0.82rem;
-  }
-  .tag-link:hover {
-    color: var(--text-bright);
   }
   .content {
     margin-top: 2rem;

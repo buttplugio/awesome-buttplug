@@ -3,6 +3,7 @@ import type { ProjectEntry } from "../types";
 import type { ViewMode } from "./ViewToggle";
 import { stripInlineMarkdown } from "../utils/displayText";
 import { gradientForId } from "../utils/monogram";
+import { isDeprecated } from "../utils/categories";
 
 interface Props {
   projects: ProjectEntry[];
@@ -17,7 +18,7 @@ const CardGrid: FunctionalComponent<Props> = ({ projects, viewMode }) => {
   return (
     <div class="card-grid">
       {projects.map((project) => {
-        const isDeprecated = project.category === "deprecated";
+        const deprecated = isDeprecated(project);
         const pricing = project.pricing ? stripInlineMarkdown(project.pricing) : undefined;
         const summary = stripInlineMarkdown(project.summary);
         const deprecationReason = project.deprecation_reason
@@ -29,7 +30,7 @@ const CardGrid: FunctionalComponent<Props> = ({ projects, viewMode }) => {
           <a
             key={project.id}
             href={`/projects/${project.id}`}
-            class={`card ${isDeprecated ? "deprecated" : ""}`}
+            class={`card ${deprecated ? "deprecated" : ""}`}
           >
             {viewMode === "visual" &&
               (project.image ? (
@@ -44,8 +45,8 @@ const CardGrid: FunctionalComponent<Props> = ({ projects, viewMode }) => {
               ))}
             <div class="card-body">
               <h3 class="card-title">{project.title}</h3>
-              {isDeprecated && <span class="badge badge-deprecated">Deprecated</span>}
-              {pricing && !isDeprecated && (
+              {deprecated && <span class="badge badge-deprecated">Deprecated</span>}
+              {pricing && !deprecated && (
                 <span class="badge badge-pricing">{pricing}</span>
               )}
               <p class="card-summary">{summary}</p>
@@ -57,7 +58,7 @@ const CardGrid: FunctionalComponent<Props> = ({ projects, viewMode }) => {
                   .filter((tag) => tag !== "deprecated")
                   .slice(0, 4)
                   .map((tag) => (
-                    <span key={tag} class="tag-pill-display">
+                    <span key={tag} class="pill pill-sm">
                       {tag}
                     </span>
                   ))}

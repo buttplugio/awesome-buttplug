@@ -21,11 +21,11 @@ const TagBar: FunctionalComponent<Props> = ({ tags, selected, onToggle, onClear 
           return (
             <button
               key={tag}
-              class={`tag-pill ${isActive ? "active" : ""} ${count === 0 && !isActive ? "dimmed" : ""}`}
+              class={`pill ${isActive ? "active" : ""} ${count === 0 && !isActive ? "dimmed" : ""}`}
               aria-pressed={isActive}
               onClick={() => onToggle(tag)}
             >
-              {tag} <span class="tag-count">{count}</span>
+              {tag} <span class="pill-count">{count}</span>
             </button>
           );
         })}
