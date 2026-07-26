@@ -134,6 +134,30 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/cyongjin37/LLMBTPLG
   - Web based (requires [Intiface Central](https://intiface.com/central))
   - Web interface for controlling devices using LM Studio and local LLMs
+- [F8Studio](https://studio.feel8.fun/)
+  - Free, open source, repo at https://github.com/feel8-fun/f8studio
+  - Windows, Linux (via [Intiface Central](https://intiface.com/central))
+  - Node-based signal processing framework that routes video, game, audio and sensor input to toys in real time
+- [The Edgy](https://theedgy.app)
+  - Free, closed source, available at https://theedgy.app
+  - Web based (Cross platform via either browser or [Intiface Central](https://intiface.com/central))
+  - Browser based edging controller that generates stroke and vibration patterns from a single arousal dial
+- [RemoteToys](https://github.com/jerrymakefun/remotetoys)
+  - Free, open source, repo at https://github.com/jerrymakefun/remotetoys
+  - Web based, self hosted via Docker (requires [Intiface Central](https://intiface.com/central))
+  - Self hosted web app for controlling a partner's toy remotely over a shared session key
+- [sayit.love](https://sayit.love)
+  - Paid (credit based), closed source, available at https://sayit.love
+  - Web based (requires [Intiface Central](https://intiface.com/central))
+  - AI voice chat that controls toys through function calls during conversation
+- [The Distractor](https://tertius.co.za/mfm/the-distractor/)
+  - Free, closed source, available at https://tertius.co.za/mfm/the-distractor/
+  - Web based (requires [Intiface Central](https://intiface.com/central))
+  - Web page that drives a connected vibrator with randomised, bounded patterns
+- [Flash Toy Sync](https://github.com/notSafeForDev/flash-toy-sync-v3)
+  - Free, open source, repo at https://github.com/notSafeForDev/flash-toy-sync-v3
+  - Windows (ships with an Intiface bridge)
+  - Syncs toys to existing Flash animations, with a bundled tracking and scripting editor
 
 ### Video Sync / Movies
 
@@ -181,6 +205,34 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/spgsroot/VibePlayer
   - Android and only requires [Intiface Central](https://intiface.com/central)
   - Sync audio tracks from a video.
+- [stashButtplug](https://github.com/happykinkster/stashInteractive)
+  - Free, open source, repo at https://github.com/happykinkster/stashInteractive
+  - Cross Platform (requires [Intiface Central](https://intiface.com/central))
+  - Plugin for the [Stash](https://stashapp.cc) media server that syncs funscripts to toys during playback
+- [Kodi Buttplug Addon](https://github.com/peterferenc8-coder/Kodi-Buttplug-Addon)
+  - Free, open source, repo at https://github.com/peterferenc8-coder/Kodi-Buttplug-Addon
+  - Cross Platform (requires [Intiface Central](https://intiface.com/central))
+  - Addon for the [Kodi](https://kodi.tv) media centre that plays funscripts alongside video, single axis only
+- [VacuScripter](https://apps.microsoft.com/detail/9NB9V7NHR00V)
+  - Paid, closed source, available on the [Microsoft Store](https://apps.microsoft.com/detail/9NB9V7NHR00V)
+  - Windows
+  - Script maker and player for VacuGlide 2, OSR2 and Buttplug devices, with DeoVR and HereSphere support
+- [FunSync Player](https://github.com/DaveMakesWaves/funsync-player)
+  - Free, open source, repo at https://github.com/DaveMakesWaves/funsync-player
+  - Windows, Linux (via [Intiface Central](https://intiface.com/central))
+  - Video player with a built-in script editor, EroScripts search and multi-device sync
+- [FunLibrary Manager](https://www.patreon.com/FunLibraryManager)
+  - Paid, closed source, available via [Patreon](https://www.patreon.com/FunLibraryManager)
+  - Windows (via [Intiface Central](https://intiface.com/central))
+  - Library manager for scripts and videos, with a player, toy integration and a streaming server for VR headsets
+- [BuzzyBody](https://comradeoohaah.itch.io/buzzybody)
+  - Free, closed source, available on [itch.io](https://comradeoohaah.itch.io/buzzybody)
+  - Android (via [Intiface Central](https://intiface.com/central))
+  - Android funscript media player, originally built for LoveSpouse toys
+- [FloatingDream Funscripter](https://play.google.com/store/apps/details?id=com.fsm.funscript_player)
+  - Paid, closed source, available on [Google Play](https://play.google.com/store/apps/details?id=com.fsm.funscript_player) and the [App Store](https://apps.apple.com/app/id6479942042)
+  - Android, iOS (via [Intiface Central](https://intiface.com/central))
+  - Multi-axis funscript video player for mobile
 
 ### Audio Sync
 
@@ -472,6 +524,34 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://git.gay/danatron1/ButtplugSong
   - Windows 10+ only, requires [Intiface Central](https://intiface.com/central)
   - Buttplug integration for Hollow Knight: Silksong
+- [Mystic Knight Maya Intiface Haptics Bridge](https://discuss.eroscripts.com/t/mystic-knight-maya-v0-8-3-intiface-haptics-bridge/323893)
+  - Free, closed source, available via [EroScripts](https://discuss.eroscripts.com/t/mystic-knight-maya-v0-8-3-intiface-haptics-bridge/323893)
+  - Windows (connects directly to [Intiface Central](https://intiface.com/central))
+  - BepInEx mod for [Mystic Knight Maya](https://mega-blue-ball.itch.io/mystic-knight-maya) that plays haptics synced to in-game animations
+- [Intiface Modification for AhrpuXR VR Games](https://discuss.eroscripts.com/t/intiface-modification-for-ahrpuxr-vr-games-with-tcode-support/297476)
+  - Free, closed source, available via [EroScripts](https://discuss.eroscripts.com/t/intiface-modification-for-ahrpuxr-vr-games-with-tcode-support/297476)
+  - Windows (replaces the games' bundled [Intiface Engine](https://github.com/intiface/intiface-engine))
+  - Drop-in wrapper that upgrades the bundled Buttplug engine in AhrpuXR's VR games, adding TCode and OSR2 support
+- [CubiLink](https://discuss.eroscripts.com/t/cubilink-unity-animation-to-multi-axis-v3-6-0-aio-edition/305584)
+  - Free, closed source, available via [EroScripts](https://discuss.eroscripts.com/t/cubilink-unity-animation-to-multi-axis-v3-6-0-aio-edition/305584)
+  - Windows (via [Intiface Central](https://intiface.com/central) or serial/UDP TCode)
+  - BepInEx plugin that converts Live2D, Spine and Unity animation parameters into multi-axis device output
+- [To4st Game Mods](https://discuss.eroscripts.com/t/to4st-game-mods-latest-game-corrupt-depths/99000)
+  - Free, closed source, available via [EroScripts](https://discuss.eroscripts.com/t/to4st-game-mods-latest-game-corrupt-depths/99000)
+  - Windows (via [Intiface Central](https://intiface.com/central), a bundled funscript player, or EDI)
+  - Ongoing series of scripted toy integration mods for individual Unity h-games
+- [Vibrator Support for 6 Action and Platformer Games](https://discuss.eroscripts.com/t/vibrator-support-for-6-action-and-platformer-games/97671)
+  - Free, closed source, available via [EroScripts](https://discuss.eroscripts.com/t/vibrator-support-for-6-action-and-platformer-games/97671)
+  - Windows (via [Intiface Central](https://intiface.com/central))
+  - Bundle of BepInEx plugins adding vibration feedback to six action and platformer h-games, vibrators only
+- [Pure Onyx Intiface Mod](https://discuss.eroscripts.com/t/game-integration-pure-onyx-0-146-0-intiface/319723)
+  - Free, closed source, available via [EroScripts](https://discuss.eroscripts.com/t/game-integration-pure-onyx-0-146-0-intiface/319723)
+  - Windows (via [Intiface Central](https://intiface.com/central))
+  - BepInEx mod that reroutes [Pure Onyx](https://eromancer.itch.io/)'s native Lovense commands through Intiface, opening it up to any Buttplug device
+- [My Dystopian Robot Girlfriend HandyMod](https://discuss.eroscripts.com/t/game-integration-my-dystopian-robot-girlfriend-v0-95/306362)
+  - Free, closed source, available via [EroScripts](https://discuss.eroscripts.com/t/game-integration-my-dystopian-robot-girlfriend-v0-95/306362)
+  - Windows, Linux (via [Intiface Central](https://intiface.com/central))
+  - Mod for [My Dystopian Robot Girlfriend](https://incontinentcell.itch.io/factorial-omega) that syncs toys to on-screen scene action, with manual hotkey control outside scenes
 
 ### Counter-Strike
 
@@ -509,6 +589,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Another Minecraft Fabric mod with reward score system, ingame configuration and multiple devices support
   - Free, open source
   - Cross Platform (requires [Intiface Central](https://intiface.com/central))
+- [Lotus (Fapcraft)](https://discuss.eroscripts.com/t/game-integration-lotus-buttplug-io-support-for-fapcraft-minecraft-1-12-2/316486)
+  - Free, closed source, available via [EroScripts](https://discuss.eroscripts.com/t/game-integration-lotus-buttplug-io-support-for-fapcraft-minecraft-1-12-2/316486)
+  - Windows, Minecraft Forge 1.12.2 (via [Intiface Central](https://intiface.com/central))
+  - Forge mod that reads Fapcraft's animation data and converts it to live device output
 
 ### FFXIV
 
@@ -719,6 +803,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
 - [ha-buttplug](https://github.com/DevelopmentalOctopus/ha-buttplug)
   - Buttplug intergration for [Home Assistant](https://www.home-assistant.io/)
   - You can connect your toys to various entities and create automations to control your toys or trigger actions by toys, just like IFTTT.
+- [Easy Device Integration (EDI)](https://discuss.eroscripts.com/t/easy-device-integration-edi-how-to-integrate-your-game-now/118446)
+  - Free, closed source, available via [EroScripts](https://discuss.eroscripts.com/t/easy-device-integration-edi-how-to-integrate-your-game-now/118446)
+  - Windows (via [Intiface Central](https://intiface.com/central))
+  - HTTP server that games and mods call with simple REST endpoints to trigger funscript playback on connected devices
 
 ## DIY Hardware Projects
 
@@ -870,3 +958,8 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Portable (tested on Linux), requires Intiface Central
   - Playback of movies alongside their funscripts. Supports seeking.
   - Deprecation Reason: Repository removed from GitHub
+- [Karryn's Buttplug](https://gitgud.io/PervertedPsycho/karryns_buttplug)
+  - Free, open source, repo at https://gitgud.io/PervertedPsycho/karryns_buttplug
+  - Windows (via [Intiface Central](https://intiface.com/central))
+  - Mod for [Karryn's Prison](https://store.steampowered.com/app/1619750/) that drives toys during battle scenes
+  - Deprecation Reason: Abandoned by the original author, community rebuilds still have unresolved bugs
