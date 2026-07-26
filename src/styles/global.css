@@ -124,6 +124,22 @@ h1 {
   margin-bottom: 0.25rem;
 }
 
+/* The family's section rule, left-aligned. Interior pages get no hero, so this
+   is what marks them as part of the family. */
+h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 0.75rem 0 0;
+  border-radius: 2px;
+  background: var(--accent);
+}
+
+.hero h1::after {
+  display: none;
+}
+
 h2 {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
