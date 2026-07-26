@@ -1,12 +1,12 @@
 export const GRADIENTS: [string, string][] = [
-  ["#e5484d", "#7f2b2e"],
-  ["#e5734c", "#7f3f2b"],
-  ["#d9a521", "#77590f"],
-  ["#3fa66b", "#1f5c3a"],
-  ["#3aa6a6", "#1f5c5c"],
-  ["#4c6fe5", "#2b3d7f"],
-  ["#8a4ce5", "#4c2b7f"],
-  ["#d44c9e", "#752b57"],
+  ["#276b5b", "#123329"],
+  ["#7a5f1a", "#3f320d"],
+  ["#41693f", "#1f361e"],
+  ["#4a5a9e", "#232c52"],
+  ["#5b4e7a", "#2c2540"],
+  ["#3d6b85", "#1e3540"],
+  ["#6b6b2e", "#363616"],
+  ["#8a5a32", "#452d19"],
 ];
 
 export function gradientForId(id: string): [string, string] {
