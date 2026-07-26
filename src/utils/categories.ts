@@ -24,6 +24,13 @@ const TOP_LEVEL_TO_SLUG: Record<string, string> = {
   deprecated: "deprecated",
 };
 
+export function isDeprecated(project: { section: string; tags: string[] }): boolean {
+  return (
+    categoryForSection(project.section).slug === "deprecated" ||
+    project.tags.includes("deprecated")
+  );
+}
+
 export function categoryForSection(sectionId: string): Category {
   const topLevel = sectionId.split("/")[0];
   const slug = TOP_LEVEL_TO_SLUG[topLevel];

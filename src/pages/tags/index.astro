@@ -20,8 +20,8 @@ const sortedTags = Array.from(tagCounts.entries()).sort(([a], [b]) =>
   <h1>Tags</h1>
   <div class="tag-index" data-pagefind-ignore>
     {sortedTags.map(([tag, count]) => (
-      <a href={`/tags/${tag}`} class="tag-index-item">
-        {tag} <span class="tag-count">({count})</span>
+      <a href={`/tags/${tag}`} class="pill pill-lg tag-index-item">
+        {tag} <span class="pill-count">({count})</span>
       </a>
     ))}
   </div>
@@ -34,20 +34,8 @@ const sortedTags = Array.from(tagCounts.entries()).sort(([a], [b]) =>
     gap: 0.5rem;
     margin-top: 1.5rem;
   }
-  .tag-index-item {
-    background: var(--pill-bg);
-    color: var(--pill-fg);
-    padding: 0.4rem 0.9rem;
-    border-radius: 999px;
-    font-size: 0.9rem;
-    transition: background 0.15s, color 0.15s;
-  }
   .tag-index-item:hover {
-    background: var(--accent);
+    background: var(--accent-solid);
     color: var(--accent-contrast);
-  }
-  .tag-count {
-    font-size: 0.78rem;
-    opacity: 0.7;
   }
 </style>

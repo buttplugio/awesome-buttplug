@@ -2,6 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 import { stripInlineMarkdown } from "../../utils/displayText";
+import { isDeprecated } from "../../utils/categories";
 
 export async function getStaticPaths() {
   const projects = await getCollection("projects");
@@ -26,19 +27,19 @@ const { tag, projects } = Astro.props;
 
   <div class="tag-projects" data-pagefind-ignore>
     {projects.map((project) => {
-      const isDeprecated = project.data.tags.includes("deprecated");
+      const deprecated = isDeprecated(project.data);
       return (
         <div class="tag-project-card">
           <h3>
             <a href={`/projects/${project.id}`}>{project.data.title}</a>
           </h3>
-          {isDeprecated && <span class="badge-deprecated">Deprecated</span>}
+          {deprecated && <span class="badge badge-deprecated">Deprecated</span>}
           <p>{stripInlineMarkdown(project.data.summary)}</p>
           <div class="tag-pills">
             {project.data.tags.map((t) => (
               <a
                 href={`/tags/${t}`}
-                class:list={["tag-pill", { active: t === tag }]}
+                class:list={["pill", "pill-sm", { active: t === tag }]}
               >
                 {t}
               </a>
@@ -71,32 +72,10 @@ const { tag, projects } = Astro.props;
     font-size: 0.9rem;
     margin: 0.35rem 0;
   }
-  .badge-deprecated {
-    display: inline-block;
-    background: var(--danger-bg);
-    color: var(--danger-fg);
-    padding: 0.1rem 0.5rem;
-    border-radius: var(--radius-sm);
-    font-size: 0.75rem;
-  }
   .tag-pills {
     display: flex;
     flex-wrap: wrap;
     gap: 0.3rem;
     margin-top: 0.5rem;
-  }
-  .tag-pill {
-    background: var(--pill-bg);
-    color: var(--pill-fg);
-    padding: 0.15rem 0.55rem;
-    border-radius: 999px;
-    font-size: 0.75rem;
-  }
-  .tag-pill:hover {
-    color: var(--text-bright);
-  }
-  .tag-pill.active {
-    background: var(--accent-solid);
-    color: var(--accent-contrast);
   }
 </style>
