@@ -60,9 +60,15 @@ const { tag, projects } = Astro.props;
   }
   .tag-project-card {
     background: var(--bg-raised);
+    border-left: 3px solid transparent;
     border-radius: var(--radius);
     box-shadow: var(--shadow-card);
     padding: 1rem 1.25rem;
+    transition: border-color 0.2s ease;
+  }
+
+  .tag-project-card:hover {
+    border-left-color: var(--accent);
   }
   .tag-project-card h3 {
     margin: 0 0 0.35rem;
