@@ -298,6 +298,23 @@ footer {
   text-align: center;
   color: var(--footer-muted);
   font-size: 0.9rem;
+  position: relative;
+  overflow: hidden;
+}
+
+footer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("/img/squidplug.png") no-repeat right -2rem center / auto 220%;
+  opacity: 0.07;
+  pointer-events: none;
+}
+
+/* The watermark is absolutely positioned and would otherwise paint over the
+   in-flow content below it. */
+footer > * {
+  position: relative;
 }
 
 .footer-links {
