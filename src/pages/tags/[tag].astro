@@ -28,7 +28,7 @@ const { tag, projects } = Astro.props;
     {projects.map((project) => {
       const isDeprecated = project.data.tags.includes("deprecated");
       return (
-        <div class:list={["tag-project-card", { deprecated: isDeprecated }]}>
+        <div class="tag-project-card">
           <h3>
             <a href={`/projects/${project.id}`}>{project.data.title}</a>
           </h3>
@@ -63,9 +63,6 @@ const { tag, projects } = Astro.props;
     box-shadow: var(--shadow-card);
     padding: 1rem 1.25rem;
   }
-  .tag-project-card.deprecated {
-    opacity: 0.65;
-  }
   .tag-project-card h3 {
     margin: 0 0 0.35rem;
   }
@@ -99,7 +96,7 @@ const { tag, projects } = Astro.props;
     color: var(--text-bright);
   }
   .tag-pill.active {
-    background: var(--accent);
+    background: var(--accent-solid);
     color: var(--accent-contrast);
   }
 </style>
