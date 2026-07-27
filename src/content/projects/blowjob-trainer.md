@@ -8,6 +8,7 @@ tags:
   - cross-platform
   - web
   - windows
+  - macos
 pricing: "Free, available at https://nullelix.itch.io/blowjob-trainer"
 platforms:
   - "Web"

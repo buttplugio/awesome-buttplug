@@ -6,6 +6,7 @@ tags:
   - deprecated
   - free
   - web
+  - macos
 pricing: "Free (with limits), closed source"
 platforms:
   - "Web"

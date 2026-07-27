@@ -6,6 +6,7 @@ tags:
   - utility
   - video-sync
   - free
+  - macos
 pricing: "Free, closed source"
 platforms:
   - "macOS"

@@ -8,6 +8,7 @@ tags:
   - open-source
   - free
   - windows
+  - macos
   - vr
 pricing: "Free, open source"
 platforms:

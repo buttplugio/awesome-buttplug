@@ -7,6 +7,7 @@ tags:
   - paid
   - cross-platform
   - windows
+  - macos
   - linux
 pricing: "Paid, available at https://soulcoom.itch.io/soulcoom"
 platforms:
