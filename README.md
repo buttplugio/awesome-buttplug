@@ -326,6 +326,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/Delvaux-Jean-Baptiste/ManakaIntiface
   - Windows application, requires Manaka Secret Flasher visual novel and Intiface Central
   - A visual novel integration tool that synchronizes Manaka Secret Flasher vibrator controls with Intiface Central devices
+- [PoseGuard](https://github.com/incident201/poseGuard)
+  - Free, source available, repo at https://github.com/incident201/poseGuard
+  - Android only; toy support is in the online build, which requires [Intiface Central](https://intiface.com/central)
+  - Cornertime and stillness enforcement app that checks you hold a pose using on device computer vision, vibrating while the pose holds or signalling on violations
 
 ### Video Sync / Movies
 
@@ -421,6 +425,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/vib3coda/Stash-Intiface-Handy
   - Cross-platform, requires Stash, Python 3.8+, and Intiface Central
   - Stash plugin syncing funscript files with toys via Intiface Central or The Handy over WiFi
+- [My Goon PMV Player](https://funscriptor.itch.io/my-goon-pmv-player)
+  - Paid, closed source, available at https://funscriptor.itch.io/my-goon-pmv-player
+  - Windows only, requires [Intiface Central](https://intiface.com/central)
+  - Moddable PMV and HMV sandbox that syncs devices to funscripts alongside music, video and 3D scenes, with split screen playback and a recording mode
 
 ### Audio Sync
 
@@ -531,6 +539,18 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, repo at https://github.com/Grinless/StealthWank
   - Windows only
   - Test game for the Buttplug.io API
+- [Ultimate Sissy Trainer](https://astria-andromeda.itch.io/ultimate-sissy-app)
+  - Free, closed source, available at https://astria-andromeda.itch.io/ultimate-sissy-app
+  - Android only (APK distributed outside the Play Store), requires [Intiface Central](https://intiface.com/central)
+  - Rhythm and training game where toys deliver rewards and punishments based on how well you keep up, with linear and oscillating devices following the game tempo
+- [Secretary: The Game](https://www.secretarygame.com/)
+  - Free, closed source, available at https://www.secretarygame.com/
+  - Web based, with desktop and Android downloads (requires [Intiface Central](https://intiface.com/central))
+  - Sprawling feminization and BDSM adventure set in a near future cyberpunk corporation, over a million words of branching text
+- [TMOAS (The Making of a Slut)](https://tmoas.club/)
+  - Free, closed source, available at https://tmoas.club/
+  - Web based, with Windows, macOS, Linux and Android downloads (requires [Intiface Central](https://intiface.com/central))
+  - Slow transformation and sissification adventure with toy support wired into its scene scripting, paired from the in game menu
 
 ## Game Mods
 
@@ -908,6 +928,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/Succubite/goonwood
   - Windows only, requires Gloomwood
   - Gloomwood buttplug.io integration mod that triggers haptic feedback on game events
+- [Casualties: Haptics](https://github.com/mortarroad/casualties-haptics-mod)
+  - Free, open source, repo at https://github.com/mortarroad/casualties-haptics-mod
+  - Windows 10+ and Linux via Steam Proton, requires [Intiface Central](https://intiface.com/central)
+  - Haptics mod for [Casualties: Unknown](https://store.steampowered.com/app/4576490/Casualties_Unknown/) that triggers on pain and heartbeat
 
 ### Counter-Strike
 
