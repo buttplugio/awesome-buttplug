@@ -13,7 +13,10 @@ Last verified: 2026-07-26
 - `npm run dev` - Start Astro dev server
 - `npm run build` - Production build (also runs postbuild README generation)
 - `npm run generate-readme` - Generate README.generated.md from content collection
-- `npm run validate-readme-parity` - Check README.md matches generated output
+- `npm run validate-readme-parity` - Regression check: confirms a change did not silently
+  modify or drop existing README entries. Matches by title against `HEAD` by default
+  (`--baseline-ref <ref>` to compare further back). Added entries are always fine; removals
+  fail unless you pass `--allow-removals`.
 
 ## Project Structure
 - `src/content/projects/` - Content collection: one .md file per project (347 entries)

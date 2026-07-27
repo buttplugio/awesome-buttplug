@@ -1,7 +1,8 @@
 import fs from "node:fs";
 import { execFileSync } from "node:child_process";
 
-const GENERATED_README = "README.generated.md";
+const ROOT_README = "README.md";
+const DEFAULT_BASELINE_REF = "HEAD";
 const EXCLUDED_TOP_LEVEL_SECTIONS = new Set([
   "Table Of Contents",
   "Community Links",
@@ -19,10 +20,11 @@ interface Options {
   baselinePath?: string;
   baselineRef?: string;
   generatedPath: string;
+  allowRemovals: boolean;
 }
 
 function parseArgs(argv: string[]): Options {
-  const options: Options = { generatedPath: GENERATED_README };
+  const options: Options = { generatedPath: ROOT_README, allowRemovals: false };
 
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
@@ -32,6 +34,8 @@ function parseArgs(argv: string[]): Options {
       options.baselineRef = argv[++i];
     } else if (arg === "--generated") {
       options.generatedPath = argv[++i];
+    } else if (arg === "--allow-removals") {
+      options.allowRemovals = true;
     } else {
       throw new Error(`Unknown argument: ${arg}`);
     }
@@ -42,9 +46,7 @@ function parseArgs(argv: string[]): Options {
   }
 
   if (!options.baselinePath && !options.baselineRef) {
-    throw new Error(
-      "Missing baseline source. Use --baseline <path> or --baseline-ref <git-ref>."
-    );
+    options.baselineRef = DEFAULT_BASELINE_REF;
   }
 
   return options;
@@ -140,39 +142,74 @@ const originalEntries = parseReadme(readBaseline(options));
 const generatedEntries = parseReadme(fs.readFileSync(options.generatedPath, "utf-8"));
 const errors: string[] = [];
 
-if (originalEntries.length !== generatedEntries.length) {
-  errors.push(`Entry count mismatch: original=${originalEntries.length}, generated=${generatedEntries.length}`);
+// Titles are the match key, so ambiguity here would silently skip comparisons.
+function indexByTitle(entries: Entry[], label: string): Map<string, Entry> {
+  const map = new Map<string, Entry>();
+  for (const entry of entries) {
+    if (map.has(entry.title)) {
+      errors.push(`Duplicate title in ${label}: ${describe(entry)}`);
+      continue;
+    }
+    map.set(entry.title, entry);
+  }
+  return map;
 }
 
-const count = Math.min(originalEntries.length, generatedEntries.length);
-for (let i = 0; i < count; i++) {
-  const original = originalEntries[i];
-  const generated = generatedEntries[i];
+const originalByTitle = indexByTitle(originalEntries, "baseline");
+const generatedByTitle = indexByTitle(generatedEntries, "current");
 
-  if (original.sections.join("/") !== generated.sections.join("/")) {
-    errors.push(`Section mismatch at entry ${i + 1}: ${describe(original)} !== ${describe(generated)}`);
-  }
-  if (original.title !== generated.title) {
-    errors.push(`Title mismatch at entry ${i + 1}: ${original.title} !== ${generated.title}`);
-  }
-  if (original.url !== generated.url) {
-    errors.push(`URL mismatch for ${original.title}: ${original.url} !== ${generated.url}`);
-  }
-  if (original.bullets.length !== generated.bullets.length) {
-    errors.push(`Bullet count mismatch for ${original.title}: ${original.bullets.length} !== ${generated.bullets.length}`);
+const removed: Entry[] = [];
+let modified = 0;
+
+for (const original of originalByTitle.values()) {
+  const current = generatedByTitle.get(original.title);
+  if (!current) {
+    removed.push(original);
     continue;
   }
 
-  for (let j = 0; j < original.bullets.length; j++) {
-    if (original.bullets[j] !== generated.bullets[j]) {
-      errors.push(`Bullet mismatch for ${original.title}, bullet ${j + 1}: "${original.bullets[j]}" !== "${generated.bullets[j]}"`);
+  const diffs: string[] = [];
+  if (original.sections.join("/") !== current.sections.join("/")) {
+    diffs.push(`section ${original.sections.join(" > ")} -> ${current.sections.join(" > ")}`);
+  }
+  if (original.url !== current.url) {
+    diffs.push(`url ${original.url} -> ${current.url}`);
+  }
+  if (original.bullets.length !== current.bullets.length) {
+    diffs.push(`bullet count ${original.bullets.length} -> ${current.bullets.length}`);
+  } else {
+    for (let j = 0; j < original.bullets.length; j++) {
+      if (original.bullets[j] !== current.bullets[j]) {
+        diffs.push(`bullet ${j + 1}: "${original.bullets[j]}" -> "${current.bullets[j]}"`);
+      }
     }
+  }
+
+  if (diffs.length > 0) {
+    modified++;
+    errors.push(`Modified: ${original.title}\n    ${diffs.join("\n    ")}`);
   }
 }
 
+for (const entry of removed) {
+  const message = `Removed: ${describe(entry)}`;
+  if (options.allowRemovals) console.warn(message);
+  else errors.push(message);
+}
+
+const added = generatedEntries.length - (originalEntries.length - removed.length);
+
 if (errors.length > 0) {
   console.error(errors.join("\n"));
+  console.error(
+    `\nREADME parity FAILED against ${options.baselinePath ?? options.baselineRef}: ` +
+      `${modified} modified, ${removed.length} removed. ` +
+      `Pass --allow-removals if entries were dropped intentionally.`
+  );
   process.exit(1);
 }
 
-console.log(`README parity OK: ${generatedEntries.length} migrated entries match structurally.`);
+console.log(
+  `README parity OK against ${options.baselinePath ?? options.baselineRef}: ` +
+    `${originalEntries.length - removed.length} existing entries unchanged, ${added} added, ${removed.length} removed.`
+);
