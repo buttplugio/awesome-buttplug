@@ -11,6 +11,7 @@ describe("categoryForSection", () => {
 
   it("maps top-level sections directly", () => {
     expect(categoryForSection("games").slug).toBe("games");
+    expect(categoryForSection("websites-services").slug).toBe("websites-services");
     expect(categoryForSection("game-mods").slug).toBe("game-mods");
     expect(categoryForSection("deprecated").slug).toBe("deprecated");
   });
@@ -28,6 +29,7 @@ describe("categoryForSection", () => {
     expect(CATEGORIES.map((c) => c.slug)).toEqual([
       "game-mods",
       "applications",
+      "websites-services",
       "development",
       "games",
       "virtual-worlds",
