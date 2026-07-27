@@ -182,14 +182,26 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/phoenixthrush/llm-roleplay-intiface
   - Python application that connects LLM-powered roleplay with Intiface devices
   - An application that connects LLM-powered roleplay with Intiface devices for interactive experiences
+- [Random Toy Mover](https://nisekuro.booth.pm/items/8496260)
+  - Available on BOOTH at https://nisekuro.booth.pm/items/8496260
+  - HTML tool that connects to Intiface Central and randomizes device timing, intensity, and duration
+  - HTML utility (ランダムにおもちゃが動くツール) that drives Intiface-compatible devices at randomized timing, intensity, and duration
 - [MagicHandy](https://github.com/MagicHandy/MagicHandy)
   - Free, open source, repo at https://github.com/MagicHandy/MagicHandy
   - Go application for Windows, Linux, macOS; requires The Handy (firmware v4) or Intiface Central and a local LLM (llama.cpp or Ollama)
   - An LLM wrapper for controlling The Handy via chat with hands-free and local-first operation
+- [Voice-Reactive Toy Link Tool](https://nisekuro.booth.pm/items/8506024)
+  - Available on BOOTH (Pro) at https://nisekuro.booth.pm/items/8506024, with a free Lite version
+  - Detects voice through microphone input and triggers Intiface-connected devices past a volume threshold; Pro adds clap and sound detection
+  - Voice-reactive utility (おしゃべり連動ツール) that detects microphone input and triggers Intiface-compatible devices when volume crosses a threshold; free Lite and paid Pro versions
 - [Nomi Lovense Integration](https://github.com/misternasty/nomi-lovense-integration)
   - Free, open source, repo at https://github.com/misternasty/nomi-lovense-integration
   - Python FastAPI server deployed on Modal; requires Modal account and Lovense developer token
   - An integration between the Nomi API and Lovense devices that allows AI agents to control toys during conversation
+- [Toy Sequencer Pro](https://nisekuro.booth.pm/items/8538487)
+  - Available on BOOTH at https://nisekuro.booth.pm/items/8538487
+  - Timeline-based sequencer for streams that connects to Intiface Central to schedule device output
+  - Timeline sequencer (おもちゃシーケンサー Pro) for livestreams that schedules Intiface-compatible device output by time, intensity, and duration
 - [ChattyVibes](https://github.com/LauraRozier/ChattyVibes)
   - Free, open source, repo at https://github.com/LauraRozier/ChattyVibes
   - Windows only; requires Intiface Desktop and Twitch account
@@ -666,10 +678,22 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free demo at https://kinkbarista.itch.io/diaper-hypno-nursery-demo, paid full version at https://kinkbarista.itch.io/diaper-hypno-nursery
   - Browser, Windows, Linux and Android, requires [Intiface Central](https://intiface.com/central)
   - Interactive ABDL hypnosis sessions where connected vibrators follow along with the hypnosis track
+- [Fap Hero Journey](https://github.com/SaekoM/Fap-Hero-Journey)
+  - Available at https://github.com/SaekoM/Fap-Hero-Journey
+  - Windows and Linux (Godot 4 .NET), requires [Intiface Central](https://intiface.com/central) for Buttplug device support
+  - Godot 4 fap-hero experience creator and player with video and funscript sync, supporting Buttplug/Intiface devices and serial T-code strokers
 - [My Kinky Secretary](https://klewdia.itch.io/my-kinky-secretary)
   - Free, available at https://klewdia.itch.io/my-kinky-secretary
   - Browser, requires [Intiface Central](https://intiface.com/central)
   - Screen-reader accessible typing game where vibration intensity scales with your score, compatible with buttplug.io
+- [Memory Panel Game Lite](https://nisekuro.booth.pm/items/8506905)
+  - Free Lite version on BOOTH at https://nisekuro.booth.pm/items/8506905
+  - Connects to Intiface Central to output to compatible devices on mistakes, but playable standalone without a device
+  - Memory game (光ったパネルを覚えて押すゲーム Lite) where repeated mistakes trigger punishment output to Intiface-connected devices; playable standalone without a device
+- [Punishment Whack-a-Mole](https://nisekuro.booth.pm/items/8495773)
+  - Available on BOOTH at https://nisekuro.booth.pm/items/8495773
+  - Connects to Intiface Central; designed for livestream play with escalating levels and special mole types
+  - Streaming-oriented whack-a-mole game (おしおきモグラたたき) that drives Intiface-connected devices through escalating gameplay levels
 - [Summoner](https://machimo.app)
   - Free, closed source
   - Web based (Cross platform, requires [Intiface Central](https://intiface.com/central) for non-Handy devices)
@@ -1173,6 +1197,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/SeaLoong/Sensa
   - Windows only, requires VRChat
   - VRChat SPS/OGB contact-to-device bridge that drives Intiface and TCode devices from avatar contact parameters
+- [SARemoteContact](https://sasarchive-shop.booth.pm/items/8368287)
+  - Available on BOOTH at https://sasarchive-shop.booth.pm/items/8368287
+  - Windows desktop app that connects to Intiface Central; in-world expression-menu input drives a partner's real device
+  - VRChat avatar prefab plus Windows desktop app (SARemoteContact) that drives Intiface-compatible devices from in-world expression-menu input
 
 ## Hardware Support
 
