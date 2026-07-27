@@ -694,6 +694,38 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Available on BOOTH at https://nisekuro.booth.pm/items/8495773
   - Connects to Intiface Central; designed for livestream play with escalating levels and special mole types
   - Streaming-oriented whack-a-mole game (おしおきモグラたたき) that drives Intiface-connected devices through escalating gameplay levels
+- [Cycle of Corruption](https://store.steampowered.com/app/2709090/)
+  - Paid, available at https://store.steampowered.com/app/2709090/
+  - Windows, requires [Intiface Central](https://intiface.com/central)
+  - RPG Maker adult horror RPG that lists vibrating smart toy integration through Intiface as a store feature
+- [One Possible Future](https://store.steampowered.com/app/3272320/)
+  - Paid, available at https://store.steampowered.com/app/3272320/
+  - Windows, uses [Intiface Central](https://intiface.com/central) and also accepts a wired Xbox 360 controller as a haptic output
+  - Adult sci-fi visual novel that uses Intiface Central to support dozens of toys from many manufacturers
+- [For One Year](https://store.steampowered.com/app/2859130/)
+  - Paid, available at https://store.steampowered.com/app/2859130/
+  - Windows, requires [Intiface Central](https://intiface.com/central)
+  - Travel, survival and romance game that maps device activity to the body part the player character is receiving attention on
+- [Succubus Heaven](https://store.steampowered.com/app/2471660/)
+  - Paid, available at https://store.steampowered.com/app/2471660/
+  - Windows, requires [Intiface Central](https://intiface.com/central)
+  - 3D adult roguelite that maps vibration, rotation and linear actions to in-game damage events over buttplug.io
+- [Beat Banger](https://store.steampowered.com/app/1813430/)
+  - Paid, available at https://store.steampowered.com/app/1813430/
+  - Windows, macOS and Linux, connects through [Intiface Central](https://intiface.com/central)
+  - Godot adult rhythm game with Intiface Central connectivity and toy events available in the level editor
+- [JOI Lab PC](https://store.steampowered.com/app/3431800/)
+  - Paid, available at https://store.steampowered.com/app/3431800/
+  - Windows, requires [Intiface Central](https://intiface.com/central)
+  - Aim-training and interactive JOI game with toy control through Intiface Central
+- [JOI Lab VR](https://store.steampowered.com/app/3004030/)
+  - Paid, available at https://store.steampowered.com/app/3004030/
+  - Windows VR, requires [Intiface Central](https://intiface.com/central)
+  - VR counterpart to JOI Lab PC with experimental toy control through Intiface Central
+- [Creepy Redneck Dinosaur Mansion 1 Re-Raptored](https://store.steampowered.com/app/3830150/)
+  - Paid, available at https://store.steampowered.com/app/3830150/
+  - Windows, native support ships on an opt-in Steam beta branch and requires [Intiface Central](https://intiface.com/central)
+  - Comedy adventure game that routes its existing controller rumble output to Buttplug-connected devices
 - [Summoner](https://machimo.app)
   - Free, closed source
   - Web based (Cross platform, requires [Intiface Central](https://intiface.com/central) for non-Handy devices)
@@ -1080,6 +1112,26 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/mortarroad/casualties-haptics-mod
   - Windows 10+ and Linux via Steam Proton, requires [Intiface Central](https://intiface.com/central)
   - Haptics mod for [Casualties: Unknown](https://store.steampowered.com/app/4576490/Casualties_Unknown/) that triggers on pain and heartbeat
+- [BonerBuzzer](https://thunderstore.io/c/trombone-champ/p/gristCollector/BonerBuzzer/)
+  - Free, available on Thunderstore at https://thunderstore.io/c/trombone-champ/p/gristCollector/BonerBuzzer/
+  - Windows, requires BepInEx and [Intiface Central](https://intiface.com/central) with the server address set in the mod config
+  - BepInEx mod for Trombone Champ that drives Buttplug-connected devices in response to played notes
+- [VoidRumble](https://github.com/blackspherefollower/VoidRumble)
+  - Free, open source, repo at https://github.com/blackspherefollower/VoidRumble
+  - Windows, requires BepInEx 5 and VoidManager, connects through [Intiface Central](https://intiface.com/central)
+  - Void Crew mod that maps in-game damage, enhancements and thruster boost to device vibration
+- [KKButtplug](https://github.com/xirelesk/KKButtplug)
+  - Free, open source, repo at https://github.com/xirelesk/KKButtplug
+  - Windows, requires [Intiface Central](https://intiface.com/central) on a configurable server URL
+  - KoboldKare plugin that vibrates devices on in-game sex, orgasm and lactation events, with configurable intensity and pulse patterns
+- [Haptic Tension](https://github.com/AssplayThrowaway/Haptic-Tension)
+  - Free, open source, repo at https://github.com/AssplayThrowaway/Haptic-Tension
+  - Windows, mod plus a companion helper app, connects through [Intiface Central](https://intiface.com/central)
+  - Hearts of Iron IV mod that scales device vibration to in-game world tension
+- [Buttplug for Northstar](https://thunderstore.io/c/northstar/p/EveningTF/Buttplug/)
+  - Free, available on Thunderstore at https://thunderstore.io/c/northstar/p/EveningTF/Buttplug/
+  - Windows, requires the Northstar client for Titanfall 2 and [Intiface Central](https://intiface.com/central)
+  - Northstar client mod for Titanfall 2 that triggers Buttplug devices on pilot and grunt kills
 
 ### Counter-Strike
 
