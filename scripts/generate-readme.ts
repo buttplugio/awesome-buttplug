@@ -32,7 +32,11 @@ const PROJECTS_DIR = path.resolve("src/content/projects");
 const ORDER_CONFIG = path.resolve("config/readme-order.yaml");
 const GENERATED_README = path.resolve("README.generated.md");
 const ROOT_README = path.resolve("README.md");
-const MIN_FULL_MIGRATION_ENTRIES = 189;
+// Only used to bootstrap: when there is no committed README to compare against.
+const BOOTSTRAP_MIN_ENTRIES = 189;
+// Fraction of the committed README's entries that may disappear before we refuse to write.
+const MAX_SHRINK_RATIO = 0.05;
+const README_ENTRY_LINE = /^- \[/gm;
 
 function readEntries(): ProjectEntry[] {
   const files = fs.readdirSync(PROJECTS_DIR).filter((f) => f.endsWith(".md"));
@@ -67,11 +71,29 @@ function generateHeading(level: number, text: string): string {
   return "#".repeat(level) + " " + text;
 }
 
+function countCommittedReadmeEntries(): number | null {
+  if (!fs.existsSync(ROOT_README)) return null;
+  const matches = fs.readFileSync(ROOT_README, "utf-8").match(README_ENTRY_LINE);
+  return matches ? matches.length : null;
+}
+
 function assertCanWriteRootReadme(entries: ProjectEntry[], orphans: ProjectEntry[]): void {
-  if (entries.length < MIN_FULL_MIGRATION_ENTRIES) {
-    throw new Error(
-      `Refusing to write README.md: only ${entries.length} entries found, expected at least ${MIN_FULL_MIGRATION_ENTRIES}.`
-    );
+  const previous = countCommittedReadmeEntries();
+
+  if (previous === null) {
+    if (entries.length < BOOTSTRAP_MIN_ENTRIES) {
+      throw new Error(
+        `Refusing to write README.md: only ${entries.length} entries found and no existing README to compare against, expected at least ${BOOTSTRAP_MIN_ENTRIES}.`
+      );
+    }
+  } else if (!process.argv.includes("--allow-shrink")) {
+    const floor = Math.ceil(previous * (1 - MAX_SHRINK_RATIO));
+    if (entries.length < floor) {
+      throw new Error(
+        `Refusing to write README.md: found ${entries.length} entries but the committed README has ${previous}. ` +
+          `Re-run with --allow-shrink if the removal is intentional.`
+      );
+    }
   }
 
   if (orphans.length > 0) {
