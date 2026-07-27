@@ -27,6 +27,11 @@ sections:
     parent: "Applications"
     parent_level: 2
 
+  - id: websites-services
+    heading: "Websites and Services"
+    level: 2
+    intro: "**Hosted sites and services you use in a browser or sign up for, as opposed to software you download and run yourself.**"
+
   - id: games
     heading: "Games"
     level: 2
