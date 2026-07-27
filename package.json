@@ -9,7 +9,7 @@
     "preview": "astro preview",
     "test": "vitest run",
     "generate-readme": "tsx scripts/generate-readme.ts",
-    "validate-readme-parity": "tsx scripts/validate-readme-parity.ts --baseline-ref 9e80639a92c2c991f7744388df10138b492f0455"
+    "validate-readme-parity": "tsx scripts/validate-readme-parity.ts"
   },
   "engines": {
     "node": ">=22"
