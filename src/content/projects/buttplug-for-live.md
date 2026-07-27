@@ -9,6 +9,7 @@ tags:
   - open-source
   - free
   - windows
+  - macos
 pricing: "Free, open source"
 platforms:
   - "Windows"

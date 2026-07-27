@@ -8,6 +8,7 @@ tags:
   - open-source
   - free
   - windows
+  - macos
   - android
 pricing: "Free, open source"
 platforms:

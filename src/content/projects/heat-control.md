@@ -8,6 +8,7 @@ tags:
   - cross-platform
   - web
   - windows
+  - macos
   - linux
   - android
 pricing: "Free, available at https://strawbshc.itch.io/heat-control-edging-trainer"
