@@ -1,6 +1,6 @@
 # awesome-buttplug
 
-Last verified: 2026-07-25
+Last verified: 2026-07-26
 
 ## Tech Stack
 - Framework: Astro 6 (static output) + Preact islands
@@ -16,7 +16,7 @@ Last verified: 2026-07-25
 - `npm run validate-readme-parity` - Check README.md matches generated output
 
 ## Project Structure
-- `src/content/projects/` - Content collection: one .md file per project (189 entries)
+- `src/content/projects/` - Content collection: one .md file per project (347 entries)
 - `src/content.config.ts` - Zod schema for project frontmatter
 - `src/components/` - Preact islands (ProjectFilter, CardGrid, TagBar, CategoryRail, ViewToggle) and Hero.astro
 - `src/pages/` - Astro routes: index, `/projects/[id]`, `/tags/`, `/tags/[tag]`
@@ -47,7 +47,12 @@ Every file in `src/content/projects/*.md` must have this frontmatter:
 
 ## Key Invariants
 - README.md is auto-generated from the content collection via postbuild hook
-- generate-readme.ts refuses to write README.md if fewer than 189 entries or orphaned sections exist
+- generate-readme.ts refuses to write README.md if fewer than 189 entries or orphaned sections exist.
+  That floor is the original migration baseline, not the current count — it protects against a failed
+  collection load clobbering the README, so it stays well below the live total.
+- **Dedupe project URLs by canonical `full_name` from the GitHub API, never by the URL string.**
+  Renamed accounts keep redirecting, so a moved repo still returns HTTP 200 and a plain link check
+  calls it healthy while the same project sits in the list twice under two owners.
 - Tags must be URL-safe slugs (`/^[a-z0-9]+(?:-[a-z0-9]+)*$/`)
 - Every project section must be listed in `config/readme-order.yaml`
 - The site is fully static (no SSR)
