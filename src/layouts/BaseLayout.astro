@@ -60,6 +60,10 @@ const matomoSiteId = import.meta.env.PUBLIC_MATOMO_SITE_ID;
             showSubResults: true,
             showImages: false,
           });
+        } else {
+          console.warn(
+            "Pagefind UI unavailable: /pagefind/* did not load. In dev, astro-pagefind serves the index from the last build output — run `npm run build` once."
+          );
         }
       });
     </script>
