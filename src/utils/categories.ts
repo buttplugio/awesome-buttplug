@@ -6,6 +6,7 @@ export interface Category {
 export const CATEGORIES: Category[] = [
   { label: "Game Mods", slug: "game-mods" },
   { label: "Applications", slug: "applications" },
+  { label: "Websites & Services", slug: "websites-services" },
   { label: "Development & Libraries", slug: "development" },
   { label: "Games", slug: "games" },
   { label: "Virtual Worlds", slug: "virtual-worlds" },
@@ -15,6 +16,7 @@ export const CATEGORIES: Category[] = [
 
 const TOP_LEVEL_TO_SLUG: Record<string, string> = {
   applications: "applications",
+  "websites-services": "websites-services",
   games: "games",
   "game-mods": "game-mods",
   "virtual-worlds": "virtual-worlds",
