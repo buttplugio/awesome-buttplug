@@ -551,6 +551,86 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, closed source, available at https://tmoas.club/
   - Web based, with Windows, macOS, Linux and Android downloads (requires [Intiface Central](https://intiface.com/central))
   - Slow transformation and sissification adventure with toy support wired into its scene scripting, paired from the in game menu
+- [Hunted on Eclipse-9](https://finalfetish.itch.io/hunted-on-eclipse-9)
+  - Paid, available at https://finalfetish.itch.io/hunted-on-eclipse-9
+  - Windows only
+  - Stealth horror game where an android hunter stalks the player, with Buttplug.io support for both vibrators and strokers
+- [Star Spawn](https://fluffykaeloky.itch.io/star-spawn-demo)
+  - Free demo, available at https://fluffykaeloky.itch.io/star-spawn-demo
+  - Windows and Linux
+  - 2D Metroidvania platformer set on an alien world, with Intiface/Buttplug.io support for compatible toys
+- [Mousegun](https://shinlalala.itch.io/mousegun)
+  - Free (name your own price), available at https://shinlalala.itch.io/mousegun
+  - Browser, Windows, Linux and Android
+  - Retro first-person shooter that is Buttplug.io compatible, with a setup guide published by the developer
+- [Dream of JOI](https://katsis.itch.io/dream-of-joi)
+  - Free, available at https://katsis.itch.io/dream-of-joi
+  - Windows only
+  - Rhythm game across five levels with buttplug.io integration so devices follow the music
+- [Dawn of Marionette](https://gamessafu.itch.io/dawn-of-marionette)
+  - Paid, available at https://gamessafu.itch.io/dawn-of-marionette
+  - Windows PCVR (Meta Quest via Link, HTC Vive), requires [Intiface Central](https://intiface.com/central)
+  - PCVR action game with an android companion, requiring Intiface Central for stroker support
+- [[Tongue kissing Specialization] My girlfriend's here for a visit](https://gamessafu.itch.io/tongue-kissing-specialization-my-girlfriends-here-for-a-visit)
+  - Paid, available at https://gamessafu.itch.io/tongue-kissing-specialization-my-girlfriends-here-for-a-visit
+  - Windows and Android VR (Quest 2, Oculus Rift, HTC Vive)
+  - First-person VR kissing experience built on Buttplug, with electric onahole support
+- [Married Woman Countdown ASMR Sex VR](https://gamessafu.itch.io/married-woman-countdown-asmr-sex-vr)
+  - Paid, available at https://gamessafu.itch.io/married-woman-countdown-asmr-sex-vr
+  - Windows and Android VR, requires [Intiface Central](https://intiface.com/central)
+  - ASMR-recorded VR experience with binaural audio, synchronising strokers via Intiface Central
+- [Succubus Sisters and Countdown Sex VR](https://gamessafu.itch.io/succubus-sisters-and-countdown-sex-vr)
+  - Paid, available at https://gamessafu.itch.io/succubus-sisters-and-countdown-sex-vr
+  - Windows and Android VR (Meta Quest 2/3 standalone or PCVR), requires [Intiface Central](https://intiface.com/central)
+  - VR title with summoned succubus characters, synchronising strokers via Intiface Central
+- [Just Futanari 2](https://gamessafu.itch.io/just-futanari-2)
+  - Paid, available at https://gamessafu.itch.io/just-futanari-2
+  - Windows and Android VR (Meta Quest 2/3), requires [Intiface Central](https://intiface.com/central)
+  - Online multiplayer VR game where player movement can drive another player's connected device
+- [Tease AI Awakening - A Sharp Awakening](https://markusawakening.itch.io/tease-ai-awakening)
+  - Free, available at https://markusawakening.itch.io/tease-ai-awakening
+  - Windows only, anything detected by [Intiface Central](https://intiface.com/central) can be scripted
+  - Script-driven tease and denial chat simulator that hands device control to the on-screen domme via Buttplug.io
+- [Deepthroat Simulator](https://squirclegames.itch.io/ecchi-fantasy-vr)
+  - Paid, available at https://squirclegames.itch.io/ecchi-fantasy-vr
+  - Windows desktop and VR (Oculus Rift, HTC Vive, Valve Index), separate Quest edition available
+  - Physics-driven simulator with customisable characters and full buttplug.io device support
+- [Heat Control](https://strawbshc.itch.io/heat-control-edging-trainer)
+  - Free, available at https://strawbshc.itch.io/heat-control-edging-trainer
+  - Browser, Windows, macOS, Linux and Android, requires [Intiface Central](https://intiface.com/central)
+  - Furry-themed edging trainer driving connected devices through an Intiface Central connection
+- [Blowjob Trainer](https://nullelix.itch.io/blowjob-trainer)
+  - Free, available at https://nullelix.itch.io/blowjob-trainer
+  - Browser, Windows and macOS
+  - Webcam-tracked training game with voice guidance and toy support via Intiface and the Buttplug library
+- [Chu](https://multisekai.itch.io/chu)
+  - Paid, available at https://multisekai.itch.io/chu
+  - Windows and Android, setup guide for [Intiface Central](https://intiface.com/central) in the game's itch.io community
+  - Short voice-acted audio visual novel with vibration and oscillation synced through the Buttplug.io framework
+- [Cock Hero](https://cockherogame.itch.io/cock-hero)
+  - Free, available at https://cockherogame.itch.io/cock-hero
+  - Windows only, requires [Intiface Central](https://intiface.com/central)
+  - Rhythm game with Intiface toy support in the Toys settings menu, working with any Intiface-compatible device
+- [SOULCOOM](https://soulcoom.itch.io/soulcoom)
+  - Paid, available at https://soulcoom.itch.io/soulcoom
+  - Windows, macOS and Linux, connects through [Intiface Central](https://intiface.com/central)
+  - 2.5D erotic RPG where in-game actions drive vibration, oscillation and rotation over Buttplug.io
+- [Dominatrix Simulator: Threshold](https://deviantdev.itch.io/dominatrix-simulator)
+  - Paid, available at https://deviantdev.itch.io/dominatrix-simulator
+  - Windows desktop or SteamVR (Oculus Rift, HTC Vive), recent builds require [Intiface Central](https://intiface.com/central)
+  - Femdom VR experience where Mistress animations drive connected devices through buttplug.io
+- [Fetish Mediation Trainer](https://kinkbarista.itch.io/fetisch-mediation-trainer)
+  - Free demo, available at https://kinkbarista.itch.io/fetisch-mediation-trainer
+  - Browser, requires [Intiface Central](https://intiface.com/central)
+  - Guided meditation app built on buttplug.js, driving toys through the Intiface app on desktop or mobile
+- [Diaper Hypno Nursery](https://kinkbarista.itch.io/diaper-hypno-nursery-demo)
+  - Free demo at https://kinkbarista.itch.io/diaper-hypno-nursery-demo, paid full version at https://kinkbarista.itch.io/diaper-hypno-nursery
+  - Browser, Windows, Linux and Android, requires [Intiface Central](https://intiface.com/central)
+  - Interactive ABDL hypnosis sessions where connected vibrators follow along with the hypnosis track
+- [My Kinky Secretary](https://klewdia.itch.io/my-kinky-secretary)
+  - Free, available at https://klewdia.itch.io/my-kinky-secretary
+  - Browser, requires [Intiface Central](https://intiface.com/central)
+  - Screen-reader accessible typing game where vibration intensity scales with your score, compatible with buttplug.io
 
 ## Game Mods
 
@@ -1290,6 +1370,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/cind3rdev/ButtplugUnreal
   - Requires Unreal Engine 5; install as a plugin in your project's Plugins folder
   - Plugin for Unreal Engine 5 that integrates sex toy control via Buttplug.io
+- [Plug₂in Pattern Composer](https://qazm.itch.io/plug2in-pattern-composer)
+  - Free, available at https://qazm.itch.io/plug2in-pattern-composer
+  - Runs in the browser
+  - Browser tool for prototyping and previewing vibration patterns for Plug₂in 2.0.0+
 
 ### Other Frameworks and Plugins
 
