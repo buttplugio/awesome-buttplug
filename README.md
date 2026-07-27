@@ -330,6 +330,10 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, source available, repo at https://github.com/incident201/poseGuard
   - Android only; toy support is in the online build, which requires [Intiface Central](https://intiface.com/central)
   - Cornertime and stillness enforcement app that checks you hold a pose using on device computer vision, vibrating while the pose holds or signalling on violations
+- [BridgeWeaver](https://addons.mozilla.org/en-US/firefox/addon/bridgeweaver/)
+  - Free
+  - Firefox extension (Cross platform, requires [Intiface Central](https://intiface.com/central))
+  - Modular integration toolkit connecting AI and web experiences to Buttplug compatible devices via on-page triggers
 
 ### Video Sync / Movies
 
@@ -429,6 +433,21 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Paid, closed source, available at https://funscriptor.itch.io/my-goon-pmv-player
   - Windows only, requires [Intiface Central](https://intiface.com/central)
   - Moddable PMV and HMV sandbox that syncs devices to funscripts alongside music, video and 3D scenes, with split screen playback and a recording mode
+- [ScriptHub](https://github.com/WeakMapUser/Scripthub)
+  - Free, closed source, with the author stating an intent to open source once stable
+  - Windows (serves a web interface to any browser on your network, via [Intiface Central](https://intiface.com/central))
+  - Collects videos and scripts from chosen folders and serves them as a FapTap style page over the local network
+  - Imports videos by URL and browses IVDB to add titles to your collection in one click
+- [ScriptPlayer+](https://github.com/sioaeko/scriptplayer-plus)
+  - Free, source available (MIT up to v0.1.5, PolyForm Noncommercial from March 2026 onward)
+  - Windows, macOS via self-build (Intiface/Buttplug support is a separate experimental build)
+  - Opens a folder or a dragged file and plays immediately with no library import or reindexing step
+  - Automatically matches funscripts and subtitles by filename, and has EroScripts login, search and download built in
+- [Syncopathy](https://github.com/ofs69/syncopathy)
+  - Free, open source
+  - Windows, macOS, Linux and a browser build (Cross platform, via [Intiface Central](https://intiface.com/central))
+  - Implements the Handy Streaming Protocol over Bluetooth directly, alongside command based playback and Buttplug output
+  - Optional media library mode scans directories for matching video and script pairs and generates thumbnails via ffmpeg
 
 ### Audio Sync
 
@@ -468,6 +487,26 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, open source, repo at https://github.com/Yaliplover/haptic-player
   - Web-based vanilla JavaScript player, requires Intiface Central and funscript files for synchronization
   - A web-based JavaScript player that synchronizes audio files with haptic feedback using funscript files and Intiface Central
+
+## Websites and Services
+
+**Hosted sites and services you use in a browser or sign up for, as opposed to software you download and run yourself.**
+
+- [AgenticLover](https://agenticlover.ai)
+  - Free to start, bring your own local or cloud model
+  - Web and desktop (Cross platform, via buttplug.io alongside Lovense, We-Vibe, DG-LAB Coyote and OpenShock)
+  - Characters adjust connected devices during conversation rather than through a separate control panel
+  - Runs against local models via Ollama or LM Studio, or a cloud provider of your choosing
+- [Funscript.org](https://funscript.org)
+  - Free tier available, Premium membership for playrooms, public library streaming and the creation suite
+  - Web based (Cross platform, 600+ devices via [Intiface Central](https://intiface.com/central))
+  - Plays your local videos and music with beat matched device control, no upload required
+  - Playrooms for real time shared sessions, plus built in scripter and beat detector tools
+- [ScriptCompiler](https://scriptcompiler.com)
+  - Free, closed source
+  - Web based (Cross platform, via browser Bluetooth or [Intiface Central](https://intiface.com/central))
+  - Funscript editor that runs entirely in the browser with no installation and no account
+  - Drives The Handy, Autoblow AI Ultra, Kiiroo Keon and Pearl, Lovense, Euphoria F1 and OSR2/SR6
 
 ## Games
 
@@ -631,6 +670,11 @@ list? [Submit an issue to this repo and let us know!](https://github.com/buttplu
   - Free, available at https://klewdia.itch.io/my-kinky-secretary
   - Browser, requires [Intiface Central](https://intiface.com/central)
   - Screen-reader accessible typing game where vibration intensity scales with your score, compatible with buttplug.io
+- [Summoner](https://machimo.app)
+  - Free, closed source
+  - Web based (Cross platform, requires [Intiface Central](https://intiface.com/central) for non-Handy devices)
+  - Hold out against a gauntlet of eleven increasingly difficult monster girls, spending XP on spells to survive
+  - Ships a second Controller mode: a randomiser with min/max ranges and a difficulty weighting
 
 ## Game Mods
 
