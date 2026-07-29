@@ -382,6 +382,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, source available, repo at https://github.com/incident201/poseGuard
   - Android only; toy support is in the online build, which requires [Intiface Central](https://intiface.com/central)
   - Cornertime and stillness enforcement app that checks you hold a pose using on device computer vision, vibrating while the pose holds or signalling on violations
+- [TavLite](https://github.com/Karasukaigan/TavLite)
+  - Free, open source (MIT), repo at https://github.com/Karasukaigan/TavLite
+  - Python application; chat with any OpenAI-compatible LLM, build and manage character cards, fully local
+  - Lightweight local AI roleplay chat application with device control via Intiface Central
 - [BridgeWeaver](https://addons.mozilla.org/en-US/firefox/addon/bridgeweaver/)
   - Free
   - Firefox extension (Cross platform, requires [Intiface Central](https://intiface.com/central))
