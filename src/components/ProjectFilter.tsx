@@ -23,10 +23,19 @@ const ProjectFilter: FunctionalComponent<Props> = ({ projects }) => {
 
   const [category, setCategory] = useState<string>(initialState.category);
   const [selectedTags, setSelectedTags] = useState<string[]>(initialState.tags);
-  const [viewMode, setViewMode] = useState<ViewMode>(() => {
-    if (typeof window === "undefined") return "compact";
-    return window.localStorage.getItem("ab-view-mode") === "visual" ? "visual" : "compact";
-  });
+  const [viewMode, setViewMode] = useState<ViewMode>("compact");
+
+  /* Read after mount rather than in the initialiser. The server has no
+     localStorage and always renders "compact", so initialising from it made a
+     returning Visual user's first client render disagree with the SSR HTML.
+     An effect also forces a real re-render, which hydrate() alone will not do:
+     it never diffs attributes against existing DOM, so a class set only during
+     hydration would be dropped. */
+  useEffect(() => {
+    if (window.localStorage.getItem("ab-view-mode") === "visual") {
+      setViewMode("visual");
+    }
+  }, []);
 
   useEffect(() => {
     if (typeof window === "undefined") return;

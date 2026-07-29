@@ -119,6 +119,14 @@
   gap: 1rem;
 }
 
+/* The card DOM is identical in both view modes and only this class differs.
+   Conditionally rendering .card-media instead would break hydration: the server
+   has no localStorage, so it always renders "compact" while a returning Visual
+   user's first client render has an extra node. */
+.card-grid.view-compact .card-media {
+  display: none;
+}
+
 .card {
   position: relative;
   display: flex;
