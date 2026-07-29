@@ -6,7 +6,7 @@ tags:
   - game
   - paid
   - windows
-pricing: "Paid, available at https://store.steampowered.com/app/2471660/"
+pricing: "Paid"
 platforms:
   - "Windows"
 summary: "3D adult roguelite that maps vibration, rotation and linear actions to in-game damage events over buttplug.io"

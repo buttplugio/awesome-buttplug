@@ -6,7 +6,7 @@ tags:
   - game
   - free
   - web
-pricing: "Free, available at https://klewdia.itch.io/my-kinky-secretary"
+pricing: "Free"
 platforms:
   - "Web"
 summary: "Screen-reader accessible typing game where vibration intensity scales with your score, compatible with buttplug.io"

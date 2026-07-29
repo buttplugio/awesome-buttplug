@@ -8,7 +8,7 @@ tags:
   - windows
   - android
   - vr
-pricing: "Paid, available at https://gamessafu.itch.io/tongue-kissing-specialization-my-girlfriends-here-for-a-visit"
+pricing: "Paid"
 platforms:
   - "Windows"
   - "Android"

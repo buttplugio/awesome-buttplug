@@ -6,7 +6,7 @@ tags:
   - game
   - paid
   - windows
-pricing: "Paid, available at https://store.steampowered.com/app/3830150/"
+pricing: "Paid"
 platforms:
   - "Windows"
 summary: "Comedy adventure game that routes its existing controller rumble output to Buttplug-connected devices"

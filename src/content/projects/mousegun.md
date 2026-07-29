@@ -10,7 +10,7 @@ tags:
   - windows
   - linux
   - android
-pricing: "Free (name your own price), available at https://shinlalala.itch.io/mousegun"
+pricing: "Free (name your own price)"
 platforms:
   - "Web"
   - "Windows"

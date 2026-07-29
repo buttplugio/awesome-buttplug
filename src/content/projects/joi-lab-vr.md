@@ -7,7 +7,7 @@ tags:
   - paid
   - windows
   - vr
-pricing: "Paid, available at https://store.steampowered.com/app/3004030/"
+pricing: "Paid"
 platforms:
   - "Windows"
 summary: "VR counterpart to JOI Lab PC with experimental toy control through Intiface Central"

@@ -9,7 +9,7 @@ tags:
   - web
   - windows
   - macos
-pricing: "Free, available at https://nullelix.itch.io/blowjob-trainer"
+pricing: "Free"
 platforms:
   - "Web"
   - "Windows"

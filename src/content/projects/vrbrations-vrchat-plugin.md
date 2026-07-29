@@ -9,7 +9,7 @@ tags:
   - free
   - windows
   - vr
-pricing: "Free, open source, repos at [https://github.com/Thryrallo/VRBrations---App](https://github.com/Thryrallo/VRBrations---App) and [https://github.com/Thryrallo/VRbrations---Unity](https://github.com/Thryrallo/VRbrations---Unity)"
+pricing: "Free, open source"
 platforms:
   - "Windows"
 summary: "Support Discord at [https://vrbrations.com](https://vrbrations.com)"

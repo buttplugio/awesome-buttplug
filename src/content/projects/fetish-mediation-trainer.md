@@ -6,7 +6,7 @@ tags:
   - game
   - free
   - web
-pricing: "Free demo, available at https://kinkbarista.itch.io/fetisch-mediation-trainer"
+pricing: "Free demo"
 platforms:
   - "Web"
 summary: "Guided meditation app built on buttplug.js, driving toys through the Intiface app on desktop or mobile"

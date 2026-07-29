@@ -6,7 +6,7 @@ tags:
   - game-mod
   - free
   - windows
-pricing: "Free, proprietary, available at https://github.com/amateras977/COM3D2.ToySynchronizer.Plugin"
+pricing: "Free, proprietary"
 platforms:
   - "Windows"
 summary: "Mod for Custom Maid 3D2 / Custom Order Maid 3D2 to add support for stroking and vibrating devices"

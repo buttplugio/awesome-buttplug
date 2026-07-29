@@ -6,7 +6,7 @@ tags:
   - game
   - free
   - windows
-pricing: "Free, available at https://katsis.itch.io/dream-of-joi"
+pricing: "Free"
 platforms:
   - "Windows"
 summary: "Rhythm game across five levels with buttplug.io integration so devices follow the music"

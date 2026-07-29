@@ -7,7 +7,7 @@ tags:
   - paid
   - windows
   - vr
-pricing: "Paid, available at https://squirclegames.itch.io/ecchi-fantasy-vr"
+pricing: "Paid"
 platforms:
   - "Windows"
   - "VR"

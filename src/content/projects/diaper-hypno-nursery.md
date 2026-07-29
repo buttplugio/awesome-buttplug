@@ -11,7 +11,7 @@ tags:
   - windows
   - linux
   - android
-pricing: "Free demo at https://kinkbarista.itch.io/diaper-hypno-nursery-demo, paid full version at https://kinkbarista.itch.io/diaper-hypno-nursery"
+pricing: "Free demo, paid full version"
 platforms:
   - "Web"
   - "Windows"

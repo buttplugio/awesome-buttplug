@@ -6,7 +6,7 @@ tags:
   - game
   - free
   - cross-platform
-pricing: "Free, available on https://github.com/Das-L1/Buttplug-Says"
+pricing: "Free"
 platforms:
   - "Cross-platform"
 summary: "A simon says like game running on python with Intiface Central integration"

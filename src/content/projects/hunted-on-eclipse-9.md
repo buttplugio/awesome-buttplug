@@ -6,7 +6,7 @@ tags:
   - game
   - paid
   - windows
-pricing: "Paid, available at https://finalfetish.itch.io/hunted-on-eclipse-9"
+pricing: "Paid"
 platforms:
   - "Windows"
 summary: "Stealth horror game where an android hunter stalks the player, with Buttplug.io support for both vibrators and strokers"

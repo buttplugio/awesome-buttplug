@@ -8,7 +8,7 @@ tags:
   - open-source
   - free
   - linux
-pricing: "Free, open source, repo at [https://github.com/NovaGlider/musicboom/](https://github.com/NovaGlider/musicboom/)"
+pricing: "Free, open source"
 platforms:
   - "Linux"
 summary: "Analyzes audio and translates into vibrations for Buttplug compatible hardware with two motors."

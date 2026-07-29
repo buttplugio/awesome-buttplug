@@ -7,7 +7,7 @@ tags:
   - paid
   - windows
   - vr
-pricing: "Paid, available at https://funscriptor.itch.io/kamasutra-vr"
+pricing: "Paid"
 platforms:
   - "VR"
   - "Windows"

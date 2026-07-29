@@ -8,7 +8,7 @@ tags:
   - windows
   - android
   - vr
-pricing: "Paid, available at https://gamessafu.itch.io/just-futanari-2"
+pricing: "Paid"
 platforms:
   - "Windows"
   - "Android"
