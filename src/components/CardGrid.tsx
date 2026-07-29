@@ -4,6 +4,7 @@ import type { ViewMode } from "./ViewToggle";
 import { stripInlineMarkdown } from "../utils/displayText";
 import { gradientForId } from "../utils/monogram";
 import { isDeprecated } from "../utils/categories";
+import { projectActions } from "../utils/projectLinks";
 
 interface Props {
   projects: ProjectEntry[];
@@ -25,13 +26,10 @@ const CardGrid: FunctionalComponent<Props> = ({ projects, viewMode }) => {
           ? stripInlineMarkdown(project.deprecation_reason)
           : undefined;
         const [from, to] = gradientForId(project.id);
+        const actions = projectActions(project);
 
         return (
-          <a
-            key={project.id}
-            href={`/projects/${project.id}`}
-            class={`card ${deprecated ? "deprecated" : ""}`}
-          >
+          <div key={project.id} class={`card ${deprecated ? "deprecated" : ""}`}>
             {viewMode === "visual" &&
               (project.image ? (
                 <img src={project.image} alt="" class="card-media" loading="lazy" />
@@ -44,7 +42,11 @@ const CardGrid: FunctionalComponent<Props> = ({ projects, viewMode }) => {
                 </div>
               ))}
             <div class="card-body">
-              <h3 class="card-title">{project.title}</h3>
+              <h3 class="card-title">
+                <a href={`/projects/${project.id}`} class="card-link">
+                  {project.title}
+                </a>
+              </h3>
               {deprecated && <span class="badge badge-deprecated">Deprecated</span>}
               {pricing && !deprecated && (
                 <span class="badge badge-pricing">{pricing}</span>
@@ -63,8 +65,21 @@ const CardGrid: FunctionalComponent<Props> = ({ projects, viewMode }) => {
                     </span>
                   ))}
               </div>
+              <div class="card-actions">
+                {actions.map((action) => (
+                  <a
+                    key={action.kind}
+                    href={action.href}
+                    class="pill card-action"
+                    aria-label={action.ariaLabel}
+                    rel={action.external ? "noopener noreferrer" : undefined}
+                  >
+                    {action.label}
+                  </a>
+                ))}
+              </div>
             </div>
-          </a>
+          </div>
         );
       })}
     </div>

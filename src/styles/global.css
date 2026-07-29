@@ -264,6 +264,32 @@ main {
   font-variant-numeric: tabular-nums;
 }
 
+/* position:relative lifts the row above a stretched card overlay, which would
+   otherwise swallow every click. */
+.card-actions {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding-top: 0.75rem;
+}
+
+/* Scoped through .card-actions so it outranks the equal-specificity .pill rules
+   above. --accent as text on --pill-bg is 4.62:1; it must never become a fill,
+   since white on --accent is 3.06:1. Hover uses --accent-solid at 5.75:1. */
+.card-actions .card-action {
+  color: var(--accent);
+  border-color: var(--hairline);
+  font-weight: 700;
+}
+
+.card-actions .card-action:hover,
+.card-actions .card-action:focus-visible {
+  background: var(--accent-solid);
+  border-color: var(--accent-solid);
+  color: var(--accent-contrast);
+}
+
 .badge {
   display: inline-block;
   max-width: 100%;

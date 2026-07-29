@@ -120,13 +120,14 @@
 }
 
 .card {
-  display: block;
+  position: relative;
+  display: flex;
+  flex-direction: column;
   background: var(--bg-raised);
   border: 1px solid var(--hairline);
   border-top: 3px solid transparent;
   border-radius: var(--radius);
   overflow: hidden;
-  color: inherit;
   box-shadow: var(--shadow-card);
   transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
 }
@@ -135,7 +136,37 @@
   box-shadow: var(--shadow-card-hover);
   transform: translateY(-4px);
   border-top-color: var(--accent);
+}
+
+/* The card is no longer an anchor, so the title carries the navigation. Its
+   ::after keeps the whole card clickable without a second tab stop. */
+.card-link,
+.card-link:hover {
   color: inherit;
+}
+
+.card-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.card:hover .card-link {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Without :has() the ring stays on the title text, which is ugly but still a
+   visible indicator, so this needs no fallback. */
+.card:has(.card-link:focus-visible) {
+  outline: 2px solid var(--accent-hover);
+  outline-offset: 2px;
+}
+
+@supports selector(:has(a)) {
+  .card-link:focus-visible {
+    outline: none;
+  }
 }
 
 .card.deprecated .card-media {
@@ -159,13 +190,24 @@
   color: var(--monogram-fg);
 }
 
+/* Column so .card-actions can be pushed to the bottom, keeping the action rows
+   aligned across a row of equal-height cards. */
 .card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   padding: 0.875rem 1rem 1rem;
 }
 
 .card-title {
   font-size: 1rem;
   margin-bottom: 0.35rem;
+}
+
+/* Flex blockifies the badge's inline-block, so it would otherwise stretch to
+   the full card width instead of hugging its label. */
+.card-body > .badge {
+  align-self: flex-start;
 }
 
 .card-summary {
@@ -185,6 +227,12 @@
   flex-wrap: wrap;
   gap: 0.25rem;
   margin-top: 0.5rem;
+}
+
+/* margin-top:auto pushes the row to the bottom of the flex column so action rows
+   line up across a row of equal-height cards. */
+.card .card-actions {
+  margin-top: auto;
 }
 
 .no-results {
