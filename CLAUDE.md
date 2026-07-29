@@ -33,6 +33,10 @@ updating it.
   modify or drop existing README entries. Matches by title against `HEAD` by default
   (`--baseline-ref <ref>` to compare further back). Added entries are always fine; removals
   fail unless you pass `--allow-removals`.
+- `npm run check-links` - Check the generated README for dead links. Python, run via `uv`;
+  dependencies are declared inline (PEP 723) so there is no requirements file or venv to
+  manage. Exits non-zero on dead links or connection errors, and reports redirects
+  separately — read those, since a redirect is how a renamed repo hides a duplicate entry.
 
 ## Project Structure
 All paths below are relative to `site/`, except `docs/`, which is at the repo root.
@@ -44,7 +48,7 @@ All paths below are relative to `site/`, except `docs/`, which is at the repo ro
 - `src/styles/` - fonts.css (@font-face), global.css (tokens + shell), filter.css (grid and tag filtering UI)
 - `src/utils/` - categories.ts, monogram.ts, projectLinks.ts, and their vitest suites
 - `src/types.ts` - Shared ProjectEntry interface
-- `scripts/` - generate-readme.ts, validate-readme-parity.ts
+- `scripts/` - generate-readme.ts, validate-readme-parity.ts, check_links.py
 - `public/fonts/` - Vendored Aller and Alternate Gothic (TTF, see licence note below)
 - `public/img/` - Family logo and squidplug watermark
 - `config/readme-order.yaml` - Section ordering and hierarchy for README generation

@@ -9,7 +9,8 @@
     "preview": "astro preview",
     "test": "vitest run",
     "generate-readme": "tsx scripts/generate-readme.ts",
-    "validate-readme-parity": "tsx scripts/validate-readme-parity.ts"
+    "validate-readme-parity": "tsx scripts/validate-readme-parity.ts",
+    "check-links": "uv run scripts/check_links.py"
   },
   "engines": {
     "node": ">=22"
