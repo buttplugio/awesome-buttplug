@@ -25,5 +25,23 @@ const projects: ProjectEntry[] = rawProjects.map((p) => ({
 
 <BaseLayout title="Home">
   <Hero slot="hero" />
+  <p class="contribute" data-pagefind-ignore>
+    Built something that uses Buttplug?
+    <a href="https://github.com/buttplugio/awesome-buttplug/issues/new" rel="noopener">Open an issue to get it listed</a>.
+    Want support added to an app you didn't write?
+    <a href="https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-list/228" rel="noopener">Ask on the forum</a>.
+  </p>
   <ProjectFilter client:visible projects={projects} />
 </BaseLayout>
+
+<style>
+  .contribute {
+    border: 1px solid var(--hairline);
+    border-radius: var(--radius-sm);
+    background: var(--bg-raised);
+    padding: 0.6rem 0.85rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+  }
+</style>

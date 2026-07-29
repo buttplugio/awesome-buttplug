@@ -1,12 +1,26 @@
 preamble: |
   # 🍑🔌 List of Awesome Buttplug Projects! 🍑🔌
 
-  This is a list of different projects that use Buttplug in some way!
+  [![Patreon donate button](https://img.shields.io/badge/patreon-donate-yellow.svg)](https://www.patreon.com/qdot)
+  [![Github donate button](https://img.shields.io/badge/github-donate-ff69b4.svg)](https://www.github.com/sponsors/qdot)
+  [![Discourse Forums](https://img.shields.io/discourse/status?label=buttplug.io%20forums&server=https%3A%2F%2Fdiscuss.buttplug.io)](https://discuss.buttplug.io)
+  [![Discord](https://img.shields.io/discord/353303527587708932.svg?logo=discord)](https://discord.buttplug.io)
+  [![Bluesky](https://img.shields.io/bluesky/followers/buttplug.io)](https://bsky.app/profile/buttplug.io)
 
-  Want to request for a game or app you'd like Buttplug support in? [Reply to this thread on our forum or contact qDot directly!](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-list/228) (Instructions for direct contact are in post.)
+  This is a list of different projects that use Buttplug in some way! It is also available as a
+  searchable, filterable website at [awesome.buttplug.io](https://awesome.buttplug.io).
 
-  Have a finished (or even work in progress but generally working) project you'd like to see on this
-  list? [Submit an issue to this repo and let us know!](https://github.com/buttplugio/awesome-buttplug/issues)
+  ## Adding A Project
+
+  Have a finished project — or a work in progress that generally works — you'd like to see on this
+  list? [Open an issue on this repo](https://github.com/buttplugio/awesome-buttplug/issues/new) with
+  the project name, a link, and a sentence or two about what it does. Repo links, pricing, and
+  supported platforms are all welcome but optional.
+
+  Want to *request* Buttplug support in a game or app you didn't write? That goes on the support
+  request list instead: [reply to this thread on our forum, or contact qDot
+  directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-list/228)
+  (instructions for direct contact are in the post).
 
 sections:
   - id: applications/utilities
