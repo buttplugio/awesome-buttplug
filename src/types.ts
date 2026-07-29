@@ -2,6 +2,7 @@ export interface ProjectEntry {
   id: string;
   title: string;
   url: string;
+  repo?: string;
   summary: string;
   tags: string[];
   section: string;
