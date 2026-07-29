@@ -64,6 +64,13 @@ Every file in `src/content/projects/*.md` must have this frontmatter:
   which often duplicates the same sentence. Editing `pricing` alone leaves README.md
   byte-identical, so the two can legitimately disagree: badges stay short, README keeps the
   "available at <url>" prose.
+- **Never initialise island state from `localStorage` in a `useState` initialiser.** The server
+  has no `localStorage`, so the first client render disagrees with the SSR HTML. Read it in a
+  `useEffect` instead. Two things make this bite harder than a console warning:
+  `preact.hydrate()` never diffs attributes against existing DOM, so a class computed only
+  during hydration is silently dropped; and it *does* repair structural mismatches, so
+  conditionally-rendered nodes "work" by accident via DOM surgery. Keep card DOM identical
+  across view modes and switch with a class (`.card-grid.view-compact`) so shape can never diverge.
 - Tags must be URL-safe slugs (`/^[a-z0-9]+(?:-[a-z0-9]+)*$/`)
 - Every project section must be listed in `config/readme-order.yaml`
 - The site is fully static (no SSR)

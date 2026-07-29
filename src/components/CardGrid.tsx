@@ -17,7 +17,7 @@ const CardGrid: FunctionalComponent<Props> = ({ projects, viewMode }) => {
   }
 
   return (
-    <div class="card-grid">
+    <div class={`card-grid view-${viewMode}`}>
       {projects.map((project) => {
         const deprecated = isDeprecated(project);
         const pricing = project.pricing ? stripInlineMarkdown(project.pricing) : undefined;
@@ -30,17 +30,16 @@ const CardGrid: FunctionalComponent<Props> = ({ projects, viewMode }) => {
 
         return (
           <div key={project.id} class={`card ${deprecated ? "deprecated" : ""}`}>
-            {viewMode === "visual" &&
-              (project.image ? (
-                <img src={project.image} alt="" class="card-media" loading="lazy" />
-              ) : (
-                <div
-                  class="card-media card-monogram"
-                  style={{ background: `linear-gradient(135deg, ${from}, ${to})` }}
-                >
-                  {project.title.charAt(0).toUpperCase()}
-                </div>
-              ))}
+            {project.image ? (
+              <img src={project.image} alt="" class="card-media" loading="lazy" />
+            ) : (
+              <div
+                class="card-media card-monogram"
+                style={{ background: `linear-gradient(135deg, ${from}, ${to})` }}
+              >
+                {project.title.charAt(0).toUpperCase()}
+              </div>
+            )}
             <div class="card-body">
               <h3 class="card-title">
                 <a href={`/projects/${project.id}`} class="card-link">
