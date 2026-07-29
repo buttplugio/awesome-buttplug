@@ -559,6 +559,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Web based (Cross platform, via browser Bluetooth or [Intiface Central](https://intiface.com/central))
   - Funscript editor that runs entirely in the browser with no installation and no account
   - Drives The Handy, Autoblow AI Ultra, Kiiroo Keon and Pearl, Lovense, Euphoria F1 and OSR2/SR6
+- [ShibbyDex](https://shibbydex.com)
+  - Free, closed source
+  - Web based (Cross platform via browser, requires [Intiface Central](https://intiface.com/central))
+  - Catalogue of 500+ erotic hypnosis audio files with interactive haptic sync sessions for strokers, vibrators, and e-stim devices
 
 ## Games
 
