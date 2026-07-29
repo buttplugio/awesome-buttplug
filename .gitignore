@@ -5,11 +5,9 @@ check_links.py
 README.generated.md
 .superpowers/
 
-# Deciduous database (local)
+# Local agent tooling state
 .deciduous/
-
-# Claude local permissions/config
-.claude/settings.local.json
+.claude/
 
 # Playwright MCP session artifacts
 .playwright-mcp/
