@@ -19,13 +19,13 @@ Last verified: 2026-07-26
   fail unless you pass `--allow-removals`.
 
 ## Project Structure
-- `src/content/projects/` - Content collection: one .md file per project (347 entries)
+- `src/content/projects/` - Content collection: one .md file per project (402 entries)
 - `src/content.config.ts` - Zod schema for project frontmatter
 - `src/components/` - Preact islands (ProjectFilter, CardGrid, TagBar, CategoryRail, ViewToggle) and Hero.astro
 - `src/pages/` - Astro routes: index, `/projects/[id]`, `/tags/`, `/tags/[tag]`
 - `src/layouts/` - BaseLayout (global shell, named `hero` slot, analytics), ProjectLayout
 - `src/styles/` - fonts.css (@font-face), global.css (tokens + shell), filter.css (grid and tag filtering UI)
-- `src/utils/` - categories.ts, monogram.ts, and their vitest suites
+- `src/utils/` - categories.ts, monogram.ts, projectLinks.ts, and their vitest suites
 - `src/types.ts` - Shared ProjectEntry interface
 - `scripts/` - generate-readme.ts, migrate-readme.ts, validate-readme-parity.ts
 - `public/fonts/` - Vendored Aller and Alternate Gothic (TTF, see licence note below)
@@ -56,6 +56,14 @@ Every file in `src/content/projects/*.md` must have this frontmatter:
 - **Dedupe project URLs by canonical `full_name` from the GitHub API, never by the URL string.**
   Renamed accounts keep redirecting, so a moved repo still returns HTTP 200 and a plain link check
   calls it healthy while the same project sits in the list twice under two owners.
+- **`repo` equals `url` on 243 of 402 entries** — for libraries and mods the repo *is* the
+  project home. Anything rendering both as separate links must route through
+  `projectActions()` in `src/utils/projectLinks.ts`, or 60% of cards get two links to one
+  destination.
+- `pricing` is a **site-only display field**; the README is generated from `readme_bullets`,
+  which often duplicates the same sentence. Editing `pricing` alone leaves README.md
+  byte-identical, so the two can legitimately disagree: badges stay short, README keeps the
+  "available at <url>" prose.
 - Tags must be URL-safe slugs (`/^[a-z0-9]+(?:-[a-z0-9]+)*$/`)
 - Every project section must be listed in `config/readme-order.yaml`
 - The site is fully static (no SSR)
@@ -82,6 +90,12 @@ Load-bearing constraints, each of which was measured:
 - **Monogram gradients must clear 4.5:1 against 85% white at both endpoints.**
   Automated checkers report text over a gradient as "incomplete", not "fail", so
   this needs checking by hand. Keep 8 entries so `hash % 8` is unchanged.
+- **Card action buttons are the tightest measured pair on the site.** `.card-action` is
+  `--accent` text on `--pill-bg`, measured at 4.62:1 — it passes AA with 0.12 to spare, so do
+  not darken `--pill-bg` or dim the text. Hover fills with `--accent-solid` (5.75:1). The
+  rules live in `global.css` and are scoped through `.card-actions` because `.pill` is
+  equal-specificity and loads later; unscoping them silently reverts the colour to
+  `--pill-fg`.
 - Aller is a static two-weight family: use 400/700, never 650, and no italics
   (none is shipped, so browsers would synthesise an oblique).
 - The `Aller Fallback` `size-adjust` is a *measured* rendered-width ratio. The usual
