@@ -6,7 +6,7 @@ tags:
   - game
   - paid
   - windows
-pricing: "Paid, available at https://store.steampowered.com/app/2859130/"
+pricing: "Paid"
 platforms:
   - "Windows"
 summary: "Travel, survival and romance game that maps device activity to the body part the player character is receiving attention on"

@@ -7,7 +7,7 @@ tags:
   - open-source
   - free
   - cross-platform
-pricing: "Free, open source, repo at [https://github.com/PsychoSmiley/LLM_Buttplug/](https://github.com/PsychoSmiley/LLM_Buttplug/)"
+pricing: "Free, open source"
 platforms:
   - "Cross-platform"
 summary: "Let LLMs Control Sex Toy."

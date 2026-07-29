@@ -9,7 +9,7 @@ tags:
   - windows
   - macos
   - linux
-pricing: "Paid, available at https://soulcoom.itch.io/soulcoom"
+pricing: "Paid"
 platforms:
   - "Windows"
   - "macOS"

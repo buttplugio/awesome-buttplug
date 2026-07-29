@@ -6,7 +6,7 @@ tags:
   - game
   - free
   - windows
-pricing: "Free, available at https://markusawakening.itch.io/tease-ai-awakening"
+pricing: "Free"
 platforms:
   - "Windows"
 summary: "Script-driven tease and denial chat simulator that hands device control to the on-screen domme via Buttplug.io"

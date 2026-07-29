@@ -9,7 +9,7 @@ tags:
   - windows
   - macos
   - linux
-pricing: "Paid, available at https://store.steampowered.com/app/1813430/"
+pricing: "Paid"
 platforms:
   - "Windows"
   - "macOS"

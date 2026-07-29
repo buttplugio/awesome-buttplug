@@ -7,7 +7,7 @@ tags:
   - free
   - windows
   - linux
-pricing: "Free demo, available at https://fluffykaeloky.itch.io/star-spawn-demo"
+pricing: "Free demo"
 platforms:
   - "Windows"
   - "Linux"

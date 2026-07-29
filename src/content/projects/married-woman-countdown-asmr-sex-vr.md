@@ -8,7 +8,7 @@ tags:
   - windows
   - android
   - vr
-pricing: "Paid, available at https://gamessafu.itch.io/married-woman-countdown-asmr-sex-vr"
+pricing: "Paid"
 platforms:
   - "Windows"
   - "Android"

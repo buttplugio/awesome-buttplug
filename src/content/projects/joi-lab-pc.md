@@ -6,7 +6,7 @@ tags:
   - game
   - paid
   - windows
-pricing: "Paid, available at https://store.steampowered.com/app/3431800/"
+pricing: "Paid"
 platforms:
   - "Windows"
 summary: "Aim-training and interactive JOI game with toy control through Intiface Central"

@@ -6,7 +6,7 @@ tags:
   - game
   - paid
   - windows
-pricing: "Paid, available at https://store.steampowered.com/app/2709090/"
+pricing: "Paid"
 platforms:
   - "Windows"
 summary: "RPG Maker adult horror RPG that lists vibrating smart toy integration through Intiface as a store feature"

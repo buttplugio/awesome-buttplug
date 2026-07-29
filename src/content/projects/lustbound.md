@@ -6,7 +6,7 @@ tags:
   - game
   - free
   - windows
-pricing: "Free, available at https://download.lustboundgame.com/"
+pricing: "Free"
 platforms:
   - "Windows"
 summary: "JOI game w/ Buttplug Support"

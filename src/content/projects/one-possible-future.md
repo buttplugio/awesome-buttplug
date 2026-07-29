@@ -6,7 +6,7 @@ tags:
   - game
   - paid
   - windows
-pricing: "Paid, available at https://store.steampowered.com/app/3272320/"
+pricing: "Paid"
 platforms:
   - "Windows"
 summary: "Adult sci-fi visual novel that uses Intiface Central to support dozens of toys from many manufacturers"

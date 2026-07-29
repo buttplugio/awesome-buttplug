@@ -7,7 +7,7 @@ tags:
   - paid
   - windows
   - vr
-pricing: "Paid, available at https://www.patreon.com/goatvr"
+pricing: "Paid"
 platforms:
   - "Windows"
   - "VR"

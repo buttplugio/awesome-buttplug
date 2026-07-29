@@ -6,7 +6,7 @@ tags:
   - utility
   - free
   - web
-pricing: "Free, available at https://qazm.itch.io/plug2in-pattern-composer"
+pricing: "Free"
 platforms:
   - "Web"
 summary: "Browser tool for prototyping and previewing vibration patterns for Plug₂in 2.0.0+"

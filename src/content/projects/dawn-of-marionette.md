@@ -7,7 +7,7 @@ tags:
   - paid
   - windows
   - vr
-pricing: "Paid, available at https://gamessafu.itch.io/dawn-of-marionette"
+pricing: "Paid"
 platforms:
   - "Windows"
   - "VR"

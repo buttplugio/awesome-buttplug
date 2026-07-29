@@ -7,7 +7,7 @@ tags:
   - paid
   - windows
   - vr
-pricing: "Paid, available at https://deviantdev.itch.io/dominatrix-simulator"
+pricing: "Paid"
 platforms:
   - "Windows"
   - "VR"

@@ -6,7 +6,7 @@ tags:
   - game
   - free
   - windows
-pricing: "Free, available at https://cockherogame.itch.io/cock-hero"
+pricing: "Free"
 platforms:
   - "Windows"
 summary: "Rhythm game with Intiface toy support in the Toys settings menu, working with any Intiface-compatible device"

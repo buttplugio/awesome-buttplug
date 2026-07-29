@@ -7,7 +7,7 @@ tags:
   - paid
   - windows
   - android
-pricing: "Paid, available at https://multisekai.itch.io/chu"
+pricing: "Paid"
 platforms:
   - "Windows"
   - "Android"
