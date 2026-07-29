@@ -1,0 +1,9 @@
+# The site lives in site/ so the repo root stays legible on GitHub. `publish` is
+# resolved relative to `base`, so this is site/dist.
+[build]
+  base = "site"
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"

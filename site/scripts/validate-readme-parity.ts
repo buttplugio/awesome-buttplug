@@ -1,7 +1,10 @@
 import fs from "node:fs";
+import path from "node:path";
 import { execFileSync } from "node:child_process";
 
-const ROOT_README = "README.md";
+// The README sits at the repo root, one level above site/. The `git show` path
+// below stays bare because git resolves ref-qualified paths from the root.
+const ROOT_README = path.resolve(import.meta.dirname, "..", "..", "README.md");
 const DEFAULT_BASELINE_REF = "HEAD";
 const EXCLUDED_TOP_LEVEL_SECTIONS = new Set([
   "Table Of Contents",

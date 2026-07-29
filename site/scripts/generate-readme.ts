@@ -33,10 +33,14 @@ interface EmittedHeading {
   text: string;
 }
 
-const PROJECTS_DIR = path.resolve("src/content/projects");
-const ORDER_CONFIG = path.resolve("config/readme-order.yaml");
-const GENERATED_README = path.resolve("README.generated.md");
-const ROOT_README = path.resolve("README.md");
+// Anchored to this file rather than the CWD: the site lives in site/ but the
+// README it generates has to sit at the repo root for GitHub to render it.
+const SITE_ROOT = path.resolve(import.meta.dirname, "..");
+const REPO_ROOT = path.resolve(SITE_ROOT, "..");
+const PROJECTS_DIR = path.join(SITE_ROOT, "src/content/projects");
+const ORDER_CONFIG = path.join(SITE_ROOT, "config/readme-order.yaml");
+const GENERATED_README = path.join(REPO_ROOT, "README.generated.md");
+const ROOT_README = path.join(REPO_ROOT, "README.md");
 // Only used to bootstrap: when there is no committed README to compare against.
 const BOOTSTRAP_MIN_ENTRIES = 189;
 // Fraction of the committed README's entries that may disappear before we refuse to write.
