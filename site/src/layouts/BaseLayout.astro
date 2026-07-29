@@ -7,7 +7,15 @@ interface Props {
 }
 
 const { title } = Astro.props;
-const matomoSiteId = import.meta.env.PUBLIC_MATOMO_SITE_ID;
+
+// Both values ship in the page source to every visitor, so they are constants, not
+// secrets. They were previously read from PUBLIC_MATOMO_SITE_ID, which was never set
+// anywhere — so the tracker silently did not exist and nothing reported that.
+const MATOMO_URL = "https://metrics.nonpolynomial.com/";
+const MATOMO_SITE_ID = "14";
+// PROD is false under `astro dev` but true under `astro preview`, which serves the
+// production build — previewing locally will register real hits.
+const analyticsEnabled = import.meta.env.PROD;
 ---
 
 <!doctype html>
@@ -23,6 +31,23 @@ const matomoSiteId = import.meta.env.PUBLIC_MATOMO_SITE_ID;
     <meta property="og:description" content="A curated list of awesome projects using the Buttplug sex toy control protocol." />
     <meta property="og:type" content="website" />
     <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+    {analyticsEnabled && (
+      <script define:vars={{ MATOMO_URL, MATOMO_SITE_ID }}>
+        var _paq = (window._paq = window._paq || []);
+        _paq.push(["trackPageView"]);
+        _paq.push(["enableLinkTracking"]);
+        (function () {
+          _paq.push(["setTrackerUrl", MATOMO_URL + "matomo.php"]);
+          _paq.push(["setSiteId", MATOMO_SITE_ID]);
+          var d = document,
+            g = d.createElement("script"),
+            s = d.getElementsByTagName("script")[0];
+          g.async = true;
+          g.src = MATOMO_URL + "matomo.js";
+          s.parentNode.insertBefore(g, s);
+        })();
+      </script>
+    )}
   </head>
   <body>
     <header data-pagefind-ignore>
@@ -68,19 +93,5 @@ const matomoSiteId = import.meta.env.PUBLIC_MATOMO_SITE_ID;
         }
       });
     </script>
-    {matomoSiteId && (
-      <script define:vars={{ matomoSiteId }}>
-        var _paq = window._paq = window._paq || [];
-        _paq.push(['trackPageView']);
-        _paq.push(['enableLinkTracking']);
-        (function() {
-          var u="//metrics.nonpolynomial.com/";
-          _paq.push(['setTrackerUrl', u+'matomo.php']);
-          _paq.push(['setSiteId', matomoSiteId]);
-          var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-          g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-        })();
-      </script>
-    )}
   </body>
 </html>

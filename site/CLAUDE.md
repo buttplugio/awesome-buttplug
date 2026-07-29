@@ -4,10 +4,10 @@ Last verified: 2026-07-28
 
 ## Repo Layout
 
-The repo root holds only `README.md`, `CLAUDE.md`, `netlify.toml`, `docs/` and `site/`.
-GitHub renders the file listing above the README, and on an awesome list the README *is*
-the product, so everything Astro needs lives under `site/`. **Run every npm command from
-`site/`.**
+The repo root holds only `README.md`, `netlify.toml`, `.gitignore` and `site/`. GitHub
+renders the file listing above the README, and on an awesome list the README *is* the
+product, so everything else — this file included — lives under `site/`. **Run every npm
+command from `site/`.**
 
 `README.md` stays at the root because that is the only place GitHub renders it, even
 though it is generated from `site/src/content/projects/`. The two scripts that touch it
@@ -23,7 +23,7 @@ updating it.
 - Search: Pagefind (post-build indexing)
 - Language: TypeScript
 - Node: >=22
-- Analytics: Matomo (conditional on MATOMO env vars)
+- Analytics: Matomo, in `BaseLayout.astro` (site 14 on metrics.nonpolynomial.com)
 
 ## Commands
 - `npm run dev` - Start Astro dev server
@@ -39,7 +39,7 @@ updating it.
   separately — read those, since a redirect is how a renamed repo hides a duplicate entry.
 
 ## Project Structure
-All paths below are relative to `site/`, except `docs/`, which is at the repo root.
+All paths below are relative to `site/`.
 - `src/content/projects/` - Content collection: one .md file per project (402 entries)
 - `src/content.config.ts` - Zod schema for project frontmatter
 - `src/components/` - Preact islands (ProjectFilter, CardGrid, TagBar, CategoryRail, ViewToggle) and Hero.astro
@@ -52,7 +52,6 @@ All paths below are relative to `site/`, except `docs/`, which is at the repo ro
 - `public/fonts/` - Vendored Aller and Alternate Gothic (TTF, see licence note below)
 - `public/img/` - Family logo and squidplug watermark
 - `config/readme-order.yaml` - Section ordering and hierarchy for README generation
-- `../docs/` - Design and implementation plans, kept for history; not read by the build
 
 ## Content Collection Schema
 Every file in `src/content/projects/*.md` must have this frontmatter:
@@ -102,6 +101,12 @@ Every file in `src/content/projects/*.md` must have this frontmatter:
   during hydration is silently dropped; and it *does* repair structural mismatches, so
   conditionally-rendered nodes "work" by accident via DOM surgery. Keep card DOM identical
   across view modes and switch with a class (`.card-grid.view-compact`) so shape can never diverge.
+- **The Matomo site id and endpoint are hardcoded constants, not env vars.** They ship in
+  the page source to every visitor, so gating them behind `PUBLIC_MATOMO_SITE_ID` bought no
+  secrecy and cost a silent failure: the variable was never set anywhere, so the tracker was
+  absent from every build for the site's whole life with nothing reporting it. The gate is
+  now `import.meta.env.PROD`, which is false under `astro dev` — but *true* under
+  `astro preview`, so local previews register real hits.
 - Tags must be URL-safe slugs (`/^[a-z0-9]+(?:-[a-z0-9]+)*$/`)
 - Every project section must be listed in `config/readme-order.yaml`
 - The site is fully static (no SSR)
