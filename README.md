@@ -7,6 +7,32 @@ Want to request for a game or app you'd like Buttplug support in? [Reply to this
 Have a finished (or even work in progress but generally working) project you'd like to see on this
 list? [Submit an issue to this repo and let us know!](https://github.com/buttplugio/awesome-buttplug/issues)
 
+## Table Of Contents
+
+* [Applications](#applications)
+  * [Utilities](#utilities)
+  * [Video Sync / Movies](#video-sync--movies)
+  * [Audio Sync](#audio-sync)
+* [Websites and Services](#websites-and-services)
+* [Games](#games)
+* [Game Mods](#game-mods)
+  * [Counter-Strike](#counter-strike)
+  * [Overwatch 2](#overwatch-2)
+  * [Risk of Rain 2](#risk-of-rain-2)
+  * [Minecraft](#minecraft)
+  * [FFXIV](#ffxiv)
+  * [Terraria](#terraria)
+* [Virtual Worlds](#virtual-worlds)
+  * [VRChat](#vrchat)
+* [Hardware Support](#hardware-support)
+* [Development and Libraries](#development-and-libraries)
+  * [General Development](#general-development)
+  * [Gleam](#gleam)
+  * [Game Development](#game-development)
+  * [Other Frameworks and Plugins](#other-frameworks-and-plugins)
+* [DIY Hardware Projects](#diy-hardware-projects)
+* [Deprecated Projects](#deprecated-projects)
+
 ## Applications
 
 ### Utilities

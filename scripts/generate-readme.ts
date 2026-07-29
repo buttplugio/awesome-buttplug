@@ -28,6 +28,11 @@ interface ProjectEntry {
   order: number;
 }
 
+interface EmittedHeading {
+  level: number;
+  text: string;
+}
+
 const PROJECTS_DIR = path.resolve("src/content/projects");
 const ORDER_CONFIG = path.resolve("config/readme-order.yaml");
 const GENERATED_README = path.resolve("README.generated.md");
@@ -37,6 +42,14 @@ const BOOTSTRAP_MIN_ENTRIES = 189;
 // Fraction of the committed README's entries that may disappear before we refuse to write.
 const MAX_SHRINK_RATIO = 0.05;
 const README_ENTRY_LINE = /^- \[/gm;
+// Categories and their subsections. Level 4 is excluded because the language
+// buckets include "C#" and "C++", which both slug to #c and are disambiguated
+// only by document position.
+const TOC_MAX_LEVEL = 3;
+// validate-readme-parity.ts skips this section by exact name, and the `*` bullets
+// below are invisible to both scripts' `- [` entry regexes. Changing either the
+// casing or the bullet character makes the TOC parse as project entries.
+const TOC_HEADING = "Table Of Contents";
 
 function readEntries(): ProjectEntry[] {
   const files = fs.readdirSync(PROJECTS_DIR).filter((f) => f.endsWith(".md"));
@@ -69,6 +82,35 @@ function formatEntry(entry: ProjectEntry): string {
 
 function generateHeading(level: number, text: string): string {
   return "#".repeat(level) + " " + text;
+}
+
+/** GitHub's heading anchor rules: lowercase, drop punctuation, spaces to hyphens. */
+function slugify(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/[^\w\- ]/g, "")
+    .replace(/ /g, "-");
+}
+
+/** Built from the headings actually emitted, so it cannot link to a section that
+ *  was skipped for having no entries. */
+function generateToc(headings: EmittedHeading[]): string[] {
+  const lines = [generateHeading(2, TOC_HEADING), ""];
+  // Counted over every heading, not just the linked ones, because GitHub's
+  // "-1" disambiguation is positional across the whole document.
+  const slugsSeen = new Map<string, number>();
+
+  for (const { level, text } of headings) {
+    const slug = slugify(text);
+    const collisions = slugsSeen.get(slug) ?? 0;
+    slugsSeen.set(slug, collisions + 1);
+    if (level > TOC_MAX_LEVEL) continue;
+    const anchor = collisions === 0 ? slug : `${slug}-${collisions}`;
+    lines.push(`${"  ".repeat(level - 2)}* [${text}](#${anchor})`);
+  }
+
+  lines.push("");
+  return lines;
 }
 
 function countCommittedReadmeEntries(): number | null {
@@ -137,47 +179,51 @@ function generate(): void {
     }
   }
 
-  const lines: string[] = [config.preamble.trimEnd(), ""];
-
+  const bodyLines: string[] = [];
   const emittedHeadings = new Set<string>();
+  const headings: EmittedHeading[] = [];
+
+  const emitHeading = (level: number, text: string): void => {
+    const key = `${level}:${text}`;
+    if (emittedHeadings.has(key)) return;
+    emittedHeadings.add(key);
+    headings.push({ level, text });
+    bodyLines.push(generateHeading(level, text));
+    bodyLines.push("");
+  };
 
   for (const section of config.sections) {
     const sectionEntries = (entriesBySection.get(section.id) || [])
       .sort((a, b) => a.order - b.order);
     if (sectionEntries.length === 0) continue;
 
+    // Ancestors are virtual: they exist only as strings on their children, so the
+    // first child to appear is what emits them.
     if (section.grandparent && section.grandparent_level) {
-      const gpKey = `${section.grandparent_level}:${section.grandparent}`;
-      if (!emittedHeadings.has(gpKey)) {
-        lines.push(generateHeading(section.grandparent_level, section.grandparent));
-        lines.push("");
-        emittedHeadings.add(gpKey);
-      }
+      emitHeading(section.grandparent_level, section.grandparent);
     }
-
     if (section.parent && section.parent_level) {
-      const pKey = `${section.parent_level}:${section.parent}`;
-      if (!emittedHeadings.has(pKey)) {
-        lines.push(generateHeading(section.parent_level, section.parent));
-        lines.push("");
-        emittedHeadings.add(pKey);
-      }
+      emitHeading(section.parent_level, section.parent);
     }
-
-    lines.push(generateHeading(section.level, section.heading));
-    emittedHeadings.add(`${section.level}:${section.heading}`);
-    lines.push("");
+    emitHeading(section.level, section.heading);
 
     if (section.intro) {
-      lines.push(section.intro);
-      lines.push("");
+      bodyLines.push(section.intro);
+      bodyLines.push("");
     }
 
     for (const entry of sectionEntries) {
-      lines.push(formatEntry(entry));
+      bodyLines.push(formatEntry(entry));
     }
-    lines.push("");
+    bodyLines.push("");
   }
+
+  const lines: string[] = [
+    config.preamble.trimEnd(),
+    "",
+    ...generateToc(headings),
+    ...bodyLines,
+  ];
 
   const output = lines.join("\n").trimEnd() + "\n";
   const outputFile = isFullMigration ? ROOT_README : GENERATED_README;
