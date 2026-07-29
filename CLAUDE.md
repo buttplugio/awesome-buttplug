@@ -50,6 +50,13 @@ Every file in `src/content/projects/*.md` must have this frontmatter:
 
 ## Key Invariants
 - README.md is auto-generated from the content collection via postbuild hook
+- **The README TOC is derived from the headings actually emitted, not from `readme-order.yaml`.**
+  Sections with no entries are skipped (`chilloutvr` is configured but empty), so a TOC built
+  from the config would link to anchors that do not exist. Two conventions in `generateToc()`
+  are load-bearing: the heading must stay exactly `## Table Of Contents` (capital `O` — it is
+  matched by name in `EXCLUDED_TOP_LEVEL_SECTIONS`), and bullets must stay `*`, because both
+  scripts detect project entries with a `^- \[` regex. Switching to `-` would parse every TOC
+  link as a project and inflate the shrink-guard baseline.
 - generate-readme.ts refuses to write README.md if fewer than 189 entries or orphaned sections exist.
   That floor is the original migration baseline, not the current count — it protects against a failed
   collection load clobbering the README, so it stays well below the live total.
