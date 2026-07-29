@@ -3,6 +3,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 import { stripInlineMarkdown } from "../../utils/displayText";
 import { isDeprecated } from "../../utils/categories";
+import { projectActions } from "../../utils/projectLinks";
 
 export async function getStaticPaths() {
   const projects = await getCollection("projects");
@@ -42,6 +43,18 @@ const { tag, projects } = Astro.props;
                 class:list={["pill", "pill-sm", { active: t === tag }]}
               >
                 {t}
+              </a>
+            ))}
+          </div>
+          <div class="card-actions">
+            {projectActions({ id: project.id, ...project.data }).map((action) => (
+              <a
+                href={action.href}
+                class="pill card-action"
+                aria-label={action.ariaLabel}
+                rel={action.external ? "noopener noreferrer" : undefined}
+              >
+                {action.label}
               </a>
             ))}
           </div>
