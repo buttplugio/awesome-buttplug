@@ -1,25 +1,23 @@
 ---
 title: "Minegasm (Minecraft)"
-url: "https://minegasm.therainbowville.com/"
-repo: "https://github.com/RainbowVille/minegasm"
-section: "deprecated"
+url: "https://www.minegasm.net"
+repo: "https://code.minegasm.net"
+section: "game-mods/minecraft"
 tags:
-  - deprecated
+  - game-mod
   - open-source
   - free
   - cross-platform
+  - minecraft
 pricing: "Free, open source"
 platforms:
   - "Cross-platform"
-summary: "Sex toy control plugin for Minecraft Forge"
+summary: "Haptic feedback for Minecraft Forge, NeoForge, and Fabric"
 readme_bullets:
-  - "Free, open source, repo at https://github.com/RainbowVille/minegasm"
+  - "Free, open source, repo at https://code.minegasm.net"
   - "Cross Platform (requires [Intiface Central](https://intiface.com/central))"
-  - "Sex toy control plugin for Minecraft Forge"
-  - "[Ported to Fabric](https://github.com/vinceh121/Minegasm-fabric)"
-  - "Deprecation Reason: SSL certificate expired, site likely abandoned"
-deprecation_reason: "SSL certificate expired, site likely abandoned"
+  - "Haptic feedback for modded Minecraft (Forge, NeoForge, and Fabric), with buttplug.io protocol support."
 order: 24
 ---
 
-Sex toy control plugin for Minecraft Forge
+Haptic feedback for modded Minecraft (Forge, NeoForge, and Fabric), with buttplug.io protocol support.
