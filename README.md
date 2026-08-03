@@ -386,6 +386,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, open source (MIT), repo at https://github.com/Karasukaigan/TavLite
   - Python application; chat with any OpenAI-compatible LLM, build and manage character cards, fully local
   - Lightweight local AI roleplay chat application with device control via Intiface Central
+- [opencode-buttplugio](https://github.com/FurryR/opencode-buttplugio)
+  - Free, open source (MIT), repo at https://github.com/FurryR/opencode-buttplugio
+  - Cross platform TUI plugin for [OpenCode](https://opencode.ai), installed with `opencode plugin opencode-plugin-buttplugio`; requires [Intiface Central](https://intiface.com/central)
+  - OpenCode plugin that maps agent events (streaming output, patch application, tool call success and failure, session completion, permission requests) to device feedback
 - [BridgeWeaver](https://addons.mozilla.org/en-US/firefox/addon/bridgeweaver/)
   - Free
   - Firefox extension (Cross platform, requires [Intiface Central](https://intiface.com/central))
