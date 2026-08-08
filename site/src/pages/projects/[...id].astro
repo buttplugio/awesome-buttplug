@@ -14,7 +14,7 @@ export async function getStaticPaths() {
 
 const { project } = Astro.props;
 const { Content } = await render(project);
-const { title, url, repo, tags, pricing, platforms, deprecation_reason } = project.data;
+const { title, url, repo, tags, pricing, platforms, deprecation_reason, added } = project.data;
 const deprecated = isDeprecated(project.data);
 const displayPricing = pricing ? stripInlineMarkdown(pricing) : undefined;
 const displayDeprecationReason = deprecation_reason
@@ -37,6 +37,7 @@ const displayDeprecationReason = deprecation_reason
       {platforms && platforms.length > 0 && (
         <span class="meta-platforms">Platforms: {platforms.join(", ")}</span>
       )}
+      <span class="meta-added">Added: {added}</span>
     </div>
 
     <div class="tags">
@@ -72,7 +73,8 @@ const displayDeprecationReason = deprecation_reason
   .meta-link {
     font-weight: 500;
   }
-  .meta-platforms {
+  .meta-platforms,
+  .meta-added {
     color: var(--text-muted);
     font-size: 0.9rem;
   }

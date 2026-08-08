@@ -82,6 +82,7 @@
   justify-content: space-between;
   gap: 1rem;
   margin: 0.75rem 0 1rem;
+  flex-wrap: wrap;
 }
 
 .result-count {
@@ -89,14 +90,22 @@
   color: var(--text-muted);
 }
 
-.view-toggle {
+.toolbar-controls {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.view-toggle,
+.sort-toggle {
   display: inline-flex;
   background: var(--bg-inset);
   border-radius: var(--radius-sm);
   padding: 2px;
 }
 
-.view-toggle button {
+.view-toggle button,
+.sort-toggle button {
   border: none;
   background: transparent;
   color: var(--text-muted);
@@ -107,7 +116,8 @@
   cursor: pointer;
 }
 
-.view-toggle button.on {
+.view-toggle button.on,
+.sort-toggle button.on {
   background: var(--bg-raised);
   color: var(--text-bright);
   box-shadow: var(--shadow-control);
