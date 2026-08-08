@@ -9,6 +9,7 @@
     "preview": "astro preview",
     "test": "vitest run",
     "generate-readme": "tsx scripts/generate-readme.ts",
+    "backfill-added-dates": "tsx scripts/backfill-added-dates.ts",
     "validate-readme-parity": "tsx scripts/validate-readme-parity.ts",
     "check-links": "uv run scripts/check_links.py"
   },
