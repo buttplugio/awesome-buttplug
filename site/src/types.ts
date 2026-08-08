@@ -7,6 +7,7 @@ export interface ProjectEntry {
   tags: string[];
   section: string;
   category: string;
+  added: string;
   image?: string;
   pricing?: string;
   deprecation_reason?: string;

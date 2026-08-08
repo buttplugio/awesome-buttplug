@@ -11,6 +11,7 @@ function entry(id: string, category: string, tags: string[]): ProjectEntry {
     tags,
     section: category,
     category,
+    added: "2024-01-01",
   };
 }
 

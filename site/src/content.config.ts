@@ -22,6 +22,7 @@ const projects = defineCollection({
     readme_bullets: z.array(z.string()).min(1),
     deprecation_reason: z.string().optional(),
     order: z.number().optional(),
+    added: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "added must be a quoted YYYY-MM-DD string"),
   }),
 });
 

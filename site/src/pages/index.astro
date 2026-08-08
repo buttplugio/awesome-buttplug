@@ -17,6 +17,7 @@ const projects: ProjectEntry[] = rawProjects.map((p) => ({
   tags: p.data.tags,
   section: p.data.section,
   category: categoryForSection(p.data.section).slug,
+  added: p.data.added,
   image: p.data.image,
   pricing: p.data.pricing,
   deprecation_reason: p.data.deprecation_reason,
