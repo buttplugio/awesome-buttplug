@@ -1,7 +1,7 @@
 import type { FunctionalComponent } from "preact";
 import { useState, useMemo, useCallback, useEffect } from "preact/hooks";
 import type { ProjectEntry } from "../types";
-import { filterProjects } from "../utils/filterProjects";
+import { deprecatedLast, filterProjects } from "../utils/filterProjects";
 import { parseFilterState, serializeFilterState } from "../utils/filterState";
 import CategoryRail from "./CategoryRail";
 import TagBar from "./TagBar";
@@ -47,6 +47,11 @@ const ProjectFilter: FunctionalComponent<Props> = ({ projects }) => {
   const filtered = useMemo(
     () => filterProjects(projects, category, selectedTags),
     [projects, category, selectedTags],
+  );
+
+  const visible = useMemo(
+    () => (category === "all" ? deprecatedLast(filtered) : filtered),
+    [filtered, category],
   );
 
   const railCounts = useMemo(() => {
@@ -101,7 +106,7 @@ const ProjectFilter: FunctionalComponent<Props> = ({ projects }) => {
         </p>
         <ViewToggle mode={viewMode} onChange={changeViewMode} />
       </div>
-      <CardGrid projects={filtered} viewMode={viewMode} />
+      <CardGrid projects={visible} viewMode={viewMode} />
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { filterProjects } from "./filterProjects";
+import { deprecatedLast, filterProjects } from "./filterProjects";
 import type { ProjectEntry } from "../types";
 
 function entry(id: string, category: string, tags: string[]): ProjectEntry {
@@ -23,9 +23,9 @@ const PROJECTS: ProjectEntry[] = [
 ];
 
 describe("filterProjects", () => {
-  it("returns everything for all/no-tags, deprecated last", () => {
+  it("returns everything for all/no-tags in collection order", () => {
     const result = filterProjects(PROJECTS, "all", []);
-    expect(result.map((p) => p.id)).toEqual(["saber", "anki", "paid-app", "dead-mod"]);
+    expect(result.map((p) => p.id)).toEqual(["saber", "anki", "dead-mod", "paid-app"]);
   });
 
   it("filters by category slug", () => {
@@ -43,8 +43,31 @@ describe("filterProjects", () => {
     expect(filterProjects(PROJECTS, "all", ["free", "vr"]).map((p) => p.id)).toEqual(["saber"]);
   });
 
-  it("preserves collection order within the non-deprecated partition", () => {
+  it("no longer partitions deprecated entries itself", () => {
     const result = filterProjects(PROJECTS, "all", ["free"]);
     expect(result.map((p) => p.id)).toEqual(["saber", "anki", "dead-mod"]);
+  });
+});
+
+describe("deprecatedLast", () => {
+  it("moves deprecated entries to the end", () => {
+    const result = deprecatedLast(filterProjects(PROJECTS, "all", []));
+    expect(result.map((p) => p.id)).toEqual(["saber", "anki", "paid-app", "dead-mod"]);
+  });
+
+  it("preserves the incoming order within each partition", () => {
+    const ordered = [...PROJECTS].reverse();
+    expect(deprecatedLast(ordered).map((p) => p.id)).toEqual([
+      "paid-app",
+      "anki",
+      "saber",
+      "dead-mod",
+    ]);
+  });
+
+  it("does not mutate its input", () => {
+    const input = [...PROJECTS];
+    deprecatedLast(input);
+    expect(input.map((p) => p.id)).toEqual(PROJECTS.map((p) => p.id));
   });
 });

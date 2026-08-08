@@ -5,16 +5,16 @@ export function filterProjects(
   category: string,
   tags: string[],
 ): ProjectEntry[] {
-  const matched = projects.filter(
+  return projects.filter(
     (project) =>
       (category === "all" || project.category === category) &&
       tags.every((tag) => project.tags.includes(tag)),
   );
+}
 
-  if (category !== "all") return matched;
-
+export function deprecatedLast(projects: ProjectEntry[]): ProjectEntry[] {
   return [
-    ...matched.filter((project) => project.category !== "deprecated"),
-    ...matched.filter((project) => project.category === "deprecated"),
+    ...projects.filter((project) => project.category !== "deprecated"),
+    ...projects.filter((project) => project.category === "deprecated"),
   ];
 }
