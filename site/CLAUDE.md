@@ -1,6 +1,6 @@
 # awesome-buttplug
 
-Last verified: 2026-07-28
+Last verified: 2026-08-08
 
 ## Repo Layout
 
@@ -40,13 +40,14 @@ updating it.
 
 ## Project Structure
 All paths below are relative to `site/`.
-- `src/content/projects/` - Content collection: one .md file per project (402 entries)
+- `src/content/projects/` - Content collection: one .md file per project (405 entries)
 - `src/content.config.ts` - Zod schema for project frontmatter
-- `src/components/` - Preact islands (ProjectFilter, CardGrid, TagBar, CategoryRail, ViewToggle) and Hero.astro
+- `src/components/` - Preact islands (ProjectFilter, CardGrid, TagBar, CategoryRail, ViewToggle, SortToggle) and Hero.astro
 - `src/pages/` - Astro routes: index, `/projects/[id]`, `/tags/`, `/tags/[tag]`
 - `src/layouts/` - BaseLayout (global shell, named `hero` slot, analytics), ProjectLayout
 - `src/styles/` - fonts.css (@font-face), global.css (tokens + shell), filter.css (grid and tag filtering UI)
-- `src/utils/` - categories.ts, monogram.ts, projectLinks.ts, and their vitest suites
+- `src/utils/` - categories.ts, monogram.ts, projectLinks.ts, displayText.ts, tagDisplay.ts,
+  filterProjects.ts, filterState.ts, sortProjects.ts, and their vitest suites
 - `src/types.ts` - Shared ProjectEntry interface
 - `scripts/` - generate-readme.ts, validate-readme-parity.ts, check_links.py
 - `public/fonts/` - Vendored Aller and Alternate Gothic (TTF, see licence note below)
@@ -67,6 +68,7 @@ Every file in `src/content/projects/*.md` must have this frontmatter:
 - `readme_bullets` (array of strings, min 1, required)
 - `deprecation_reason` (string, optional)
 - `order` (number, optional) - controls sort within section
+- `added` (quoted `YYYY-MM-DD` string, required) - when the entry joined this list
 
 ## Key Invariants
 - README.md is auto-generated from the content collection via postbuild hook
@@ -83,7 +85,7 @@ Every file in `src/content/projects/*.md` must have this frontmatter:
 - **Dedupe project URLs by canonical `full_name` from the GitHub API, never by the URL string.**
   Renamed accounts keep redirecting, so a moved repo still returns HTTP 200 and a plain link check
   calls it healthy while the same project sits in the list twice under two owners.
-- **`repo` equals `url` on 243 of 402 entries** — for libraries and mods the repo *is* the
+- **`repo` equals `url` on 245 of 405 entries** — for libraries and mods the repo *is* the
   project home. Anything rendering both as separate links must route through
   `projectActions()` in `src/utils/projectLinks.ts`, or 60% of cards get two links to one
   destination.
@@ -101,12 +103,38 @@ Every file in `src/content/projects/*.md` must have this frontmatter:
   during hydration is silently dropped; and it *does* repair structural mismatches, so
   conditionally-rendered nodes "work" by accident via DOM surgery. Keep card DOM identical
   across view modes and switch with a class (`.card-grid.view-compact`) so shape can never diverge.
+- **The same rule binds `sort`, even though it comes from the URL rather than `localStorage`.**
+  The site is fully static: one HTML file serves every query string, so the grid is always
+  rendered in the default order. `cat` and `tags` get away with being read during render
+  because filtering only ever *removes* cards, leaving an order-preserving subsequence that
+  Preact repairs quietly. Sorting **reorders** them, and seeding `sortMode` from the URL in
+  the `useState` initialiser produced 184 hydration errors on `?sort=newest` — measured, not
+  theorised. `sortMode` therefore starts at `DEFAULT_SORT_MODE` and adopts the URL value in
+  the mount effect. The cost is a visible reorder just after paint on a `?sort=` deep link,
+  which is the same trade the Visual view mode already makes.
 - **The Matomo site id and endpoint are hardcoded constants, not env vars.** They ship in
   the page source to every visitor, so gating them behind `PUBLIC_MATOMO_SITE_ID` bought no
   secrecy and cost a silent failure: the variable was never set anywhere, so the tracker was
   absent from every build for the site's whole life with nothing reporting it. The gate is
   now `import.meta.env.PROD`, which is false under `astro dev` — but *true* under
   `astro preview`, so local previews register real hits.
+- **`added` is a quoted string, never a bare YAML date.** Bare `2021-01-23` parses as a
+  YAML timestamp and arrives as a `Date`, failing the schema on every entry. The field is
+  also deliberately a regex'd `z.string()` rather than `z.coerce.date()`: a `Date` crossing
+  the Astro→Preact island boundary is JSON-serialised and arrives client-side as a string,
+  so a `Date`-typed `ProjectEntry` would be a lie at exactly the point the sort runs.
+  `YYYY-MM-DD` compares chronologically under `<` with no timezone semantics. Dates were
+  mined from `README.md`'s git history by `scripts/backfill-added-dates.ts`; new entries
+  need the field by hand, and the build fails by filename if it is missing.
+- **Random sort uses a seeded per-entry key, not a shuffle.** Only a total order over *all*
+  entries survives filtering. Shuffling a filtered subset with seed 7 gives a different
+  relative order than those same items extracted from a seed-7 shuffle of all 405, so every
+  category or tag click would visibly rearrange the survivors even though the seed never
+  moved. `sortProjects` hashes `(id, seed)`, which makes subset-stability a property by
+  construction rather than luck. There is a test for it.
+- **Sort runs before `deprecatedLast`, not after.** The partition is a display policy, so it
+  has to wrap the sorted list; sorting a pre-partitioned list would interleave deprecated
+  entries back into the body. `filterProjects` filters only — it no longer partitions.
 - Tags must be URL-safe slugs (`/^[a-z0-9]+(?:-[a-z0-9]+)*$/`)
 - Every project section must be listed in `config/readme-order.yaml`
 - The site is fully static (no SSR)
