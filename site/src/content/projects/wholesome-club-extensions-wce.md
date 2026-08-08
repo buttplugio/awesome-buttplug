@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only, requires [Intiface Central](https://intiface.com/central)"
   - "Buttplug integration for Bondage Club (Fork/Update of FBC mod)"
 order: 37
+added: "2025-03-15"
 ---
 
 Buttplug integration for Bondage Club (Fork/Update of FBC mod)

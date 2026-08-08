@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only, requires [Intiface Central](https://intiface.com/central) and several other tools (see README for project)"
   - "Buttplug integration for World of Warcraft"
 order: 35
+added: "2025-03-15"
 ---
 
 Buttplug integration for World of Warcraft

@@ -17,6 +17,7 @@ readme_bullets:
   - "Userscript for Firefox and other browsers, requires Intiface server running locally"
   - "Web Bluetooth API polyfill that bridges Firefox and other non-Web Bluetooth browsers to Intiface"
 order: 60
+added: "2026-07-28"
 ---
 
 Web Bluetooth API polyfill that bridges Firefox and other non-Web Bluetooth browsers to Intiface

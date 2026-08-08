@@ -19,6 +19,7 @@ readme_bullets:
   - "Windows 10+ only, ([new fork that works on linux](https://github.com/imeowfuta/team-frotress-2)), both require [Intiface Central](https://intiface.com/central)"
   - "Buttplug integration for Team Fortress 2"
 order: 20
+added: "2023-12-02"
 ---
 
 Buttplug integration for Team Fortress 2

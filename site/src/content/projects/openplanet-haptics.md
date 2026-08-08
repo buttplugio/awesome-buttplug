@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only, requires [Intiface Central](https://intiface.com/central)"
   - "Buttplug integration for Trackmania 2020, Planet, and Turbo"
 order: 29
+added: "2024-05-16"
 ---
 
 Buttplug integration for Trackmania 2020, Planet, and Turbo

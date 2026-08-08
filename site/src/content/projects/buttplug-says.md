@@ -15,6 +15,7 @@ readme_bullets:
   - "Cross platform"
   - "A simon says like game running on python with Intiface Central integration"
 order: 15
+added: "2025-09-14"
 ---
 
 A simon says like game running on python with Intiface Central integration

@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only, requires [Intiface Central](https://intiface.com/central)"
   - "Buttplug integration for Keep Talking and Nobody Explodes"
 order: 41
+added: "2025-08-31"
 ---
 
 Buttplug integration for Keep Talking and Nobody Explodes

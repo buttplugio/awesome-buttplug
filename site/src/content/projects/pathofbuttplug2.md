@@ -17,6 +17,7 @@ readme_bullets:
   - "Cross-platform, requires Intiface Central"
   - "An Intiface bridge for Path of Exile 2 that provides haptic feedback during gameplay"
 order: 76
+added: "2026-07-28"
 ---
 
 An Intiface bridge for Path of Exile 2 that provides haptic feedback during gameplay

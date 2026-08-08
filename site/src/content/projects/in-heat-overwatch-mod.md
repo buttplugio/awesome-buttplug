@@ -15,6 +15,7 @@ readme_bullets:
   - "Deprecation Reason: Overwatch servers shut down in late 2022. Dev has a new version for Overwatch 2, [Underwatch](https://github.com/Furimanejo/Underwatch)."
 deprecation_reason: "Overwatch servers shut down in late 2022. Dev has a new version for Overwatch 2, [Underwatch](https://github.com/Furimanejo/Underwatch)."
 order: 1
+added: "2021-05-31"
 ---
 
 Uses computer vision to track Heat Bar in Overwatch and control sex toys based on levels.

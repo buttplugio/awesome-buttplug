@@ -16,6 +16,7 @@ readme_bullets:
   - "Windows"
   - "Script maker and player for VacuGlide 2, OSR2 and Buttplug devices, with DeoVR and HereSphere support"
 order: 14
+added: "2026-07-28"
 ---
 
 Script maker and player for VacuGlide 2, OSR2 and Buttplug devices, with DeoVR and HereSphere support

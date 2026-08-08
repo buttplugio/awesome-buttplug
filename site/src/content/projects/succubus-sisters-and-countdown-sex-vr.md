@@ -19,6 +19,7 @@ readme_bullets:
   - "Windows and Android VR (Meta Quest 2/3 standalone or PCVR), requires [Intiface Central](https://intiface.com/central)"
   - "VR title with summoned succubus characters, synchronising strokers via Intiface Central"
 order: 28
+added: "2026-07-28"
 ---
 
 VR title with summoned succubus characters, synchronising strokers via Intiface Central

@@ -15,6 +15,7 @@ readme_bullets:
   - "Windows (via [Intiface Central](https://intiface.com/central))"
   - "BepInEx mod that reroutes [Pure Onyx](https://eromancer.itch.io/)'s native Lovense commands through Intiface, opening it up to any Buttplug device"
 order: 55
+added: "2026-07-28"
 ---
 
 BepInEx mod that reroutes [Pure Onyx](https://eromancer.itch.io/)'s native Lovense commands through Intiface

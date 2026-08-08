@@ -19,6 +19,7 @@ readme_bullets:
   - "Deprecation Reason: Project abandoned, and requires an extremely old fork of Osu. Needs an update."
 deprecation_reason: "Project abandoned, and requires an extremely old fork of Osu. Needs an update."
 order: 15
+added: "2021-01-23"
 ---
 
 Fork of the [Osu rhythm game](https://osu.ppy.sh/home) with toy control capabilities via Buttplug.

@@ -8,6 +8,7 @@ summary: "RPGMaker support for Buttplug"
 readme_bullets:
   - "RPGMaker support for Buttplug"
 order: 5
+added: "2022-07-02"
 ---
 
 RPGMaker support for Buttplug

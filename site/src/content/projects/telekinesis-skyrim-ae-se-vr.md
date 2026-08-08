@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only, optional [Intiface Central](https://intiface.com/central) integration"
   - "Buttplug integration for various Skyrim Adult Mods (Devious Devices, Toys&Love, SexLab, OStim)"
 order: 22
+added: "2023-12-30"
 ---
 
 Buttplug integration for various Skyrim Adult Mods (Devious Devices, Toys&Love, SexLab, OStim)

@@ -17,6 +17,7 @@ readme_bullets:
   - "Linux only; requires root, Rust, socat, and an Xbox controller with force feedback support"
   - "Linux workaround to use Xbox force feedback controllers with Intiface Central via serial port emulation"
 order: 4
+added: "2026-07-28"
 ---
 
 Linux workaround to use Xbox force feedback controllers with Intiface Central via serial port emulation

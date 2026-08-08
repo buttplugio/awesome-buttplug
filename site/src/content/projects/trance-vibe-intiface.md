@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10/11 only, requires compatible USB host controller, libusb-win32 driver, and Intiface Central"
   - "Connects ASCII Trance Vibrator and Drmn Trance Vibe devices to Intiface Central via WebSocket"
 order: 8
+added: "2026-07-28"
 ---
 
 Connects ASCII Trance Vibrator and Drmn Trance Vibe devices to Intiface Central via WebSocket

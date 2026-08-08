@@ -16,6 +16,7 @@ readme_bullets:
   - "Windows, Minecraft Forge 1.12.2 (via [Intiface Central](https://intiface.com/central))"
   - "Forge mod that reads Fapcraft's animation data and converts it to live device output"
 order: 2
+added: "2026-07-28"
 ---
 
 Forge mod that reads Fapcraft's animation data and converts it to live device output

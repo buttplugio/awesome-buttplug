@@ -11,6 +11,7 @@ readme_bullets:
   - "Maintained by Community Developers"
   - "Standalone Haskell client library for connecting to [Intiface Central](https://intiface.com/central) or [Intiface Engine](https://github.com/intiface/intiface-engine)"
 order: 1
+added: "2021-06-01"
 ---
 
 Standalone Haskell client library for connecting to [Intiface Central](https://intiface.com/central) or [Intiface Engine](https://github.com/intiface/intiface-engine)

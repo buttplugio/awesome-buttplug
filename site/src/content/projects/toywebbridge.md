@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only"
   - "Generic REST frontend for Buttplug."
 order: 4
+added: "2021-01-23"
 ---
 
 Generic REST frontend for Buttplug.

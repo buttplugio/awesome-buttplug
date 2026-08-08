@@ -20,6 +20,7 @@ readme_bullets:
   - "Windows/Linux Only (requires [Intiface Central](https://intiface.com/central))"
   - "Analyzes audio and translates into vibrations for Buttplug compatible hardware."
 order: 2
+added: "2023-11-21"
 ---
 
 Analyzes audio and translates into vibrations for Buttplug compatible hardware.

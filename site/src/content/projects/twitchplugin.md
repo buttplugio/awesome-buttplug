@@ -17,6 +17,7 @@ readme_bullets:
   - "Python 3 application; requires buttplug-py, twitchAPI, and Intiface Central"
   - "A Buttplug integration that activates devices based on Twitch chat triggers and scoring"
 order: 48
+added: "2026-07-28"
 ---
 
 A Buttplug integration that activates devices based on Twitch chat triggers and scoring

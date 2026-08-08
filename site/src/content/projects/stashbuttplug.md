@@ -17,6 +17,7 @@ readme_bullets:
   - "Cross Platform (requires [Intiface Central](https://intiface.com/central))"
   - "Plugin for the [Stash](https://stashapp.cc) media server that syncs funscripts to toys during playback"
 order: 12
+added: "2026-07-28"
 ---
 
 Plugin for the [Stash](https://stashapp.cc) media server that syncs funscripts to toys during playback

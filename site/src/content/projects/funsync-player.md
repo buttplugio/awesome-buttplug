@@ -20,6 +20,7 @@ readme_bullets:
   - "Windows, Linux (via [Intiface Central](https://intiface.com/central))"
   - "Video player with a built-in script editor, EroScripts search and multi-device sync"
 order: 15
+added: "2026-07-28"
 ---
 
 Video player with a built-in script editor, EroScripts search and multi-device sync

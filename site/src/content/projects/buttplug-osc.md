@@ -18,6 +18,7 @@ readme_bullets:
   - "Cross Platform (requires [Intiface Central](https://intiface.com/central))"
   - "[OSC](https://en.wikipedia.org/wiki/Open_Sound_Control) bridge. NOT VRCHAT RELATED."
 order: 8
+added: "2021-04-09"
 ---
 
 [OSC](https://en.wikipedia.org/wiki/Open_Sound_Control) bridge. NOT VRCHAT RELATED.

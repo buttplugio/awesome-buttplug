@@ -11,6 +11,7 @@ readme_bullets:
   - "Standalone Gleam client library for connecting to [Intiface Central](https://intiface.com/central) or [Intiface Engine](https://github.com/intiface/intiface-engine)"
   - "Usable by other BEAM languages such as Erlang or Elixir"
 order: 1
+added: "2025-03-15"
 ---
 
 Standalone Gleam client library for connecting to [Intiface Central](https://intiface.com/central) or [Intiface Engine](https://github.com/intiface/intiface-engine)

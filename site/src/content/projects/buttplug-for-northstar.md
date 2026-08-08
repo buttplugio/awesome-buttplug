@@ -15,6 +15,7 @@ readme_bullets:
   - "Windows, requires the Northstar client for Titanfall 2 and [Intiface Central](https://intiface.com/central)"
   - "Northstar client mod for Titanfall 2 that triggers Buttplug devices on pilot and grunt kills"
 order: 99
+added: "2026-07-28"
 ---
 
 Northstar client mod for Titanfall 2 that triggers Buttplug devices on pilot and grunt kills

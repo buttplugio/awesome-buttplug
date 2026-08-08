@@ -19,6 +19,7 @@ readme_bullets:
   - "Deprecation Reason: Superseded by the Intiface Game Haptics Router; the author advises against use"
 deprecation_reason: "Superseded by the Intiface Game Haptics Router; the author advises against use"
 order: 31
+added: "2026-07-28"
 ---
 
 Windows utility that reroutes game rumble packets to sex toys via Buttplug

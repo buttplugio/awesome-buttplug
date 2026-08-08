@@ -17,6 +17,7 @@ readme_bullets:
   - "Requires ESP32, cross-platform compatible with Buttplug.io and Intiface Central"
   - "ESP32 controller for Chinese MuSe/Love Spouse toys with manual, game, and Buttplug.io integration support"
 order: 5
+added: "2026-07-28"
 ---
 
 ESP32 controller for Chinese MuSe/Love Spouse toys with manual, game, and Buttplug.io integration support

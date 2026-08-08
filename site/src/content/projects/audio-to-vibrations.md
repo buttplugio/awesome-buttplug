@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, requires [Intiface Central](https://intiface.com/central)"
   - "Converts audio to vibrations, with some envelope manipulation features"
 order: 25
+added: "2025-09-14"
 ---
 
 Converts audio to vibrations, with some envelope manipulation features

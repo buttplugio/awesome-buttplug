@@ -20,6 +20,7 @@ readme_bullets:
   - "Web based (Cross platform via browser)"
   - "Playback of movies using Funscript"
 order: 9
+added: "2025-09-03"
 ---
 
 Playback of movies using Funscript

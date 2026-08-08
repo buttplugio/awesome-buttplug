@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, for Honey Select"
   - "Buttplug.io plugin for Honey Select character creation and gameplay"
 order: 69
+added: "2026-07-28"
 ---
 
 Buttplug.io plugin for Honey Select character creation and gameplay

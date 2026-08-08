@@ -12,6 +12,7 @@ readme_bullets:
   - "Windows desktop app that connects to Intiface Central; in-world expression-menu input drives a partner's real device"
   - "VRChat avatar prefab plus Windows desktop app (SARemoteContact) that drives Intiface-compatible devices from in-world expression-menu input"
 order: 15
+added: "2026-07-28"
 ---
 
 VRChat avatar prefab plus Windows desktop app (SARemoteContact) that drives Intiface-compatible devices from in-world expression-menu input

@@ -19,6 +19,7 @@ readme_bullets:
   - "Web based (Cross platform, either via browsers or [Intiface Central](https://intiface.com/central))"
   - "Visual programming for building patterns for playback in Buttplug"
 order: 3
+added: "2021-01-23"
 ---
 
 Visual programming for building patterns for playback in Buttplug

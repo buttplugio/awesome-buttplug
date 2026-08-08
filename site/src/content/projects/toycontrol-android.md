@@ -17,6 +17,7 @@ readme_bullets:
   - "Android application, requires compatible Bluetooth-enabled sex toys"
   - "A proof of concept Android application for controlling Bluetooth-enabled sex toys"
 order: 77
+added: "2026-07-28"
 ---
 
 A proof of concept Android application for controlling Bluetooth-enabled sex toys

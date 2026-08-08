@@ -19,6 +19,7 @@ readme_bullets:
   - "Deprecation Reason: No development since 2020"
 deprecation_reason: "No development since 2020"
 order: 33
+added: "2026-07-28"
 ---
 
 Discord bot for controlling devices via Buttplug.io

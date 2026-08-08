@@ -17,6 +17,7 @@ readme_bullets:
   - "Cross platform"
   - "Go-based pattern playback system"
 order: 9
+added: "2021-06-01"
 ---
 
 Go-based pattern playback system

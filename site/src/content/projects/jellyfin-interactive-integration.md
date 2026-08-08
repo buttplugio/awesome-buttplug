@@ -17,6 +17,7 @@ readme_bullets:
   - "Jellyfin 10.9+, requires Intiface Central, auto-indexes funscript files alongside videos with playback transforms and OSD integration"
   - "A Jellyfin plugin that automatically synchronizes funscript playback with Buttplug-compatible devices via Intiface Central"
 order: 22
+added: "2026-07-28"
 ---
 
 A Jellyfin plugin that automatically synchronizes funscript playback with Buttplug-compatible devices via Intiface Central

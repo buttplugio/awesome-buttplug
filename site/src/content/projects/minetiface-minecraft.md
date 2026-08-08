@@ -17,6 +17,7 @@ readme_bullets:
   - "Free, open source"
   - "Cross Platform (requires [Intiface Central](https://intiface.com/central))"
 order: 1
+added: "2023-04-11"
 ---
 
 Another Minecraft Fabric mod with reward score system, ingame configuration and multiple devices support

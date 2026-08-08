@@ -15,6 +15,7 @@ readme_bullets:
   - "Go implementation of Buttplug protocol v4 with support for Intiface Central"
   - "Unofficial Go implementation of the Buttplug Intimate Hardware Control Protocol v4 client"
 order: 4
+added: "2026-07-28"
 ---
 
 Unofficial Go implementation of the Buttplug Intimate Hardware Control Protocol v4 client

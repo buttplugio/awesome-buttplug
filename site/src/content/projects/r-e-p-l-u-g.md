@@ -18,6 +18,7 @@ readme_bullets:
   - "Also on [Thunderstore](https://thunderstore.io/c/repo/p/Zelfmonco/REPLUG/) for easy install"
   - "Buttplug Integration for R.E.P.O."
 order: 24
+added: "2025-05-03"
 ---
 
 Also on [Thunderstore](https://thunderstore.io/c/repo/p/Zelfmonco/REPLUG/) for easy install

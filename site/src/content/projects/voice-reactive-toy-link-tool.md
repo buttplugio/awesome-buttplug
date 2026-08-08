@@ -10,6 +10,7 @@ readme_bullets:
   - "Detects voice through microphone input and triggers Intiface-connected devices past a volume threshold; Pro adds clap and sound detection"
   - "Voice-reactive utility (おしゃべり連動ツール) that detects microphone input and triggers Intiface-compatible devices when volume crosses a threshold; free Lite and paid Pro versions"
 order: 45
+added: "2026-07-28"
 ---
 
 Voice-reactive utility (おしゃべり連動ツール) that detects microphone input and triggers Intiface-compatible devices when volume crosses a threshold; free Lite and paid Pro versions

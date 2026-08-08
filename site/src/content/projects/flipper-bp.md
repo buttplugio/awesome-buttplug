@@ -14,6 +14,7 @@ readme_bullets:
   - "Free, open source, repo at https://github.com/maybe-hello-world/flipper-bp"
   - "Turn the [Flipper Zero](https://github.com/maybe-hello-world/flipper-bp) into a Buttplug Device"
 order: 1
+added: "2023-01-08"
 ---
 
 Turn the [Flipper Zero](https://github.com/maybe-hello-world/flipper-bp) into a Buttplug Device

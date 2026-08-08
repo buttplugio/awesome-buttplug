@@ -20,6 +20,7 @@ readme_bullets:
   - "Windows, macOS and Linux, connects through [Intiface Central](https://intiface.com/central)"
   - "Godot adult rhythm game with Intiface Central connectivity and toy events available in the level editor"
 order: 47
+added: "2026-07-28"
 ---
 
 Godot adult rhythm game with Intiface Central connectivity and toy events available in the level editor

@@ -22,6 +22,7 @@ readme_bullets:
   - "Support Discord at https://osc.toys/discord"
   - "VRC support via OSC for Buttplug or Lovense Connect, w/ Poiyomi TPS compatibility"
 order: 1
+added: "2022-07-26"
 ---
 
 Support Discord at https://osc.toys/discord

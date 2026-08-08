@@ -17,6 +17,7 @@ readme_bullets:
   - "Cross-platform, for Balatro"
   - "Buttplug.io integration mod for Balatro deck-building game"
 order: 60
+added: "2026-07-28"
 ---
 
 Buttplug.io integration mod for Balatro deck-building game

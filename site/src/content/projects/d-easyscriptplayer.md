@@ -15,6 +15,7 @@ readme_bullets:
   - "Windows 10+ only, requires Intiface Central"
   - "Playback of movies using Funscript and Vorze CSV formats (Japanese langauge UI)"
 order: 4
+added: "2023-11-20"
 ---
 
 Playback of movies using Funscript and Vorze CSV formats (Japanese langauge UI)

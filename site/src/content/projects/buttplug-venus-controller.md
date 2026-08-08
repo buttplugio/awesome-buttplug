@@ -15,6 +15,7 @@ readme_bullets:
   - "Uses a Raspberry Pi Pico microcontroller and MG996R servo; includes 3D-printable frame and gears"
   - "Hardware controller for the Venus for Men toy via the Buttplug.io protocol using a servo and microcontroller"
 order: 5
+added: "2026-07-28"
 ---
 
 Hardware controller for the Venus for Men toy via the Buttplug.io protocol using a servo and microcontroller

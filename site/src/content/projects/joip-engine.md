@@ -17,6 +17,7 @@ readme_bullets:
   - "Cross platform"
   - "JOI teasing engine with Milovana tease support and Buttplug integration"
 order: 13
+added: "2026-05-24"
 ---
 
 JOI teasing engine with Milovana tease support and Buttplug integration

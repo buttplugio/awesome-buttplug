@@ -15,6 +15,7 @@ readme_bullets:
   - "Windows, requires [Intiface Central](https://intiface.com/central)"
   - "3D adult roguelite that maps vibration, rotation and linear actions to in-game damage events over buttplug.io"
 order: 46
+added: "2026-07-28"
 ---
 
 3D adult roguelite that maps vibration, rotation and linear actions to in-game damage events over buttplug.io

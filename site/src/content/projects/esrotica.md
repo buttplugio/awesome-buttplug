@@ -16,6 +16,7 @@ readme_bullets:
   - "Web based (requires browser extension for timing sync)"
   - "Create and play scripts for embedded audio and video from various mainstream sites that support embedding"
 order: 8
+added: "2025-08-29"
 ---
 
 Create and play scripts for embedded audio and video from various mainstream sites that support embedding

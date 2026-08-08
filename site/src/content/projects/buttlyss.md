@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, requires BepInEx 5 and Intiface Central"
   - "BepInEx mod for ATLYSS that adds buttplug.io haptics support"
 order: 90
+added: "2026-07-28"
 ---
 
 BepInEx mod for ATLYSS that adds buttplug.io haptics support

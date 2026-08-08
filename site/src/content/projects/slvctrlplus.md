@@ -17,6 +17,7 @@ readme_bullets:
   - "Runs via Docker Compose, requires Node.js, serves on localhost:1337"
   - "A server application for controlling Buttplug-compatible devices built with TypeScript and Docker"
 order: 76
+added: "2026-07-28"
 ---
 
 A server application for controlling Buttplug-compatible devices built with TypeScript and Docker

@@ -14,6 +14,7 @@ readme_bullets:
   - "Currently supports Java; C/C++ planned; recommends native clients connecting to Intiface Central instead"
   - "Foreign Function Interface bindings from Rust Buttplug library to Java and other languages"
 order: 12
+added: "2020-11-01"
 ---
 
 Foreign Function Interface bindings from Rust Buttplug library to Java and other languages

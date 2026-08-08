@@ -18,6 +18,7 @@ readme_bullets:
   - "Cross platform (web)"
   - "WebRTC P2P based toy sharing and controller application that's installable as a PWA for offline use."
 order: 12
+added: "2022-10-25"
 ---
 
 WebRTC P2P based toy sharing and controller application that's installable as a PWA for offline use.

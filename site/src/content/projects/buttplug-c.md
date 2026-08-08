@@ -11,6 +11,7 @@ readme_bullets:
   - "Maintained by Buttplug Core Team"
   - "C# Client written in pure .Net C#"
 order: 1
+added: "2023-01-01"
 ---
 
 C# Client written in pure .Net C#

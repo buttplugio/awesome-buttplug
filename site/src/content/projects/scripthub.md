@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows (serves a web interface to any browser on your network, via [Intiface Central](https://intiface.com/central))"
   - "Collects videos and scripts from chosen folders and serves them as a FapTap style page over the local network"
   - "Imports videos by URL and browses IVDB to add titles to your collection in one click"
+added: "2026-07-28"
 ---
 
 Self hosted alternative to the aggregation sites: point it at folders of videos and scripts and it serves them as a browsable interactive page to any device on your network. Written specifically because streaming sites proved unreliable for the author. Linux and macOS support is on the roadmap.

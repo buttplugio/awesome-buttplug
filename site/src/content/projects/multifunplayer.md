@@ -19,6 +19,7 @@ readme_bullets:
   - "Windows 10+ only"
   - "Synchronizes funscripts with OSR-2 or any Buttplug compatible device for multiple video players (DeoVR, MPV, HereSphere, Whirligig)"
 order: 1
+added: "2021-06-03"
 ---
 
 Synchronizes funscripts with OSR-2 or any Buttplug compatible device for multiple video players (DeoVR, MPV, HereSphere, Whirligig)

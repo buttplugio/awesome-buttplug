@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows, requires [Intiface Central](https://intiface.com/central) on a configurable server URL"
   - "KoboldKare plugin that vibrates devices on in-game sex, orgasm and lactation events, with configurable intensity and pulse patterns"
 order: 97
+added: "2026-07-28"
 ---
 
 KoboldKare plugin that vibrates devices on in-game sex, orgasm and lactation events, with configurable intensity and pulse patterns

@@ -9,6 +9,7 @@ readme_bullets:
   - "Buttplug intergration for [Home Assistant](https://www.home-assistant.io/)"
   - "You can connect your toys to various entities and create automations to control your toys or trigger actions by toys, just like IFTTT."
 order: 5
+added: "2025-03-15"
 ---
 
 Buttplug intergration for [Home Assistant](https://www.home-assistant.io/)

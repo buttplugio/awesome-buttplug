@@ -15,6 +15,7 @@ readme_bullets:
   - "Android, iOS (via [Intiface Central](https://intiface.com/central))"
   - "Multi-axis funscript video player for mobile"
 order: 18
+added: "2026-07-28"
 ---
 
 Multi-axis funscript video player for mobile

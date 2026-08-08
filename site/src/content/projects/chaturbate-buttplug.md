@@ -17,6 +17,7 @@ readme_bullets:
   - "Python application; scrapes Chaturbate websocket chat and requires Buttplug-compatible vibrators"
   - "A tool that scrapes Chaturbate chat tips and forwards them to Buttplug-compatible vibrators"
 order: 52
+added: "2026-07-28"
 ---
 
 A tool that scrapes Chaturbate chat tips and forwards them to Buttplug-compatible vibrators

@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, requires BepInEx 5, Intiface Central, and ScavLib API"
   - "A Buttplug.io haptics mod for the survival game Casualties Unknown that synthesizes vibration from player state"
 order: 72
+added: "2026-07-28"
 ---
 
 A Buttplug.io haptics mod for the survival game Casualties Unknown that synthesizes vibration from player state

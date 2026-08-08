@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only, requires Balamod"
   - "Buttplug integration for Balatro"
 order: 47
+added: "2026-05-24"
 ---
 
 Buttplug integration for Balatro

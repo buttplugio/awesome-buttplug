@@ -15,6 +15,7 @@ readme_bullets:
   - "Java library with both basic and simplified client implementations"
   - "Java client library for the buttplug.io protocol"
 order: 2
+added: "2026-07-28"
 ---
 
 Java client library for the buttplug.io protocol

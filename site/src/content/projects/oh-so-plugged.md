@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only, requires [Intiface Central](https://intiface.com/central)"
   - "Buttplug integration for Oh So Hero!"
 order: 43
+added: "2025-09-14"
 ---
 
 Buttplug integration for Oh So Hero!

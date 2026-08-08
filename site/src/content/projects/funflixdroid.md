@@ -16,6 +16,7 @@ readme_bullets:
   - "Android only, requires Intiface Central (stroking/vibrating/rotating toys)"
   - "Playback of movies using Funscript (local player, chromecast support, playlist, multi devices/scripts, ...)"
 order: 5
+added: "2025-03-15"
 ---
 
 Playback of movies using Funscript (local player, chromecast support, playlist, multi devices/scripts, ...)

@@ -23,6 +23,7 @@ readme_bullets:
   - "Supports Bluetooth LE & Lovense Dongle toys with the following systems: SPS, TPS, Custom parameter inputs (Float&Bool). Including various mode processors to change the behavior of input."
   - "For a full list of features see the wiki: https://github.com/SutekhVRC/VibeCheck/wiki"
 order: 4
+added: "2022-07-02"
 ---
 
 Releases for Windows 10+ and Linux (deb,rpm,appimage).

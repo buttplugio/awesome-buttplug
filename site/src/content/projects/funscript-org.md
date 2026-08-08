@@ -20,6 +20,7 @@ readme_bullets:
   - "Web based (Cross platform, 600+ devices via [Intiface Central](https://intiface.com/central))"
   - "Plays your local videos and music with beat matched device control, no upload required"
   - "Playrooms for real time shared sessions, plus built in scripter and beat detector tools"
+added: "2026-07-28"
 ---
 
 Browser based platform for syncing your own videos, music and scripts to toys. Local content stays on your machine while scripts sync to the cloud. The Handy, Autoblow Ultra and Vacuglide 2 connect directly over Wi-Fi; everything else connects through Intiface Central.

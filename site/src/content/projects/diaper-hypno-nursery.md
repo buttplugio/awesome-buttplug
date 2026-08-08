@@ -23,6 +23,7 @@ readme_bullets:
   - "Browser, Windows, Linux and Android, requires [Intiface Central](https://intiface.com/central)"
   - "Interactive ABDL hypnosis sessions where connected vibrators follow along with the hypnosis track"
 order: 39
+added: "2026-07-28"
 ---
 
 Interactive ABDL hypnosis sessions where connected vibrators follow along with the hypnosis track

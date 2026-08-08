@@ -15,6 +15,7 @@ readme_bullets:
   - "Windows, native support ships on an opt-in Steam beta branch and requires [Intiface Central](https://intiface.com/central)"
   - "Comedy adventure game that routes its existing controller rumble output to Buttplug-connected devices"
 order: 50
+added: "2026-07-28"
 ---
 
 Comedy adventure game that routes its existing controller rumble output to Buttplug-connected devices

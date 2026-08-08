@@ -17,6 +17,7 @@ readme_bullets:
   - "Deprecation Reason: Developer account and all projects removed from itch.io"
 deprecation_reason: "Developer account and all projects removed from itch.io"
 order: 21
+added: "2023-01-08"
 ---
 
 Buttplug integration for [Lust Doll+](https://indivi.itch.io/ldplus)

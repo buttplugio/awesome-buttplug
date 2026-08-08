@@ -17,6 +17,7 @@ readme_bullets:
   - "Web application; bundles Buttplug server (intiface-engine) automatically on first run, no separate Intiface Central needed"
   - "A web application that controls Lovense toys via interactions on Mastodon posts"
 order: 49
+added: "2026-07-28"
 ---
 
 A web application that controls Lovense toys via interactions on Mastodon posts

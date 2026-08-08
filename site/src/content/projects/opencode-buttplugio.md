@@ -18,6 +18,7 @@ readme_bullets:
   - "Cross platform TUI plugin for [OpenCode](https://opencode.ai), installed with `opencode plugin opencode-plugin-buttplugio`; requires [Intiface Central](https://intiface.com/central)"
   - "OpenCode plugin that maps agent events (streaming output, patch application, tool call success and failure, session completion, permission requests) to device feedback"
 order: 84
+added: "2026-08-02"
 ---
 
 OpenCode plugin that turns coding agent events into device feedback via Intiface Central

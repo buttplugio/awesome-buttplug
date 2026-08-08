@@ -15,6 +15,7 @@ readme_bullets:
   - "Go language implementation of the buttplug.io client"
   - "Go implementation of the buttplug.io client protocol"
 order: 5
+added: "2026-07-28"
 ---
 
 Go implementation of the buttplug.io client protocol

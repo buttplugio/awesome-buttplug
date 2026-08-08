@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only, VR only"
   - "Furry focused animation player with selectable characters, scenes and voice actresses."
 order: 11
+added: "2024-05-16"
 ---
 
 Furry focused animation player with selectable characters, scenes and voice actresses.

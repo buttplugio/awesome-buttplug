@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, requires XIVQuicklauncher with Dalamud"
   - "Final Fantasy XIV plugin that integrates Pishock, OpenShock, and Intiface devices with in-game social and combat triggers"
 order: 3
+added: "2026-07-28"
 ---
 
 Final Fantasy XIV plugin that integrates Pishock, OpenShock, and Intiface devices with in-game social and combat triggers

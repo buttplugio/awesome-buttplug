@@ -19,6 +19,7 @@ readme_bullets:
   - "Deprecation Reason: Dev moved on, succeded by [Buttplug Of Legends Unity](https://github.com/Furimanejo/Buttplug-Of-Legends-Unity)"
 deprecation_reason: "Dev moved on, succeded by [Buttplug Of Legends Unity](https://github.com/Furimanejo/Buttplug-Of-Legends-Unity)"
 order: 10
+added: "2021-01-23"
 ---
 
 League of Legends interaction for Buttplug

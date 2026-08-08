@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows, mod plus a companion helper app, connects through [Intiface Central](https://intiface.com/central)"
   - "Hearts of Iron IV mod that scales device vibration to in-game world tension"
 order: 98
+added: "2026-07-28"
 ---
 
 Hearts of Iron IV mod that scales device vibration to in-game world tension

@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only, requires [Intiface Central](https://intiface.com/central)"
   - "Buttplug integration for Creepy Redneck Dinosaur Mansion 3"
 order: 33
+added: "2025-03-15"
 ---
 
 Buttplug integration for Creepy Redneck Dinosaur Mansion 3

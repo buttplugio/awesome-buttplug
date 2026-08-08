@@ -16,6 +16,7 @@ readme_bullets:
   - "Connects Buttplug to Vtuber software so that your Vtuber avatar can react to vibration signals"
   - "Supports VTubeStudio, Warudo, VNyan, Mtion Worlds"
 order: 24
+added: "2025-07-08"
 ---
 
 Connects Buttplug to Vtuber software so that your Vtuber avatar can react to vibration signals

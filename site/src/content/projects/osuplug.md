@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only, requires [Intiface Central](https://intiface.com/central)"
   - "Buttplug integration for Osu, vibrates when miss detected."
 order: 42
+added: "2025-09-14"
 ---
 
 Buttplug integration for Osu, vibrates when miss detected.

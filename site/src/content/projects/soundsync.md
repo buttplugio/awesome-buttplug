@@ -19,6 +19,7 @@ readme_bullets:
   - "Deprecation Reason: Project Abandoned"
 deprecation_reason: "Project Abandoned"
 order: 13
+added: "2021-01-23"
 ---
 
 Visual dataflow setup for routing audio signals to sex toy control

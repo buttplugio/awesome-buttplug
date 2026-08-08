@@ -11,6 +11,7 @@ readme_bullets:
   - "Maintained by Buttplug Core Team"
   - "Core Buttplug library, handles all hardware control and remote connections."
 order: 1
+added: "2020-11-01"
 ---
 
 Core Buttplug library, handles all hardware control and remote connections.

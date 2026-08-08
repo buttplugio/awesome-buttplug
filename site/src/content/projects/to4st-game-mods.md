@@ -15,6 +15,7 @@ readme_bullets:
   - "Windows (via [Intiface Central](https://intiface.com/central), a bundled funscript player, or EDI)"
   - "Ongoing series of scripted toy integration mods for individual Unity h-games"
 order: 53
+added: "2026-07-28"
 ---
 
 Ongoing series of scripted toy integration mods for individual Unity h-games

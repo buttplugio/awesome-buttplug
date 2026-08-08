@@ -15,6 +15,7 @@ readme_bullets:
   - "Windows (connects directly to [Intiface Central](https://intiface.com/central))"
   - "BepInEx mod for [Mystic Knight Maya](https://mega-blue-ball.itch.io/mystic-knight-maya) that plays haptics synced to in-game animations"
 order: 50
+added: "2026-07-28"
 ---
 
 BepInEx mod for [Mystic Knight Maya](https://mega-blue-ball.itch.io/mystic-knight-maya) that plays haptics synced to in-game animations

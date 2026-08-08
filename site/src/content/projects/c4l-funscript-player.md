@@ -18,6 +18,7 @@ readme_bullets:
   - "Web based"
   - "Simple browser based funscript player"
 order: 6
+added: "2025-03-15"
 ---
 
 Simple browser based funscript player

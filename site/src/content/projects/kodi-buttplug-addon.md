@@ -17,6 +17,7 @@ readme_bullets:
   - "Cross Platform (requires [Intiface Central](https://intiface.com/central))"
   - "Addon for the [Kodi](https://kodi.tv) media centre that plays funscripts alongside video, single axis only"
 order: 13
+added: "2026-07-28"
 ---
 
 Addon for the [Kodi](https://kodi.tv) media centre that plays funscripts alongside video

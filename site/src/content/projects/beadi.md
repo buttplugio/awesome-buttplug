@@ -19,6 +19,7 @@ readme_bullets:
   - "Web based (Cross platform, either via browsers or [Intiface Central](https://intiface.com/central))"
   - "Visual node-based editor for programming Buttplug-compatible toys"
 order: 13
+added: "2022-12-28"
 ---
 
 Visual node-based editor for programming Buttplug-compatible toys

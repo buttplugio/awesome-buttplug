@@ -18,6 +18,7 @@ readme_bullets:
   - "Windows 10+ only (requires [Intiface Central](https://intiface.com/central))"
   - "Updated version of [RiskOfRumble](https://thunderstore.io/package/MisterKinky/RiskOfRumble)"
 order: 2
+added: "2023-08-30"
 ---
 
 Updated version of [RiskOfRumble](https://thunderstore.io/package/MisterKinky/RiskOfRumble)

@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only, requires [Intiface Central](https://intiface.com/central)"
   - "Buttplug integration for Cult of the Lamb"
 order: 19
+added: "2023-12-02"
 ---
 
 Buttplug integration for Cult of the Lamb

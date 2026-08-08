@@ -16,6 +16,7 @@ readme_bullets:
   - "Windows only, requires BepInEx 5 and Intiface Central"
   - "A Buttplug.io mod for Gamble With Your Friends with configurable vibration events"
 order: 81
+added: "2026-07-28"
 ---
 
 A Buttplug.io mod for Gamble With Your Friends with configurable vibration events

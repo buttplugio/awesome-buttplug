@@ -15,6 +15,7 @@ readme_bullets:
   - "Windows, requires [Intiface Central](https://intiface.com/central)"
   - "RPG Maker adult horror RPG that lists vibrating smart toy integration through Intiface as a store feature"
 order: 43
+added: "2026-07-28"
 ---
 
 RPG Maker adult horror RPG that lists vibrating smart toy integration through Intiface as a store feature

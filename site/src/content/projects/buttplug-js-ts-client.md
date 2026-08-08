@@ -12,6 +12,7 @@ readme_bullets:
   - "Buttplug Client implemented in pure Typescript"
   - "(WASM in-browser server coming soon)"
 order: 1
+added: "2023-01-01"
 ---
 
 Buttplug Client implemented in pure Typescript

@@ -11,6 +11,7 @@ readme_bullets:
   - "Maintained by Community Developers"
   - "C++ Client library"
 order: 1
+added: "2023-11-21"
 ---
 
 Available via the github repo

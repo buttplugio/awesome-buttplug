@@ -17,6 +17,7 @@ readme_bullets:
   - "Cross-platform, requires Stash, Python 3.8+, and Intiface Central"
   - "Stash plugin syncing funscript files with toys via Intiface Central or The Handy over WiFi"
 order: 23
+added: "2026-07-28"
 ---
 
 Stash plugin syncing funscript files with toys via Intiface Central or The Handy over WiFi

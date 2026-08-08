@@ -15,6 +15,7 @@ readme_bullets:
   - "Windows (via [Intiface Central](https://intiface.com/central))"
   - "HTTP server that games and mods call with simple REST endpoints to trigger funscript playback on connected devices"
 order: 6
+added: "2026-07-28"
 ---
 
 HTTP server that games and mods call with simple REST endpoints to trigger funscript playback on connected devices

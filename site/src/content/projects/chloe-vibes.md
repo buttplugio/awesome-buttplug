@@ -20,6 +20,7 @@ readme_bullets:
   - "Windows (Rust/egui) and Android (Kotlin/Compose) clients, supports Lovense BLE and Buttplug/Intiface"
   - "A real-time audio-reactive haptics application that converts system audio into calibrated haptic force with dual-client Windows and Android support"
 order: 7
+added: "2026-07-28"
 ---
 
 A real-time audio-reactive haptics application that converts system audio into calibrated haptic force with dual-client Windows and Android support

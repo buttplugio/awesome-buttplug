@@ -18,6 +18,7 @@ readme_bullets:
   - "Requires Node.js v18+ and Intiface Central"
   - "Counter-Strike 2 buttplug.io integration that maps game events like bomb plants, kills, and round outcomes to haptic feedback"
 order: 3
+added: "2026-07-28"
 ---
 
 Counter-Strike 2 buttplug.io integration that maps game events like bomb plants, kills, and round outcomes to haptic feedback

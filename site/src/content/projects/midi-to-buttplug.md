@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows tool using TypeScript; requires loopmidi port and Intiface"
   - "A tool that converts MIDI notes to Buttplug messages for controlling intimate devices through music"
 order: 53
+added: "2026-07-28"
 ---
 
 A tool that converts MIDI notes to Buttplug messages for controlling intimate devices through music

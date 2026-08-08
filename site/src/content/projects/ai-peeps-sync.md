@@ -17,6 +17,7 @@ readme_bullets:
   - "Web based (requires [Intiface Central](https://intiface.com/central))"
   - "Tampermonkey script for use with Ai Peeps Chat Features"
 order: 21
+added: "2025-03-15"
 ---
 
 Tampermonkey script for use with Ai Peeps Chat Features

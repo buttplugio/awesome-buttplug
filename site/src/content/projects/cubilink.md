@@ -15,6 +15,7 @@ readme_bullets:
   - "Windows (via [Intiface Central](https://intiface.com/central) or serial/UDP TCode)"
   - "BepInEx plugin that converts Live2D, Spine and Unity animation parameters into multi-axis device output"
 order: 52
+added: "2026-07-28"
 ---
 
 BepInEx plugin that converts Live2D, Spine and Unity animation parameters into multi-axis device output

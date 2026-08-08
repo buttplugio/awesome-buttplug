@@ -19,6 +19,7 @@ readme_bullets:
   - "Windows, Linux (via [Intiface Central](https://intiface.com/central))"
   - "Node-based signal processing framework that routes video, game, audio and sensor input to toys in real time"
 order: 32
+added: "2026-07-28"
 ---
 
 Node-based signal processing framework that routes video, game, audio and sensor input to toys in real time

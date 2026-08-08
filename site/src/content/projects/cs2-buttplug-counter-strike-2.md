@@ -16,6 +16,7 @@ readme_bullets:
   - "Cross Platform (requires [Intiface Central](https://intiface.com/central))"
   - "Only Windows 10+ binaries provided"
 order: 2
+added: "2024-01-28"
 ---
 
 Fork of Crotch-Stim: Get Off with a GUI and support for Counter-Strike 2

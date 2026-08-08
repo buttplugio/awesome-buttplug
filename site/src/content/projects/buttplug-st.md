@@ -14,6 +14,7 @@ readme_bullets:
   - "Python application; requires Python 3.x, Intiface Central running locally, and SillyTavern with Sorcery extension"
   - "Bridge application connecting SillyTavern to Buttplug.io-compatible devices via Intiface Central"
 order: 9
+added: "2026-07-28"
 ---
 
 Bridge application connecting SillyTavern to Buttplug.io-compatible devices via Intiface Central

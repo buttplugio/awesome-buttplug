@@ -17,6 +17,7 @@ readme_bullets:
   - "Requires buttplug.io, Viam, Stockfish, and compatible Bluetooth kegel trainer and vibrating plug hardware"
   - "Chess assistant system that uses haptic feedback to communicate opponent moves and recommended replies through squeeze and vibration patterns"
 order: 72
+added: "2026-07-28"
 ---
 
 Chess assistant system that uses haptic feedback to communicate opponent moves and recommended replies through squeeze and vibration patterns

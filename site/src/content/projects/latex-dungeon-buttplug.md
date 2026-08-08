@@ -17,6 +17,7 @@ readme_bullets:
   - "Deprecation Reason: Developer account and all projects removed from itch.io"
 deprecation_reason: "Developer account and all projects removed from itch.io"
 order: 20
+added: "2022-10-01"
 ---
 
 Buttplug integration for the [Latex Dungeon MV game by ZXC](https://store.steampowered.com/agecheck/app/1622780/)

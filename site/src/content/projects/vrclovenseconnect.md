@@ -20,6 +20,7 @@ readme_bullets:
   - "Deprecation Reason: Project removed from Github"
 deprecation_reason: "Project removed from Github"
 order: 16
+added: "2022-07-02"
 ---
 
 VRC support via OSC for Buttplug or Lovense Connect

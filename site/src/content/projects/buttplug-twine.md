@@ -10,6 +10,7 @@ summary: "[Sugarcube 2](https://www.motoslave.net/sugarcube/2/) macros for the [
 readme_bullets:
   - "[Sugarcube 2](https://www.motoslave.net/sugarcube/2/) macros for the [Twine Interactive Fiction Game Engine](https://twinery.org)"
 order: 4
+added: "2020-11-01"
 ---
 
 [Sugarcube 2](https://www.motoslave.net/sugarcube/2/) macros for the [Twine Interactive Fiction Game Engine](https://twinery.org)

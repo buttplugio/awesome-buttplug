@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, requires BepInEx 5 x64 Mono, Intiface Central, and the game launched with EasyAntiCheat disabled"
   - "A BepInEx plugin for 7 Days to Die that drives Buttplug.io and XToys devices from 49 in-game events"
 order: 86
+added: "2026-07-28"
 ---
 
 A BepInEx plugin for 7 Days to Die that drives Buttplug.io and XToys devices from 49 in-game events

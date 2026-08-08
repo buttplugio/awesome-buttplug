@@ -19,6 +19,7 @@ readme_bullets:
   - "Deprecation Reason: SSL certificate expired, site likely abandoned"
 deprecation_reason: "SSL certificate expired, site likely abandoned"
 order: 25
+added: "2026-05-24"
 ---
 
 Funscript Flow

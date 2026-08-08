@@ -20,6 +20,7 @@ readme_bullets:
   - "Any platform supported by Ableton and Max (officially, Windows and macOS)"
   - "Allows Max for Live devices to control Buttplug-compatible hardware, opening up many possibilities for automatic vibration control"
 order: 6
+added: "2023-05-22"
 ---
 
 Any platform supported by Ableton and Max (officially, Windows and macOS)

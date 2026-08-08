@@ -17,6 +17,7 @@ readme_bullets:
   - "Web-based with Node.js backend, requires Blink-based browser for device sharing"
   - "Proof-of-concept web/Node.js teledildonics app for two-person remote device control"
 order: 64
+added: "2026-07-28"
 ---
 
 Proof-of-concept web/Node.js teledildonics app for two-person remote device control

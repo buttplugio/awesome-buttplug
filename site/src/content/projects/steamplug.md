@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, requires ViGEm Bus Driver, a physical Xbox 360 controller, and a Lovense Hush 2"
   - "A Steam integration tool that routes Xbox 360 controller rumble to a Lovense Hush 2 buttplug in games"
 order: 79
+added: "2026-07-28"
 ---
 
 A Steam integration tool that routes Xbox 360 controller rumble to a Lovense Hush 2 buttplug in games

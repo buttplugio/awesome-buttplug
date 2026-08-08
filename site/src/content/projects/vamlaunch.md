@@ -15,6 +15,7 @@ readme_bullets:
   - "Deprecation Reason: Dev moved on"
 deprecation_reason: "Dev moved on"
 order: 4
+added: "2023-02-11"
 ---
 
 Buttplug integration for VirtAMate

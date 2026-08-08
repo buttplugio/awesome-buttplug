@@ -15,6 +15,7 @@ readme_bullets:
   - "Rust library with tokio async runtime support"
   - "Buttplug.io client and server library with Matchbox socket support for WebRTC connectivity"
 order: 4
+added: "2026-07-28"
 ---
 
 Buttplug.io client and server library with Matchbox socket support for WebRTC connectivity

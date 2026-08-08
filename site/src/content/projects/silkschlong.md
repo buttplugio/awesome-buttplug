@@ -19,6 +19,7 @@ readme_bullets:
   - "Deprecation Reason: Unmaintained, replaced with [Buttplug Song](https://thunderstore.io/c/hollow-knight-silksong/p/danatron1/Buttplug_Song/)"
 deprecation_reason: "Unmaintained, replaced with [Buttplug Song](https://thunderstore.io/c/hollow-knight-silksong/p/danatron1/Buttplug_Song/)"
 order: 19
+added: "2025-09-14"
 ---
 
 Buttplug integration for Hollow Knight: Silksong

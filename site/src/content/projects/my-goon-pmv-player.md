@@ -15,6 +15,7 @@ readme_bullets:
   - "Windows only, requires [Intiface Central](https://intiface.com/central)"
   - "Moddable PMV and HMV sandbox that syncs devices to funscripts alongside music, video and 3D scenes, with split screen playback and a recording mode"
 order: 24
+added: "2026-07-28"
 ---
 
 Moddable PMV and HMV sandbox that syncs devices to funscripts alongside music, video and 3D scenes

@@ -11,6 +11,7 @@ readme_bullets:
   - "Maintained by Community Developers"
   - "Pure TypeScript client for protocol v4, with Zod runtime validation, pattern engine, and full docs"
 order: 2
+added: "2026-05-24"
 ---
 
 Pure TypeScript client for protocol v4, with Zod runtime validation, pattern engine, and full docs

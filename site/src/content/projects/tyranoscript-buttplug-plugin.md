@@ -14,6 +14,7 @@ readme_bullets:
   - "TyranoScript plugin for visual novels; README is in Japanese"
   - "TyranoScript plugin for controlling Buttplug-compatible devices in visual novels"
 order: 11
+added: "2026-07-28"
 ---
 
 TyranoScript plugin for controlling Buttplug-compatible devices in visual novels

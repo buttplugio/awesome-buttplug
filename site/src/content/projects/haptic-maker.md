@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows CLI tool, requires .NET Core runtime"
   - "CLI tool for creating haptic vibration feedback scripts compatible with Funscript players"
 order: 69
+added: "2026-07-28"
 ---
 
 CLI tool for creating haptic vibration feedback scripts compatible with Funscript players

@@ -17,6 +17,7 @@ readme_bullets:
   - "Cross Platform (requires [Intiface Central](https://intiface.com/central))"
   - "node.js bridge for establishing Intiface device control for Xtoys.app"
 order: 22
+added: "2025-03-15"
 ---
 
 node.js bridge for establishing Intiface device control for Xtoys.app

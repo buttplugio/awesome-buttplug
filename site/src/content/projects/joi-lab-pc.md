@@ -15,6 +15,7 @@ readme_bullets:
   - "Windows, requires [Intiface Central](https://intiface.com/central)"
   - "Aim-training and interactive JOI game with toy control through Intiface Central"
 order: 48
+added: "2026-07-28"
 ---
 
 Aim-training and interactive JOI game with toy control through Intiface Central

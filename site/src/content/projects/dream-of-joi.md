@@ -15,6 +15,7 @@ readme_bullets:
   - "Windows only"
   - "Rhythm game across five levels with buttplug.io integration so devices follow the music"
 order: 24
+added: "2026-07-28"
 ---
 
 Rhythm game across five levels with buttplug.io integration so devices follow the music

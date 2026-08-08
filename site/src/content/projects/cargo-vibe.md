@@ -17,6 +17,7 @@ readme_bullets:
   - "Installable via crates.io, connects to Buttplug.io compatible devices with configurable WebSocket address"
   - "A Cargo subcommand that provides haptic feedback from Buttplug.io for build results with configurable patterns"
 order: 75
+added: "2026-07-28"
 ---
 
 A Cargo subcommand that provides haptic feedback from Buttplug.io for build results with configurable patterns

@@ -18,6 +18,7 @@ readme_bullets:
   - "Windows Only (requires [Intiface Central](https://intiface.com/central))"
   - "VST for DAWs like Ableton Live, FL Studio, or DJing software like Virtual DJ. Analyzes music and outputs bass as haptic response."
 order: 5
+added: "2022-01-22"
 ---
 
 VST for DAWs like Ableton Live, FL Studio, or DJing software like Virtual DJ. Analyzes music and outputs bass as haptic response.

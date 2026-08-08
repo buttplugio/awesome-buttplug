@@ -15,6 +15,7 @@ readme_bullets:
   - "Web based (requires [Intiface Central](https://intiface.com/central))"
   - "AI voice chat that controls toys through function calls during conversation"
 order: 35
+added: "2026-07-28"
 ---
 
 AI voice chat that controls toys through function calls during conversation

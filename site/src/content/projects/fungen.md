@@ -17,6 +17,7 @@ readme_bullets:
   - "Cross-platform native binary (Windows, macOS, Linux), includes frame-accurate editing, multi-axis scripting, and plugin system"
   - "An all-in-one funscript editor, generator, and player with free tracking algorithms and AI generation via a Pro Pass"
 order: 19
+added: "2026-07-28"
 ---
 
 An all-in-one funscript editor, generator, and player with free tracking algorithms and AI generation via a Pro Pass

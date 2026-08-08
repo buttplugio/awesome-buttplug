@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, requires Intiface Central"
   - "Service that integrates PiShock e-stim devices with Buttplug.io/Intiface"
 order: 9
+added: "2026-07-28"
 ---
 
 Service that integrates PiShock e-stim devices with Buttplug.io/Intiface

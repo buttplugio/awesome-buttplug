@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only; requires Intiface Desktop and Twitch account"
   - "A Windows application that connects your Twitch stream chat to Intiface devices for viewer interaction"
 order: 47
+added: "2026-07-28"
 ---
 
 A Windows application that connects your Twitch stream chat to Intiface devices for viewer interaction

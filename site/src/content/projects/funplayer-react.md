@@ -17,6 +17,7 @@ readme_bullets:
   - "Available as npm package (React) and PyPI (Streamlit), supports HLS/DASH streaming and 100+ Buttplug.io devices"
   - "A React component library for synchronized media and haptic playback with Buttplug.io, featuring VR support and 120Hz refresh rate"
 order: 20
+added: "2026-07-28"
 ---
 
 A React component library for synchronized media and haptic playback with Buttplug.io, featuring VR support and 120Hz refresh rate

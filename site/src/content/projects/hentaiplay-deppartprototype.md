@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only, requires [Intiface Central](https://intiface.com/central) and [Melonloader](https://github.com/LavaGang/MelonLoader/releases)"
   - "Buttplug integration for DeppartPrototype mod, vibrate when gun shot, battling, and some situation."
 order: 28
+added: "2024-04-04"
 ---
 
 Buttplug integration for DeppartPrototype mod, vibrate when gun shot, battling, and some situation.

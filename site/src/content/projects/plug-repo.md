@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, for R.E.P.O"
   - "R.E.P.O Buttplug.io integration mod"
 order: 66
+added: "2026-07-28"
 ---
 
 R.E.P.O Buttplug.io integration mod

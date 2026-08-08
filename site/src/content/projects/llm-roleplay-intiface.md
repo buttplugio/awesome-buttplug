@@ -18,6 +18,7 @@ readme_bullets:
   - "Python application that connects LLM-powered roleplay with Intiface devices"
   - "An application that connects LLM-powered roleplay with Intiface devices for interactive experiences"
 order: 44
+added: "2026-07-28"
 ---
 
 An application that connects LLM-powered roleplay with Intiface devices for interactive experiences

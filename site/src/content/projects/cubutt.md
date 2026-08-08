@@ -17,6 +17,7 @@ readme_bullets:
   - "Linux only, requires [Intiface Central](https://intiface.com/central)"
   - "Buttplug integration for Factorio Ultracube mod"
 order: 27
+added: "2024-03-15"
 ---
 
 Buttplug integration for Factorio Ultracube mod

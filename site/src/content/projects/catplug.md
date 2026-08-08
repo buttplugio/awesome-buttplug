@@ -17,6 +17,7 @@ readme_bullets:
   - "Web Based (Cross platform, either via browsers or [Intiface Central](https://intiface.com/central))"
   - "Simple interface for controlling toys locally or remotely. Plus creation, editing, and playback of custom patterns."
 order: 16
+added: "2023-09-21"
 ---
 
 Simple interface for controlling toys locally or remotely. Plus creation, editing, and playback of custom patterns.

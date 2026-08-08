@@ -13,6 +13,7 @@ readme_bullets:
   - "Web-based, Chrome recommended"
   - "AI roleplay platform with multi-device toy control. Features voice chat, image/video generation, and customizable AI characters."
 order: 28
+added: "2026-02-19"
 ---
 
 Web-based, Chrome recommended

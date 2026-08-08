@@ -18,6 +18,7 @@ readme_bullets:
   - "Python 3.10+ MCP server for Claude Desktop; requires Intiface Central running on port 12345"
   - "A Python MCP server for controlling Buttplug.io devices via AI assistants like Claude Desktop"
 order: 41
+added: "2026-07-28"
 ---
 
 A Python MCP server for controlling Buttplug.io devices via AI assistants like Claude Desktop

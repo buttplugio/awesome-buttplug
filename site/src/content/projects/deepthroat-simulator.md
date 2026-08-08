@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows desktop and VR (Oculus Rift, HTC Vive, Valve Index), separate Quest edition available"
   - "Physics-driven simulator with customisable characters and full buttplug.io device support"
 order: 31
+added: "2026-07-28"
 ---
 
 Physics-driven simulator with customisable characters and full buttplug.io device support

@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, for Hades"
   - "PEAK Buttplug.io integration mod for Hades"
 order: 65
+added: "2026-07-28"
 ---
 
 PEAK Buttplug.io integration mod for Hades

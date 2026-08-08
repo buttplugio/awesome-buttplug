@@ -17,6 +17,7 @@ readme_bullets:
   - "Cross-platform, requires Intiface to use"
   - "Archipelago randomizer integration with Buttplug.io for device control"
 order: 67
+added: "2026-07-28"
 ---
 
 Archipelago randomizer integration with Buttplug.io for device control

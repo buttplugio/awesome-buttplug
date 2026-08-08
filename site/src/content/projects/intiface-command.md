@@ -17,6 +17,7 @@ readme_bullets:
   - "Cross platform ([SillyTavern](https://github.com/SillyTavern/SillyTavern) extension)"
   - "Allows LLM responses to control Intiface-compatible devices via inline commands"
 order: 3
+added: "2026-05-24"
 ---
 
 Allows LLM responses to control Intiface-compatible devices via inline commands

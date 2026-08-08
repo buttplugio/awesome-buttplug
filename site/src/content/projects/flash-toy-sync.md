@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows (ships with an Intiface bridge)"
   - "Syncs toys to existing Flash animations, with a bundled tracking and scripting editor"
 order: 37
+added: "2026-07-28"
 ---
 
 Syncs toys to existing Flash animations, with a bundled tracking and scripting editor

@@ -17,6 +17,7 @@ readme_bullets:
   - "Installable via crates.io, requires Intiface Central and a local Buttplug.io server"
   - "A Cargo subcommand that provides haptic feedback as positive reinforcement during long development sessions"
 order: 74
+added: "2026-07-28"
 ---
 
 A Cargo subcommand that provides haptic feedback as positive reinforcement during long development sessions

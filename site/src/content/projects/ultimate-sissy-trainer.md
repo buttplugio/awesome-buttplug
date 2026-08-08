@@ -15,6 +15,7 @@ readme_bullets:
   - "Android only (APK distributed outside the Play Store), requires [Intiface Central](https://intiface.com/central)"
   - "Rhythm and training game where toys deliver rewards and punishments based on how well you keep up, with linear and oscillating devices following the game tempo"
 order: 18
+added: "2026-07-28"
 ---
 
 Rhythm and training game where toys deliver rewards and punishments based on how well you keep up

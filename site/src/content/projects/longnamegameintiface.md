@@ -16,6 +16,7 @@ readme_bullets:
   - "Windows only, requires BepInEx and Intiface Central"
   - "A Buttplug.io mod for Long Name Game with in-game configuration"
 order: 82
+added: "2026-07-28"
 ---
 
 A Buttplug.io mod for Long Name Game with in-game configuration

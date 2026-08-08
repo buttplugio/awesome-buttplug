@@ -17,6 +17,7 @@ readme_bullets:
   - "Android 12+, requires Intiface Central on Windows and BLE advertising support"
   - "Android bridge app for controlling Love Spouse/MuSe devices from Intiface Central"
 order: 6
+added: "2026-07-28"
 ---
 
 Android bridge app for controlling Love Spouse/MuSe devices from Intiface Central

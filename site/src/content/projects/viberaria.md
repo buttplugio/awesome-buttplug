@@ -18,6 +18,7 @@ readme_bullets:
   - "Cross Platform (requires [Intiface Central](https://intiface.com/central))"
   - "In game configuration, plenty of features to make your gameplay a lot more challenging"
 order: 1
+added: "2024-04-25"
 ---
 
 In game configuration, plenty of features to make your gameplay a lot more challenging

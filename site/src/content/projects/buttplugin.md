@@ -10,6 +10,7 @@ readme_bullets:
   - "Deprecation Reason: Repository removed from GitHub"
 deprecation_reason: "Repository removed from GitHub"
 order: 22
+added: "2023-11-20"
 ---
 
 Buttplug Plugin for the [Unreal Engine](https://www.unrealengine.com/en-US)

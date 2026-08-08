@@ -14,6 +14,7 @@ readme_bullets:
   - "Requires SillyTavern and optionally a separate VoiceForge TTS server; Intiface Central optional for device support"
   - "SillyTavern extension combining VRM avatars, voice synthesis, and Intiface device support"
 order: 8
+added: "2026-07-28"
 ---
 
 SillyTavern extension combining VRM avatars, voice synthesis, and Intiface device support

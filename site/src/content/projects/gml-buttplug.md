@@ -14,6 +14,7 @@ readme_bullets:
   - "Written in Game Maker Language (GML) for GameMaker Studio"
   - "A Buttplug client library for Game Maker (GML language)"
 order: 10
+added: "2026-07-28"
 ---
 
 A Buttplug client library for Game Maker (GML language)

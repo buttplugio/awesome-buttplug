@@ -19,6 +19,7 @@ readme_bullets:
   - "Deprecation Reason: Removed from VS Code Marketplace"
 deprecation_reason: "Removed from VS Code Marketplace"
 order: 27
+added: "2023-02-15"
 ---
 
 VS Code extension for providing "productivity reinforcement" when typing

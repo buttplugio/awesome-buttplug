@@ -17,6 +17,7 @@ readme_bullets:
   - "Runs as Docker container on Linux with Bluetooth kernel module support"
   - "Docker container for intiface-engine to enable Buttplug device control in containerized environments"
 order: 66
+added: "2026-07-28"
 ---
 
 Docker container for intiface-engine to enable Buttplug device control in containerized environments

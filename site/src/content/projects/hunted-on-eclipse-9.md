@@ -15,6 +15,7 @@ readme_bullets:
   - "Windows only"
   - "Stealth horror game where an android hunter stalks the player, with Buttplug.io support for both vibrators and strokers"
 order: 21
+added: "2026-07-28"
 ---
 
 Stealth horror game where an android hunter stalks the player, with Buttplug.io support for both vibrators and strokers

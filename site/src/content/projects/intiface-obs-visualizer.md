@@ -17,6 +17,7 @@ readme_bullets:
   - "Runs in web browsers with Intiface Central running on the same machine"
   - "Example project for creating a Websocket Device visualizer for Intiface in OBS overlays"
 order: 62
+added: "2026-07-28"
 ---
 
 Example project for creating a Websocket Device visualizer for Intiface in OBS overlays

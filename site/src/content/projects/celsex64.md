@@ -16,6 +16,7 @@ readme_bullets:
   - "Windows only, requires Intiface Central"
   - "A Buttplug.io mod for Celeste 64"
 order: 79
+added: "2026-07-28"
 ---
 
 A Buttplug.io mod for Celeste 64

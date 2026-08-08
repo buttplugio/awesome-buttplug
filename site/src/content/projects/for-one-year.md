@@ -15,6 +15,7 @@ readme_bullets:
   - "Windows, requires [Intiface Central](https://intiface.com/central)"
   - "Travel, survival and romance game that maps device activity to the body part the player character is receiving attention on"
 order: 45
+added: "2026-07-28"
 ---
 
 Travel, survival and romance game that maps device activity to the body part the player character is receiving attention on

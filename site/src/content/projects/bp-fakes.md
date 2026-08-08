@@ -15,6 +15,7 @@ readme_bullets:
   - "Rust testing library for buttplug device applications"
   - "Fake buttplug server library for testing device access without physical hardware"
 order: 6
+added: "2026-07-28"
 ---
 
 Fake buttplug server library for testing device access without physical hardware

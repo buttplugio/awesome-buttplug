@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only (Standalone or via [Intiface Central](https://intiface.com/central))"
   - "Hooks to Windows PC Games, rerouting gamepad rumble to control sex toys."
 order: 1
+added: "2020-11-01"
 ---
 
 Hooks to Windows PC Games, rerouting gamepad rumble to control sex toys.

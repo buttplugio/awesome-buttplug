@@ -19,6 +19,7 @@ readme_bullets:
   - "Deprecation Reason: moved to [Playful Plugins](https://furimanejo.itch.io/playful-plugins)"
 deprecation_reason: "moved to [Playful Plugins](https://furimanejo.itch.io/playful-plugins)"
 order: 11
+added: "2023-09-21"
 ---
 
 League of Legends interaction for Buttplug

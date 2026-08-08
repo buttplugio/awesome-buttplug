@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, requires [Intiface Central](https://intiface.com/central)"
   - "kb/mouse/controller event binding for Buttplug"
 order: 27
+added: "2025-09-14"
 ---
 
 kb/mouse/controller event binding for Buttplug

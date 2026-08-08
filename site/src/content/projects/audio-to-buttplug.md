@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows application built in C#, requires Intiface Central running"
   - "Converts system audio into vibrations for use with Intiface Central and Buttplug.io compatible devices"
 order: 8
+added: "2026-07-28"
 ---
 
 Converts system audio into vibrations for use with Intiface Central and Buttplug.io compatible devices

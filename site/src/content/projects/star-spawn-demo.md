@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows and Linux"
   - "2D Metroidvania platformer set on an alien world, with Intiface/Buttplug.io support for compatible toys"
 order: 22
+added: "2026-07-28"
 ---
 
 2D Metroidvania platformer set on an alien world, with Intiface/Buttplug.io support for compatible toys

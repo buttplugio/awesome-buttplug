@@ -18,6 +18,7 @@ readme_bullets:
   - "Cross-platform MCP server written in TypeScript; requires Intiface Central and works with 750+ devices across 26 brands"
   - "A content-agnostic MCP server that lets any AI agent control intimate hardware through Buttplug and Intiface with built-in safety layers"
 order: 40
+added: "2026-07-28"
 ---
 
 A content-agnostic MCP server that lets any AI agent control intimate hardware through Buttplug and Intiface with built-in safety layers

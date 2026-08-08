@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, requires Nexus and Guild Wars 2"
   - "Guild Wars 2 Nexus mod that provides buttplug.io control via ArcDPS integration"
 order: 91
+added: "2026-07-28"
 ---
 
 Guild Wars 2 Nexus mod that provides buttplug.io control via ArcDPS integration

@@ -19,6 +19,7 @@ readme_bullets:
   - "Windows 10+ and Linux via Steam Proton, requires [Intiface Central](https://intiface.com/central)"
   - "Haptics mod for [Casualties: Unknown](https://store.steampowered.com/app/4576490/Casualties_Unknown/) that triggers on pain and heartbeat"
 order: 94
+added: "2026-07-28"
 ---
 
 Haptics mod for Casualties: Unknown that triggers on pain and heartbeat

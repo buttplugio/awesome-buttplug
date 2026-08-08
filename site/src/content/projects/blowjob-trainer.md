@@ -20,6 +20,7 @@ readme_bullets:
   - "Browser, Windows and macOS"
   - "Webcam-tracked training game with voice guidance and toy support via Intiface and the Buttplug library"
 order: 33
+added: "2026-07-28"
 ---
 
 Webcam-tracked training game with voice guidance and toy support via Intiface and the Buttplug library

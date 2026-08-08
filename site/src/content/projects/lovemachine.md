@@ -21,6 +21,7 @@ readme_bullets:
   - "Windows 10+ only (requires [Intiface Central](https://intiface.com/central))"
   - "Mod for over 40 adult games (Koikatsu, Honey Select 2, Custom Order Maid 3D2, HoneyCome, Koi-Koi VR, Insult Order, Summer In Heat and many more) to add support for stroking, vibrating, rotating, oscillating and tightening devices"
 order: 6
+added: "2025-11-29"
 ---
 
 Mod for over 40 adult games (Koikatsu, Honey Select 2, Custom Order Maid 3D2, HoneyCome, Koi-Koi VR, Insult Order, Summer In Heat and many more) to add support for stroking, vibrating, rotating, oscillating and tightening devices

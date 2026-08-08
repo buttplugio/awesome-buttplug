@@ -18,6 +18,7 @@ readme_bullets:
   - "Desktop Cross Platform"
   - "CS:GO Buttplug plugin"
 order: 1
+added: "2020-11-04"
 ---
 
 CS:GO Buttplug plugin

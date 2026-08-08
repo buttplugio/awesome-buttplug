@@ -17,6 +17,7 @@ readme_bullets:
   - "Cross platform (requires [Intiface Central](https://intiface.com/central))"
   - "Discord keyword trigger mod via the Vencord client"
 order: 17
+added: "2023-11-21"
 ---
 
 Discord keyword trigger mod via the Vencord client

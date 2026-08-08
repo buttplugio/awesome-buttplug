@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, requires Bluetooth adapter for DG-LAB Coyote devices"
   - "Desktop application for controlling DG-LAB Coyote e-stim devices via T-Code or Buttplug protocol"
 order: 7
+added: "2026-07-28"
 ---
 
 Desktop application for controlling DG-LAB Coyote e-stim devices via T-Code or Buttplug protocol

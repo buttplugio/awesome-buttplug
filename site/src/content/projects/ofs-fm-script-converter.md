@@ -17,6 +17,7 @@ readme_bullets:
   - "OpenFunscripter extension for Windows"
   - "OpenFunscripter extension that converts funscript patterns to power levels for rotary fuck machines"
 order: 68
+added: "2026-07-28"
 ---
 
 OpenFunscripter extension that converts funscript patterns to power levels for rotary fuck machines

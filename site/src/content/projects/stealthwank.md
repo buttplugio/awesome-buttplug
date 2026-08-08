@@ -16,6 +16,7 @@ readme_bullets:
   - "Windows only"
   - "Test game for the Buttplug.io API"
 order: 17
+added: "2026-07-28"
 ---
 
 Test game for the Buttplug.io API

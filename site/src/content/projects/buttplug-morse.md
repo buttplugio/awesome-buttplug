@@ -15,6 +15,7 @@ readme_bullets:
   - "Rust library using tokio async runtime; requires Intiface or a Buttplug server running on localhost:12345"
   - "Rust library that plays Morse code patterns on Buttplug.io-compatible devices"
 order: 2
+added: "2026-07-28"
 ---
 
 Rust library that plays Morse code patterns on Buttplug.io-compatible devices

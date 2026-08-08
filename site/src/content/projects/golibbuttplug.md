@@ -15,6 +15,7 @@ readme_bullets:
   - "Go package providing Buttplug protocol WebSocket client support"
   - "Go library providing a Buttplug WebSocket client implementation"
 order: 3
+added: "2026-07-28"
 ---
 
 Go library providing a Buttplug WebSocket client implementation

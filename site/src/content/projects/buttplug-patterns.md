@@ -15,6 +15,7 @@ readme_bullets:
   - "Rust library using builder pattern for composable patterns; drives devices via Buttplug client"
   - "Rust library for composing and running complex vibration patterns on Buttplug.io devices"
 order: 3
+added: "2026-07-28"
 ---
 
 Rust library for composing and running complex vibration patterns on Buttplug.io devices

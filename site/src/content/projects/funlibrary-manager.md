@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows (via [Intiface Central](https://intiface.com/central))"
   - "Library manager for scripts and videos, with a player, toy integration and a streaming server for VR headsets"
 order: 16
+added: "2026-07-28"
 ---
 
 Library manager for scripts and videos, with a player, toy integration and a streaming server for VR headsets

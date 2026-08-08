@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+, Steam Deck if You're Brave (via [Intiface Central](https://intiface.com/central))"
   - "Mod for [Ultrakill](https://store.steampowered.com/app/1229490/ULTRAKILL/), triggers toys on various game events or rank"
 order: 5
+added: "2022-12-07"
 ---
 
 Mod for [Ultrakill](https://store.steampowered.com/app/1229490/ULTRAKILL/), triggers toys on various game events or rank

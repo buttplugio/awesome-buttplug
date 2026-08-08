@@ -17,6 +17,7 @@ readme_bullets:
   - "Runs on Home Assistant under Linux, includes intiface-engine server"
   - "Home Assistant add-ons for running an Intiface/Buttplug.io server locally"
 order: 56
+added: "2026-07-28"
 ---
 
 Home Assistant add-ons for running an Intiface/Buttplug.io server locally

@@ -17,6 +17,7 @@ readme_bullets:
   - "Linux only, written in Go"
   - "GTK4 frontend for the Intiface/Buttplug.io haptics protocol"
 order: 55
+added: "2026-07-28"
 ---
 
 GTK4 frontend for the Intiface/Buttplug.io haptics protocol

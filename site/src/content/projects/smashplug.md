@@ -14,6 +14,7 @@ readme_bullets:
   - "Written in Rust, requires Intiface Central"
   - "A Buttplug.io mod for Super Smash Bros. Ultimate in Rust"
 order: 87
+added: "2026-07-28"
 ---
 
 A Buttplug.io mod for Super Smash Bros. Ultimate in Rust

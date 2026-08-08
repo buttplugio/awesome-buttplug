@@ -18,6 +18,7 @@ readme_bullets:
   - "Windows 10+ only (requires [Intiface Central](https://intiface.com/central))"
   - "Configurable vibrations in response to in-game damage events"
 order: 1
+added: "2023-08-30"
 ---
 
 Configurable vibrations in response to in-game damage events

@@ -14,6 +14,7 @@ readme_bullets:
   - "Requires Arduino or ESP32 microcontroller with BLE support and power MOSFETs"
   - "Arduino/ESP32 Bluetooth-controlled toy firmware using Buttplug.io/Intiface"
 order: 2
+added: "2026-07-28"
 ---
 
 Arduino/ESP32 Bluetooth-controlled toy firmware using Buttplug.io/Intiface

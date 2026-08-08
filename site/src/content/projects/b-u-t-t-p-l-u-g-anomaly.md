@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only (requires [Intiface Central](https://intiface.com/central))"
   - "Buttplug mod for STALKER: Anomaly"
 order: 7
+added: "2021-05-31"
 ---
 
 Buttplug mod for STALKER: Anomaly

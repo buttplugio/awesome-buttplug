@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows PCVR (Meta Quest via Link, HTC Vive), requires [Intiface Central](https://intiface.com/central)"
   - "PCVR action game with an android companion, requiring Intiface Central for stroker support"
 order: 25
+added: "2026-07-28"
 ---
 
 PCVR action game with an android companion, requiring Intiface Central for stroker support

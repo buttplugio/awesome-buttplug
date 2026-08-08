@@ -17,6 +17,7 @@ readme_bullets:
   - "Cross platform (requires [Intiface Central](https://intiface.com/central))"
   - "Command-line tool that vibrates toys while a shell command is running"
 order: 30
+added: "2026-05-24"
 ---
 
 Command-line tool that vibrates toys while a shell command is running

@@ -17,6 +17,7 @@ readme_bullets:
   - "Cross platform (requires [Intiface Central](https://intiface.com/central))"
   - "Buttplug integration for the Anki flashcard system"
 order: 19
+added: "2025-03-15"
 ---
 
 Buttplug integration for the Anki flashcard system

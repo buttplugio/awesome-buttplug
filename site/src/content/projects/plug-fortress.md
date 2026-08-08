@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, requires Intiface Central"
   - "A Buttplug.io haptics mod for Team Fortress 2"
 order: 73
+added: "2026-07-28"
 ---
 
 A Buttplug.io haptics mod for Team Fortress 2

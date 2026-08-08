@@ -19,6 +19,7 @@ readme_bullets:
   - "Uses computer vision to trigger toys with a focus on Healing characters."
   - "Older repo: https://github.com/cryo-es/OverStim"
 order: 1
+added: "2023-09-21"
 ---
 
 Uses computer vision to trigger toys with a focus on Healing characters.

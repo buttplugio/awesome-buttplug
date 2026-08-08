@@ -15,6 +15,7 @@ readme_bullets:
   - "Deprecation Reason: Development was taken over after VamLaunch was abandoned, but developer does not use VAM and could not help on issues."
 deprecation_reason: "Development was taken over after VamLaunch was abandoned, but developer does not use VAM and could not help on issues."
 order: 5
+added: "2023-02-11"
 ---
 
 Buttplug integration for VirtAMate

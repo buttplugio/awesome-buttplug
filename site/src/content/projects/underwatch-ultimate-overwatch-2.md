@@ -19,6 +19,7 @@ readme_bullets:
   - "Deprecation Reason: moved to [Playful Plugins](https://furimanejo.itch.io/playful-plugins)"
 deprecation_reason: "moved to [Playful Plugins](https://furimanejo.itch.io/playful-plugins)"
 order: 2
+added: "2023-11-01"
 ---
 
 Uses computer vision to trigger toys based on Kills, Assists, and Saves.

@@ -15,6 +15,7 @@ readme_bullets:
   - "Web based (requires [Intiface Central](https://intiface.com/central))"
   - "Web page that drives a connected vibrator with randomised, bounded patterns"
 order: 36
+added: "2026-07-28"
 ---
 
 Web page that drives a connected vibrator with randomised, bounded patterns

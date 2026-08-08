@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, requires BepInEx 6 (IL2CPP) and Intiface Central"
   - "BepInEx mod for Overcooked! All You Can Eat that triggers vibrations on cooking actions and game events"
 order: 92
+added: "2026-07-28"
 ---
 
 BepInEx mod for Overcooked! All You Can Eat that triggers vibrations on cooking actions and game events

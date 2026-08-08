@@ -19,6 +19,7 @@ readme_bullets:
   - "Deprecation Reason: Dev moved on"
 deprecation_reason: "Dev moved on"
 order: 8
+added: "2021-01-23"
 ---
 
 FFXIV triggers for sex toy control, via [ACT](https://advancedcombattracker.com/)

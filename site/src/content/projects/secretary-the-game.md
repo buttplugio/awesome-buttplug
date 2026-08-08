@@ -18,6 +18,7 @@ readme_bullets:
   - "Web based, with desktop and Android downloads (requires [Intiface Central](https://intiface.com/central))"
   - "Sprawling feminization and BDSM adventure set in a near future cyberpunk corporation, over a million words of branching text"
 order: 19
+added: "2026-07-28"
 ---
 
 Sprawling feminization and BDSM adventure set in a near future cyberpunk corporation

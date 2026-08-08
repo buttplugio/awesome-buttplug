@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows desktop or SteamVR (Oculus Rift, HTC Vive), recent builds require [Intiface Central](https://intiface.com/central)"
   - "Femdom VR experience where Mistress animations drive connected devices through buttplug.io"
 order: 37
+added: "2026-07-28"
 ---
 
 Femdom VR experience where Mistress animations drive connected devices through buttplug.io

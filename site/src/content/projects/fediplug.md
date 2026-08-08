@@ -19,6 +19,7 @@ readme_bullets:
   - "Deprecation Reason: Repository removed from GitHub"
 deprecation_reason: "Repository removed from GitHub"
 order: 35
+added: "2023-08-05"
 ---
 
 Python script that reads a fediverse timeline and controls toy based on certain commands in messages received

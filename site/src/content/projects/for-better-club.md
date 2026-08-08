@@ -19,6 +19,7 @@ readme_bullets:
   - "Deprecation Reason: Project abandoned, replaced with WCE.  "
 deprecation_reason: "Project abandoned, replaced with WCE."
 order: 17
+added: "2022-04-07"
 ---
 
 Mod for [Bondage Club](https://www.bondageprojects.com/club_game/) to synchronize the status of vibrating toys on your character to your real toys via Buttplug allowing other players to control them, among other enhancements to the game.

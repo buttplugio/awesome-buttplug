@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only, requires [Intiface Central](https://intiface.com/central)"
   - "Buttplug integration for Hollow Knight: Silksong"
 order: 49
+added: "2026-03-29"
 ---
 
 Buttplug integration for Hollow Knight: Silksong

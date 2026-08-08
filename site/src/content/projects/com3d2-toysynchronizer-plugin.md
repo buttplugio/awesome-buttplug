@@ -15,6 +15,7 @@ readme_bullets:
   - "Windows 10+ only"
   - "Mod for Custom Maid 3D2 / Custom Order Maid 3D2 to add support for stroking and vibrating devices"
 order: 13
+added: "2021-08-07"
 ---
 
 Mod for Custom Maid 3D2 / Custom Order Maid 3D2 to add support for stroking and vibrating devices

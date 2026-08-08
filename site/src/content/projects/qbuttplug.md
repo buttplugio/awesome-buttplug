@@ -15,6 +15,7 @@ readme_bullets:
   - "C++ library with Qt framework compatibility"
   - "Qt-compatible C++ implementation of the buttplug.io protocol"
 order: 2
+added: "2026-07-28"
 ---
 
 Qt-compatible C++ implementation of the buttplug.io protocol

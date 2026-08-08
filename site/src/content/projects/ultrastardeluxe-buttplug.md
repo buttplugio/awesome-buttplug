@@ -19,6 +19,7 @@ readme_bullets:
   - "Windows and Linux, for UltraStar Deluxe"
   - "UltraStar Deluxe karaoke game mod with Buttplug.io party mode support"
 order: 67
+added: "2026-07-28"
 ---
 
 UltraStar Deluxe karaoke game mod with Buttplug.io party mode support

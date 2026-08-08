@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only (requires [Intiface Central](https://intiface.com/central))"
   - "[Duck Game](https://store.steampowered.com/app/312530/Duck_Game/) Buttplug plugin"
 order: 9
+added: "2021-01-23"
 ---
 
 [Duck Game](https://store.steampowered.com/app/312530/Duck_Game/) Buttplug plugin

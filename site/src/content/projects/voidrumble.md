@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows, requires BepInEx 5 and VoidManager, connects through [Intiface Central](https://intiface.com/central)"
   - "Void Crew mod that maps in-game damage, enhancements and thruster boost to device vibration"
 order: 96
+added: "2026-07-28"
 ---
 
 Void Crew mod that maps in-game damage, enhancements and thruster boost to device vibration

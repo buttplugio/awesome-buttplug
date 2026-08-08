@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only, VR Only"
   - "VR H-Game (Edging focused) w/ Buttplug support"
 order: 7
+added: "2021-06-15"
 ---
 
 VR H-Game (Edging focused) w/ Buttplug support

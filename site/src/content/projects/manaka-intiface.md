@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows application, requires Manaka Secret Flasher visual novel and Intiface Central"
   - "A visual novel integration tool that synchronizes Manaka Secret Flasher vibrator controls with Intiface Central devices"
 order: 80
+added: "2026-07-28"
 ---
 
 A visual novel integration tool that synchronizes Manaka Secret Flasher vibrator controls with Intiface Central devices

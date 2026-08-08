@@ -15,6 +15,7 @@ readme_bullets:
   - "Windows 10+ only"
   - "JOI game w/ Buttplug Support"
 order: 8
+added: "2022-07-08"
 ---
 
 JOI game w/ Buttplug Support

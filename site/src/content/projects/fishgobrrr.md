@@ -16,6 +16,7 @@ readme_bullets:
   - "Windows only, for WebFishing"
   - "Buttplug.io support for WebFishing"
 order: 62
+added: "2026-07-28"
 ---
 
 Buttplug.io support for WebFishing

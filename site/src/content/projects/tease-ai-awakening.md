@@ -15,6 +15,7 @@ readme_bullets:
   - "Windows only, anything detected by [Intiface Central](https://intiface.com/central) can be scripted"
   - "Script-driven tease and denial chat simulator that hands device control to the on-screen domme via Buttplug.io"
 order: 30
+added: "2026-07-28"
 ---
 
 Script-driven tease and denial chat simulator that hands device control to the on-screen domme via Buttplug.io

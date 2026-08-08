@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, for Friday Night Funkin'"
   - "Buttplug.io integration mod for Friday Night Funkin'"
 order: 59
+added: "2026-07-28"
 ---
 
 Buttplug.io integration mod for Friday Night Funkin'

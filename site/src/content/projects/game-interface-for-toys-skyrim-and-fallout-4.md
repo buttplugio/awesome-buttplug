@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only"
   - "Buttplug integration for Skyrim and Fallout 4"
 order: 17
+added: "2023-02-05"
 ---
 
 Buttplug integration for Skyrim and Fallout 4

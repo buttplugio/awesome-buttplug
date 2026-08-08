@@ -18,6 +18,7 @@ readme_bullets:
   - "Cross-platform, designed for Minecraft"
   - "Haptic script for Minecraft that syncs keyboard input with buttplug.io device vibrations"
 order: 3
+added: "2026-07-28"
 ---
 
 Haptic script for Minecraft that syncs keyboard input with buttplug.io device vibrations

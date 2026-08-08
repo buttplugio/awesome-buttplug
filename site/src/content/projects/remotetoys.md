@@ -19,6 +19,7 @@ readme_bullets:
   - "Web based, self hosted via Docker (requires [Intiface Central](https://intiface.com/central))"
   - "Self hosted web app for controlling a partner's toy remotely over a shared session key"
 order: 34
+added: "2026-07-28"
 ---
 
 Self hosted web app for controlling a partner's toy remotely over a shared session key

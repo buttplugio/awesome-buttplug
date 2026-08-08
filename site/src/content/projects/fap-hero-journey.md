@@ -16,6 +16,7 @@ readme_bullets:
   - "Windows and Linux (Godot 4 .NET), requires [Intiface Central](https://intiface.com/central) for Buttplug device support"
   - "Godot 4 fap-hero experience creator and player with video and funscript sync, supporting Buttplug/Intiface devices and serial T-code strokers"
 order: 40
+added: "2026-07-28"
 ---
 
 Godot 4 fap-hero experience creator and player with video and funscript sync, supporting Buttplug/Intiface devices and serial T-code strokers

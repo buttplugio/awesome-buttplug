@@ -15,6 +15,7 @@ readme_bullets:
   - "Windows 10+ only, requires [Intiface Central](https://intiface.com/central)"
   - "Buttplug integration for Super Smash Bros"
 order: 46
+added: "2026-05-24"
 ---
 
 Buttplug integration for Super Smash Bros

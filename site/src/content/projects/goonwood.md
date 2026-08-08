@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, requires Gloomwood"
   - "Gloomwood buttplug.io integration mod that triggers haptic feedback on game events"
 order: 93
+added: "2026-07-28"
 ---
 
 Gloomwood buttplug.io integration mod that triggers haptic feedback on game events

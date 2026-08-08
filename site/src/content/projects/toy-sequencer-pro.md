@@ -10,6 +10,7 @@ readme_bullets:
   - "Timeline-based sequencer for streams that connects to Intiface Central to schedule device output"
   - "Timeline sequencer (おもちゃシーケンサー Pro) for livestreams that schedules Intiface-compatible device output by time, intensity, and duration"
 order: 46
+added: "2026-07-28"
 ---
 
 Timeline sequencer (おもちゃシーケンサー Pro) for livestreams that schedules Intiface-compatible device output by time, intensity, and duration

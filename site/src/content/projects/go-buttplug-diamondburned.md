@@ -15,6 +15,7 @@ readme_bullets:
   - "Go library for Intiface Central and Intiface Engine WebSocket connectivity"
   - "Go library for the Intiface WebSocket API wrapping the buttplug.io protocol"
 order: 2
+added: "2026-07-28"
 ---
 
 Go library for the Intiface WebSocket API wrapping the buttplug.io protocol

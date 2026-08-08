@@ -19,6 +19,7 @@ readme_bullets:
   - "Deprecation Reason: Uses old version of buttplug that does not support Intiface Central or new hardware, mod unmaintained. Try RumbleRain or the updated RiskOfRumble"
 deprecation_reason: "Uses old version of buttplug that does not support Intiface Central or new hardware, mod unmaintained. Try RumbleRain or the updated RiskOfRumble"
 order: 12
+added: "2023-01-08"
 ---
 
 Buttplug integration for Risk of Rain 2

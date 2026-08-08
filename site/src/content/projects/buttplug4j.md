@@ -11,6 +11,7 @@ readme_bullets:
   - "Maintained by Buttplug Core Team"
   - "Java client"
 order: 1
+added: "2025-03-15"
 ---
 
 Available via Github Repo (including hosted Maven repos)

@@ -15,6 +15,7 @@ readme_bullets:
   - "Rust library providing alternative WebSocket connectivity without tokio/net dependency"
   - "Drop-in WebSocket connector for buttplug servers and clients without the tokio/net dependency"
 order: 7
+added: "2026-07-28"
 ---
 
 Drop-in WebSocket connector for buttplug servers and clients without the tokio/net dependency

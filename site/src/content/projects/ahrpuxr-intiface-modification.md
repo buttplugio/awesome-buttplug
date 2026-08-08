@@ -16,6 +16,7 @@ readme_bullets:
   - "Windows (replaces the games' bundled [Intiface Engine](https://github.com/intiface/intiface-engine))"
   - "Drop-in wrapper that upgrades the bundled Buttplug engine in AhrpuXR's VR games, adding TCode and OSR2 support"
 order: 51
+added: "2026-07-28"
 ---
 
 Drop-in wrapper that upgrades the bundled Buttplug engine in AhrpuXR's VR games, adding TCode and OSR2 support

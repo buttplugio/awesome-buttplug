@@ -16,6 +16,7 @@ readme_bullets:
   - "Provides WebGL template and ToyConnector scripts for Unity games running in browsers; integrates with Intiface and XToys"
   - "WebGL template and scripts for connecting Unity games to Buttplug.io devices via browser"
 order: 12
+added: "2026-07-28"
 ---
 
 WebGL template and scripts for connecting Unity games to Buttplug.io devices via browser

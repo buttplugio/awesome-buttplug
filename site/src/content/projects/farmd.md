@@ -18,6 +18,7 @@ readme_bullets:
   - "Windows 10+ only, VR or Desktop"
   - "Furry focused, integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy control within interactive scenes."
 order: 2
+added: "2021-05-31"
 ---
 
 Furry focused, integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy control within interactive scenes.

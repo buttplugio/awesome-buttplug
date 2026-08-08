@@ -17,6 +17,7 @@ readme_bullets:
   - "Web based (Cross platform via either browser or [Intiface Central](https://intiface.com/central))"
   - "Browser based edging controller that generates stroke and vibration patterns from a single arousal dial"
 order: 33
+added: "2026-07-28"
 ---
 
 Browser based edging controller that generates stroke and vibration patterns from a single arousal dial

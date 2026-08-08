@@ -16,6 +16,7 @@ readme_bullets:
   - "Windows only, requires Intiface Central"
   - "A Buttplug.io mod for Easy Delivery Co with speed-based and event-driven vibration"
 order: 84
+added: "2026-07-28"
 ---
 
 A Buttplug.io mod for Easy Delivery Co with speed-based and event-driven vibration

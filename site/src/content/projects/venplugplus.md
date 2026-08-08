@@ -17,6 +17,7 @@ readme_bullets:
   - "Cross platform (requires [Intiface Central](https://intiface.com/central))"
   - "Fork of Vencord-Buttplugio, adds more integrations for Discord"
 order: 18
+added: "2025-03-15"
 ---
 
 Fork of Vencord-Buttplugio, adds more integrations for Discord

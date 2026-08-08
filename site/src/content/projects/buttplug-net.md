@@ -11,6 +11,7 @@ readme_bullets:
   - "Maintained by Community Developers (MultiFunPlayer dev)"
   - "C# Client written in pure .Net C#, aiming for new C# features (.Net 7+), with capabilities for different JSON serializers"
 order: 2
+added: "2023-01-08"
 ---
 
 C# Client written in pure .Net C#, aiming for new C# features (.Net 7+), with capabilities for different JSON serializers

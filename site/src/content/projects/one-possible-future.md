@@ -15,6 +15,7 @@ readme_bullets:
   - "Windows, uses [Intiface Central](https://intiface.com/central) and also accepts a wired Xbox 360 controller as a haptic output"
   - "Adult sci-fi visual novel that uses Intiface Central to support dozens of toys from many manufacturers"
 order: 44
+added: "2026-07-28"
 ---
 
 Adult sci-fi visual novel that uses Intiface Central to support dozens of toys from many manufacturers

@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only, requires [Intiface Central](https://intiface.com/central)"
   - "Buttplug integration for Beat Saber"
 order: 26
+added: "2024-03-06"
 ---
 
 Buttplug integration for Beat Saber

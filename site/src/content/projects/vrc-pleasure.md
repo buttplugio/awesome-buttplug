@@ -15,6 +15,7 @@ readme_bullets:
   - "Windows 10+ only"
   - "Provides control UI other people can use to control haptics on your av"
 order: 3
+added: "2025-09-14"
 ---
 
 Closed source, paid, [available on booth](https://guetan.booth.pm/items/6903803)

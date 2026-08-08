@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only"
   - "Buttplug integration with the Stockfish chess engine, for relaying moves with morse code to vibrating toys."
 order: 15
+added: "2022-10-01"
 ---
 
 Buttplug integration with the Stockfish chess engine, for relaying moves with morse code to vibrating toys.

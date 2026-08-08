@@ -18,6 +18,7 @@ readme_bullets:
   - "Cross platform"
   - "CLAP audio plugin for controlling Buttplug devices via audio signals"
 order: 4
+added: "2026-05-24"
 ---
 
 CLAP audio plugin for controlling Buttplug devices via audio signals

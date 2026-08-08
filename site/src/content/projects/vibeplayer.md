@@ -18,6 +18,7 @@ readme_bullets:
   - "Android and only requires [Intiface Central](https://intiface.com/central)"
   - "Sync audio tracks from a video."
 order: 11
+added: "2026-03-13"
 ---
 
 Sync audio tracks from a video.

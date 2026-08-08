@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows addon for Stimuwrite 2, requires Godot.Buttplug and compatible Buttplug.io devices"
   - "A Stimuwrite addon that integrates Buttplug.io support for haptic feedback during interactive writing experiences"
 order: 78
+added: "2026-07-28"
 ---
 
 A Stimuwrite addon that integrates Buttplug.io support for haptic feedback during interactive writing experiences

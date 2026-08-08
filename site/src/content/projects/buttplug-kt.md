@@ -11,6 +11,7 @@ readme_bullets:
   - "Maintaided by Community Developers (Doomsdayrs)"
   - "Kotlin Multiplatform Asyncronous Client library"
 order: 1
+added: "2023-10-06"
 ---
 
 Available via local install, not yet on maven

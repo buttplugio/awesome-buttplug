@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, requires Intiface Central"
   - "A Rain World mod that adds Intiface Central compatibility for haptic feedback"
 order: 78
+added: "2026-07-28"
 ---
 
 A Rain World mod that adds Intiface Central compatibility for haptic feedback

@@ -17,6 +17,7 @@ readme_bullets:
   - "Rust Discord bot for Buttplug.io devices"
   - "A Discord bot for controlling Buttplug-compatible devices"
 order: 51
+added: "2026-07-28"
 ---
 
 A Discord bot for controlling Buttplug-compatible devices

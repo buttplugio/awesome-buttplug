@@ -17,6 +17,7 @@ readme_bullets:
   - "Meta Quest (2+) via sideloading, PCVR coming soon"
   - "VR game with native Handy support and Intiface Central integration for other toys"
 order: 14
+added: "2026-05-24"
 ---
 
 VR game with native Handy support and Intiface Central integration for other toys

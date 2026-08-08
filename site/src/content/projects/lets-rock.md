@@ -16,6 +16,7 @@ readme_bullets:
   - "Windows only, written in C++, requires Intiface Central"
   - "Buttplug.io support for Guilty Gear XX Accent Core +R that vibrates based on combo meter"
 order: 80
+added: "2026-07-28"
 ---
 
 Buttplug.io support for Guilty Gear XX Accent Core +R that vibrates based on combo meter

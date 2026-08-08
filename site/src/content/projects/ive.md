@@ -13,6 +13,7 @@ readme_bullets:
   - "Chromium, Firefox and Firefox mobile only requires [Intiface Central](https://intiface.com/central)"
   - "Synchronizes funscripts from script provider sites directly in the browser on your favorite site"
 order: 10
+added: "2026-02-02"
 ---
 
 Chromium, Firefox and Firefox mobile only requires [Intiface Central](https://intiface.com/central)

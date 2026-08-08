@@ -18,6 +18,7 @@ readme_bullets:
   - "Python MCP server for Claude Desktop; requires Intiface Central and connection to intimate hardware devices"
   - "An MCP server that connects Claude to intimate hardware so Claude can control your devices during conversation"
 order: 39
+added: "2026-07-28"
 ---
 
 An MCP server that connects Claude to intimate hardware so Claude can control your devices during conversation

@@ -17,6 +17,7 @@ readme_bullets:
   - "Cross-platform, for Crypt of the NecroDancer"
   - "Buttplug support for Crypt of the NecroDancer"
 order: 64
+added: "2026-07-28"
 ---
 
 Buttplug support for Crypt of the NecroDancer

@@ -17,6 +17,7 @@ readme_bullets:
   - "Web-based vanilla JavaScript player, requires Intiface Central and funscript files for synchronization"
   - "A web-based JavaScript player that synchronizes audio files with haptic feedback using funscript files and Intiface Central"
 order: 10
+added: "2026-07-28"
 ---
 
 A web-based JavaScript player that synchronizes audio files with haptic feedback using funscript files and Intiface Central

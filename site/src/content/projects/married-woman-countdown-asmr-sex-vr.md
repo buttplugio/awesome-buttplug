@@ -19,6 +19,7 @@ readme_bullets:
   - "Windows and Android VR, requires [Intiface Central](https://intiface.com/central)"
   - "ASMR-recorded VR experience with binaural audio, synchronising strokers via Intiface Central"
 order: 27
+added: "2026-07-28"
 ---
 
 ASMR-recorded VR experience with binaural audio, synchronising strokers via Intiface Central

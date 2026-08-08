@@ -18,6 +18,7 @@ readme_bullets:
   - "Deprecation Reason: Overwatch servers shut down in late 2022"
 deprecation_reason: "Overwatch servers shut down in late 2022"
 order: 3
+added: "2023-08-30"
 ---
 
 Healing Is Fun Overwatch Plugin

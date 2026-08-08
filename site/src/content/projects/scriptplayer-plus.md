@@ -20,6 +20,7 @@ readme_bullets:
   - "Windows, macOS via self-build (Intiface/Buttplug support is a separate experimental build)"
   - "Opens a folder or a dragged file and plays immediately with no library import or reindexing step"
   - "Automatically matches funscripts and subtitles by filename, and has EroScripts login, search and download built in"
+added: "2026-07-28"
 ---
 
 Portable funscript player built around a folder-first workflow rather than a managed library, with automatic script and subtitle matching and support for audio-only content. Buttplug support ships as a separate experimental build; the author notes they own no compatible hardware, so it is unverified on real devices and feedback from Intiface users is wanted.

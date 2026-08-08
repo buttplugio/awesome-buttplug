@@ -16,6 +16,7 @@ readme_bullets:
   - "Windows VR, requires [Intiface Central](https://intiface.com/central)"
   - "VR counterpart to JOI Lab PC with experimental toy control through Intiface Central"
 order: 49
+added: "2026-07-28"
 ---
 
 VR counterpart to JOI Lab PC with experimental toy control through Intiface Central

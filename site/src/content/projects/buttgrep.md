@@ -19,6 +19,7 @@ readme_bullets:
   - "Deprecation Reason: Developer states the project is dead and no longer under development"
 deprecation_reason: "Developer states the project is dead and no longer under development"
 order: 32
+added: "2026-07-28"
 ---
 
 Python program that parses real-time log files and triggers toy vibration patterns via Intiface

@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, requires Bluetooth adapter for DG-Lab Coyote devices"
   - "Buttplug and Intiface adapters for DG-Lab Coyote e-stim devices (v2 and v3)"
 order: 4
+added: "2026-07-28"
 ---
 
 Buttplug and Intiface adapters for DG-Lab Coyote e-stim devices (v2 and v3)

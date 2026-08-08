@@ -17,6 +17,7 @@ readme_bullets:
   - "RuneLite plugin, requires Intiface Central"
   - "RuneScape buttplug.io integration that synchronizes in-game XP drops with compatible devices"
 order: 88
+added: "2026-07-28"
 ---
 
 RuneScape buttplug.io integration that synchronizes in-game XP drops with compatible devices

@@ -12,6 +12,7 @@ readme_bullets:
   - "Cross-platform (pygame)"
   - "Typing tutor game that controls sex toys via Buttplug."
 order: 6
+added: "2020-11-01"
 ---
 
 Cross-platform (pygame)

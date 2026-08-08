@@ -17,6 +17,7 @@ readme_bullets:
   - "Chrome/Edge extension with native BLE for GK03 and Lovense, plus Intiface support for broader device compatibility"
   - "A Chrome extension that converts browser tab audio into real-time haptic feedback for Bluetooth toys via native BLE or Intiface Central"
 order: 9
+added: "2026-07-28"
 ---
 
 A Chrome extension that converts browser tab audio into real-time haptic feedback for Bluetooth toys via native BLE or Intiface Central

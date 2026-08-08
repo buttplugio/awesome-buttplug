@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, requires BepInEx 5.4.x and Intiface Central"
   - "A Buttplug.io mod for The Villain Simulator that drives stroker or vibrator from thrust depth, arousal, and hits"
 order: 74
+added: "2026-07-28"
 ---
 
 A Buttplug.io mod for The Villain Simulator that drives stroker or vibrator from thrust depth, arousal, and hits

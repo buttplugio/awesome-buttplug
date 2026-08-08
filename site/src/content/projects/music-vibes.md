@@ -19,6 +19,7 @@ readme_bullets:
   - "Deprecation Reason: Repository removed from GitHub"
 deprecation_reason: "Repository removed from GitHub"
 order: 36
+added: "2022-01-22"
 ---
 
 Analyzes audio and translates into vibrations for Buttplug compatible hardware.

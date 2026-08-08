@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only, requires [Intiface Central](https://intiface.com/central)"
   - "Buttplug integration for Payday 2"
 order: 36
+added: "2025-03-15"
 ---
 
 Buttplug integration for Payday 2

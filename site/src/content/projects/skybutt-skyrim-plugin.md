@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only"
   - "Vibration control plugin for Skyrim"
 order: 8
+added: "2021-01-23"
 ---
 
 Vibration control plugin for Skyrim

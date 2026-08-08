@@ -19,6 +19,7 @@ readme_bullets:
   - "Support Discord at [https://vrbrations.com](https://vrbrations.com)"
   - "Allows sex toy control from VRChat via either Buttplug or the Lovense Connect app, with OSC or shader based interaction capabilities."
 order: 2
+added: "2021-06-03"
 ---
 
 Support Discord at [https://vrbrations.com](https://vrbrations.com)

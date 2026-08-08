@@ -18,6 +18,7 @@ readme_bullets:
   - "Windows 10+ only"
   - "Playback of movies using Funscript format, with support for stroking/vibrating/rotating toys."
 order: 2
+added: "2020-11-01"
 ---
 
 Playback of movies using Funscript format, with support for stroking/vibrating/rotating toys.

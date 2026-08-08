@@ -15,6 +15,7 @@ readme_bullets:
   - "WebGL (play in browser)"
   - "Mini Games (Snake, FappyBird for now) with vibrator support. Connection via [Xtoys](https://xtoys.app/) or [Intiface Central](https://intiface.com/central)."
 order: 10
+added: "2024-03-23"
 ---
 
 WebGL (play in browser)

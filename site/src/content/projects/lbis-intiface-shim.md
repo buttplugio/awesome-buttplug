@@ -17,6 +17,7 @@ readme_bullets:
   - "Cross-platform Python implementation"
   - "Bridge for lBIS REST API that emulates a Lovense device for Buttplug integration"
 order: 59
+added: "2026-07-28"
 ---
 
 Bridge for lBIS REST API that emulates a Lovense device for Buttplug integration

@@ -20,6 +20,7 @@ readme_bullets:
   - "Deprecation Reason: Abandoned by the original author, community rebuilds still have unresolved bugs"
 deprecation_reason: "Abandoned by the original author, community rebuilds still have unresolved bugs"
 order: 30
+added: "2026-07-28"
 ---
 
 Mod for [Karryn's Prison](https://store.steampowered.com/app/1619750/) that drives toys during battle scenes

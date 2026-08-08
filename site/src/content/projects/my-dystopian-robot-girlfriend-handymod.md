@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows, Linux (via [Intiface Central](https://intiface.com/central))"
   - "Mod for [My Dystopian Robot Girlfriend](https://incontinentcell.itch.io/factorial-omega) that syncs toys to on-screen scene action, with manual hotkey control outside scenes"
 order: 56
+added: "2026-07-28"
 ---
 
 Mod for [My Dystopian Robot Girlfriend](https://incontinentcell.itch.io/factorial-omega) that syncs toys to on-screen scene action

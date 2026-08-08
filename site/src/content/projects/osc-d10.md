@@ -19,6 +19,7 @@ readme_bullets:
   - "Windows 10+ only"
   - "VRC support via OSC for Buttplug"
 order: 5
+added: "2022-07-02"
 ---
 
 VRC support via OSC for Buttplug

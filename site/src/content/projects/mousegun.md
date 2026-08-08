@@ -22,6 +22,7 @@ readme_bullets:
   - "Browser, Windows, Linux and Android"
   - "Retro first-person shooter that is Buttplug.io compatible, with a setup guide published by the developer"
 order: 23
+added: "2026-07-28"
 ---
 
 Retro first-person shooter that is Buttplug.io compatible, with a setup guide published by the developer

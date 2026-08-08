@@ -19,6 +19,7 @@ readme_bullets:
   - "Deprecation Reason: Repository removed from GitHub"
 deprecation_reason: "Repository removed from GitHub"
 order: 28
+added: "2023-05-22"
 ---
 
 Buttplug integration for Terraria

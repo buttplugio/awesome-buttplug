@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, requires tablet with pressure input and Intiface Central"
   - "Windows tray utility that maps pen tablet pressure telemetry to Buttplug device vibration"
 order: 63
+added: "2026-07-28"
 ---
 
 Windows tray utility that maps pen tablet pressure telemetry to Buttplug device vibration

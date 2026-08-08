@@ -19,6 +19,7 @@ readme_bullets:
   - "Web based (Cross platform, either via browsers or [Intiface Central](https://intiface.com/central))"
   - "Test utility for simple device connection and control."
 order: 2
+added: "2020-11-01"
 ---
 
 Test utility for simple device connection and control.

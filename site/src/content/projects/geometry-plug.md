@@ -21,6 +21,7 @@ readme_bullets:
   - "Windows Mac and Android only, requires [Intiface Central](https://intiface.com/central)"
   - "Buttplug integration for Geometry Dash"
 order: 23
+added: "2024-02-16"
 ---
 
 Buttplug integration for Geometry Dash

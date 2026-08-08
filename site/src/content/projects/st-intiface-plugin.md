@@ -14,6 +14,7 @@ readme_bullets:
   - "SillyTavern extension; requires Intiface Central running locally; README is in Chinese"
   - "SillyTavern extension for controlling Bluetooth toys via Intiface Central"
 order: 10
+added: "2026-07-28"
 ---
 
 SillyTavern extension for controlling Bluetooth toys via Intiface Central

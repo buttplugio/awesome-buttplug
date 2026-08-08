@@ -11,6 +11,7 @@ readme_bullets:
   - "Maintained by Community Developers"
   - "C# Client written in pure .Net C#"
 order: 3
+added: "2022-12-18"
 ---
 
 Available via the github repo, not yet on Nuget

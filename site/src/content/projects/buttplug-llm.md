@@ -18,6 +18,7 @@ readme_bullets:
   - "Python 3.10+ application with FastMCP server and web UI; requires local LLM (LM Studio or OpenAI-compatible server) and Intiface Central"
   - "A chat interface with a local LLM that controls intimate hardware in real time through Buttplug and Intiface with built-in safety features"
 order: 43
+added: "2026-07-28"
 ---
 
 A chat interface with a local LLM that controls intimate hardware in real time through Buttplug and Intiface with built-in safety features

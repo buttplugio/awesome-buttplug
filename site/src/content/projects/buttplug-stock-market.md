@@ -17,6 +17,7 @@ readme_bullets:
   - "Built in Rust, requires Buttplug.io and Intiface Central"
   - "A utility that connects stock market data to Buttplug-compatible devices for haptic feedback"
 order: 73
+added: "2026-07-28"
 ---
 
 A utility that connects stock market data to Buttplug-compatible devices for haptic feedback

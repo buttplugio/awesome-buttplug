@@ -8,6 +8,7 @@ summary: "Godotscript Implementation of a Buttplug Client"
 readme_bullets:
   - "Godotscript Implementation of a Buttplug Client"
 order: 7
+added: "2023-02-11"
 ---
 
 Godotscript Implementation of a Buttplug Client

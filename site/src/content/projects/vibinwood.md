@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, requires BepInEx 6 IL2CPP and Intiface Central"
   - "A BepInEx 6 plugin for Robin Morningwood Adventure that drives Buttplug.io and XToys devices from game events"
 order: 85
+added: "2026-07-28"
 ---
 
 A BepInEx 6 plugin for Robin Morningwood Adventure that drives Buttplug.io and XToys devices from game events

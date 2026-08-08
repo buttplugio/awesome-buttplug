@@ -15,6 +15,7 @@ readme_bullets:
   - "Runs in the browser"
   - "Browser tool for prototyping and previewing vibration patterns for Plug₂in 2.0.0+"
 order: 14
+added: "2026-07-28"
 ---
 
 Browser tool for prototyping and previewing vibration patterns for Plug₂in 2.0.0+

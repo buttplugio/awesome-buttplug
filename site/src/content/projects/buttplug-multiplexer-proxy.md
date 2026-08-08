@@ -17,6 +17,7 @@ readme_bullets:
   - "C# Windows proxy server; allows multiple control programs to connect to a single Buttplug.io websocket server"
   - "A proxy server that allows multiple control programs to connect to a Buttplug.io websocket server simultaneously"
 order: 54
+added: "2026-07-28"
 ---
 
 A proxy server that allows multiple control programs to connect to a Buttplug.io websocket server simultaneously

@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only (requires [Intiface Central](https://intiface.com/central))"
   - "SuperDeepthroat sex toy integration"
 order: 11
+added: "2021-07-31"
 ---
 
 SuperDeepthroat sex toy integration

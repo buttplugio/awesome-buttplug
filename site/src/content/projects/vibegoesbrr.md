@@ -20,6 +20,7 @@ readme_bullets:
   - "Deprecation Reason: Gumroad page removed"
 deprecation_reason: "Gumroad page removed"
 order: 26
+added: "2021-05-31"
 ---
 
 Buttplug Integration for ChilloutVR

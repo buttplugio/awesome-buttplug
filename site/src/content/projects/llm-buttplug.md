@@ -16,6 +16,7 @@ readme_bullets:
   - "Cross Platform Extension for oobabooga/text-generation-webui, (requires [Intiface Central](https://intiface.com/central))"
   - "Let LLMs Control Sex Toy."
 order: 12
+added: "2024-01-09"
 ---
 
 Let LLMs Control Sex Toy.

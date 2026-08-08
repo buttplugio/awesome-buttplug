@@ -19,6 +19,7 @@ readme_bullets:
   - "Deprecation Reason: Repository set to private or removed"
 deprecation_reason: "Repository set to private or removed"
 order: 23
+added: "2021-11-15"
 ---
 
 Plugin for Minecraft Multiplayer Servers

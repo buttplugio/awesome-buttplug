@@ -17,6 +17,7 @@ readme_bullets:
   - "Linux only, requires root access and Intiface Central"
   - "A CLI tool that routes Linux game force-feedback rumble to Buttplug.io and Intiface toys using eBPF"
 order: 75
+added: "2026-07-28"
 ---
 
 A CLI tool that routes Linux game force-feedback rumble to Buttplug.io and Intiface toys using eBPF

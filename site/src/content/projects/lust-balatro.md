@@ -17,6 +17,7 @@ readme_bullets:
   - "Cross-platform, for Balatro"
   - "Adds Buttplug.io support to Balatro"
 order: 61
+added: "2026-07-28"
 ---
 
 Adds Buttplug.io support to Balatro

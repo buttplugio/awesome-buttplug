@@ -17,6 +17,7 @@ readme_bullets:
   - "Desktop Cross Platform"
   - "Scaled back version of the Buttplug Protocol for use with [Resonite ProtoFlux](https://resonite.com/)"
 order: 1
+added: "2021-05-31"
 ---
 
 Scaled back version of the Buttplug Protocol for use with [Resonite ProtoFlux](https://resonite.com/)

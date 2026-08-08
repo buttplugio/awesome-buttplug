@@ -18,6 +18,7 @@ readme_bullets:
   - "Cross Platform (requires [Intiface Central](https://intiface.com/central))"
   - "Haptic feedback for modded Minecraft (Forge, NeoForge, and Fabric), with buttplug.io protocol support."
 order: 24
+added: "2021-01-23"
 ---
 
 Haptic feedback for modded Minecraft (Forge, NeoForge, and Fabric), with buttplug.io protocol support.

@@ -14,6 +14,7 @@ readme_bullets:
   - "Requires Unreal Engine 5; install as a plugin in your project's Plugins folder"
   - "Plugin for Unreal Engine 5 that integrates sex toy control via Buttplug.io"
 order: 13
+added: "2026-07-28"
 ---
 
 Plugin for Unreal Engine 5 that integrates sex toy control via Buttplug.io

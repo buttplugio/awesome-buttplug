@@ -17,6 +17,7 @@ readme_bullets:
   - "Currently supports HTML5 targets; work in progress"
   - "Buttplug.io module for the Defold game engine"
 order: 11
+added: "2026-07-28"
 ---
 
 Buttplug.io module for the Defold game engine

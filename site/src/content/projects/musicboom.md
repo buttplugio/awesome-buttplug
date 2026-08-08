@@ -17,6 +17,7 @@ readme_bullets:
   - "Linux Only (requires [Intiface Central](https://intiface.com/central) and JACK or Pipewire JACK)"
   - "Analyzes audio and translates into vibrations for Buttplug compatible hardware with two motors."
 order: 3
+added: "2023-12-30"
 ---
 
 Analyzes audio and translates into vibrations for Buttplug compatible hardware with two motors.

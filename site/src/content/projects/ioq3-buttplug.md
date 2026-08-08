@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only, requires [Intiface Central](https://intiface.com/central)"
   - "Buttplug integration for ioquake3"
 order: 44
+added: "2025-09-14"
 ---
 
 Buttplug integration for ioquake3

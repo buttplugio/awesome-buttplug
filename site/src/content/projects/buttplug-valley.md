@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only (via [Intiface Central](https://intiface.com/central))"
   - "Mod for [Stardew Valley](https://www.stardewvalley.net/), triggers toys on various game events (farming, fishing, etc...)"
 order: 4
+added: "2023-06-28"
 ---
 
 Mod for [Stardew Valley](https://www.stardewvalley.net/), triggers toys on various game events (farming, fishing, etc...)

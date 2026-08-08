@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only"
   - "Buttplug integration for the H-Game Fallen Angel Marielle - Ascend The Futanari Tower to be played with a stroker device (Handy, Kiiroo Keon, etc)."
 order: 14
+added: "2022-04-07"
 ---
 
 Buttplug integration for the H-Game Fallen Angel Marielle - Ascend The Futanari Tower to be played with a stroker device (Handy, Kiiroo Keon, etc).

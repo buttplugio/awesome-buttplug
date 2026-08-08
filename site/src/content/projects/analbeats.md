@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, requires Beat Saber and BSDataPuller"
   - "Connects Beat Saber events via BSDataPuller to Intiface-compatible devices"
 order: 57
+added: "2026-07-28"
 ---
 
 Connects Beat Saber events via BSDataPuller to Intiface-compatible devices

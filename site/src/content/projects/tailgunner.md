@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only"
   - "Buttplug integration for War Thunder"
 order: 45
+added: "2026-05-24"
 ---
 
 Buttplug integration for War Thunder

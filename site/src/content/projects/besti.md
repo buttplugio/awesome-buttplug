@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only, VR or Desktop"
   - "MLP and furry focused, integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy control within interactive scenes. Available in Besti 9 and Besti X."
 order: 1
+added: "2022-07-02"
 ---
 
 MLP and furry focused, integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy control within interactive scenes. Available in Besti 9 and Besti X.

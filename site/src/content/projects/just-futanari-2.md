@@ -19,6 +19,7 @@ readme_bullets:
   - "Windows and Android VR (Meta Quest 2/3), requires [Intiface Central](https://intiface.com/central)"
   - "Online multiplayer VR game where player movement can drive another player's connected device"
 order: 29
+added: "2026-07-28"
 ---
 
 Online multiplayer VR game where player movement can drive another player's connected device

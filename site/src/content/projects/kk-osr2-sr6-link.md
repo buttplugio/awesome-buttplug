@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, for Koikatu and Koikatsu Sunshine"
   - "Adds support for OSR2, SR6, and Handy devices to Koikatu and Koikatsu Sunshine"
 order: 58
+added: "2026-07-28"
 ---
 
 Adds support for OSR2, SR6, and Handy devices to Koikatu and Koikatsu Sunshine

@@ -18,6 +18,7 @@ readme_bullets:
   - "Cross-platform MCP server written in Go; requires Claude Desktop or other MCP-compatible client and Intiface Central running on port 12345"
   - "An MCP server for the Buttplug.io ecosystem that lets AI programs like Claude Desktop query and control intimate devices"
 order: 38
+added: "2026-07-28"
 ---
 
 An MCP server for the Buttplug.io ecosystem that lets AI programs like Claude Desktop query and control intimate devices

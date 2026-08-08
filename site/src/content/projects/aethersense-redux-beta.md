@@ -18,6 +18,7 @@ readme_bullets:
   - "Windows 10+ only (requires [Intiface Central](https://intiface.com/central))"
   - "Realtime chat and combat log parsing, via [Dalamud](https://github.com/goatcorp/Dalamud)"
 order: 2
+added: "2022-01-05"
 ---
 
 Realtime chat and combat log parsing, via [Dalamud](https://github.com/goatcorp/Dalamud)

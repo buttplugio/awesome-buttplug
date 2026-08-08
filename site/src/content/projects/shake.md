@@ -17,6 +17,7 @@ readme_bullets:
   - "Cross platform (Word and Excel add-in)"
   - "Controls devices as you type in Word and Excel, with customizable intensity ramp and Excel function integration"
 order: 29
+added: "2026-05-24"
 ---
 
 Controls devices as you type in Word and Excel, with customizable intensity ramp and Excel function integration

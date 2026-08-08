@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only, requires [Intiface Central](https://intiface.com/central) & [GDWeave](https://github.com/NotNite/GDWeave/tree/main)"
   - "Buttplug integration for WEBFISHING"
 order: 31
+added: "2024-11-16"
 ---
 
 Buttplug integration for WEBFISHING

@@ -18,6 +18,7 @@ readme_bullets:
   - "Windows only, requires VRChat"
   - "VRChat SPS/OGB contact-to-device bridge that drives Intiface and TCode devices from avatar contact parameters"
 order: 7
+added: "2026-07-28"
 ---
 
 VRChat SPS/OGB contact-to-device bridge that drives Intiface and TCode devices from avatar contact parameters

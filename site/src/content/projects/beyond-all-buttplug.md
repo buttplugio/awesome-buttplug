@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, requires Intiface Central and Beyond All Reason"
   - "Buttplug.io support for Beyond All Reason real-time strategy game"
 order: 70
+added: "2026-07-28"
 ---
 
 Buttplug.io support for Beyond All Reason real-time strategy game

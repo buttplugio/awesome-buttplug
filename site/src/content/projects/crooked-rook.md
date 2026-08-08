@@ -17,6 +17,7 @@ readme_bullets:
   - "Runs on Linux"
   - "The missing link between chess engines and intimate hardware"
 order: 16
+added: "2025-03-15"
 ---
 
 Runs on Linux

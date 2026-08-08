@@ -8,6 +8,7 @@ summary: "C++ Buttplug Plugin for the [Unreal Engine](https://www.unrealengine.c
 readme_bullets:
   - "C++ Buttplug Plugin for the [Unreal Engine](https://www.unrealengine.com/en-US)"
 order: 2
+added: "2023-11-20"
 ---
 
 C++ Buttplug Plugin for the [Unreal Engine](https://www.unrealengine.com/en-US)

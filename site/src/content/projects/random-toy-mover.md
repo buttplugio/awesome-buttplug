@@ -10,6 +10,7 @@ readme_bullets:
   - "HTML tool that connects to Intiface Central and randomizes device timing, intensity, and duration"
   - "HTML utility (ランダムにおもちゃが動くツール) that drives Intiface-compatible devices at randomized timing, intensity, and duration"
 order: 44
+added: "2026-07-28"
 ---
 
 HTML utility (ランダムにおもちゃが動くツール) that drives Intiface-compatible devices at randomized timing, intensity, and duration

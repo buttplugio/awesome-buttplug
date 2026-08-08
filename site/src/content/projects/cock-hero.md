@@ -15,6 +15,7 @@ readme_bullets:
   - "Windows only, requires [Intiface Central](https://intiface.com/central)"
   - "Rhythm game with Intiface toy support in the Toys settings menu, working with any Intiface-compatible device"
 order: 35
+added: "2026-07-28"
 ---
 
 Rhythm game with Intiface toy support in the Toys settings menu, working with any Intiface-compatible device

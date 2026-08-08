@@ -17,6 +17,7 @@ readme_bullets:
   - "Steam Deck with Decky Loader, bundles intiface-engine for direct device control"
   - "Decky Loader plugin for Steam Deck that bundles intiface-engine for managing haptic devices"
 order: 57
+added: "2026-07-28"
 ---
 
 Decky Loader plugin for Steam Deck that bundles intiface-engine for managing haptic devices

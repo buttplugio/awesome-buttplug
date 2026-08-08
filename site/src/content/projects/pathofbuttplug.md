@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only"
   - "Buttplug integration for Path of Exile, vibrates on Divine drops"
 order: 48
+added: "2026-05-24"
 ---
 
 Buttplug integration for Path of Exile, vibrates on Divine drops

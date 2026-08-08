@@ -14,6 +14,7 @@ readme_bullets:
   - "Requires hxWebsocket library for WebSocket support"
   - "Buttplug.IO API library for the Haxe programming language"
 order: 7
+added: "2026-07-28"
 ---
 
 Buttplug.IO API library for the Haxe programming language

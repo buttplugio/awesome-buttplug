@@ -17,6 +17,7 @@ readme_bullets:
   - "Node.js server deployable on any platform via npm, available as hosted instance on glitch.com"
   - "Generic Buttplug-based teledildonics chat server"
 order: 65
+added: "2026-07-28"
 ---
 
 Generic Buttplug-based teledildonics chat server

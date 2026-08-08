@@ -17,6 +17,7 @@ readme_bullets:
   - "Cross platform ([SillyTavern](https://github.com/SillyTavern/SillyTavern) extension)  "
   - "[SillyTavern](https://github.com/SillyTavern/SillyTavern) plugin for Intiface Central integration, enabling haptic device control during AI roleplay"
 order: 4
+added: "2026-05-30"
 ---
 
 [SillyTavern](https://github.com/SillyTavern/SillyTavern) plugin for Intiface Central integration, enabling haptic device control during AI roleplay

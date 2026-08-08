@@ -17,6 +17,7 @@ readme_bullets:
   - "Python 3.7+ Discord bot; requires Intiface Central and Discord bot token"
   - "A Discord bot that allows users to control toys through Discord commands with multi-device and queue support"
 order: 50
+added: "2026-07-28"
 ---
 
 A Discord bot that allows users to control toys through Discord commands with multi-device and queue support

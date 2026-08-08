@@ -19,6 +19,7 @@ readme_bullets:
   - "Windows and Android VR (Quest 2, Oculus Rift, HTC Vive)"
   - "First-person VR kissing experience built on Buttplug, with electric onahole support"
 order: 26
+added: "2026-07-28"
 ---
 
 First-person VR kissing experience built on Buttplug, with electric onahole support

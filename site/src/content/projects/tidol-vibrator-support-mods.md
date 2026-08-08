@@ -15,6 +15,7 @@ readme_bullets:
   - "Windows (via [Intiface Central](https://intiface.com/central))"
   - "Bundle of BepInEx plugins adding vibration feedback to six action and platformer h-games, vibrators only"
 order: 54
+added: "2026-07-28"
 ---
 
 Bundle of BepInEx plugins adding vibration feedback to six action and platformer h-games

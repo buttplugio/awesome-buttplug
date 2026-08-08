@@ -19,6 +19,7 @@ readme_bullets:
   - "Deprecation Reason: Archived by owner; the intiface-central packaging is documented as non-functional"
 deprecation_reason: "Archived by owner; the intiface-central packaging is documented as non-functional"
 order: 34
+added: "2026-07-28"
 ---
 
 Nix home-manager module for running intiface-engine as a background service

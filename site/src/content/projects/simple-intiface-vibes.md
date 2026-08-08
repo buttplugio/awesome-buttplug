@@ -17,6 +17,7 @@ readme_bullets:
   - "Cross platform (requires [Intiface Central](https://intiface.com/central))"
   - "Simple vibration binding to mouse/keyboard presses"
 order: 20
+added: "2025-03-15"
 ---
 
 Simple vibration binding to mouse/keyboard presses

@@ -17,6 +17,7 @@ readme_bullets:
   - "Cross platform (requires [Intiface Central](https://intiface.com/central))"
   - "Heartrate to Vibration monitor for OBS, using node.js"
 order: 23
+added: "2025-05-15"
 ---
 
 Heartrate to Vibration monitor for OBS, using node.js

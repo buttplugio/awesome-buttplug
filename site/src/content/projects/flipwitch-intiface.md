@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, requires BepInEx v5 and Intiface Central"
   - "A BepInEx mod for FlipWitch that integrates Buttplug.io haptics for game events"
 order: 77
+added: "2026-07-28"
 ---
 
 A BepInEx mod for FlipWitch that integrates Buttplug.io haptics for game events

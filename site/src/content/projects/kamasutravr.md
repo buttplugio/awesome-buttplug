@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only, VR only"
   - "VR sex simulator with support for multiple different toys"
 order: 12
+added: "2025-05-15"
 ---
 
 VR sex simulator with support for multiple different toys

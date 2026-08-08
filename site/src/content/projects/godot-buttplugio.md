@@ -14,6 +14,7 @@ readme_bullets:
   - "Requires Godot 4.3"
   - "Buttplug.IO client library for the Godot 4.3 game engine"
 order: 8
+added: "2026-07-28"
 ---
 
 Buttplug.IO client library for the Godot 4.3 game engine

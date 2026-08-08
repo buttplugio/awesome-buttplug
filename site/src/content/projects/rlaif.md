@@ -18,6 +18,7 @@ readme_bullets:
   - "Python 3.11+ MCP server for PiShock devices; single-user feedback channel integration"
   - "An MCP server that gives AI agents negative and positive feedback channels via PiShock devices"
 order: 42
+added: "2026-07-28"
 ---
 
 An MCP server that gives AI agents negative and positive feedback channels via PiShock devices

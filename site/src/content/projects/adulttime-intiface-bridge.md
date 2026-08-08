@@ -17,6 +17,7 @@ readme_bullets:
   - "Python 3.8+, requires Intiface Central and Tampermonkey browser extension for script injection"
   - "A Python bridge that downloads Adult Time videos with funscripts and synchronizes playback with Buttplug.io devices via Intiface Central"
 order: 21
+added: "2026-07-28"
 ---
 
 A Python bridge that downloads Adult Time videos with funscripts and synchronizes playback with Buttplug.io devices via Intiface Central

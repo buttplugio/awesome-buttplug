@@ -14,6 +14,7 @@ readme_bullets:
   - "Provides VibrationActuator and LinearActuator abstractions with a configuration panel"
   - "Godot library with virtual actuators to control Buttplug-compatible toys from games"
 order: 9
+added: "2026-07-28"
 ---
 
 Godot library with virtual actuators to control Buttplug-compatible toys from games

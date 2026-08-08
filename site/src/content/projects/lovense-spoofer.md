@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows and Linux, requires Node.js and Intiface Central"
   - "Emulates a Lovense Remote server locally to redirect toy commands to Intiface Central"
 order: 58
+added: "2026-07-28"
 ---
 
 Emulates a Lovense Remote server locally to redirect toy commands to Intiface Central

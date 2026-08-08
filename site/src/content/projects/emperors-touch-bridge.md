@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows standalone or Python application, supports Intiface Central or Lovense Connect phone app"
   - "Bridge for the Emperor's Touch Darktide mod to support Buttplug/Intiface and Lovense Connect"
 order: 70
+added: "2026-07-28"
 ---
 
 Bridge for the Emperor's Touch Darktide mod to support Buttplug/Intiface and Lovense Connect

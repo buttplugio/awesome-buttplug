@@ -17,6 +17,7 @@ readme_bullets:
   - "Cross-platform, for Garry's Mod"
   - "Buttplug.io support for Garry's Mod"
 order: 63
+added: "2026-07-28"
 ---
 
 Buttplug.io support for Garry's Mod

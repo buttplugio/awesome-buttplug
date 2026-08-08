@@ -15,6 +15,7 @@ readme_bullets:
   - "Rust library for handling long-running buttplug.io commands and multiple users per device"
   - "Utility library for playing long-running buttplug.io commands like funscripts and dynamically scripted patterns with multi-threaded device access"
 order: 5
+added: "2026-07-28"
 ---
 
 Utility library for playing long-running buttplug.io commands like funscripts and dynamically scripted patterns with multi-threaded device access

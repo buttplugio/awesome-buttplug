@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, for Forza Motorsport and Forza Horizon"
   - "Electron app syncing Buttplug-compatible toys with Forza Motorsport and Forza Horizon telemetry"
 order: 68
+added: "2026-07-28"
 ---
 
 Electron app syncing Buttplug-compatible toys with Forza Motorsport and Forza Horizon telemetry

@@ -18,6 +18,7 @@ readme_bullets:
   - "Go application for Windows, Linux, macOS; requires The Handy (firmware v4) or Intiface Central and a local LLM (llama.cpp or Ollama)"
   - "An LLM wrapper for controlling The Handy via chat with hands-free and local-first operation"
 order: 45
+added: "2026-07-28"
 ---
 
 An LLM wrapper for controlling The Handy via chat with hands-free and local-first operation

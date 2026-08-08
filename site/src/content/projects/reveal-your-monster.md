@@ -15,6 +15,7 @@ readme_bullets:
   - "Windows 10+ Only"
   - "Puzzle/Action game w/ Toy Support DLC"
 order: 9
+added: "2022-07-02"
 ---
 
 Puzzle/Action game w/ Toy Support DLC

@@ -24,6 +24,7 @@ readme_bullets:
   - "Browser, Windows, macOS, Linux and Android, requires [Intiface Central](https://intiface.com/central)"
   - "Furry-themed edging trainer driving connected devices through an Intiface Central connection"
 order: 32
+added: "2026-07-28"
 ---
 
 Furry-themed edging trainer driving connected devices through an Intiface Central connection

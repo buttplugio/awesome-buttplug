@@ -21,6 +21,7 @@ readme_bullets:
   - "Deprecation Reason: Project Abandoned"
 deprecation_reason: "Project Abandoned"
 order: 14
+added: "2021-01-23"
 ---
 
 WebAudio equalizer to sex toy control utility

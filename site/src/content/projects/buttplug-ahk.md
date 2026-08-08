@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, requires [Intiface Central](https://intiface.com/central)"
   - "AHK Buttplug Support via python and AHK scripts"
 order: 26
+added: "2025-09-14"
 ---
 
 AHK Buttplug Support via python and AHK scripts

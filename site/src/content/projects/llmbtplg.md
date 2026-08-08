@@ -17,6 +17,7 @@ readme_bullets:
   - "Web based (requires [Intiface Central](https://intiface.com/central))"
   - "Web interface for controlling devices using LM Studio and local LLMs"
 order: 31
+added: "2026-05-24"
 ---
 
 Web interface for controlling devices using LM Studio and local LLMs

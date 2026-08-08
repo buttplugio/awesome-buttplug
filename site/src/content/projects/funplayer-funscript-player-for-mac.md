@@ -16,6 +16,7 @@ readme_bullets:
   - "MacOS (app available on Mac App Store)"
   - "Playback of movies using Funscript (local player)"
 order: 7
+added: "2025-08-14"
 ---
 
 Playback of movies using Funscript (local player)

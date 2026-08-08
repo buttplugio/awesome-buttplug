@@ -16,6 +16,7 @@ readme_bullets:
   - "Windows 10+ only (requires [Intiface Central](https://intiface.com/central))"
   - "FFXIV triggers for sex toy control, via [Dalamud](https://github.com/goatcorp/Dalamud)"
 order: 1
+added: "2022-01-01"
 ---
 
 Closed source, free, requires paid subscription for some features

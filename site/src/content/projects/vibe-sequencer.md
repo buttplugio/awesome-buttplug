@@ -20,6 +20,7 @@ readme_bullets:
   - "Web based (Cross platform, via browsers with [Intiface Central](https://intiface.com/central))"
   - "Lets you control your Buttplug sex toys with an interactive sequencer interface."
 order: 7
+added: "2021-04-07"
 ---
 
 Lets you control your Buttplug sex toys with an interactive sequencer interface.

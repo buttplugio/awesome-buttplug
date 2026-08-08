@@ -13,6 +13,7 @@ readme_bullets:
   - "Free, open source, repo at https://github.com/MonomoriumP/Buttplug.io--Lelo"
   - "ESP32 bridge between Buttplug.io and Lelo's RF controlled toys."
 order: 2
+added: "2021-01-23"
 ---
 
 ESP32 bridge between Buttplug.io and Lelo's RF controlled toys.

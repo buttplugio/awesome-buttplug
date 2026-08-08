@@ -15,6 +15,7 @@ readme_bullets:
   - "Deprecation Reason: Repository removed from GitHub"
 deprecation_reason: "Repository removed from GitHub"
 order: 29
+added: "2024-05-18"
 ---
 
 Simple Python script, using MPV

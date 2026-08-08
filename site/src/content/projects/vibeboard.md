@@ -17,6 +17,7 @@ readme_bullets:
   - "Runs in Chrome-based browsers and requires Intiface Central"
   - "Customizable soundboard that interfaces with Buttplug.io to activate vibrators"
 order: 61
+added: "2026-07-28"
 ---
 
 Customizable soundboard that interfaces with Buttplug.io to activate vibrators

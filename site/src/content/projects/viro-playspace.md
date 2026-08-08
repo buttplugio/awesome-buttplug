@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows 10+ only, VR or Desktop"
   - "Integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy control within interactive scenes."
 order: 3
+added: "2020-11-01"
 ---
 
 Integrates [Buttplug Unity](https://github.com/buttplugio/buttplug-unity) for toy control within interactive scenes.

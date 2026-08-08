@@ -17,6 +17,7 @@ readme_bullets:
   - "Windows only, designed for linear devices like Kiiroo Onyx 2 and Fleshlight Launch"
   - "Buttplug interface that sends repetitive commands to linear and stroking devices"
 order: 71
+added: "2026-07-28"
 ---
 
 Buttplug interface that sends repetitive commands to linear and stroking devices
