@@ -7,6 +7,7 @@ interface Props {
 }
 
 const { title } = Astro.props;
+const lastUpdated = new Date().toISOString().slice(0, 10);
 
 // Both values ship in the page source to every visitor, so they are constants, not
 // secrets. They were previously read from PUBLIC_MATOMO_SITE_ID, which was never set
@@ -64,6 +65,7 @@ const analyticsEnabled = import.meta.env.PROD;
       </nav>
       <div id="search"></div>
     </header>
+    <p class="last-updated" data-pagefind-ignore>Last Updated: {lastUpdated}</p>
     <slot name="hero" />
     <main>
       <slot />

@@ -202,6 +202,15 @@ header nav a:not(.brand):hover {
   padding: 0 1rem;
 }
 
+.last-updated {
+  max-width: var(--max-width);
+  margin: 0.75rem auto 0;
+  padding: 0 1rem;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  text-align: right;
+}
+
 main {
   max-width: var(--max-width);
   margin: 0 auto;
