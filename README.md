@@ -6,8 +6,16 @@
 [![Discord](https://img.shields.io/discord/353303527587708932.svg?logo=discord)](https://discord.buttplug.io)
 [![Bluesky](https://img.shields.io/bluesky/followers/buttplug.io)](https://bsky.app/profile/buttplug.io)
 
-This is a list of projects that use [Buttplug](https://buttplug.io) in some way! It is also available as a
-searchable, filterable website at [awesome.buttplug.io](https://awesome.buttplug.io).
+This is a list of projects that use [Buttplug](https://buttplug.io) in some way! 
+
+## Now in Full Website Form!
+
+This list is now available as a
+searchable, filterable website at:
+
+### [awesome.buttplug.io](https://awesome.buttplug.io)
+
+We highly recommend using that over this condensed list.
 
 ## Adding A Project
 
@@ -109,6 +117,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, closed source
   - Web Based (Cross platform, either via browsers or [Intiface Central](https://intiface.com/central))
   - Simple interface for controlling toys locally or remotely. Plus creation, editing, and playback of custom patterns.
+- [Lovaflow](https://gitlab.com/Krafting/lovaflow-app)
+  - Free, source available, repo at https://gitlab.com/Krafting/lovaflow-app
+  - Linux via Flathub and Android via APK; requires Intiface Central
+  - Manual control of vibrating devices with predefined patterns, duration controls, battery levels, and device names
 - [Vencord-Buttplugio](https://github.com/maplefluff/vencord-buttplugio)
   - Free, open source, repo at https://github.com/maplefluff/vencord-buttplugio
   - Cross platform (requires [Intiface Central](https://intiface.com/central))
@@ -634,6 +646,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, available on https://github.com/Das-L1/Buttplug-Says
   - Cross platform
   - A simon says like game running on python with Intiface Central integration
+- [HapticScape](https://github.com/ashy0019/HapticScape)
+  - Free, open source, repo at https://github.com/ashy0019/HapticScape
+  - Windows 10+ only; requires Old School RuneScape, RuneLite, Java 11, and Intiface Central
+  - RuneLite plugin that triggers configurable haptic feedback from Old School RuneScape events
 - [Plug13](https://github.com/SuhEugene/plug13)
   - Free, open source, repo at https://github.com/SuhEugene/plug13
   - Web-based multiplayer game
@@ -1202,10 +1218,11 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
 
 ### Overwatch 2
 
-- [OverStim (Overwatch 2)](https://overstim.pharmercy.de/)
+- [OverStim (Overwatch)](https://overstim.pharmercy.de/)
   - Free, open source, repo at https://codeberg.org/pharmercy/OverStim
-  - Windows 10+ only (requires [Intiface Central](https://intiface.com/central))
-  - Uses computer vision to trigger toys with a focus on Healing characters.
+  - Windows and Linux (requires [Intiface Central](https://intiface.com/central))
+  - Supports vibrators and strokers with VIBRATE, ROTATE, OSCILLATE, and POSITION_WITH_DURATION output types
+  - Uses computer vision to trigger toys with a focus on Overwatch healing characters.
   - Older repo: https://github.com/cryo-es/OverStim
 
 ### Risk of Rain 2
@@ -1221,10 +1238,6 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
 
 ### Minecraft
 
-- [Minegasm (Minecraft)](https://www.minegasm.net/)
-  - Free, open source, repo at https://code.minegasm.net
-  - Cross Platform (requires [Intiface Central](https://intiface.com/central))
-  - Haptic feedback for modded Minecraft (Forge, NeoForge, and Fabric), with buttplug.io protocol support.
 - [mInetiface (Minecraft)](https://github.com/Cyber-Kitty/mInetiface)
   - Another Minecraft Fabric mod with reward score system, ingame configuration and multiple devices support
   - Free, open source
@@ -1237,6 +1250,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, open source, repo at https://github.com/redmck/Minecraft-x-Lovense-intiface
   - Cross-platform, designed for Minecraft
   - Haptic script for Minecraft that syncs keyboard input with buttplug.io device vibrations
+- [Minegasm (Minecraft)](https://www.minegasm.net)
+  - Free, open source, repo at https://code.minegasm.net
+  - Cross Platform (requires [Intiface Central](https://intiface.com/central))
+  - Haptic feedback for modded Minecraft (Forge, NeoForge, and Fabric), with buttplug.io protocol support.
 
 ### FFXIV
 
@@ -1305,6 +1322,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, open source, repo at https://github.com/SeaLoong/Sensa
   - Windows only, requires VRChat
   - VRChat SPS/OGB contact-to-device bridge that drives Intiface and TCode devices from avatar contact parameters
+- [OSCGetsHandy](https://payhip.com/b/lFIj0)
+  - Paid, available at https://payhip.com/b/lFIj0
+  - Windows only; requires VRChat with OSC enabled, a compatible avatar, and a supported device
+  - VRChat OSC bridge with output modifiers, deadzone and jitter filtering, booster control, predictive movement for Lovense devices, and an OSC simulation tool
 - [SARemoteContact](https://sasarchive-shop.booth.pm/items/8368287)
   - Available on BOOTH at https://sasarchive-shop.booth.pm/items/8368287
   - Windows desktop app that connects to Intiface Central; in-world expression-menu input drives a partner's real device
@@ -1595,6 +1616,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, open source, repo at https://github.com/buttplugio/buttplug-rs-ffi
   - Currently supports Java; C/C++ planned; recommends native clients connecting to Intiface Central instead
   - Foreign Function Interface bindings from Rust Buttplug library to Java and other languages
+- [hare-buttplug](https://git.sr.ht/~stacyharper/hare-buttplug)
+  - Free, open source, repo at https://git.sr.ht/~stacyharper/hare-buttplug
+  - Hare library for encoding and decoding the Buttplug v4 protocol
+  - Provides a client abstraction for building clients with hare-ev
 
 ## DIY Hardware Projects
 
