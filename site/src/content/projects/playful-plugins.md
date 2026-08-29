@@ -21,3 +21,27 @@ added: "2024-09-04"
 ---
 
 The app is free and mostly closed source. Plugins are possibly sold/distributed separately (since version 1.99)
+
+## Supported Games
+
+The following is a non-exhaustive list of supported games:
+
+- Abandoned Archive
+- Darkest Dungeon
+- Elden Ring and Nightreign
+- Ero Dungeons ([Itch.io](https://erodungeons.itch.io/ero-dungeons?ref=pp))
+- Ero Hunters ([Itch.io](https://erodungeons.itch.io/ero-dungeons?ref=pp))
+- Ero Slayers ([Itch.io](https://erodungeons.itch.io/ero-slayers?ref=pp))
+- Fortnite
+- Helldivers 2
+- Hollow Knight: Silksong
+- Kinky Dungeon ([Itch.io](https://ada18980.itch.io/kinky-dungeon?ref=pp))
+- League of Legends
+- Marvel Rivals
+- Muse Dash
+- Noita
+- Overwatch
+- Peggle Deluxe
+- PowerWash Simulator
+- Team Fortress 2
+- Vampire Survivors
