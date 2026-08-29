@@ -196,19 +196,17 @@ header nav a:not(.brand):hover {
   color: var(--text-bright);
 }
 
+header .build-time {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
 #search {
   max-width: var(--max-width);
   margin: 0.5rem auto 0;
   padding: 0 1rem;
-}
-
-.last-updated {
-  max-width: var(--max-width);
-  margin: 0.75rem auto 0;
-  padding: 0 1rem;
-  color: var(--text-muted);
-  font-size: 0.85rem;
-  text-align: right;
 }
 
 main {

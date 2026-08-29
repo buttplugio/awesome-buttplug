@@ -7,7 +7,10 @@ interface Props {
 }
 
 const { title } = Astro.props;
-const lastUpdated = new Date().toISOString().slice(0, 10);
+// Static build: this is when the site was built, identical for every visitor.
+const buildTime = new Date();
+const buildTimestamp = buildTime.toISOString();
+const buildDisplay = `${buildTimestamp.slice(0, 16).replace("T", " ")} UTC`;
 
 // Both values ship in the page source to every visitor, so they are constants, not
 // secrets. They were previously read from PUBLIC_MATOMO_SITE_ID, which was never set
@@ -62,10 +65,10 @@ const analyticsEnabled = import.meta.env.PROD;
         <a href="https://buttplug.io" rel="noopener">buttplug.io</a>
         <a href="https://intiface.com" rel="noopener">Intiface</a>
         <a href="https://github.com/qdot/awesome-buttplug" rel="noopener">GitHub</a>
+        <p class="build-time">Updated <time datetime={buildTimestamp}>{buildDisplay}</time></p>
       </nav>
       <div id="search"></div>
     </header>
-    <p class="last-updated" data-pagefind-ignore>Last Updated: {lastUpdated}</p>
     <slot name="hero" />
     <main>
       <slot />
