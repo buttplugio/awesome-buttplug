@@ -190,6 +190,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, closed source, available at https://theedgy.app
   - Web based (Cross platform via either browser or [Intiface Central](https://intiface.com/central))
   - Browser based edging controller that generates stroke and vibration patterns from a single arousal dial
+- [cumpredict](https://psychosmiley.github.io/cumpredict/)
+  - Free, source available, repo at https://github.com/PsychoSmiley/cumpredict
+  - Web based, connects over Web Bluetooth or [Intiface Central](https://intiface.com/central)
+  - A learning director predicts arousal up to climax and edges you with a stroker or vibrator, adapting live to your 0-9 ratings; retrains in the browser on your own sessions
 - [RemoteToys](https://github.com/jerrymakefun/remotetoys)
   - Free, open source, repo at https://github.com/jerrymakefun/remotetoys
   - Web based, self hosted via Docker (requires [Intiface Central](https://intiface.com/central))
