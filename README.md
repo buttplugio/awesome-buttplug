@@ -226,6 +226,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, open source, repo at https://github.com/Wanderer-the-coder/buttplug-mcp-py
   - Python 3.10+ MCP server for Claude Desktop; requires Intiface Central running on port 12345
   - A Python MCP server for controlling Buttplug.io devices via AI assistants like Claude Desktop
+- [MCP-buttplug.py](https://gist.github.com/PsychoSmiley/6b5bd86ef88dd702be8dcc81204496fc)
+  - Free, source available, gist at https://gist.github.com/PsychoSmiley/6b5bd86ef88dd702be8dcc81204496fc
+  - Cross platform Python script, runs with `uv run` (deps auto-installed); requires [Intiface Central](https://intiface.com/central)
+  - MCP server for Claude Code, Codex CLI or any stdio MCP client; lists devices and sends stroke, vibrate or rotate commands. Also usable as a plain CLI
 - [RLAIF](https://github.com/a9lim/rlaif)
   - Free, open source, repo at https://github.com/a9lim/rlaif
   - Python 3.11+ MCP server for PiShock devices; single-user feedback channel integration
