@@ -6,7 +6,7 @@
 [![Discord](https://img.shields.io/discord/353303527587708932.svg?logo=discord)](https://discord.buttplug.io)
 [![Bluesky](https://img.shields.io/bluesky/followers/buttplug.io)](https://bsky.app/profile/buttplug.io)
 
-This is a list of projects that use [Buttplug](https://buttplug.io) in some way! 
+This is a list of projects that use [Buttplug](https://buttplug.io) in some way!
 
 ## Now in Full Website Form!
 
