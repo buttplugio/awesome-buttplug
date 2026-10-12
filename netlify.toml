@@ -7,3 +7,11 @@
 
 [build.environment]
   NODE_VERSION = "22"
+
+# apps.buttplug.io is a domain alias on this site; without this it serves a full
+# duplicate copy that search engines index separately.
+[[redirects]]
+  from = "https://apps.buttplug.io/*"
+  to = "https://awesome.buttplug.io/:splat"
+  status = 301
+  force = true
