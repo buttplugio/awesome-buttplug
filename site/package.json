@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "@astrojs/preact": "^5.1.1",
+    "@astrojs/sitemap": "^3.7.4",
     "astro": "^6.3.1",
     "astro-pagefind": "^1.8.5",
     "preact": "^10.25.0"

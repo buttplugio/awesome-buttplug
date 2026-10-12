@@ -1,6 +1,6 @@
 # awesome-buttplug
 
-Last verified: 2026-08-08
+Last verified: 2026-10-11
 
 ## Repo Layout
 
@@ -138,6 +138,10 @@ Every file in `src/content/projects/*.md` must have this frontmatter:
 - Tags must be URL-safe slugs (`/^[a-z0-9]+(?:-[a-z0-9]+)*$/`)
 - Every project section must be listed in `config/readme-order.yaml`
 - The site is fully static (no SSR)
+- **Internal links end in `/`.** `trailingSlash: "always"` matches how Netlify serves the
+  `directory` build format; a link without the slash costs a 301 on every click and shows
+  up in Search Console as "Page with redirect". Canonical and `og:url` are derived from
+  `Astro.url` in `BaseLayout.astro`, and `apps.buttplug.io` 301s here via `netlify.toml`.
 - **The site measures zero WCAG AA contrast failures.** Verify in-browser after any
   colour change, over all four page types, both view modes, and with the tag bar
   expanded. Hand-checking has twice missed near-miss failures here.

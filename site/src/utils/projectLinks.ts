@@ -41,7 +41,7 @@ export function projectActions(project: LinkFields): ProjectAction[] {
 
   const details: ProjectAction = {
     kind: "details",
-    href: `/projects/${id}`,
+    href: `/projects/${id}/`,
     label: "Details",
     ariaLabel: `More about ${title}`,
     external: false,

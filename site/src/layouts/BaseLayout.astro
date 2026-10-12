@@ -7,6 +7,7 @@ interface Props {
 }
 
 const { title } = Astro.props;
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site).href;
 // Static build: this is when the site was built, identical for every visitor.
 const buildTime = new Date();
 const buildTimestamp = buildTime.toISOString();
@@ -34,6 +35,8 @@ const analyticsEnabled = import.meta.env.PROD;
     <meta property="og:title" content={`${title} | Awesome Buttplug`} />
     <meta property="og:description" content="A curated list of awesome projects using the Buttplug sex toy control protocol." />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalUrl} />
+    <link rel="canonical" href={canonicalUrl} />
     <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
     {analyticsEnabled && (
       <script define:vars={{ MATOMO_URL, MATOMO_SITE_ID }}>
@@ -60,7 +63,7 @@ const analyticsEnabled = import.meta.env.PROD;
           <img src="/img/logo.png" alt="" width="1080" height="1080" class="brand-logo" />
           <span class="brand-word">Awesome Buttplug</span>
         </a>
-        <a href="/tags">Tags</a>
+        <a href="/tags/">Tags</a>
         <div class="nav-spacer"></div>
         <a href="https://buttplug.io" rel="noopener">buttplug.io</a>
         <a href="https://intiface.com" rel="noopener">Intiface</a>

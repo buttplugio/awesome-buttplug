@@ -42,7 +42,7 @@ const CardGrid: FunctionalComponent<Props> = ({ projects, viewMode }) => {
             )}
             <div class="card-body">
               <h3 class="card-title">
-                <a href={`/projects/${project.id}`} class="card-link">
+                <a href={`/projects/${project.id}/`} class="card-link">
                   {project.title}
                 </a>
               </h3>

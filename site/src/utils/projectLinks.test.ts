@@ -73,6 +73,6 @@ describe("projectActions", () => {
 
   it("points Details at the project page", () => {
     const [, details] = projectActions({ ...base, url: "https://example.com" });
-    expect(details.href).toBe("/projects/restim");
+    expect(details.href).toBe("/projects/restim/");
   });
 });

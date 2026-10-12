@@ -24,7 +24,7 @@ const { tag, projects } = Astro.props;
 <BaseLayout title={`Tag: ${tag}`}>
   <h1>Tag: {tag}</h1>
   <p class="lede">{projects.length} project{projects.length !== 1 ? "s" : ""}</p>
-  <a href="/tags">← All Tags</a>
+  <a href="/tags/">← All Tags</a>
 
   <div class="tag-projects" data-pagefind-ignore>
     {projects.map((project) => {
@@ -32,14 +32,14 @@ const { tag, projects } = Astro.props;
       return (
         <div class="tag-project-card">
           <h3>
-            <a href={`/projects/${project.id}`}>{project.data.title}</a>
+            <a href={`/projects/${project.id}/`}>{project.data.title}</a>
           </h3>
           {deprecated && <span class="badge badge-deprecated">Deprecated</span>}
           <p>{stripInlineMarkdown(project.data.summary)}</p>
           <div class="tag-pills">
             {project.data.tags.map((t) => (
               <a
-                href={`/tags/${t}`}
+                href={`/tags/${t}/`}
                 class:list={["pill", "pill-sm", { active: t === tag }]}
               >
                 {t}

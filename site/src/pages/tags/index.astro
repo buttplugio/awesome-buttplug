@@ -20,7 +20,7 @@ const sortedTags = Array.from(tagCounts.entries()).sort(([a], [b]) =>
   <h1>Tags</h1>
   <div class="tag-index" data-pagefind-ignore>
     {sortedTags.map(([tag, count]) => (
-      <a href={`/tags/${tag}`} class="pill pill-lg tag-index-item">
+      <a href={`/tags/${tag}/`} class="pill pill-lg tag-index-item">
         {tag} <span class="pill-count">({count})</span>
       </a>
     ))}
