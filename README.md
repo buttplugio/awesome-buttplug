@@ -410,6 +410,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, open source (MIT), repo at https://github.com/FurryR/opencode-buttplugio
   - Cross platform TUI plugin for [OpenCode](https://opencode.ai), installed with `opencode plugin opencode-plugin-buttplugio`; requires [Intiface Central](https://intiface.com/central)
   - OpenCode plugin that maps agent events (streaming output, patch application, tool call success and failure, session completion, permission requests) to device feedback
+- [VibeClaude](https://github.com/transkatgirl/vibeclaude)
+  - Free, open source (MIT), repo at https://github.com/transkatgirl/vibeclaude
+  - Claude Code plugin; requires Node.js 22+ and [Intiface Central](https://intiface.com/central) with its WebSocket server running
+  - Port of [opencode-buttplugio](https://github.com/FurryR/opencode-buttplugio) to Claude Code's hooks, mapping streamed output, tool calls and results to device feedback
 - [TypingVibes](https://github.com/YuushaNo/TypingVibes)
   - Windows app, repo at https://github.com/YuushaNo/TypingVibes
   - Windows only; requires [Intiface Central](https://intiface.com/central) running with your toy connected to it
