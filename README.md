@@ -1240,6 +1240,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, available on Thunderstore at https://thunderstore.io/c/northstar/p/EveningTF/Buttplug/
   - Windows, requires the Northstar client for Titanfall 2 and [Intiface Central](https://intiface.com/central)
   - Northstar client mod for Titanfall 2 that triggers Buttplug devices on pilot and grunt kills
+- [Envibed](https://github.com/carmine-edgewick/envibed)
+  - Free, open source, repo at https://github.com/carmine-edgewick/envibed
+  - Windows, and Linux via Steam Proton; requires [Intiface Central](https://intiface.com/central)
+  - Enshrouded mod that vibrates toys when you deal damage, make a kill, gain experience, die, or while the Shroud timer runs down
 
 ### Counter-Strike
 
