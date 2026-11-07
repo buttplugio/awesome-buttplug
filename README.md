@@ -1342,6 +1342,11 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Available on BOOTH at https://sasarchive-shop.booth.pm/items/8368287
   - Windows desktop app that connects to Intiface Central; in-world expression-menu input drives a partner's real device
   - VRChat avatar prefab plus Windows desktop app (SARemoteContact) that drives Intiface-compatible devices from in-world expression-menu input
+- [HandyVRC-OSC](https://github.com/MocchiKon/HandyVRC-OSC)
+  - Free, open source (MIT), repo at https://github.com/MocchiKon/HandyVRC-OSC
+  - Windows, Linux and macOS; the all-platforms build needs Java 21 or newer
+  - VRChat OSC bridge for the Handy, connecting over Bluetooth, Wi-Fi or [Intiface Central](https://intiface.com/central)
+  - Other strokers Intiface supports may work through Intiface Central, but they are untested
 
 ## Hardware Support
 
