@@ -603,6 +603,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, closed source
   - Web based (Cross platform via browser, requires [Intiface Central](https://intiface.com/central))
   - Catalogue of 500+ erotic hypnosis audio files with interactive haptic sync sessions for strokers, vibrators, and e-stim devices
+- [Yuki AI Games](https://yuki-ai-games.com)
+  - Free to play, sign in with your own account, available at https://yuki-ai-games.com
+  - Web based, mobile-first and installable from your browser (optional [Intiface Central](https://intiface.com/central) support for vibration)
+  - Small browser games (one-on-one image duel, memory matching) built on a DeviantArt gallery, with per-game vibration patterns and an ambient background filler
 
 ## Games
 
