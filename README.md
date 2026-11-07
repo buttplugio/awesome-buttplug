@@ -434,6 +434,14 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, open source, repo at https://github.com/Fyustorm/GameViber
   - Linux, and Windows in preview; requires [Intiface Central](https://intiface.com/central)
   - Turns a game's rumble, sound and on-screen image into vibrations for Intiface Central toys, driven by per-game modes
+- [OFS-SE (OpenFunscripter Sashimi Edition)](https://github.com/shadowsashimi/ofs-se)
+  - Free, open source (GPL-3.0), repo at https://github.com/shadowsashimi/ofs-se
+  - Windows (Linux builds from source); Intiface devices need [Intiface Central](https://intiface.com/central)
+  - Fork of OpenFunscripter 3.2 that can play the script being edited on any Intiface-supported device
+- [EdgeLoop](https://edgeloop.app)
+  - Free, open source (AGPL-3.0), repo at https://github.com/marshallmims/edgeloop
+  - Browser app in Chrome or Edge on Windows, macOS, Linux and Android, or Bluefy on iOS; Buttplug.io devices need [Intiface Central](https://intiface.com/central)
+  - Browser-based biofeedback edging player that adjusts device output from a Bluetooth heart rate monitor, with Buttplug.io/Intiface Central, The Handy and TCode support
 - [BridgeWeaver](https://addons.mozilla.org/en-US/firefox/addon/bridgeweaver/)
   - Free
   - Firefox extension (Cross platform, requires [Intiface Central](https://intiface.com/central))
@@ -541,6 +549,14 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, open source, repo at https://github.com/lumbar-spine-support/jellyfin-haptic-player
   - Jellyfin server plugin with its own web player, requires Intiface Central, experimental DG-Lab Coyote 3.0 relay optional
   - Jellyfin plugin that plays audio and video with funscript sync to Buttplug devices via Intiface Central
+- [Party Time](https://codeberg.org/tinn-can/PartyTime)
+  - Free, open source (MIT), repo at https://codeberg.org/tinn-can/PartyTime
+  - macOS primary; Windows and Linux are build targets only, build from source (no release binaries); Bluetooth connects through [Intiface Central](https://intiface.com/central)
+  - Desktop video player that syncs funscripts and generated patterns to the Handy or Bluetooth/Intiface devices, with Reddit video search and playlists
+- [Playhound](https://github.com/whatmekota/playhound)
+  - Free, open source (MIT), repo at https://github.com/whatmekota/playhound
+  - Windows, macOS and Linux (v2.0.0 releases); Intiface/Buttplug toys need [Intiface Central](https://intiface.com/central)
+  - Funscript video player driving OSR2/SR6 over TCode, the Handy, and Intiface/Buttplug toys (strokers get linear moves; vibrators, rotators and oscillators get strength), plus heart-rate edging
 - [ScriptHub](https://github.com/WeakMapUser/Scripthub)
   - Free, closed source, with the author stating an intent to open source once stable
   - Windows (serves a web interface to any browser on your network, via [Intiface Central](https://intiface.com/central))
@@ -850,6 +866,14 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, available at https://connoredge.itch.io/femdom-camsim
   - Windows only, requires [Intiface Central](https://intiface.com/central)
   - Short interactive femdom experience styled as a camsite, with toy control via Intiface Central
+- [Vibe & Seek](https://vibeandseek.fyustorm.ovh)
+  - Free, open source (Apache-2.0), repo at https://github.com/Fyustorm/Vibe-And-Seek
+  - Android 8+ (APK); haptics are optional via [Intiface Central](https://intiface.com/central)
+  - Location-based treasure hunt on Android where vibrations from Intiface Central toys guide the player toward a hidden treasure
+- [FapLand Party Edition](https://github.com/FapLandPartyDev/FapLand-Party-Edition)
+  - Free, open source (AGPL-3.0), repo at https://github.com/FapLandPartyDev/FapLand-Party-Edition
+  - Windows and Linux; Intiface devices need [Intiface Central](https://intiface.com/central), The Handy connects directly
+  - Desktop party board game with solo and multiplayer rounds, driving The Handy, Intiface devices and MultiFunPlayer multi-axis output
 - [Summoner](https://machimo.app)
   - Free, closed source
   - Web based (Cross platform, requires [Intiface Central](https://intiface.com/central) for non-Handy devices)
@@ -1264,6 +1288,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, available via [itch.io](https://arouin-kealee.itch.io/buttplug-for-captivity)
   - Windows, requires [Intiface Central](https://intiface.com/central) running before the game launches
   - MelonLoader mod for Captivity that vibrates Buttplug devices when certain in-game events happen
+- [Moka Love Relive Device Sync Mod](https://github.com/qinyan-alpha/Moka-Love-Reliver-Device-Sync-Mod)
+  - Free, open source (MIT), repo at https://github.com/qinyan-alpha/Moka-Love-Reliver-Device-Sync-Mod; requires the paid game Moka Love Relive
+  - Windows x64 (version.dll proxy); Intiface devices need [Intiface Central](https://intiface.com/central)
+  - Windows version.dll proxy that syncs serial T-Code devices (SR6, SSR1, OSR2) and Intiface Central devices to Moka Love Relive's Live2D animation timing
 
 ### Counter-Strike
 
