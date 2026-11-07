@@ -426,6 +426,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Paid, pay what you want (minimum $8.49), available at https://funscriptor.itch.io/funscript-to-gamepad
   - Windows only, requires [Intiface Central](https://intiface.com/central)
   - Companion app that sends Funscripts to toys when you press mapped controller buttons or combinations, with per-game profiles and no game modding
+- [Intiface Control for Home Assistant](https://github.com/anonymous12345-sudo/Intiface-Control)
+  - Free, open source, repo at https://github.com/anonymous12345-sudo/Intiface-Control
+  - Runs as a Home Assistant integration (installable via HACS or manually); requires [Intiface Central](https://intiface.com/central)
+  - Home Assistant integration that connects to Intiface Central and creates entities for each connected toy
 - [BridgeWeaver](https://addons.mozilla.org/en-US/firefox/addon/bridgeweaver/)
   - Free
   - Firefox extension (Cross platform, requires [Intiface Central](https://intiface.com/central))
