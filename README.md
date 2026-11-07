@@ -587,6 +587,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, open source, repo at https://github.com/Yaliplover/haptic-player
   - Web-based vanilla JavaScript player, requires Intiface Central and funscript files for synchronization
   - A web-based JavaScript player that synchronizes audio files with haptic feedback using funscript files and Intiface Central
+- [FlipFlip+](https://github.com/lospanditasmarinel12-lgtm/FlipFlip-Electron)
+  - Free, open source (MIT), repo at https://github.com/lospanditasmarinel12-lgtm/FlipFlip-Electron
+  - Windows, macOS and Linux desktop builds, plus Android and iOS builds from v6.1.1; embeds Buttplug via WASM, so Intiface Central is not required
+  - Modern continuation of the FlipFlip image slideshow app, vibrating toys in sync with slideshow audio or captured system audio
 
 ## Websites and Services
 
