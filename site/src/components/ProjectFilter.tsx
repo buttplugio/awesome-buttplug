@@ -19,30 +19,27 @@ interface Props {
 const ProjectFilter: FunctionalComponent<Props> = ({ projects }) => {
   const validTags = useMemo(() => new Set(projects.flatMap((project) => project.tags)), [projects]);
 
-  const initialState = useMemo(() => {
-    if (typeof window === "undefined")
-      return { category: "all", tags: [] as string[], sort: DEFAULT_SORT_MODE };
-    return parseFilterState(window.location.search, validTags);
-  }, [validTags]);
-
-  const [category, setCategory] = useState<string>(initialState.category);
-  const [selectedTags, setSelectedTags] = useState<string[]>(initialState.tags);
+  const [category, setCategory] = useState("all");
+  const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [viewMode, setViewMode] = useState<ViewMode>("compact");
   const [sortMode, setSortMode] = useState<SortMode>(DEFAULT_SORT_MODE);
   const [randomSeed, setRandomSeed] = useState(DEFAULT_RANDOM_SEED);
 
-  /* Adopted after mount rather than in the initialiser, for the same reason as
-     ab-view-mode below. The site is fully static: one HTML file serves every
-     query string, so it is always rendered in the default order. Seeding sort
-     from the URL during render would reorder all 405 cards on the first client
-     render and disagree with that HTML — unlike cat and tags, which only ever
-     remove cards and so stay an order-preserving subsequence of it. The effect
-     also forces a real re-render, which hydrate() alone will not do. The seed
-     is deliberately not in the URL, and the server has no source of randomness
+  /* The whole query string is adopted after mount, never in an initialiser.
+     The site is fully static: one HTML file serves every query string, so it
+     always holds the unfiltered grid in default order. hydrate() pairs vnodes
+     with that DOM by position and never diffs attributes, so any first client
+     render that differs from it — reordered by sort or merely thinned by cat
+     and tags — leaves each card wearing the href of whichever card the HTML
+     had in that slot. The effect forces a real re-render instead. The seed is
+     deliberately not in the URL, and the server has no source of randomness
      the client could reproduce, so it is drawn here too. */
   useEffect(() => {
-    if (initialState.sort === "random") setRandomSeed(newRandomSeed());
-    setSortMode(initialState.sort);
+    const urlState = parseFilterState(window.location.search, validTags);
+    setCategory(urlState.category);
+    setSelectedTags(urlState.tags);
+    if (urlState.sort === "random") setRandomSeed(newRandomSeed());
+    setSortMode(urlState.sort);
   }, []);
 
   const changeSort = useCallback((mode: SortMode) => {

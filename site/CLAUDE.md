@@ -103,15 +103,16 @@ Every file in `src/content/projects/*.md` must have this frontmatter:
   during hydration is silently dropped; and it *does* repair structural mismatches, so
   conditionally-rendered nodes "work" by accident via DOM surgery. Keep card DOM identical
   across view modes and switch with a class (`.card-grid.view-compact`) so shape can never diverge.
-- **The same rule binds `sort`, even though it comes from the URL rather than `localStorage`.**
-  The site is fully static: one HTML file serves every query string, so the grid is always
-  rendered in the default order. `cat` and `tags` get away with being read during render
-  because filtering only ever *removes* cards, leaving an order-preserving subsequence that
-  Preact repairs quietly. Sorting **reorders** them, and seeding `sortMode` from the URL in
-  the `useState` initialiser produced 184 hydration errors on `?sort=newest` — measured, not
-  theorised. `sortMode` therefore starts at `DEFAULT_SORT_MODE` and adopts the URL value in
-  the mount effect. The cost is a visible reorder just after paint on a `?sort=` deep link,
-  which is the same trade the Visual view mode already makes.
+- **The same rule binds the whole query string (`cat`, `tags`, `sort`), even though it
+  comes from the URL rather than `localStorage`.** The site is fully static: one HTML file
+  serves every query string, so the grid is always rendered unfiltered in default order.
+  Seeding `sortMode` from the URL in the `useState` initialiser produced 184 hydration errors
+  on `?sort=newest`. Filtering was once assumed safe because it only *removes* cards — it is
+  not: hydration pairs card N of the filtered list with card N of the unfiltered HTML and
+  keeps the HTML's attributes, so `?cat=applications` showed Archipelago's title linking to
+  Aethersense's page (issue #185). All three start at their defaults and adopt the URL in the
+  mount effect. The cost is a visible re-render just after paint on a deep link, which is the
+  same trade the Visual view mode already makes.
 - **The Matomo site id and endpoint are hardcoded constants, not env vars.** They ship in
   the page source to every visitor, so gating them behind `PUBLIC_MATOMO_SITE_ID` bought no
   secrecy and cost a silent failure: the variable was never set anywhere, so the tracker was
