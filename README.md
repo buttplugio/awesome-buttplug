@@ -410,6 +410,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, open source (MIT), repo at https://github.com/FurryR/opencode-buttplugio
   - Cross platform TUI plugin for [OpenCode](https://opencode.ai), installed with `opencode plugin opencode-plugin-buttplugio`; requires [Intiface Central](https://intiface.com/central)
   - OpenCode plugin that maps agent events (streaming output, patch application, tool call success and failure, session completion, permission requests) to device feedback
+- [TypingVibes](https://github.com/YuushaNo/TypingVibes)
+  - Windows app, repo at https://github.com/YuushaNo/TypingVibes
+  - Windows only; requires [Intiface Central](https://intiface.com/central) running with your toy connected to it
+  - Converts typing speed into vibration, so the faster you type the stronger the vibrations, in any program you have open
 - [BridgeWeaver](https://addons.mozilla.org/en-US/firefox/addon/bridgeweaver/)
   - Free
   - Firefox extension (Cross platform, requires [Intiface Central](https://intiface.com/central))
