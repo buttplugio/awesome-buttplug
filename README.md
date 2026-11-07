@@ -1408,6 +1408,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, open source, repo at https://github.com/lillithrosepup/pishock-buttplugio
   - Windows only, requires Intiface Central
   - Service that integrates PiShock e-stim devices with Buttplug.io/Intiface
+- [Intiface Central DG-LAB](https://github.com/ROBERTBEBL/intiface-central-dglab)
+  - Free, open source, repo at https://github.com/ROBERTBEBL/intiface-central-dglab
+  - Windows release available, controls Coyote devices through the DG-LAB mobile app and official relay service
+  - Community Intiface Central fork with DG-LAB Coyote support via a built-in DG-LAB WebSocket bridge
 
 ## Development and Libraries
 
