@@ -1244,6 +1244,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, open source, repo at https://github.com/carmine-edgewick/envibed
   - Windows, and Linux via Steam Proton; requires [Intiface Central](https://intiface.com/central)
   - Enshrouded mod that vibrates toys when you deal damage, make a kill, gain experience, die, or while the Shroud timer runs down
+- [Buttplug for Captivity](https://arouin-kealee.itch.io/buttplug-for-captivity)
+  - Free, available via [itch.io](https://arouin-kealee.itch.io/buttplug-for-captivity)
+  - Windows, requires [Intiface Central](https://intiface.com/central) running before the game launches
+  - MelonLoader mod for Captivity that vibrates Buttplug devices when certain in-game events happen
 
 ### Counter-Strike
 
