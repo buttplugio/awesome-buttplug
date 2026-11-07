@@ -442,6 +442,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, open source (AGPL-3.0), repo at https://github.com/marshallmims/edgeloop
   - Browser app in Chrome or Edge on Windows, macOS, Linux and Android, or Bluefy on iOS; Buttplug.io devices need [Intiface Central](https://intiface.com/central)
   - Browser-based biofeedback edging player that adjusts device output from a Bluetooth heart rate monitor, with Buttplug.io/Intiface Central, The Handy and TCode support
+- [Story Scripter](https://discuss.eroscripts.com/t/game-tool-story-scripter-images-into-intiface-visual-novels/340710)
+  - Free, available via [EroScripts](https://discuss.eroscripts.com/t/game-tool-story-scripter-images-into-intiface-visual-novels/340710)
+  - Windows, requires [Intiface Central](https://intiface.com/central)
+  - Visual-novel style builder and player that turns image sequences into stories, with custom Intiface instructions for each picture. Requires Intiface Central
 - [BridgeWeaver](https://addons.mozilla.org/en-US/firefox/addon/bridgeweaver/)
   - Free
   - Firefox extension (Cross platform, requires [Intiface Central](https://intiface.com/central))
@@ -878,6 +882,14 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, open source (AGPL-3.0), repo at https://github.com/FapLandPartyDev/FapLand-Party-Edition
   - Windows and Linux; Intiface devices need [Intiface Central](https://intiface.com/central), The Handy connects directly
   - Desktop party board game with solo and multiplayer rounds, driving The Handy, Intiface devices and MultiFunPlayer multi-axis output
+- [Corrupt Wasteland](https://deveriastudios.itch.io/corrupt-wasteland)
+  - Paid, available at [itch.io](https://deveriastudios.itch.io/corrupt-wasteland) and [DLsite](https://www.dlsite.com/maniax/work/=/product_id/RJ01740229.html); demo available on itch.io
+  - Windows, connects via [Intiface Central](https://intiface.com/central)
+  - Scavenging, crafting and survival game set in an alien wasteland, by Deveria Studios, with native Intiface support
+- [Dr. Kanna's Men's Clinic](https://www.dlsite.com/maniax/work/=/product_id/RJ01618167.html)
+  - Paid, available at [DLsite](https://www.dlsite.com/maniax/work/=/product_id/RJ01618167.html)
+  - Windows 10/11, desktop or SteamVR; connects via [Intiface Central](https://intiface.com/central) or directly to The Handy
+  - Training game by EatTheMeat, playable on desktop or in SteamVR, that works with The Handy and any toy Intiface supports
 - [Summoner](https://machimo.app)
   - Free, closed source
   - Web based (Cross platform, requires [Intiface Central](https://intiface.com/central) for non-Handy devices)
