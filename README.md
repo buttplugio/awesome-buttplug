@@ -430,6 +430,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, open source, repo at https://github.com/anonymous12345-sudo/Intiface-Control
   - Runs as a Home Assistant integration (installable via HACS or manually); requires [Intiface Central](https://intiface.com/central)
   - Home Assistant integration that connects to Intiface Central and creates entities for each connected toy
+- [GameViber](https://gameviber.fyustorm.ovh)
+  - Free, open source, repo at https://github.com/Fyustorm/GameViber
+  - Linux, and Windows in preview; requires [Intiface Central](https://intiface.com/central)
+  - Turns a game's rumble, sound and on-screen image into vibrations for Intiface Central toys, driven by per-game modes
 - [BridgeWeaver](https://addons.mozilla.org/en-US/firefox/addon/bridgeweaver/)
   - Free
   - Firefox extension (Cross platform, requires [Intiface Central](https://intiface.com/central))
