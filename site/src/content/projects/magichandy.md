@@ -15,7 +15,7 @@ platforms:
 summary: "An LLM wrapper for controlling The Handy via chat with hands-free and local-first operation"
 readme_bullets:
   - "Free, open source, repo at https://github.com/MagicHandy/MagicHandy"
-  - "Go application for Windows, Linux, macOS; requires The Handy (firmware v4) or Intiface Central and a local LLM (llama.cpp or Ollama)"
+  - "Go application for Windows, Linux, macOS; requires The Handy (firmware v4) or Intiface Central (experimental) and a local LLM (llama.cpp or Ollama)"
   - "An LLM wrapper for controlling The Handy via chat with hands-free and local-first operation"
 order: 45
 added: "2026-07-28"

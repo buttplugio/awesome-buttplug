@@ -248,7 +248,7 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - HTML utility (ランダムにおもちゃが動くツール) that drives Intiface-compatible devices at randomized timing, intensity, and duration
 - [MagicHandy](https://github.com/MagicHandy/MagicHandy)
   - Free, open source, repo at https://github.com/MagicHandy/MagicHandy
-  - Go application for Windows, Linux, macOS; requires The Handy (firmware v4) or Intiface Central and a local LLM (llama.cpp or Ollama)
+  - Go application for Windows, Linux, macOS; requires The Handy (firmware v4) or Intiface Central (experimental) and a local LLM (llama.cpp or Ollama)
   - An LLM wrapper for controlling The Handy via chat with hands-free and local-first operation
 - [Voice-Reactive Toy Link Tool](https://nisekuro.booth.pm/items/8506024)
   - Available on BOOTH (Pro) at https://nisekuro.booth.pm/items/8506024, with a free Lite version
