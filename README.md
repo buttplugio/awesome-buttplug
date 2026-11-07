@@ -525,6 +525,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Paid, closed source, available at https://funscriptor.itch.io/my-goon-pmv-player
   - Windows only, requires [Intiface Central](https://intiface.com/central)
   - Moddable PMV and HMV sandbox that syncs devices to funscripts alongside music, video and 3D scenes, with split screen playback and a recording mode
+- [HAPPY (Jellyfin Haptic Player)](https://github.com/lumbar-spine-support/jellyfin-haptic-player)
+  - Free, open source, repo at https://github.com/lumbar-spine-support/jellyfin-haptic-player
+  - Jellyfin server plugin with its own web player, requires Intiface Central, experimental DG-Lab Coyote 3.0 relay optional
+  - Jellyfin plugin that plays audio and video with funscript sync to Buttplug devices via Intiface Central
 - [ScriptHub](https://github.com/WeakMapUser/Scripthub)
   - Free, closed source, with the author stating an intent to open source once stable
   - Windows (serves a web interface to any browser on your network, via [Intiface Central](https://intiface.com/central))
