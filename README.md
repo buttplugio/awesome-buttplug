@@ -806,6 +806,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Paid, available at https://store.steampowered.com/app/3830150/
   - Windows, native support ships on an opt-in Steam beta branch and requires [Intiface Central](https://intiface.com/central)
   - Comedy adventure game that routes its existing controller rumble output to Buttplug-connected devices
+- [Goon Tournament: Haptic Kombat Fighters](https://funscriptor.itch.io/goon-tournament-haptic-kombat-fighters)
+  - Paid, available at https://funscriptor.itch.io/goon-tournament-haptic-kombat-fighters
+  - Windows only, requires [Intiface Central](https://intiface.com/central)
+  - One-on-one fighting game, with local multiplayer, where every landed hit triggers a Funscript on connected toys
 - [Summoner](https://machimo.app)
   - Free, closed source
   - Web based (Cross platform, requires [Intiface Central](https://intiface.com/central) for non-Handy devices)
