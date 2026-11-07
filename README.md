@@ -842,6 +842,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Paid, available at https://funscriptor.itch.io/goon-tournament-haptic-kombat-fighters
   - Windows only, requires [Intiface Central](https://intiface.com/central)
   - One-on-one fighting game, with local multiplayer, where every landed hit triggers a Funscript on connected toys
+- [Clicker Training](https://slave.dog/clicker/)
+  - Web based (Cross platform, including VR headset browsers such as Meta Quest), installable as a home screen app with offline play
+  - Toy control via [Intiface Central](https://intiface.com/central), XToys or Lovense Remote
+  - Adult hypnosis game with guided audio, whisper tracks and role-play themes, for users 18 and older
 - [Summoner](https://machimo.app)
   - Free, closed source
   - Web based (Cross platform, requires [Intiface Central](https://intiface.com/central) for non-Handy devices)
