@@ -557,6 +557,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, open source (MIT), repo at https://github.com/whatmekota/playhound
   - Windows, macOS and Linux (v2.0.0 releases); Intiface/Buttplug toys need [Intiface Central](https://intiface.com/central)
   - Funscript video player driving OSR2/SR6 over TCode, the Handy, and Intiface/Buttplug toys (strokers get linear moves; vibrators, rotators and oscillators get strength), plus heart-rate edging
+- [UwU Player](https://uwuplayer.com)
+  - Free, closed source, available at https://uwuplayer.com; some stats features are optional supporter perks
+  - Windows 10+ and Android 8+; devices connect through [Intiface Central](https://intiface.com/central) among other options
+  - Funscript video player with an Intiface Central (Buttplug protocol) connection among its device options
 - [ScriptHub](https://github.com/WeakMapUser/Scripthub)
   - Free, closed source, with the author stating an intent to open source once stable
   - Windows (serves a web interface to any browser on your network, via [Intiface Central](https://intiface.com/central))
@@ -1292,6 +1296,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, open source (MIT), repo at https://github.com/qinyan-alpha/Moka-Love-Reliver-Device-Sync-Mod; requires the paid game Moka Love Relive
   - Windows x64 (version.dll proxy); Intiface devices need [Intiface Central](https://intiface.com/central)
   - Windows version.dll proxy that syncs serial T-Code devices (SR6, SSR1, OSR2) and Intiface Central devices to Moka Love Relive's Live2D animation timing
+- [Exia's Synchro Device](https://exias-synchro-device.pages.dev/ero)
+  - Free, closed source, available at https://exias-synchro-device.pages.dev/ero; extras for Patreon supporters
+  - Windows 10/11; toys supported through [Intiface Central](https://intiface.com/central)
+  - Reads the screen of Goddess of Victory: NIKKE, without modifying the game, and drives toys, including anything Intiface Central supports
 
 ### Counter-Strike
 
