@@ -418,6 +418,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Windows app, repo at https://github.com/YuushaNo/TypingVibes
   - Windows only; requires [Intiface Central](https://intiface.com/central) running with your toy connected to it
   - Converts typing speed into vibration, so the faster you type the stronger the vibrations, in any program you have open
+- [Lovense Intiface Bridge](https://github.com/Daffynition/lovense_intiface_bridge)
+  - Free, open source, repo at https://github.com/Daffynition/lovense_intiface_bridge
+  - Windows and Linux binaries (pre-release 0.1.1, macOS planned), requires Intiface Central running locally
+  - Rust bridge that translates the Lovense Standard and LAN HTTP/HTTPS APIs to the Buttplug protocol for Intiface Central
 - [Funscript to Gamepad](https://funscriptor.itch.io/funscript-to-gamepad)
   - Paid, pay what you want (minimum $8.49), available at https://funscriptor.itch.io/funscript-to-gamepad
   - Windows only, requires [Intiface Central](https://intiface.com/central)
