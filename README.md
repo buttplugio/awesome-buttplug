@@ -446,6 +446,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, available via [EroScripts](https://discuss.eroscripts.com/t/game-tool-story-scripter-images-into-intiface-visual-novels/340710)
   - Windows, requires [Intiface Central](https://intiface.com/central)
   - Visual-novel style builder and player that turns image sequences into stories, with custom Intiface instructions for each picture. Requires Intiface Central
+- [VIJISA Mirage 3 Userscript](https://discuss.eroscripts.com/t/vijisa-mirage-3-full-control-userscript-via-intiface-tampermonkey-vibrate-rotate-suction/343274)
+  - Free, available via [EroScripts](https://discuss.eroscripts.com/t/vijisa-mirage-3-full-control-userscript-via-intiface-tampermonkey-vibrate-rotate-suction/343274)
+  - Web based (Chrome with [Tampermonkey](https://www.tampermonkey.net/), requires a PC with Bluetooth and [Intiface Central](https://intiface.com/central))
+  - Tampermonkey userscript that controls the VIJISA Mirage 3 (vibrate, rotate, suction) through Intiface Central, driven by control signals embedded in videos on FapTap
 - [BridgeWeaver](https://addons.mozilla.org/en-US/firefox/addon/bridgeweaver/)
   - Free
   - Firefox extension (Cross platform, requires [Intiface Central](https://intiface.com/central))
@@ -1312,6 +1316,42 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Free, closed source, available at https://exias-synchro-device.pages.dev/ero; extras for Patreon supporters
   - Windows 10/11; toys supported through [Intiface Central](https://intiface.com/central)
   - Reads the screen of Goddess of Victory: NIKKE, without modifying the game, and drives toys, including anything Intiface Central supports
+- [Goon Goon Gooner Toy Support Mod](https://discuss.eroscripts.com/t/illujam-g-g-g-goon-goon-gooner-game-integration/322671)
+  - Free mod, available via [EroScripts](https://discuss.eroscripts.com/t/illujam-g-g-g-goon-goon-gooner-game-integration/322671); the base game is paid, available at [DLsite](https://www.dlsite.com/maniax/work/=/product_id/RJ01607841.html)
+  - Windows (requires [Intiface Central](https://intiface.com/central))
+  - Adds interactive toy support to [Goon Goon Gooner](https://www.dlsite.com/maniax/work/=/product_id/RJ01607841.html) via Buttplug / [Intiface Central](https://intiface.com/central)
+- [Clean Cut Mod](https://discuss.eroscripts.com/t/clean-cut-a-horror-fap-game-game-integration/322713)
+  - Free, available via [EroScripts](https://discuss.eroscripts.com/t/clean-cut-a-horror-fap-game-game-integration/322713)
+  - Windows (Handy support; Intiface support added later, connect via ws://localhost:12345)
+  - Mod of the horror fap game [Clean Cut](https://milovana.com/forum/viewtopic.php?t=25559) that adds Handy support first, with [Intiface](https://intiface.com/central) support added later
+- [JOIride Sync Mod](https://discuss.eroscripts.com/t/joiride-the-handy-sync-mod-intiface-support/328053)
+  - Free, available via [EroScripts](https://discuss.eroscripts.com/t/joiride-the-handy-sync-mod-intiface-support/328053)
+  - Windows 64-bit (The Handy by default; any stroker or vibrator via [Intiface Central](https://intiface.com/central) with Protocol = Intiface)
+  - BepInEx mod for nopeenopoo's JOIride that streams the game's beat patterns to The Handy (HSP) by default, or to any stroker or vibrator via [Intiface Central](https://intiface.com/central)
+- [Haunting Havens Device Integration](https://discuss.eroscripts.com/t/haunting-havens-device-integration/331681)
+  - Free, closed source, available via [EroScripts](https://discuss.eroscripts.com/t/haunting-havens-device-integration/331681)
+  - Windows (connects The Handy over Wi-Fi through [Intiface Central](https://intiface.com/central))
+  - BepInEx 6 IL2CPP mod for [Haunting Havens](https://store.steampowered.com/app/3377770/Haunting_Havens/) that syncs The Handy to mapped sex scenes using a local Intiface Central
+- [Dead-End City Blues OD Edition Multi-Axis Integration](https://discuss.eroscripts.com/t/multi-axis-game-integration-dead-end-city-blues-od-edition/341526)
+  - Free, closed source, available via [EroScripts](https://discuss.eroscripts.com/t/multi-axis-game-integration-dead-end-city-blues-od-edition/341526)
+  - Windows x64 (connects via serial port or [Intiface Central](https://intiface.com/central); requires .NET 6 Desktop Runtime)
+  - Six-axis integration for Dead-End City Blues OD Edition (Steam version only) that maps motion from in-game H-scene bones and connects via serial port or Intiface Central
+- [KKG Fap Studios Intiface Mods](https://discuss.eroscripts.com/t/kkg-fap-studios-games-intiface-mod-multiple-games/342106)
+  - Free, closed source, available via [EroScripts](https://discuss.eroscripts.com/t/kkg-fap-studios-games-intiface-mod-multiple-games/342106); the games themselves are Patreon-paid
+  - Mods connect directly to [Intiface Central](https://intiface.com/central)
+  - Free Intiface mods for several Patreon-paid KKG Fap Studios games, including PULLHOUSE, Fap in Dungeon, Escape from Freaky Cult, Fap Gacha, Fap Fap Casino and two Ms. Sarah games
+- [Motion Bridge and Fallen Doll Mod](https://github.com/Huarch/MotionBridge)
+  - Free, source available (no licence file), repo at https://github.com/Huarch/MotionBridge; game adapter at https://github.com/Huarch/MotionBridge-GameMod; announced on [EroScripts](https://discuss.eroscripts.com/t/release-multi-axis-motion-bridge-fallen-doll-mod-update-tcode-intiface-handy-osr2-sr6/333156)
+  - Windows (outputs USB TCode, Wi-Fi UDP TCode, or [Intiface Central](https://intiface.com/central))
+  - Native Windows motion bridge plus a UE4SS mod for Operation Lovecraft: Fallen Doll that streams six-axis game motion to USB TCode, Wi-Fi UDP TCode, or Intiface Central
+- [Paizuri Rhythm Scriptplayer Mod](https://discuss.eroscripts.com/t/rj01678486-paizuri-rhythm-lets-jerk-off-to-the-rhythm-english-translation-scriptplayer-mod/336585)
+  - Free, closed source, available via [EroScripts](https://discuss.eroscripts.com/t/rj01678486-paizuri-rhythm-lets-jerk-off-to-the-rhythm-english-translation-scriptplayer-mod/336585)
+  - Windows (Buttplug connection by default; set ConnectionMethod to OSR in appsettings.json for T-Code devices)
+  - Scriptplayer mod for [Paizuri Rhythm](https://www.dlsite.com/aix/work/=/product_id/RJ01678486.html) with Buttplug as the default device connection, switchable to OSR in appsettings.json
+- [Ydekitt Triple Bundle Integration](https://discuss.eroscripts.com/t/ydekitt-triple-bundle-game-integration/322640)
+  - Free, closed source, available via [EroScripts](https://discuss.eroscripts.com/t/ydekitt-triple-bundle-game-integration/322640)
+  - Windows (connects via Wi-Fi, serial, or [Intiface Central](https://intiface.com/central); built on the CubiLink Unity plugin)
+  - Multi-axis integration mod for three Ydekitt games (Tokyo Story - The Allure of the Uniform, Oppai iyashi paizuri, Chiisana Azumi) that drives real-time movement over Wi-Fi, serial, or Intiface Central
 
 ### Counter-Strike
 
