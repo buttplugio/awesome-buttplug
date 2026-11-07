@@ -414,6 +414,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Windows app, repo at https://github.com/YuushaNo/TypingVibes
   - Windows only; requires [Intiface Central](https://intiface.com/central) running with your toy connected to it
   - Converts typing speed into vibration, so the faster you type the stronger the vibrations, in any program you have open
+- [Funscript to Gamepad](https://funscriptor.itch.io/funscript-to-gamepad)
+  - Paid, pay what you want (minimum $8.49), available at https://funscriptor.itch.io/funscript-to-gamepad
+  - Windows only, requires [Intiface Central](https://intiface.com/central)
+  - Companion app that sends Funscripts to toys when you press mapped controller buttons or combinations, with per-game profiles and no game modding
 - [BridgeWeaver](https://addons.mozilla.org/en-US/firefox/addon/bridgeweaver/)
   - Free
   - Firefox extension (Cross platform, requires [Intiface Central](https://intiface.com/central))
