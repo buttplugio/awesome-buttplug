@@ -846,6 +846,10 @@ directly](https://discuss.buttplug.io/t/buttplug-io-apps-games-support-request-l
   - Web based (Cross platform, including VR headset browsers such as Meta Quest), installable as a home screen app with offline play
   - Toy control via [Intiface Central](https://intiface.com/central), XToys or Lovense Remote
   - Adult hypnosis game with guided audio, whisper tracks and role-play themes, for users 18 and older
+- [Femdom CamSim](https://connoredge.itch.io/femdom-camsim)
+  - Free, available at https://connoredge.itch.io/femdom-camsim
+  - Windows only, requires [Intiface Central](https://intiface.com/central)
+  - Short interactive femdom experience styled as a camsite, with toy control via Intiface Central
 - [Summoner](https://machimo.app)
   - Free, closed source
   - Web based (Cross platform, requires [Intiface Central](https://intiface.com/central) for non-Handy devices)
